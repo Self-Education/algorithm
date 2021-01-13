@@ -92,4 +92,24 @@ public class TreeSolution {
         int r = getTreeDepth(node.right);
         return Math.max(l, r) + 1;
     }
+
+    /* 
+    Check if a binary tree is a BST (binary search tree) for each node, all left childeren < node < right children
+    */
+    public boolean isBST(TreeNode node){
+        // cannot say node.left < node && node.right > node && isBST(node.left) == true && isBST(node.right) == true
+        // since this cannot gurantee right side node in the right subtree is smaller than parent or its eft subtree
+
+        // use low limit and high limit, make current node between low and high
+        return isBSTHelper(node, null, null);
+    }
+
+    public boolean isBSTHelper(TreeNode node, Integer low, Integer high){
+        if(node == null) return true;
+        if((low == null || node.val > low )&& (high == null ||node.val < high) && isBSTHelper(node.left, low, node.val - 1) 
+        && isBSTHelper(node.right, node.val + 1, high)){
+            return true;
+        }
+        return false;
+    }
 }
