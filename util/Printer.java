@@ -13,6 +13,14 @@ public class Printer {
     }
 
     /*
+     * Print a int
+     */
+
+    public static void print(int n) {
+        System.out.println(n);
+    }
+
+    /*
      * print a stack
      */
     public static void printStack(Stack<Integer> stack) {
@@ -34,12 +42,12 @@ public class Printer {
      * @param val the order of reading tree, 0: preorder, 1: inorder, 2: postorder
      * 
      */
-    public void printTree(TreeNode node, int val) {
+    public static void printTree(TreeNode node, int val) {
         LinkedList<Integer> list = new LinkedList<>();
         // 0: preorder, 1: inorder, 2: postorder
         switch (val) {
             case 0:
-                list = preorder(node);
+                list = preorder(node, list);
                 break;
             case 1:
                 list = inorder(node);
@@ -51,21 +59,20 @@ public class Printer {
         System.out.println(Arrays.toString(list.toArray()));
     }
 
-    public LinkedList<Integer> preorder(TreeNode node) {
-        LinkedList<Integer> list = new LinkedList<>();
+    public static LinkedList<Integer> preorder(TreeNode node, LinkedList<Integer> list) {
         if (node == null)
             return list;
         list.add(node.val);
-        preorder(node.left);
-        preorder(node.right);
+        preorder(node.left, list);
+        preorder(node.right, list);
         return list;
     }
 
-    public LinkedList<Integer> inorder(TreeNode node) {
+    public static LinkedList<Integer> inorder(TreeNode node) {
         return null;
     }
 
-    public LinkedList<Integer> postorder(TreeNode Node) {
+    public static LinkedList<Integer> postorder(TreeNode Node) {
         return null;
     }
 
@@ -82,5 +89,16 @@ public class Printer {
 
     public static void printArray(char[] arr) {
         System.out.println(Arrays.toString(arr));
+    }
+
+    /*
+     * print list of treeNode
+     */
+    public static void printListNode(LinkedList<TreeNode> nodes) {
+        LinkedList<Integer> ans = new LinkedList<>();
+        for (TreeNode node : nodes) {
+            ans.add(node.val);
+        }
+        System.out.println(Arrays.toString(ans.toArray()));
     }
 }

@@ -7,7 +7,11 @@ import java.util.Stack;
 public class TreeSolution {
     public ArrayList<List<Integer>> dfsTreeList;
     public List<List<TreeNode>> BSTSequenceAns = new LinkedList<>();
+    public int countOfUnivalSubtree;
 
+    /*
+     * convert array into Binary Search Tree
+     */
     public TreeNode array2BST(int[] nums) {
         TreeNode node = null;
         for (int i = 0; i < nums.length; i++) {
@@ -119,12 +123,54 @@ public class TreeSolution {
         return false;
     }
 
-    // public List<List<TreeNode> BSTSequence(TreeNode root){
+    /*
+     * check if T2 is T1's subtree
+     */
+    public boolean isSubtree(TreeNode t1, TreeNode t2) {
 
-    // }
+        int mid = (t1.val == t2.val && ifEqual(t1.left, t2.left)) ? 1 : 0;
+        int left = isSubtree(t1.left, t2) ? 1 : 0;
+        int right = isSubtree(t1.right, t2) ? 1 : 0;
+        return (mid + left + right) >= 1;
+    }
 
-    public void BSTSequenceHelper(TreeNode node, List<TreeNode> subList) {
-        subList.add(node);
-        BSTSequenceHelper(node.left, subList);
+    public boolean ifEqual(TreeNode t1, TreeNode t2) {
+        if (t1 == null && t2 == null)
+            return true;
+        if (t1 == null || t2 == null)
+            return false;
+
+        return t1.val == t2.val && ifEqual(t1.left, t2.left) && ifEqual(t1.right, t2.right);
+    }
+
+    /*
+     * Univalue, find number of unival-subtrees in a tree, uni-subtree has all nodes with the same
+     * value
+     */
+
+    public int countUnivalSubtree(TreeNode root) {
+        // check if the entire tree is unival subtree
+        countOfUnivalSubtree = 0;
+        if (root == null)
+            return 0;
+        ifUni(root);
+        return countOfUnivalSubtree;
+    }
+
+    public boolean ifUni(TreeNode root) {
+        // leaf is always unival tree
+        if (root.left == null && root.right == null)
+            countOfUnivalSubtree += 1;
+        boolean result = true;
+        if (root.left != null) {
+            result = ifUni(root.left) && root.left.val == root.val;
+        }
+        if (root.right != null) {
+            result = ifUni(root.right) && result && root.right.val == root.val;
+        }
+        if (result)
+            countOfUnivalSubtree++;
+        return result;
+
     }
 }
