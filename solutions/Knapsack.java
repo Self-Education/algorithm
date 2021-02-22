@@ -34,8 +34,7 @@ public class Knapsack {
              for(int sum = 1; sum <=W; sum++){
                 if(i == 0) {
                      dp[i][sum] = wt[i] <= sum ? val[i] : 0;
-                }else if(wt[i] <= sum){
-                    //   System.out.println(i + "," + sum);
+                }else if(wt[i] <= sum){//   
                       dp[i][sum] = Math.max(dp[i - 1][sum], val[i] + dp[i-1][sum - wt[i]]);
                 }else{
                       dp[i][sum] = dp[i - 1][sum];
