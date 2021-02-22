@@ -20,7 +20,7 @@ public class Program {
         left.left = node1;
         left.right = node2;
         // BSTSqeuence bst = new BSTSqeuence();
-        // Printer.printTree(root, 0);
+        Printer.printTree(root, 0);
         // LinkedList<LinkedList<Integer>> ans = bst.solution(root);
         // Printer.print(Arrays.toString(ans.toArray()));
         // LinkedList<Integer> test = new LinkedList<>();
