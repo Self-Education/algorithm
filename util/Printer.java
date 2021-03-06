@@ -20,6 +20,10 @@ public class Printer {
         System.out.println(n);
     }
 
+    public static void print(char n) {
+        System.out.println(n);
+    }
+
     /*
      * print a stack
      */
