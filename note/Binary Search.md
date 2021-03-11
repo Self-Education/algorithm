@@ -69,3 +69,114 @@ int l = 0, r = arr.length - 1, mid = -1;
         }
 ```
 
+
+
+
+
+#### [<u>410. Split Array Largest Sum</u>](https://leetcode.com/problems/split-array-largest-sum/)
+
+*Given an array `nums` which consists of non-negative integers and an integer `m`, you can split the array into `m` non-empty **continuous** subarrays.*
+
+*Write an algorithm to minimize the largest sum among these `m` subarrays.*
+
+
+
+**Binary Search**, **Two Pointers**, **Window**, and **DP** should come into the mind, when see **array** and **sum**. DP and Binary Search can be used for this problem, here we use binary search.
+
+Since the array is not sorted, we need to find something are sorted in order to use binary search. We do not know the value of minimum largest sum, but we know the range which is from $Max(arr)$ to  $\sum{arr[i]}$.
+
+Why? if we divide the `arr` into `arr.length` subarrays, the largest sum of subarray has to be the largest element in the array and if we divide the `arr` into 1 subarray (actually itself), the sum is  $\sum{arr[i]}$.
+
+We use `lo`  and `hi` as the lower bound and higher bound respectively. We can use binary search to pick up a `mid` between the range and to see if we can divide the `arr` into `k ` subarrays, and sum of each subarray is no larger than the `mid`.  We can see this `mid ` as split requirement, we can fit more numbers into each subarray with higher `mid`, and similarly, we can fit less numbers into each subarray with lower `mid`. 
+
+ 
+
+There are three cases:
+
++ if `k > m`, that means we can divide `arr` into more subarrays (each subarray has a sum no larger than mid), we need to fit more numbers into each array in order to get less subarray, so we need to loose our requirement, then `lo= mid + 1`
+
++ if `k < m`, that means we can divide `arr` into less subarrays, we need to tighten our requirement, so that less numbers fits into each array and more subarrays obtained. **Please note that `k` here indicates minimum number of the subarrays** with specific largest sum. e.g. `[2, 3, 1, 1, 1, 1, 1]`, if we can divide an array into  minimum 4 subarrays with largest sum 3, it is possible that we can divide the array into 5 subarrays with sum 3. So `mid` might be the answer as well. `hi = mid`
+
+* if `k == m`:  the current `mid` is a good candidate,  then `hi = mid`
+
+```java
+public int splitArray(int[] nums, int m) {
+        long lo = 0, hi = 0, mid = -1, sum = 0, count = 1;
+        for(int num : nums){
+            hi += num;
+            if(lo < num){
+                lo = num;
+            }
+        }
+        while(lo < hi){
+            mid = lo + (hi - lo)/2;
+            sum = 0;
+            count = 1;
+            for(int i = 0; i < nums.length; i++){
+                if(nums[i] + sum <= mid){
+                    sum += nums[i];
+                }else{
+                    sum = nums[i];
+                    count++;
+                }
+            }
+            if(count <= m){
+                hi = mid;
+    
+            }else {
+                lo = mid + 1;
+            }
+        }
+        return (int) lo;
+    }
+```
+
+
+
+
+
+
+
+
+
+#### **[719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)**
+
+Similar with #410, the array is not sorted, so we sort the array, so that for each `arr[i]`, `arr[j + 1] - arr[i] > arr[j] - arr[i]`. the lower bound `lo` is smallest possible distance which is 0, and upper bound `upper`  would be the difference between the first element and the last element. We pick up possible  distance `mid` so see how many pairs `count` with `sum <= mid`, three cases:
+
++ if `count == k`, then the mid is the kth smallest distance
++ if `count < k`, that means mid is too small, so make lower bound higher, `lo = mid + 1`
++ if `count > k`, that means mid is too large, here is the trickiest part, lets say the we want to find 3rd smallest pair distance and  **distance array** is `[0, 1, 3, 3, 4, 5, 6]`, now `mid = (0 + 6)/2 = 3`( the second 2) and `count = 4`,  if we use `hi = mid - 1 = 2`, but obviously 3rd smallest distance is 3. In other words, should use `hi = mid` because of the duplicate of the distance 
+
+```java
+public int smallestDistancePair(int[] nums, int k) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        int left = 0, right = nums[n - 1] - nums[0], mid = -1;
+        while(left <  right){
+            mid = left + (right - left)/2;
+            int count = helper(nums, mid);
+            if(count >= k){
+                right = mid;
+            }else{
+                left = mid + 1;
+            }
+        }
+        return left;
+    }
+    // return number of pairs whose distance is no larger than target
+    public int helper(int[] nums, int target){
+        int count = 0;
+        for(int i = 0; i < nums.length - 1; i++){
+            for(int j = i + 1; j < nums.length; j++){
+                // because nums is sorted, then all numbers at the right side of
+                // j has larger distance against i, so we can stop eariler
+                if(nums[j] - nums[i] > target){
+                    break;
+                }
+                count++;
+            }
+        }
+        return count;
+    }
+```
+
