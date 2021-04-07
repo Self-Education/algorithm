@@ -5,3 +5,14 @@
 2. [186. Reverse Words in a String II -- Medium](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
 3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
+
+
+
+
+# Sliding Window
+
+### make the windows always contains K zeros
+
+1. [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)
+2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
