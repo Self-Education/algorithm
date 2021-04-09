@@ -20,7 +20,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
                 count = 1;
             }
             
-            if(count <= k) nums[i++] = nums[j]; // as long duplicated dont occur more than k times, write to i.
+            if(count <= k) nums[i++] = nums[j]; // as long as duplicates dont occur more than k times, write to i.
             j++;
         }
         return i;
@@ -34,7 +34,16 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 
 
-`
+1. [977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)
+
+### two arrays
+
+1. [Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/)  start from the end to avoid overwritten
+
+### Mountain problem
+
+1. [941. Valid Mountain Array -- Easy](https://leetcode.com/problems/valid-mountain-array/)
+2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
 
 # Sliding Window
 
