@@ -10,3 +10,9 @@
 5. [Longest Palindromic Sequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence/)
 
 6. [Longest Palindromic Sequence II -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence-ii/) even length, two consecutive characters not equal.
+
+
+
+## Trap Rain
+
+1. [Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
