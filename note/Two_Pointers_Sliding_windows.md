@@ -7,9 +7,9 @@
   To revsere **each element in an array** instead of reversing the array. Eg. `str = "word1, word2 ... wordn"`, we can reverse `str` first, then reverse each word.
 
   	1. [344. Reverse String -- Easy](https://leetcode.com/problems/reverse-string/)
-   	2. [186. Reverse Words in a String II -- Medium](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
-   	3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
-   	4. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/submissions/)
+  	2. [186. Reverse Words in a String II -- Medium](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
+  	3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+  	4. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/submissions/)
 
 + #### Mountain problem
 
@@ -39,10 +39,8 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
     }
 ```
 
-		1. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
-  		2. [82. Remove Duplicates from Sorted List II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
-
-
+1. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+2. [82. Remove Duplicates from Sorted List II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ### <u>Different speed</u>
 
@@ -63,7 +61,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 ### Other good problems
 
 		1. [160. Intersection of Two Linked Lists --Easy](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
-  		2. [234. Palindrom Linked List -- Easy](https://leetcode.com/problems/palindrome-linked-list/) use **bottom up** to achieve the second pointer starting from the end
+		2. [234. Palindrom Linked List -- Easy](https://leetcode.com/problems/palindrome-linked-list/) use **bottom up** to achieve the second pointer starting from the end
 
 ### Two arrays
 

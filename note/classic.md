@@ -16,3 +16,11 @@
 ## Trap Rain
 
 1. [Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
+
+
+
+## Integer and Roman
+
+1. [Roman to Integer -- Easy](https://leetcode.com/problems/roman-to-integer/) left Roman is always larger than right
+2. [Integer to Roman -- Medium](https://leetcode.com/problems/integer-to-roman/) greedy, use possible largest Roman letter to run out  each digit
+
