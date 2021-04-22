@@ -5,8 +5,39 @@
 3. [1578. Minimum Deletion Cost to Avoid Repeating Letters -- Medium](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/) stack store only non duplicates, compare costs.
 4. [Minimum characters that are to be inserted such that no three consecutive characters are same](https://www.geeksforgeeks.org/minimum-characters-that-are-to-be-inserted-such-that-no-three-consecutive-characters-are-same/)
 5. [Min Moves/Change to Make String Without 3 Identical Consecutive Letters](https://molchevskyi.medium.com/microsoft-interview-tasks-min-moves-to-make-string-without-3-identical-consecutive-letters-abe61ed51a10)
+6. [Minimum-Adjacent-Swaps-for-k-Consecutive-Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/discuss/987347/JavaC%2B%2BPython-Solution)
+7. [Largest K such that both K and -K exist in array](https://leetcode.com/discuss/interview-question/406031/) V- shape
+8. [Max Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
+9. [Unique Integers that Sum Up to 0](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) add 0 if number is odd
+10. [698. Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) backtrack
+11. [55. Jump Game](https://leetcode.com/problems/jump-game/)
+12. [1306. Jump Game III](https://leetcode.com/problems/jump-game-iii/) track visited index to avoid infinite loop
+13. [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) sort and Priority queue to track end time
+14. [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
+15. [1448. Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) recursive with bound
+16. [Largest Alphabetic Character](https://www.geeksforgeeks.org/find-the-largest-alphabetic-character-present-in-the-string/) count freq, transverse from right side
+17. [Given Two Arrays of Numerator and Denominator Pairs of Fractions sum up to 1 ](https://code.sololearn.com/c5192a3a20A1) 通分
 
-6. [https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/discuss/987347/JavaC%2B%2BPython-Solution)
+
+
+
+
+```java
+ public int findLCM(int [] arr){
+        //find GCD for every two nums
+        int gcd = arr[0], lcm = arr[0];
+        for(int i = 1; i < arr.length - 1; i++){
+            gcd = findGCD(arr[i], lcm);
+            lcm = lcm * arr[i]/gcd;
+        }
+        return lcm;
+    }
+
+    public int findGCD(int a, int b){
+        if(b == 0) return a;
+        return findGCD(b, a%b);
+    }
+```
 
 
 
@@ -60,20 +91,20 @@ c. priority-queue
 **d. B-tree**
 
 6. Given a list of 1000 elements, which of the following number is the largest
-  a. the number of all possible subsets of a given list *<u>subset: combinations of elements, incluidng empty set, $2^n$</u>* 
-  b. the number of all possible pairs of elements from a given list
-  **c. the number of all possible permutations of a given list.  ** *<u>total length == original input order matters ABC VS ACB    $n!$</u>* 
+    a. the number of all possible subsets of a given list *<u>subset: combinations of elements, incluidng empty set, $2^n$</u>* 
+    b. the number of all possible pairs of elements from a given list
+    **c. the number of all possible permutations of a given list.  ** *<u>total length == original input order matters ABC VS ACB    $n!$</u>* 
 
   d. 10,000,000,000,000,000
 
 7. Given a tree with 4 nodes, how many edges have to be added for it to cease being a tree?
-  **a**. 1
-  b. 2
-  c. 3
-  d. 4
+    **a**. 1
+    b. 2
+    c. 3
+    d. 4
 
 8. which of the following statement is correct
-  def f(A):
+    def f(A):
    for i := 0; i < A.length-1; i++  do:
        if (A > A[i+1]):
            swap A with A[i+1]
