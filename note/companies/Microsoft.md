@@ -4,8 +4,8 @@
 2. [Minimum Adjacent swaps to make palindrome](https://leetcode.com/discuss/interview-question/351783/)
 3. [1578. Minimum Deletion Cost to Avoid Repeating Letters -- Medium](https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/) stack store only non duplicates, compare costs.
 4. [Minimum characters that are to be inserted such that no three consecutive characters are same](https://www.geeksforgeeks.org/minimum-characters-that-are-to-be-inserted-such-that-no-three-consecutive-characters-are-same/)
-5. [Min Moves/Change to Make String Without 3 Identical Consecutive Letters](https://molchevskyi.medium.com/microsoft-interview-tasks-min-moves-to-make-string-without-3-identical-consecutive-letters-abe61ed51a10)
-6. [Minimum-Adjacent-Swaps-for-k-Consecutive-Ones](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/discuss/987347/JavaC%2B%2BPython-Solution)
+5. [Min Moves/Change to Make String Without 3 Identical Consecutive Letters](https://code.sololearn.com/c9a24a6A11a1)
+6. [1703. Minimum-Adjacent-Swaps-for-k-Consecutive-Ones -- Hard](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/discuss/987347/JavaC%2B%2BPython-Solution)
 7. [Largest K such that both K and -K exist in array](https://leetcode.com/discuss/interview-question/406031/) V- shape
 8. [Max Length of a Concatenated String with Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 9. [Unique Integers that Sum Up to 0](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) add 0 if number is odd
@@ -55,10 +55,11 @@ Assuming that N is between 1 and 1000.
 
 For example, given A = [1,-2,-3,5], the function should return 1
 Given A = [1,2,3,-5], your function should return -1
-Given A = [1,2,0,-5], your functin should return 0
+Given A = [1,2,0,-5], your function should return 0
 
 ======
 Task 3 选择题一共10题
+
 1. You are given 5 integers and your task is to find the smallest of them. What is the minimum number of comparisons that you have to make?
 a. 3
 **b. 4**
