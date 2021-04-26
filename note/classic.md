@@ -48,3 +48,9 @@
 3. [Subarray Sums Divisible by K -- Medium](https://leetcode.com/problems/subarray-sums-divisible-by-k/) $s1 = nk + r1; s2 = mk + r2; => s1 - s2 = (n - m) k + (r1 -r2)$ , when $ r1 - r2 = 0$ or  $ r1 = r2 = 0$ 
 
    String in between is divisible by k 
+
+## Matrix
+
+1. [54. Spiral Matrix -- Medium](https://leetcode.com/problems/spiral-matrix/)
+2. [885. Sprial Matrix III -- Medium](https://leetcode.com/problems/spiral-matrix-iii/) move pattern : 1, 1, 2, 2, 3, 3, ...
+3. 
