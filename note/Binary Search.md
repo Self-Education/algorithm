@@ -7,8 +7,8 @@
   + Please note that we have to use `left < right` for `while` condition if we used `mid = (left + right)/2 +1`, other wise, **infinite loop**. Because if `left` and `right` stop at the same index,  `mid = (left + left)/2 + 1 = left + 1` , if `nums[mid] > target` then `right = mid - 1 = left`. e.g. search 4 in `[0, 3]`, `mid = (0 + 1)/2 + 1 = 1` and `nums[1] < 4 ` => `right = 1 - 1 = 0` now `left = right = 0`, then `mid = 1 ` **again** 
   + **summary** 
     + `mid = left + (right - 1)/2` ,` mid` is always at the left side if `left` and `right` stay adjacent
-    + `left = mid` + `left < right` + `mid = left + (right - 1)/2 + 1`
-    + `right = mid` + `left < right` + `mid = left + (right - 1)/2`
+    + use them together: `left = mid` + `left < right` + `mid = left + (right - 1eft)/2 + 1`
+    + `right = mid` + `left < right` + `mid = left + (right - 1eft)/2`
 
 ```java
 int left = 0, right = nums.length - 1;

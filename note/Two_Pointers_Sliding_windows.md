@@ -74,5 +74,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 1. [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)
 2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 3. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
-4. 
+4. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) keep windows only contains non-duplicates or shrink( here we can use `hashmap` to store most recent index of each char)
+
+5. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 
