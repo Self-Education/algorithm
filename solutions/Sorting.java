@@ -1,6 +1,7 @@
 public class Sorting {
     /*
-     * Bubble sort: move the local Max value to the end of the array in the each iteration
+     * Bubble sort: move the local Max value to the end of the array in the each
+     * iteration
      */
     public int[] bubbleSort(int[] arr) {
         if (arr.length <= 1)
@@ -23,10 +24,9 @@ public class Sorting {
         return arr;
     }
 
-
     /*
-     * Selection sort: find the smallest value in the current window in each interation swap the
-     * smallest value with the front element
+     * Selection sort: find the smallest value in the current window in each
+     * interation swap the smallest value with the front element
      */
     public int[] selectSort(int[] arr) {
         if (arr.length <= 1)
@@ -77,10 +77,10 @@ public class Sorting {
         }
     }
 
-
     /*
-     * Quick Sort: randomly choose a pivot, place the pivot to the position it should be at by move
-     * all element <= pivot to its left and all element > pivot to its right
+     * Quick Sort: randomly choose a pivot, place the pivot to the position it
+     * should be at by move all element <= pivot to its left and all element > pivot
+     * to its right
      */
     public void quickSort(int[] arr, int start, int end) {
 
@@ -111,15 +111,14 @@ public class Sorting {
         return w;
     }
 
-
     /*
      * main function
      */
     public static void main(String[] args) {
         Sorting sort = new Sorting();
-        int[] arr = new int[] {5, 1, 4, 8, 2};
-        int[] arr1 = new int[] {6, 3, 4, 7, 9, 2, 5};
-        int[] arr2 = new int[] {-1, 2, -8, 2, -1, -10};
+        int[] arr = new int[] { 5, 1, 4, 8, 2 };
+        int[] arr1 = new int[] { 6, 3, 4, 7, 9, 2, 5 };
+        int[] arr2 = new int[] { -1, 2, -8, 2, -1, -10 };
         sort.quickSort(arr2, 0, arr2.length - 1);
         Printer.printArray(arr2);
     }
