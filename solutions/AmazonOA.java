@@ -212,6 +212,35 @@ public class AmazonOA {
         int index2 = map.get(j).get(0);
         return new int[] { index1, index2 };
     }
+    public static int waystoBuy(int[] jeans,int[] shoes,int[] skirts,int[] tops,int budget){
+        List<Integer> sumJeansShoes = new ArrayList<>();
+        for(int i=0;i<jeans.length;i++){
+            for(int j=0;j<shoes.length;j++){
+                if(jeans[i]+shoes[j]<budget)
+                    sumJeansShoes.add(jeans[i]+shoes[j]);
+            }
+        }
+        Collections.sort(sumJeansShoes);
+        List<Integer> sumSkirtsTops = new ArrayList<>();
+        for(int i=0;i<skirts.length;i++){
+            for(int j=0;j<tops.length;j++){
+                if(skirts[i]+tops[j]<budget)
+                    sumSkirtsTops.add(skirts[i]+tops[j]);
+            }
+        }
+        Collections.sort(sumSkirtsTops);
+        int numways=0;
+        for(int i=0;i<sumJeansShoes.size();i++){
+            for(int j=0;j<sumSkirtsTops.size();j++){
+                if(sumJeansShoes.get(i) + sumSkirtsTops.get(j)<=budget)
+                    numways++;
+                else
+                    break;
+            }
+        }
+        
+            return numways;
+        }
 
     public static void main(String[] args) {
         AmazonOA solution = new AmazonOA();

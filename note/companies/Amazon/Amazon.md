@@ -32,39 +32,64 @@ Amazon
 
 ![image-20210429101212316](images/image-20210429101212316.png)
 
-15. [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) +++ /[Amazon Fresh Deliveries](https://leetcode.com/discuss/interview-question/1033264/Amazon-or-OA-or-1-year-Experienced-for-SDE1)
-
-16. [1099. Two Sum Less Than K ](https://leetcode.com/problems/two-sum-less-than-k/)
-
-17. [TransactionLog + Items in compartment](https://www.1point3acres.com/bbs/thread-752062-1-1.html)++++++
-
+14. [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) +++ /[Amazon Fresh Deliveries](https://leetcode.com/discuss/interview-question/1033264/Amazon-or-OA-or-1-year-Experienced-for-SDE1)
+15. [1099. Two Sum Less Than K ](https://leetcode.com/problems/two-sum-less-than-k/)
+16. [TransactionLog + Items in compartment](https://www.1point3acres.com/bbs/thread-752062-1-1.html)++++++
     + https://leetcode.com/discuss/interview-question/989768/Amazon-or-OA-2020-or-Transaction-logs
     + https://leetcode.com/discuss/interview-question/912928/amazon-oa-2020-gifting-groups-friend-circle-lc-doesnt-solve-this
     + https://leetcode.com/discuss/interview-question/989768/Amazon-or-OA-2020-or-Transaction-logs
 
-18. [Optimize Box weight] ?? +++
+17. [Optimize Box weight] ?? +++
+18. Storage Optimzation +++
 
-19. Storage Optimzation +++
+![image-20210429103002537](images/image-20210429103002537.png)
 
-    ![image-20210429103002537](images/image-20210429103002537.png)
+![image-20210429103013240](images/image-20210429103013240.png)
 
-    ![image-20210429103013240](images/image-20210429103013240.png)
+19. [Shopping Option](https://algo.monster/problems/amazon_oa_find_all_combination_of_numbers_sum_to_target)/[Jeans,Shoes,Skirts, and Tops](https://leetcode.com/discuss/interview-question/928404/question-asked-in-bny-mellon-forsde)
 
-19. Shopping Option ???
-    + https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=743701&
-    + 每个list选一个，最后加起来价格小于等于budget的方案有几个
-      list1 = [4]
-      list2 = [3, 4]
-      list3 = [1, 2]
-      list4 = [2, 1]
-      budget = 10
-      最后 return 4， 因为有四种 组合， [4,3,1,1], [4,3,1,2], [4,3,2,1], [4,4,1,1]
-20. shoes skirt and jean
-    +  https://www.coursehero.com/tutors-problems/C++-Programming/28646180-A-customer-wants-to-buy-a-pair-of-jeans-a-pair-of-shoes-a-skirt-and/
++ 每个list选一个，最后加起来价格小于等于budget的方案有几个
+  list1 = [4]
+  list2 = [3, 4]
+  list3 = [1, 2]
+  list4 = [2, 1]
+  budget = 10
+  最后 return 4， 因为有四种 组合， [4,3,1,1], [4,3,1,2], [4,3,2,1], [4,4,1,1]
 
-21. 就是给四个array，每个可以取一个element，要求总和小于等于limit。问有多少种取法。我用了二分搜索
-22. [239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) +++
+```java
+public static int waystoBuy(int[] jeans,int[] shoes,int[] skirts,int[] tops,int budget){
+        List<Integer> sumJeansShoes = new ArrayList<>();
+        for(int i=0;i<jeans.length;i++){
+            for(int j=0;j<shoes.length;j++){
+                if(jeans[i]+shoes[j]<budget)
+                    sumJeansShoes.add(jeans[i]+shoes[j]);
+            }
+        }
+        Collections.sort(sumJeansShoes);
+        List<Integer> sumSkirtsTops = new ArrayList<>();
+        for(int i=0;i<skirts.length;i++){
+            for(int j=0;j<tops.length;j++){
+                if(skirts[i]+tops[j]<budget)
+                    sumSkirtsTops.add(skirts[i]+tops[j]);
+            }
+        }
+        Collections.sort(sumSkirtsTops);
+        int numways=0;
+        for(int i=0;i<sumJeansShoes.size();i++){
+            for(int j=0;j<sumSkirtsTops.size();j++){
+                if(sumJeansShoes.get(i) + sumSkirtsTops.get(j)<=budget)
+                    numways++;
+                else
+                    break;
+            }
+        }
+        
+            return numways;
+        }
+```
 
-23 other
+20. [239 Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) +++
+
+21. other
 
 ​		+  https://www.1point3acres.com/bbs/thread-546575-1-1.html 2019-8
