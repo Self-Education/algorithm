@@ -39,7 +39,7 @@
 
 
 
-## Two Sum
+## Two Sum/Three Sum/4Sum
 
 1. [Pairs of Songs With Total Durations Divisible by 60 -- Medium](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  $(a + b) \% 60 = (a \% 60 + b \% 60) \% 60$
 
@@ -48,6 +48,15 @@
 3. [Subarray Sums Divisible by K -- Medium](https://leetcode.com/problems/subarray-sums-divisible-by-k/) $s1 = nk + r1; s2 = mk + r2; => s1 - s2 = (n - m) k + (r1 -r2)$ , when $ r1 - r2 = 0$ or  $ r1 = r2 = 0$ 
 
    String in between is divisible by k 
+
+4. [Two Sum](https://leetcode.com/problems/two-sum/) `HashTable` or **sort + two pointers**
+5. [Two Sum less than K](https://leetcode.com/problems/two-sum-less-than-k/) two pointers
+6. [3Sum](https://leetcode.com/problems/3sum/) fix num1, use two sum for rest of two numbers **(Caution, duplicates!)**
+7. [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/), same with 3Sum, but need to track shortest distance
+8. [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
+
+9. [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/), **duplicates**
+10. [18. KSum](https://leetcode.com/problems/4sum/)
 
 ## Matrix
 

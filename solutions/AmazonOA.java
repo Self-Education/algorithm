@@ -3,6 +3,8 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 public class AmazonOA {
 
@@ -212,35 +214,47 @@ public class AmazonOA {
         int index2 = map.get(j).get(0);
         return new int[] { index1, index2 };
     }
-    public static int waystoBuy(int[] jeans,int[] shoes,int[] skirts,int[] tops,int budget){
-        List<Integer> sumJeansShoes = new ArrayList<>();
-        for(int i=0;i<jeans.length;i++){
-            for(int j=0;j<shoes.length;j++){
-                if(jeans[i]+shoes[j]<budget)
-                    sumJeansShoes.add(jeans[i]+shoes[j]);
+
+    public int shopOptions(int[] A, int[] B, int[] C, int[] D, int budget) {
+        // if we use TreeMap, time complexity is O(N^2 * logN), or we can use list to
+        // store sum and sort the list
+        // edge cases:
+        if (budget == 0)
+            return 0;
+        int count = 0;
+        Map<Integer, Integer> group1 = new TreeMap<>(); // store the freq of all possible sum
+        for (int a : A) {
+            for (int b : B) {
+                int sum = a + b;
+                if (sum <= budget) {
+                    group1.put(sum, group1.getOrDefault(sum, 0) + 1);
+                }
             }
         }
-        Collections.sort(sumJeansShoes);
-        List<Integer> sumSkirtsTops = new ArrayList<>();
-        for(int i=0;i<skirts.length;i++){
-            for(int j=0;j<tops.length;j++){
-                if(skirts[i]+tops[j]<budget)
-                    sumSkirtsTops.add(skirts[i]+tops[j]);
+
+        Map<Integer, Integer> group2 = new TreeMap<>();
+        for (int c : C) {
+            for (int d : D) {
+                int sum = c + d;
+                if (sum <= budget) {
+                    group2.put(sum, group2.getOrDefault(sum, 0) + 1);
+                }
             }
         }
-        Collections.sort(sumSkirtsTops);
-        int numways=0;
-        for(int i=0;i<sumJeansShoes.size();i++){
-            for(int j=0;j<sumSkirtsTops.size();j++){
-                if(sumJeansShoes.get(i) + sumSkirtsTops.get(j)<=budget)
-                    numways++;
-                else
+        // question becomes find two paris from two arrays
+
+        for (int key1 : group1.keySet()) {
+            for (int key2 : group2.keySet()) {
+                if (key1 + key2 <= budget) {
+                    count += group1.get(key1) * group2.get(key2);
+                } else {// since it is sorted,
                     break;
+                }
             }
         }
-        
-            return numways;
-        }
+        return count;
+
+    }
 
     public static void main(String[] args) {
         AmazonOA solution = new AmazonOA();
@@ -270,10 +284,17 @@ public class AmazonOA {
          * System.out.println(ans);
          */
 
-        // int[] durations = new int[] { 250, 360, 520, 999 };
-        // int d = 250;
-        // int[] ans = solution.moviesOnFlight(durations, d);
-        // System.out.println(Arrays.toString(ans));
+        /*
+         * int d = 250; int[] ans = solution.moviesOnFlight(durations, d);
+         * System.out.println(Arrays.toString(ans));
+         */
+
+        int[] A = new int[] { 4 };
+        int[] B = new int[] { 2, 3 };
+        int[] C = new int[] { 2, 3 };
+        int[] D = new int[] { 2, 1 };
+        int ans = solution.shopOptions(A, B, C, D, 10);
+        System.out.println(ans);
     }
 
 }

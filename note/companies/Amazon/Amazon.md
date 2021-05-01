@@ -4,7 +4,7 @@ Amazon
 
 2. [Find the Highest Profit](https://algo.monster/problems/find_the_highest_profit)
 
-3. [Items in Containers](https://algo.monster/problems/items_in_containers) +++
+3. [Items in Containers /  Items in compartment](https://algo.monster/problems/items_in_containers) +++
 
 4. [1010. Pairs of Songs With Total Durations Divisible by 60 -- Medium](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)
 
@@ -26,27 +26,31 @@ Amazon
 
     + https://leetcode.com/discuss/interview-question/1031247/Amazon-or-OA-or-No.-of-swaps
 
-13. [1197. Minimum Knight Moves ](https://leetcode.com/problems/minimum-knight-moves/) ++
-14. [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) ++
-15. [Demolition Robot](https://www.1point3acres.com/bbs/thread-753210-1-1.html)+++
+11. [1197. Minimum Knight Moves ](https://leetcode.com/problems/minimum-knight-moves/) ++
+
+12. [937. Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) ++
+
+13. [Demolition Robot](https://www.1point3acres.com/bbs/thread-753210-1-1.html)+++
+
+    https://leetcode.com/discuss/interview-question/1033264/amazon-oa-1-year-experienced-for-sde1
 
 ![image-20210429101212316](images/image-20210429101212316.png)
 
-14. [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) +++ /[Amazon Fresh Deliveries](https://leetcode.com/discuss/interview-question/1033264/Amazon-or-OA-or-1-year-Experienced-for-SDE1)
+14. [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) +++ /[Amazon Fresh Deliveries](https://leetcode.com/discuss/interview-question/1033264/Amazon-or-OA-or-1-year-Experienced-for-SDE1) MaxHeap
 15. [1099. Two Sum Less Than K ](https://leetcode.com/problems/two-sum-less-than-k/)
-16. [TransactionLog + Items in compartment](https://www.1point3acres.com/bbs/thread-752062-1-1.html)++++++
+16. [TransactionLog ](https://www.1point3acres.com/bbs/thread-752062-1-1.html)++++++
     + https://leetcode.com/discuss/interview-question/989768/Amazon-or-OA-2020-or-Transaction-logs
     + https://leetcode.com/discuss/interview-question/912928/amazon-oa-2020-gifting-groups-friend-circle-lc-doesnt-solve-this
     + https://leetcode.com/discuss/interview-question/989768/Amazon-or-OA-2020-or-Transaction-logs
 
-17. [Optimize Box weight] ?? +++
+17. [Optimize Box weight](https://algo.monster/problems/optimizing_box_weights) +++
 18. Storage Optimzation +++
 
 ![image-20210429103002537](images/image-20210429103002537.png)
 
 ![image-20210429103013240](images/image-20210429103013240.png)
 
-19. [Shopping Option](https://algo.monster/problems/amazon_oa_find_all_combination_of_numbers_sum_to_target)/[Jeans,Shoes,Skirts, and Tops](https://leetcode.com/discuss/interview-question/928404/question-asked-in-bny-mellon-forsde)
+19. [Shopping Option](https://algo.monster/problems/amazon_oa_find_all_combination_of_numbers_sum_to_target)/[Jeans,Shoes,Skirts, and Tops](https://leetcode.com/discuss/interview-question/928404/question-asked-in-bny-mellon-forsde) +++
 
 + 每个list选一个，最后加起来价格小于等于budget的方案有几个
   list1 = [4]
@@ -92,4 +96,4 @@ public static int waystoBuy(int[] jeans,int[] shoes,int[] skirts,int[] tops,int 
 
 21. other
 
-​		+  https://www.1point3acres.com/bbs/thread-546575-1-1.html 2019-8
+  +  https://www.1point3acres.com/bbs/thread-546575-1-1.html 2019-8
