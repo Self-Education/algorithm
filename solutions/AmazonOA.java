@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 import java.util.TreeMap;
 
 public class AmazonOA {
@@ -256,6 +257,72 @@ public class AmazonOA {
 
     }
 
+    public int demolitionRobot(int[][] lot) {
+        // 1 is good, 9 is target, and 0 cannot be accessed
+        // bfs
+
+        // edge cases:
+        if(lot[0][0] == 9) return 0;
+        if(lot[0][0] == 0) return -1;
+
+        int[][] offsets = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+        int m = lot.length, n = lot[0].length;
+        Queue<int[]> queue = new LinkedList<>();// queue of avaiable cells
+        int[][] visited = new int[m][n];
+        queue.offer(new int[]{0,0});
+        visited[0][0] = 1;
+        int distance = 0;
+        while(!queue.isEmpty()){
+            int levelSize = queue.size();
+            distance++;
+            for(int j = 0; j < levelSize; j++){
+                int[] cur = queue.poll();
+                // now we have 4 options
+                for(int i = 0; i < 4; i++){
+                    int r = cur[0] + offsets[i][0];
+                    int c = cur[1] + offsets[i][1];
+                    if(r < 0 || r >= m || c < 0 || c >= n) continue;
+                    if(lot[r][c] == 9){
+                        return distance;
+                    }
+                    if(visited[r][c] != 1 && lot[r][c] != 0){
+                        visited[r][c] = 1; 
+                        queue.offer(new int[]{r, c});
+                    }
+                }
+            }
+            
+        }
+        
+        return -1;
+    }
+    
+    public int storageOptimization(int n, int m, int[] h, int[] v){
+        // maxWidth * maxLength
+
+        // find the max width
+        int maxWidth = 0, width = 1;
+        for(int i = 0; i < v.length; i++){
+            if(i - 1 >= 0 && v[i - 1] + 1== v[i]){
+                width++;        
+            }else{
+                width = 1;
+            }
+            maxWidth = Math.max(maxWidth, width);
+        }
+        maxWidth ++;
+        int maxHeight = 0, height = 1;
+        for(int i = 0; i < h.length; i++){
+            if(i - 1 >= 0 && h[i - 1] + 1== h[i]){
+                height++;        
+            }else{
+                height = 1;
+            }
+            maxHeight = Math.max(maxHeight, height);
+        }
+        maxHeight ++;
+        return maxWidth * maxHeight;
+    }
     public static void main(String[] args) {
         AmazonOA solution = new AmazonOA();
         /*
@@ -289,11 +356,21 @@ public class AmazonOA {
          * System.out.println(Arrays.toString(ans));
          */
 
-        int[] A = new int[] { 4 };
+        /* int[] A = new int[] { 4 };
         int[] B = new int[] { 2, 3 };
         int[] C = new int[] { 2, 3 };
         int[] D = new int[] { 2, 1 };
         int ans = solution.shopOptions(A, B, C, D, 10);
+        System.out.println(ans); */
+ 
+      /*   int[][] lot = new int[][]{{0, 1, 1}, {1, 0, 9}, {1, 1, 1}};
+        int ans = solution.demolitionRobot(lot);
+        System.out.println(ans); */
+
+        int n = 6, m = 6;
+        int[] h = new int[]{1, 3, 4};
+        int[] v = new int[]{2, 3};
+        int ans = solution.storageOptimization(n, m, h, v);
         System.out.println(ans);
     }
 
