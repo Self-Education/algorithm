@@ -124,7 +124,7 @@ c. both
 d. neither
 
 10. the time complexity of g(n, x, y) is O(n), what is the time complexity of f(n)
-def f(n):
+    def f(n):
     if n == 1:
         return 1
     x = f(n/2)
