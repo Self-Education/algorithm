@@ -21,7 +21,7 @@
 17. [138. Copy List with Random Pointer -- Medium](https://leetcode.com/problems/copy-list-with-random-pointer/)
 18. [171. Excel Sheet Column Number -- Easy](https://leetcode.com/problems/excel-sheet-column-number/)
 19. [348. Design Tic-Tac-Toe -- Medium](https://leetcode.com/problems/design-tic-tac-toe/)
-20. [783. Minimum Distance Between BST Nodes -- Easy](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+20. [783. Minimum Distance Between BST Nodes -- Easy](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) in-order transversal when BST
 21. [247. Strobogrammatic Number II -- Medium](https://leetcode.com/problems/strobogrammatic-number-ii/)
 22. [21. Merge Two Sorted Lists -- Easy](https://leetcode.com/problems/merge-two-sorted-lists/)
 23. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/) +
