@@ -1,4 +1,4 @@
-## Graph
+# Graph
 
 1. [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) bfs check neighbor
 
@@ -77,7 +77,121 @@ public boolean UnionFind(List<List<String>> input) {
 
 
 1. [721. Arrange Accounts](https://leetcode.com/problems/accounts-merge/solution/)
-
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+
+
+
+
+
+## DFS  / Topological sorting
+
+### DFS find Cycle in DAG (Directed Acylic Graph)
+
+`visiting` state means a node A is being visiting, if later on we visit A again, which mean there is a cycle
+
+```java
+public boolean findCycle(int numCourses, int[][] prerequisites) {
+        // use DFS to find the cycle
+        // 0: unvisited, 1: visiting, 2: visited
+        int[] state = new int[numCourses];
+        List<List<Integer>> graph = new LinkedList<>();
+        
+        for(int i = 0; i < numCourses; i++){
+            graph.add(new LinkedList<>());
+        }
+        
+        for(int [] pre : prerequisites){
+            graph.get(pre[1]).add(pre[0]);
+        }
+        
+        for(int i = 0; i < numCourses; i++){
+            if(dfs(graph, i, state)){
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    private boolean dfs(List<List<Integer>> graph, int cur, int[] state){
+        if(state[cur] == 1) return true;
+        if(state[cur] == 2) return false;
+        state[cur] = 1;
+        for(int dependency : graph.get(cur)){
+            if(dfs(graph, dependency, state)) return true;
+        }
+        state[cur] = 2;
+        return false;
+    }
+```
+
+### Top Sort
+
+given a **directed acyclic graph (DAG)**, a topological sort is a linear ordering of all vertices such that for any edge `(u, v)`, `u` comes before `v`. Another way to describe it is that when you put all vertices horizontally on a line, all of the edges are pointing from left to right.
+
+```java
+public int[] findOrder(int numCourses, int[][] prerequisites) {
+        // use topological sort 
+        List<List<Integer>> graph = new LinkedList<>();
+        for(int i = 0; i < numCourses; i++){
+            graph.add(new LinkedList<>());
+        }
+        
+        for(int [] pre : prerequisites){
+            graph.get(pre[1]).add(pre[0]);
+        }
+        
+        Stack<Integer> stack = new Stack<>();
+        int[] state = new int[numCourses];
+        
+        for(int i = 0; i < numCourses; i++){
+            if(topoSort(graph, i, state, stack)){
+                return new int[0];
+            }; 
+        }
+        int[] ans = new int[numCourses];
+        int i = 0;
+        while(!stack.isEmpty()){
+            ans[i++] = stack.pop();
+        }
+        return ans;
+    }
+    
+    private boolean topoSort(List<List<Integer>> graph, int cur, int[] state, Stack<Integer> stack){
+        // check if cur is visited
+        if(state[cur] == 1) return true;
+        if(state[cur] == 2) return false;
+        state[cur] = 1;
+        // explore all its child
+        for(int child : graph.get(cur)){
+            if(topoSort(graph, child, state, stack)){
+                return true;
+            };
+        }
+        // now all child of cur have been explored
+        state[cur] = 2;
+        stack.add(cur);
+        return false;
+    }
+```
+
+
+
+**Difference** with regular `DFS` is that Top sort return the sequence by pushing `curNode` into stack after it is fully explored (all its child are visited);
+
+1. [207. Course Schedule  --  Medium](https://leetcode.com/problems/course-schedule/)
+
+2. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
+
+
+
+
+
+## Floyd-Warshall Algorithm to find shortest distance between given two nodes in a graph
+
+<img src="images/image-20210505235623288.png" alt="image-20210505235623288" style="zoom:80%;" />
+
+1. [1334. Find the City With the Smallest Number of Neighbors at a Threshold D -- Medium](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+
+2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
 
