@@ -14,7 +14,7 @@
 Every time we see relation is **transitive**, for example, <u>A and B are friend, B and C are friend, then A and C are friend, or A can reach B and B can reach C, then A can reach C as well,</u> In this case, we can use `union()` to group components with the same relations, and use `find()` to get the root (represent of the group) of two components to see if they are in the same group 
 
 ```java
-public boolean UnionFind(List<List<String>> input) {
+public boolean UnionFind(List<List<String>> edges) {
         
     // union similar words into groups
 
@@ -30,19 +30,8 @@ public boolean UnionFind(List<List<String>> input) {
     int id = 0;
 
     // loop each group and union similar component into a group
-    for(List<String> components : input){
-      // use the first element as the represent of the group
-      String represent = components.get(1);
-      if(!nodeToId.containsKey(represent)){
-        nodeToId.put(represent,id++);
-      };
-      for(int i = 2; i < components.size(); i++){
-        String compo = components.get(i);
-        if(!nodeToId.containsKey(compo)){
-          nodeToId.put(compo,id++);
-        };
-        union(nodeToId.get(represent), nodeToId.get(compo), parents);
-      }
+    for(List<String> edge : edges){
+      union(edge.get(0), edge.get(1));
     }
 
     // now we have groups in which components share same relation or characteristics
@@ -52,7 +41,7 @@ public boolean UnionFind(List<List<String>> input) {
      private void union(int a, int b, int[] parents){
         int pa = find(a, parents);
         int pb = find(b, parents);
-        if(pa == pb) return;
+        if(pa == pb) return;// here is a cycle, since a and b are already in a group, but they share the same parent.
         if(Math.abs(parents[pa]) > Math.abs(parents[pb])){
             parents[pa] += parents[pb];
             parents[pb] = pa;
