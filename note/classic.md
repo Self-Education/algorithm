@@ -62,4 +62,17 @@
 
 1. [54. Spiral Matrix -- Medium](https://leetcode.com/problems/spiral-matrix/)
 2. [885. Sprial Matrix III -- Medium](https://leetcode.com/problems/spiral-matrix-iii/) move pattern : 1, 1, 2, 2, 3, 3, ...
-3. 
+
+
+
+## Soduku 
+
+How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in block 1";
+
+1. [37. Sudoku Solver -- Hard](https://leetcode.com/problems/sudoku-solver/)
+2. [36. Valid Sudoku -- Medium](https://leetcode.com/problems/valid-sudoku/)
+
+
+
+## Basic Caculator
+
