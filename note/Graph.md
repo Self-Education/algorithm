@@ -184,3 +184,8 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
 
+##  Eulerian Path / Circuits
+
+![image-20210507145625398](images/image-20210507145625398.png)
+
+And all vertices with non-zero degree need to belong to a single connected component
