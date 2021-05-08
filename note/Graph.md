@@ -186,6 +186,11 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 ##  Eulerian Path / Circuits
 
+**Eulerian Path**: a path of edges that <u>visits all the edges</u> in a graph <u>exactly once</u>.
+
+**Eulerian Circuit**:  a Eulerian path starts and ends at the same vertex
+
 ![image-20210507145625398](images/image-20210507145625398.png)
 
 And all vertices with non-zero degree need to belong to a single connected component
+
