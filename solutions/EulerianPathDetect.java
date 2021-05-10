@@ -60,13 +60,15 @@ public class EulerianPathDetect {
                 count1++;
             if (out[i] - in[i] == 1)
                 count2++;
-            if (count1 > 1 || count2 > 1)
-                return 1;
+           
         }
         if (count1 == 0 && count2 == 0) {
             return 2;
+        }else if(count1 <= 1 && count2 <= 1){
+            return 1;
+        }else{
+            return 0;
         }
-        return 1;
     }
 
     private int findStart(List<List<Integer>> graph, int n) {

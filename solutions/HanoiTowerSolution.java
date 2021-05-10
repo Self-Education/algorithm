@@ -33,7 +33,7 @@ public class HanoiTowerSolution {
             printGameStatus(collection);
             return;
         }
-        solution(n - 1, origin, dest, buffer);
+        solution(n - 1, origin, dest, buffer);// to expose very bottom disk
         origin.directMove(dest);
         printGameStatus(collection);
         solution(n - 1, buffer, origin, dest);

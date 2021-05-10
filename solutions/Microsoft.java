@@ -20,10 +20,11 @@ public class Microsoft {
             if(freq[i] % 2 != 0){
                 count++;
             }
+            if(count > 1){
+                return -1;
+            } 
         }
-        if(count > 1){
-            return -1;
-        } 
+        
         count = 0;
 
         int p1 = 0, p2 = arr.length - 1;

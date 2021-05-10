@@ -5,8 +5,8 @@ public class SieveOfEratosthenes {
     public static void main(String[] args) {
         ArrayList<Integer> primes = new ArrayList<>();
         SieveOfEratosthenes sieveOfEratosthenes = new SieveOfEratosthenes();
-        primes = sieveOfEratosthenes.findPrimes(50);
-        Printer.print(Arrays.toString(primes.toArray()));
+        primes = sieveOfEratosthenes.findPrimes(10);
+        System.out.println(Arrays.toString(primes.toArray()));
     }
 
     /*
@@ -28,6 +28,7 @@ public class SieveOfEratosthenes {
             flag(flags, prime);
             // get next non-flagged number
             prime = getNext(flags, prime + 1);
+            System.out.println(prime);
         }
 
         for (int j = 1; j <= n; j++) {
