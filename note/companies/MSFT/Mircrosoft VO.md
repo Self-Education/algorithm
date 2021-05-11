@@ -20,13 +20,13 @@
 18. [138. Copy List with Random Pointer -- Medium](https://leetcode.com/problems/copy-list-with-random-pointer/)
 19. [171. Excel Sheet Column Number -- Easy](https://leetcode.com/problems/excel-sheet-column-number/)
 20. [348. Design Tic-Tac-Toe -- Medium](https://leetcode.com/problems/design-tic-tac-toe/)
-21. [783. Minimum Distance Between BST Nodes -- Easy](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) in-order transversal when BST
+21. [783. Minimum Distance Between BST Nodes -- Easy](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) **must think of In-order for BST**
 22. [247. Strobogrammatic Number II -- Medium](https://leetcode.com/problems/strobogrammatic-number-ii/)
 23. [21. Merge Two Sorted Lists -- Easy](https://leetcode.com/problems/merge-two-sorted-lists/)
 24. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/) +
 25. [721. Accounts Merge -- Medium](https://leetcode.com/problems/accounts-merge/)
 26. [new grad 001](https://www.1point3acres.com/bbs/thread-744683-1-1.html)
-27. find duplicate in ascending array
+27. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 28. [198. House Robber --  Medium](https://leetcode.com/problems/house-robber/)
 29. [489. Robot Room Cleaner --  Hard](https://leetcode.com/problems/robot-room-cleaner/)
 30. [295. Find Median from Data Stream -- Hard](https://leetcode.com/problems/find-median-from-data-stream/)
@@ -34,7 +34,7 @@
 32. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 33. [445. Add Two Numbers II -- Medium](https://leetcode.com/problems/add-two-numbers-ii/)
 34. check if it is BST
-35. [new grad 002](https://www.1point3acres.com/bbs/thread-712335-1-1.html)
+35. [Min distance in a graph](https://github.com/yangluo0901/algorithm/blob/master/solutions/MicrosoftVO.java)
 36. [1446. Consecutive Characters --  Easy](https://leetcode.com/problems/consecutive-characters/)
 37. [650. 2 Keys Keyboard --  Medium](https://leetcode.com/problems/2-keys-keyboard/)
 38. [1344. Angle Between Hands of a Clock --  Medium](https://leetcode.com/problems/angle-between-hands-of-a-clock/)
@@ -44,6 +44,8 @@
 42. [772. Basic Calculator III -- Hard](https://leetcode.com/problems/basic-calculator-iii/)
 43. [53. Maximum Subarray -- Easy](https://leetcode.com/problems/maximum-subarray/)
 44. [46. Permutations -- Medium](https://leetcode.com/problems/permutations/)
+    1. [31. Next Permutation -- Medium](https://leetcode.com/problems/next-permutation/)
+    2. [47. Permutations II](https://leetcode.com/problems/permutations-ii/)
 45. [560. Subarray Sum Equals K -- Medium](https://leetcode.com/problems/subarray-sum-equals-k/)
 46. [1586. Binary Search Tree Iterator II -- Medium](https://leetcode.com/problems/binary-search-tree-iterator-ii/)
 47. [127. Word Ladder --  Hard](https://leetcode.com/problems/word-ladder/)
