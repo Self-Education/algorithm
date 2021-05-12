@@ -70,53 +70,58 @@
 66. [124. Binary Tree Maximum Path Sum -- Hard](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 67. [Transfer BST to ascending doubly LinkedList](https://www.geeksforgeeks.org/co ... -linked-list-set-3/)
 68. [Find if an array of strings can be chained to form a circle](https://www.geeksforgeeks.org/given-array-strings-find-strings-can-chained-form-circle/)
+    1. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
 69. [1258. Synonymous Sentences -- Medium](https://leetcode.com/problems/synonymous-sentences/)
 70. [54. Spiral Matrix -- Medium](https://leetcode.com/problems/spiral-matrix/)
 71. [75. Sort Colors -- Medium](https://leetcode.com/problems/sort-colors/)
 72. Given a linkedList, return K largest values in an array
 73. [142. Linked List Cycle II -- Medium](https://leetcode.com/problems/linked-list-cycle-ii/) +
-75. [68. Text Justification -- Hard](https://leetcode.com/problems/text-justification/)
-76. [346. Moving Average from Data Stream -- Easy](https://leetcode.com/problems/moving-average-from-data-stream/)
-77. [4. Median of Two Sorted Arrays -- Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/) + / kth smallest element in two sorted list
-78. [179. Largest Number](https://leetcode.com/problems/largest-number/)。e.g. give [23, 12, 56], return 562312.
-79. [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
-80. [258. Add Digits -- Easy](https://leetcode.com/problems/add-digits/)
+74. [68. Text Justification -- Hard](https://leetcode.com/problems/text-justification/)
+75. [346. Moving Average from Data Stream -- Easy](https://leetcode.com/problems/moving-average-from-data-stream/)
+76. [4. Median of Two Sorted Arrays -- Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/) + / kth smallest element in two sorted list
+77. [179. Largest Number](https://leetcode.com/problems/largest-number/)。e.g. give [23, 12, 56], return 562312.
+78. [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
+79. [258. Add Digits -- Easy](https://leetcode.com/problems/add-digits/)
 80. [332. Reconstruct Itinerary -- Medium](https://leetcode.com/problems/reconstruct-itinerary/)
-83. [check if a integer is a prime](https://github.com/yangluo0901/algorithm/blob/master/solutions/SieveOfEratosthenes.java)
-84. [460. LFU Cache -- Hard](https://leetcode.com/problems/lfu-cache/)
-85. return node and height of the tree
-86. [1780. Check if Number is a Sum of Powers of Three -- Medium](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
-87. [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) +
-88. [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) +
-89. [Minimum Adjacent swaps to make palindrome](https://leetcode.com/discuss/interview-question/351783/)
-90. [1312. Minimum Insertion Steps to Make a String Palindrome -- Hard](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+81. [check if a integer is a prime](https://github.com/yangluo0901/algorithm/blob/master/solutions/SieveOfEratosthenes.java)
+82. [460. LFU Cache -- Hard](https://leetcode.com/problems/lfu-cache/)
+83. return node and height of the tree
+84. [1780. Check if Number is a Sum of Powers of Three -- Medium](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
+85. [1429. First Unique Number](https://leetcode.com/problems/first-unique-number/) +
+86. [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) +
+87. [Minimum Adjacent swaps to make palindrome](https://leetcode.com/discuss/interview-question/351783/)
+88. [1312. Minimum Insertion Steps to Make a String Palindrome -- Hard](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
     1. [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
     2. [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)
     3. [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring/) Binary search length
-91. [Find the minimum number of deletions required to convert a string into a palindrome](https://www.techiedelight.com/find-minimum-number-deletions-convert-string-into-palindrome/)
-92. [Minimum number of characters to be replaced to make a given string Palindrome](https://www.geeksforgeeks.org/minimum-number-of-characters-to-be-replaced-to-make-a-given-string-palindrome/)
-93. [Minimum number of Appends needed to make a string palindrome](https://www.geeksforgeeks.org/minimum-number-appends-needed-make-string-palindrome/)
-94. [416. Partition Equal Subset Sum -- Medium](https://leetcode.com/problems/partition-equal-subset-sum/) / [698. Partition to K Equal Sum Subsets -- Medium](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
-95. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+89. [Find the minimum number of deletions required to convert a string into a palindrome](https://www.techiedelight.com/find-minimum-number-deletions-convert-string-into-palindrome/)
+90. [Minimum number of characters to be replaced to make a given string Palindrome](https://www.geeksforgeeks.org/minimum-number-of-characters-to-be-replaced-to-make-a-given-string-palindrome/)
+91. [Minimum number of Appends needed to make a string palindrome](https://www.geeksforgeeks.org/minimum-number-appends-needed-make-string-palindrome/)
+92. [416. Partition Equal Subset Sum -- Medium](https://leetcode.com/problems/partition-equal-subset-sum/) / [698. Partition to K Equal Sum Subsets -- Medium](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+93. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 94. [48. Rotate Image -- Medium](https://leetcode.com/problems/rotate-image/) clockwise: transpose + reverse row, anti: transpose + reverse col
-99. given a string and a set of patterns, remove patterns from the string
+95. given a string and a set of patterns, remove patterns from the string
     1. [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
     2. [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) two maps or convert string to id string abbc -> 0112
-100. [17. Letter Combinations of a Phone Number -- Medium](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-101. [692. Top K Frequent Words -- Medium](https://leetcode.com/problems/top-k-frequent-words/)
-102. [322. Coin Change --  Medium](https://leetcode.com/problems/coin-change/)
-103. [88. Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/) **O(N + M)**
-104. [1. Two Sum -- Easy](https://leetcode.com/problems/two-sum/)
-105. Quick Sort
-106. [other 001](https://www.1point3acres.com/bbs/thread-707924-1-1.html)
+96. [17. Letter Combinations of a Phone Number -- Medium](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+97. [692. Top K Frequent Words -- Medium](https://leetcode.com/problems/top-k-frequent-words/)
+98. [322. Coin Change --  Medium](https://leetcode.com/problems/coin-change/)
+99. [88. Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/) **O(N + M)**
+100. [1. Two Sum -- Easy](https://leetcode.com/problems/two-sum/)
+101. Quick Sort
+102. [other 001](https://www.1point3acres.com/bbs/thread-707924-1-1.html)
      1. [79. Word Search](https://leetcode.com/problems/word-search/)
      2. [212. Word Search II](https://leetcode.com/problems/word-search-ii/) backtracking + trie
      3. [makeChocolate](https://codingbat.com/prob/p191363)
      4. N node value.
-107. [647. Palindromic Substrings -- medium](https://leetcode.com/problems/palindromic-substrings/)
-108. merge to linked list / [160 intersection of linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) two pointers and HashTable
+103. [647. Palindromic Substrings -- medium](https://leetcode.com/problems/palindromic-substrings/)
+104. merge to linked list / [160 intersection of linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) two pointers and HashTable
 105. [20. valid parentheses -- Easy](https://leetcode.com/problems/valid-parentheses/) finally return if `stack.size() == 0`
      1. [1003. Check If Word Is Valid After Substitutions -- Medium](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)
      2. [22. Generate Parentheses -- Medium](https://leetcode.com/problems/generate-parentheses/)
      3. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses/)
+
+106. [Egg Dropping Puzzle](https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/) 
+107. Skyline
+108. 155 min stack
 
