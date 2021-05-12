@@ -51,7 +51,7 @@
 47. [127. Word Ladder --  Hard](https://leetcode.com/problems/word-ladder/)
 48. [126. Word Ladder II -- Hard](https://leetcode.com/problems/word-ladder-ii/)
 49. [90. Subsets II -- Medium](https://leetcode.com/problems/subsets-ii/) +
-50. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
+50. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/) check III if have time
 51. [207. Course Schedule -- Medium](https://leetcode.com/problems/course-schedule/)
 52. [340. Longest Substring with At Most K Distinct Characters -- Medium](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 53. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum/) +
@@ -62,10 +62,10 @@
 58. [source to destination, minimum cost](https://www.1point3acres.com/bbs/thread-744749-1-1.html)
 59. [463. Island Perimeter -- Easy](https://leetcode.com/problems/island-perimeter/)
 60. [468. Validate IP Address](https://leetcode.com/problems/validate-ip-address/)
-61. [128. Longest Consecutive Sequence -- Hard](https://leetcode.com/problems/longest-consecutive-sequence/)
+61. [128. Longest Consecutive Sequence -- Hard](https://leetcode.com/problems/longest-consecutive-sequence/) **follow up**
 62. [973. K Closest Points to Origin -- Medium](https://leetcode.com/problems/k-closest-points-to-origin/)
 63. [702. Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)
-64. given sorted array, find K closest value to target
+64. [658. Find K Closest Elements -- Medium](https://leetcode.com/problems/find-k-closest-elements/)
 65. [15. 3Sum -- Medium](https://leetcode.com/problems/3sum/)
 66. [124. Binary Tree Maximum Path Sum -- Hard](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 67. [Transfer BST to ascending doubly LinkedList](https://www.geeksforgeeks.org/co ... -linked-list-set-3/)
@@ -75,16 +75,14 @@
 71. [75. Sort Colors -- Medium](https://leetcode.com/problems/sort-colors/)
 72. Given a linkedList, return K largest values in an array
 73. [142. Linked List Cycle II -- Medium](https://leetcode.com/problems/linked-list-cycle-ii/) +
-74. kth smallest element in two sorted list
 75. [68. Text Justification -- Hard](https://leetcode.com/problems/text-justification/)
 76. [346. Moving Average from Data Stream -- Easy](https://leetcode.com/problems/moving-average-from-data-stream/)
-77. [4. Median of Two Sorted Arrays -- Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/) +
+77. [4. Median of Two Sorted Arrays -- Hard](https://leetcode.com/problems/median-of-two-sorted-arrays/) + / kth smallest element in two sorted list
 78. [179. Largest Number](https://leetcode.com/problems/largest-number/)。e.g. give [23, 12, 56], return 562312.
 79. [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
 80. [258. Add Digits -- Easy](https://leetcode.com/problems/add-digits/)
-81. [332. Reconstruct Itinerary -- Medium](https://leetcode.com/problems/reconstruct-itinerary/)
-82. [340. Longest Substring with At Most K Distinct Characters -- Medium](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
-83. check if a integer is a prime
+80. [332. Reconstruct Itinerary -- Medium](https://leetcode.com/problems/reconstruct-itinerary/)
+83. [check if a integer is a prime](https://github.com/yangluo0901/algorithm/blob/master/solutions/SieveOfEratosthenes.java)
 84. [460. LFU Cache -- Hard](https://leetcode.com/problems/lfu-cache/)
 85. return node and height of the tree
 86. [1780. Check if Number is a Sum of Powers of Three -- Medium](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
@@ -100,16 +98,14 @@
 93. [Minimum number of Appends needed to make a string palindrome](https://www.geeksforgeeks.org/minimum-number-appends-needed-make-string-palindrome/)
 94. [416. Partition Equal Subset Sum -- Medium](https://leetcode.com/problems/partition-equal-subset-sum/) / [698. Partition to K Equal Sum Subsets -- Medium](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 95. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
-96. [48. Rotate Image -- Medium](https://leetcode.com/problems/rotate-image/) clockwise: transpose + reverse row, anti: transpose + reverse col
-97. topological sort, 拓扑排序？？？
-98. [122. Best Time to Buy and Sell Stock II -- Medium](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
-99. given a stirng and a set of patterns, remove patterns from the string
+94. [48. Rotate Image -- Medium](https://leetcode.com/problems/rotate-image/) clockwise: transpose + reverse row, anti: transpose + reverse col
+99. given a string and a set of patterns, remove patterns from the string
     1. [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
     2. [890. Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) two maps or convert string to id string abbc -> 0112
 100. [17. Letter Combinations of a Phone Number -- Medium](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 101. [692. Top K Frequent Words -- Medium](https://leetcode.com/problems/top-k-frequent-words/)
 102. [322. Coin Change --  Medium](https://leetcode.com/problems/coin-change/)
-103. [88. Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/) **O(N)**
+103. [88. Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/) **O(N + M)**
 104. [1. Two Sum -- Easy](https://leetcode.com/problems/two-sum/)
 105. Quick Sort
 106. [other 001](https://www.1point3acres.com/bbs/thread-707924-1-1.html)
@@ -118,6 +114,9 @@
      3. [makeChocolate](https://codingbat.com/prob/p191363)
      4. N node value.
 107. [647. Palindromic Substrings -- medium](https://leetcode.com/problems/palindromic-substrings/)
-108. merge to linked list / 160 intersection of linkedlists
-109. [20. valid parentheses -- Medium](https://leetcode.com/problems/valid-parentheses/) finallly return if `stack.size() == 0`
+108. merge to linked list / [160 intersection of linked lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) two pointers and HashTable
+105. [20. valid parentheses -- Easy](https://leetcode.com/problems/valid-parentheses/) finally return if `stack.size() == 0`
+     1. [1003. Check If Word Is Valid After Substitutions -- Medium](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)
+     2. [22. Generate Parentheses -- Medium](https://leetcode.com/problems/generate-parentheses/)
+     3. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses/)
 
