@@ -122,6 +122,6 @@
      3. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses/)
 
 106. [Egg Dropping Puzzle](https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/) 
-107. Skyline
-108. 155 min stack
+107. [218. The Skyline Problem -- Hard](https://leetcode.com/problems/the-skyline-problem/)
+108. [155 min stack -- Easy](https://leetcode.com/problems/min-stack/) two stack.
 
