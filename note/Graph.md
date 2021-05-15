@@ -178,11 +178,20 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 ## Floyd-Warshall Algorithm to find shortest distance between given two nodes in a graph
 
+to find longest distance, just mutiply the weight with -1 then find shortest one.
+
 <img src="images/image-20210505235623288.png" alt="image-20210505235623288" style="zoom:80%;" />
 
 1. [1334. Find the City With the Smallest Number of Neighbors at a Threshold D -- Medium](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
-
 2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
+
+
+
+## Linear way
+
+https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/TopologicalSortAdjacencyList.java
+
+![image-20210511140144266](images/image-20210511140144266.png)
 
 ##  Eulerian Path / Circuits
 

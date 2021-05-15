@@ -1,15 +1,12 @@
 ## Palindrome
 
 1. [Valid Palindrome II -- Easy](https://leetcode.com/problems/valid-palindrome-ii/), if can make the string palindromic by at most delete one letter
-
 2. [Valid Palindrom III -- Hard](https://leetcode.com/problems/valid-palindrome-iii/submissions/),  if can make the string palindromic by at most delete K letter
-
 3. [Palindromic Substring -- Medium](https://leetcode.com/problems/palindromic-substrings/) how many palindromic substring
 4. [Longest Palindromic Substring -- Medium](https://leetcode.com/problems/longest-palindromic-substring/)
-
 5. [Longest Palindromic Sequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence/)
-
 6. [Longest Palindromic Sequence II -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence-ii/) even length, two consecutive characters not equal.
+7. [564. Find the Closest Palindrome --  Hard](https://leetcode.com/problems/find-the-closest-palindrome/)
 
 
 
@@ -32,6 +29,8 @@
 
 1. [Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals/) Sort based on one dimension, to reduce possible cases
 2. [SkyLine]
+3. Meeting 
+4. Meeting II
 
 ## Permutations
 
@@ -62,6 +61,7 @@
 
 1. [54. Spiral Matrix -- Medium](https://leetcode.com/problems/spiral-matrix/)
 2. [885. Sprial Matrix III -- Medium](https://leetcode.com/problems/spiral-matrix-iii/) move pattern : 1, 1, 2, 2, 3, 3, ...
+3. Rotate image
 
 
 
@@ -74,5 +74,15 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 
 
 
-## Basic Caculator
+## Basic Calculator
+
+
+
+
+
+## Serialize and Deserialize Binary Tree / N-ary Tree
+
+1. [297. Serialize and Deserialize Binary Tree -- Hard](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+2. [449. Serialize and Deserialize BST -- Medium](https://leetcode.com/problems/serialize-and-deserialize-bst/) preorder
+3. [428. Serialize and Deserialize N-ary Tree -- Hard](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/)
 
