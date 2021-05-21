@@ -203,3 +203,88 @@ https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/william
 
 And all vertices with non-zero degree need to belong to a single connected component
 
+
+
+## Tarjan Algorithm: find the bridge of the graph
+
+**basic idea: give the label/rank to each node when dfs, the rank should increase, there is a cycle if the rank goes down during dfs, we return when that occurs, and all nodes with higher ranks than the return value are part of cycle**
+
+```java
+public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
+        // make graph
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        Set<Pair<Integer, Integer>> uniqueC = new HashSet<>();
+        for(List<Integer> connection : connections){
+            map.computeIfAbsent(connection.get(0), x->new ArrayList<>()).add(connection.get(1));
+            map.computeIfAbsent(connection.get(1), x->new ArrayList<>()).add(connection.get(0));
+            uniqueC.add(new Pair<Integer, Integer>(Math.min(connection.get(0), connection.get(1)), Math.max(connection.get(0), connection.get(1))));
+        }
+        int[] rank = new int[n];
+        Arrays.fill(rank, -1); // -1 means not visited
+        // dfs if cur rank is smaller than the prev rank, cycle
+        dfs(map, rank, uniqueC, 0, -1, 0);
+        List<List<Integer>> ans = new ArrayList<>();
+        for(Pair<Integer,Integer> a : uniqueC){
+            List<Integer> temp = new ArrayList<>();
+            temp.add(a.getKey());
+            temp.add(a.getValue());
+            ans.add(temp);
+        }
+        return ans;
+    }
+    private int dfs(Map<Integer, List<Integer>> map, int[] rank, Set<Pair<Integer, Integer>> uniqueC, int cur, int prev, int curRank){
+        if(rank[cur] >= 0) return rank[cur];// go back visit a node twice, cycle
+        rank[cur] = curRank;
+        int minRank = Integer.MAX_VALUE;
+        for(int nei : map.get(cur)){
+            if(nei == prev) continue;
+            int nextRank = dfs(map, rank, uniqueC, nei, cur, curRank + 1);
+            if(rank[cur] >= nextRank) uniqueC.remove(new Pair<Integer, Integer>(Math.min(nei, cur), Math.max(nei, cur)));
+            minRank = Math.min(minRank, nextRank);
+        }
+        return minRank;
+    }
+```
+
+
+
+1. [192. Critical Connections in a Network -- Hard](https://leetcode.com/problems/critical-connections-in-a-network/)
+
+   
+
+## Kruskal Algorithm: find minimum spanning tree
+
+**MST**: A **minimum spanning tree** (**MST**) or **minimum weight spanning tree** is a subset of the edges of a [connected](https://en.wikipedia.org/wiki/Connected_graph), edge-weighted undirected graph that connects all the [vertices](https://en.wikipedia.org/wiki/Vertex_(graph_theory)) together, without any [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) and with the minimum **possible total edge weight**, if all N nodes are connected, MST will have N - 1 edges
+
++ sort edges based on weight in non-decreasing order
++ loop through each edge, check two nodes connected by that edge are in the same group, if **yes**, that means node1 can access the node2 from other path which is accessed before (since the edge is sorted by weight in non-decreasing order, the earlier path costs less), ignore this edge. if **no**,  and union two nodes and add the edge into the spanning tree set.
+
+1. [1135 Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+
+```java
+ public int minimumCost(int n, int[][] connections) {
+        // kruskal
+        int[] parent = new int[n + 1];
+        int ans = 0, connectedEdges = 0;
+        Arrays.fill(parent, -1);
+        Arrays.sort(connections, (a, b) -> a[2] - b[2]);
+        for(int[] connection : connections){
+            int p1 = find(connection[0], parent);
+            int p2 = find(connection[1], parent);
+            if(p1 == p2) continue;
+            union(connection[0], connection[1], parent);
+            ans += connection[2];
+            connectedEdges ++;
+        }
+        if(connectedEdges == n - 1){
+            return ans;
+        }else{
+            return -1;
+        }
+    }
+    
+    private boolean union(int a, int b, int[] parent){...}
+    
+    private int find(int a, int[] parent){...}
+```
+

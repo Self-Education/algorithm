@@ -120,8 +120,8 @@
      1. [1003. Check If Word Is Valid After Substitutions -- Medium](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/)
      2. [22. Generate Parentheses -- Medium](https://leetcode.com/problems/generate-parentheses/)
      3. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses/)
-
 106. [Egg Dropping Puzzle](https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/) 
 107. [218. The Skyline Problem -- Hard](https://leetcode.com/problems/the-skyline-problem/)
 108. [155 min stack -- Easy](https://leetcode.com/problems/min-stack/) two stack.
+109. Daily Temperature
 

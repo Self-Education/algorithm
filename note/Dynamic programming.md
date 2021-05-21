@@ -31,3 +31,5 @@
 
 3. [72. Edit Distance -- Hard](https://leetcode.com/problems/edit-distance/)
 
+4. [10. Regular Expression Matching -- Hard](https://leetcode.com/problems/regular-expression-matching/) use DP for string match
+

@@ -8,7 +8,7 @@
 + **Combinations**: similar with subset, but no empty subset and normally has requirement on the length of combinations $C_N^k = \frac{N!}{(N - K)!K!} = \frac{N * (N- 1) * ... * (N - K + 1)}{K!} = \frac{P_N^K}{K!}$
 + **Permutation**: not pick-up, rearrange order of elements $P_N^k = \frac{N!}{(N - K)!} = N * (N- 1) \ * \  ... \ * (N - K + 1)$
 
-1. [77. Combinations](https://leetcode.com/problems/combinations/) **`loop from index + 1`**
+1. [77. Combinations](https://leetcode.com/problems/combinations/) **`loop from index + 1`**, each element can only be used once, if change it into` backtrack(..., i )`, then element can be used multiple times, but also prevent defferent same sequence.
 
    ```java
     public void backTrack(int[] nums, int start, List<Integer> list,List<List<Integer>> res){
@@ -132,5 +132,6 @@
 
    
 
-5. 
+5. [518. Coin Change 2 -- Medium](https://leetcode.com/problems/coin-change-2/) unbound, eliminate duplicates
 
+6. [39. Combination Sum -- Medium](https://leetcode.com/problems/combination-sum/) same with question above, but different way to avoid duplicates
