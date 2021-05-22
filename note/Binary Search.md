@@ -6,7 +6,7 @@
   + when use `left = mid` , for sure there will be an infinite loop, but **why**? The infinite loop occurs when `left` and `right` move to two adjacent elements,` right = left + 1`then  `mid = (left + right)/2` =>  `mid = (left * 2 + 1)/2`, due to java round the `int` to left side, them `mid = left`. Therefore, when we use `left = mid`, mid keeps the same forever! However, if we use `right = mid`, then `mid = (right * 2 - 1)/2` => `mid = right - 1`, `right` decrements by one for each loop. **we need to use `mid = (left + right)/2 + 1` when we use `left = mid` to increment `left`**.
   + Please note that we have to use `left < right` for `while` condition if we used `mid = (left + right)/2 +1`, other wise, **infinite loop**. Because if `left` and `right` stop at the same index,  `mid = (left + left)/2 + 1 = left + 1` , if `nums[mid] > target` then `right = mid - 1 = left`. e.g. search 4 in `[0, 3]`, `mid = (0 + 1)/2 + 1 = 1` and `nums[1] < 4 ` => `right = 1 - 1 = 0` now `left = right = 0`, then `mid = 1 ` **again** 
   + **summary** 
-    + `mid = left + (right - 1)/2` ,` mid` is always at the left side if `left` and `right` stay adjacent
+    + `mid = left + (right - l)/2` ,` mid` is always at the left side if `left` and `right` stay adjacent
     + use them together: `left = mid` + `left < right` + `mid = left + (right - 1eft)/2 + 1`
     + `right = mid` + `left < right` + `mid = left + (right - 1eft)/2`
 
@@ -148,7 +148,7 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 + if `count > k`, that means mid is too large, here is the trickiest part, lets say the we want to find 3rd smallest pair distance and  **distance array** is `[0, 1, 3, 3, 4, 5, 6]`, now `mid = (0 + 6)/2 = 3`( the second 2) and `count = 4`,  if we use `hi = mid - 1 = 2`, but obviously 3rd smallest distance is 3. In other words, should use `hi = mid` because of the duplicate of the distance 
 
 ```java
-public int smallestDistancePair(int[] nums, int k) {
+1231. Divide Chocolatepublic int smallestDistancePair(int[] nums, int k) {
         Arrays.sort(nums);
         int n = nums.length;
         int left = 0, right = nums[n - 1] - nums[0], mid = -1;
@@ -179,4 +179,10 @@ public int smallestDistancePair(int[] nums, int k) {
         return count;
     }
 ```
+
+#### [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+
+#### [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+
+#### [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
 

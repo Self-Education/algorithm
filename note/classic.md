@@ -93,3 +93,45 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 1. [235. Lowest Common Ancestor of a Binary Search Tree --Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 2. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 3. [1644. Lowest Common Ancestor of a Binary Tree II -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+
+
+
+## Avoid adjacent char same or K distance away between same char
+
+use **Waiting List**
+
+1. [767. Reorganize String -- Medium](https://leetcode.com/problems/reorganize-string/)
+
+2. [358. Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/)
+
+```java
+ public String rearrangeString(String s, int k) {
+        HashMap<Character, Integer> freq = new HashMap<>();
+        char[] ca = s.toCharArray();
+        for(char c : ca){
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+        
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        for(char key : freq.keySet()){
+            int[] temp = new int[]{key - 'a', freq.get(key)};
+            queue.offer(temp);
+        }
+        // waiting queue
+        Queue<int[]> waitList = new LinkedList<>();
+        StringBuilder sb = new StringBuilder();
+        while(!queue.isEmpty()){
+            int[] cur = queue.poll();
+            sb.append((char)(cur[0] + 'a'));
+            cur[1]--;
+            waitList.offer(cur);
+            if(waitList.size() < k) continue;
+            int[] back = waitList.poll();
+            if(back[1] > 0){
+                queue.offer(back);
+            }
+        }
+        return sb.length() == s.length() ? sb.toString() : "" ;
+    }
+```
+
