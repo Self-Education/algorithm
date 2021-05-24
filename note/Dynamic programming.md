@@ -33,3 +33,9 @@
 
 4. [10. Regular Expression Matching -- Hard](https://leetcode.com/problems/regular-expression-matching/) use DP for string match
 
+### Do not know where to start or where to stop
+
+1. [410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
+2. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
+
+job scheduling series

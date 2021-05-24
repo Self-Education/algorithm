@@ -78,3 +78,8 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 5. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 
+### slide window while keep the second freq char no more than k times
+
+1. [424. Longest Repeating Character Replacement -- Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
+2. [1156. Swap For Longest Repeated Character Substring -- Medium](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
+

@@ -63,6 +63,34 @@
 2. [885. Sprial Matrix III -- Medium](https://leetcode.com/problems/spiral-matrix-iii/) move pattern : 1, 1, 2, 2, 3, 3, ...
 3. Rotate image
 
++ #### **Search Sorted Matrix**
+
+  Idea: elements on the right side are larger and elements on the top are smaller, then <u>search either from bottom left or top right</u>, **template**:
+
+  ```java
+  public boolean searchMatrix(int[][] matrix, int target) {
+          //search from either from bottom left corner or top right corner
+          int height = matrix.length;
+          if(height <= 0) return false;
+          int width = matrix[0].length;
+          int row = height - 1;
+          int col = 0;
+          while(row >= 0 && col < width){
+              if(matrix[row][col] == target){
+                  return true;
+              }else if(matrix[row][col] < target){
+                  col ++;
+              }else{
+                  row --;
+              }
+          }
+          return false;
+      }
+  ```
+
+1. [74. Search a 2D Matrix -- Medium](https://leetcode.com/problems/search-a-2d-matrix/)
+2. [240. Search a 2D Matrix II -- Medium](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+
 
 
 ## Soduku 
@@ -76,7 +104,8 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 
 ## Basic Calculator
 
-
+1. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
+2. [394. Decode String](https://leetcode.com/problems/decode-string/)
 
 
 
@@ -93,6 +122,12 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 1. [235. Lowest Common Ancestor of a Binary Search Tree --Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 2. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 3. [1644. Lowest Common Ancestor of a Binary Tree II -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+
+
+
+## Look Binary tree from different angle
+
+1.[314. Binary Tree Vertical Order Traversal -- Medium](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
 
 
