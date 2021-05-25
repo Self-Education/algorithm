@@ -170,3 +170,17 @@ use **Waiting List**
     }
 ```
 
+## Dates and days different related
+
+count from 1900
+
+1. [1360. Number of Days Between Two Date -- Easy](https://leetcode.com/problems/number-of-days-between-two-dates/)
+2. [1154. Day of the Year -- Easy](https://leetcode.com/problems/day-of-the-year/)
+
+
+
+## Stack
+
+**find all larger / smaller number before/after current number**
+
+1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
