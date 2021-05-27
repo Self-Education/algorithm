@@ -114,6 +114,10 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
     }
 ```
 
+### Find separate group by DFS
+
+[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
 ### Top Sort
 
 given a **directed acyclic graph (DAG)**, a topological sort is a linear ordering of all vertices such that for any edge `(u, v)`, `u` comes before `v`. Another way to describe it is that when you put all vertices horizontally on a line, all of the edges are pointing from left to right.
