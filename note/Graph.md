@@ -292,3 +292,7 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
     private int find(int a, int[] parent){...}
 ```
 
+## to be categorized
+
+[1761. Minimum Degree of a Connected Trio in a Graph -- Hard](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+
