@@ -180,18 +180,64 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 
 
-## Floyd-Warshall Algorithm to find shortest distance between given two nodes in a graph
+## Find shortest distance between given two nodes in a graph
 
-to find longest distance, just mutiply the weight with -1 then find shortest one.
+### Floyd-Warshall Algorithm 
+
+to find longest distance, just mul tiply the weight with -1 then find shortest one.
 
 <img src="images/image-20210505235623288.png" alt="image-20210505235623288" style="zoom:80%;" />
 
 1. [1334. Find the City With the Smallest Number of Neighbors at a Threshold D -- Medium](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
 
+### Dijkstra Algorithm
 
+<img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:80%;" />
 
-## Linear way
+<img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:80%;" />
+
+**Dijkstra is <u>NOT</u> friendly with negative cost**
+
+![image-20210609101603063](images/image-20210609101603063.png)
+
+[source code](https://leetcode.com/playground/93uryw5m)
+
+```java
+private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+        Set<Integer> settled = new HashSet<>();
+        int[] distance = new int[n];
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        // start point is 0
+        queue.offer(new int[]{start, 0});
+        distance[start] = 0;
+        while(settled.size() != n){
+            int[] cur = queue.poll(); // pick up the node with min cost
+            settled.add(cur[0]);
+            relax(graph, settled, queue, distance, cur[0]);
+        }
+        return distance;
+    }
+    private void relax(Map<Integer, List<int[]>> graph, Set<Integer> settled, PriorityQueue<int[]> queue, int[] distance, int cur){
+       
+        if(graph.get(cur) ==  null) return;
+        for(int[] nei : graph.get(cur)){
+            int to = nei[0];
+            int cost = nei[1];
+            if(!settled.contains(to) && distance[cur] + cost < distance[to]){
+                distance[to] = distance[cur] + cost;
+                queue.offer(new int[]{to, distance[to]});
+            }
+        }
+    }
+```
+
+**Questions:** 
+
+[505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
+
+### Linear way
 
 https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/TopologicalSortAdjacencyList.java
 
