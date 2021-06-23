@@ -116,7 +116,9 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 
 ### Find separate group by DFS
 
-[323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+1. [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+
+2. [1059. All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) detect cycle in defined paths
 
 ### Top Sort
 

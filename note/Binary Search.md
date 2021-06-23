@@ -69,7 +69,31 @@ int l = 0, r = arr.length - 1, mid = -1;
         }
 ```
 
+### basic examples
 
++ find the smallest number that is greater than the target
+
+  ```java
+  private int search(List<Integer> nums, int target){
+          // try to find the smallest index that greater than target 
+          if(indice == null) return -1;
+          int l = 0, r = nums.size() - 1, ans = Integer.MAX_VALUE;
+          while(l <= r){
+              int mid = l + (r - l) / 2;
+              if(nums.get(mid) < prev){
+                  l = mid + 1;
+              }else{
+                  ans = Math.min(ans, nums.get(mid));
+                  r = mid - 1;
+              }
+          }
+          // System.out.println(ans);
+          return ans == Integer.MAX_VALUE ? -1 : ans;
+      }
+      
+  ```
+
+  
 
 
 
@@ -185,4 +209,6 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 #### [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
 #### [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
+
+[792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 
