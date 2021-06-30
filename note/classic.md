@@ -122,6 +122,8 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 1. [235. Lowest Common Ancestor of a Binary Search Tree --Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 2. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 3. [1644. Lowest Common Ancestor of a Binary Tree II -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
+4. [1087. Brace Expansion](https://leetcode.com/problems/brace-expansion/)
+5. [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)
 
 
 
