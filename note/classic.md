@@ -131,7 +131,7 @@ How to check repetition? use string such as " 9 in row 1", "9 in col 1", "9 in b
 
 1.[314. Binary Tree Vertical Order Traversal -- Medium](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)
 
-### Tree related distance
+## Tree related distance
 
 1. [863. All Nodes Distance K in Binary Tree -- Medium](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) turn it into graph and BFS
 
@@ -193,4 +193,11 @@ count from 1900
 
 1. [315. Count of Smaller Numbers After Self -- Hard](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 2. [493. Reverse Pairs -- Hard](https://leetcode.com/problems/reverse-pairs/)
+
+
+
+## Vowels
+
+1. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
+2. [966. Vowel Spellchecker -- Hard](https://leetcode.com/problems/vowel-spellchecker/)
 
