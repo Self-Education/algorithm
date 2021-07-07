@@ -59,37 +59,7 @@
 
 ## Matrix
 
-1. [54. Spiral Matrix -- Medium](https://leetcode.com/problems/spiral-matrix/)
-2. [885. Sprial Matrix III -- Medium](https://leetcode.com/problems/spiral-matrix-iii/) move pattern : 1, 1, 2, 2, 3, 3, ...
-3. Rotate image
-
-+ #### **Search Sorted Matrix**
-
-  Idea: elements on the right side are larger and elements on the top are smaller, then <u>search either from bottom left or top right</u>, **template**:
-
-  ```java
-  public boolean searchMatrix(int[][] matrix, int target) {
-          //search from either from bottom left corner or top right corner
-          int height = matrix.length;
-          if(height <= 0) return false;
-          int width = matrix[0].length;
-          int row = height - 1;
-          int col = 0;
-          while(row >= 0 && col < width){
-              if(matrix[row][col] == target){
-                  return true;
-              }else if(matrix[row][col] < target){
-                  col ++;
-              }else{
-                  row --;
-              }
-          }
-          return false;
-      }
-  ```
-
-1. [74. Search a 2D Matrix -- Medium](https://leetcode.com/problems/search-a-2d-matrix/)
-2. [240. Search a 2D Matrix II -- Medium](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+See matrix.md
 
 
 
