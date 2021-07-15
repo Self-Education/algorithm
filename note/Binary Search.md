@@ -212,3 +212,9 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 
+## Other Variants
+
+[611. Valid Triangle Number -- Medium](https://leetcode.com/problems/valid-triangle-number/solution/) 
+
+if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `a + b < c`
+
