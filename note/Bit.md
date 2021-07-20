@@ -64,3 +64,7 @@ int gray2Binary(int n){
 }
 ```
 
+## Use bitmask as memo
+
+[464. Can I Win -- Medium](https://leetcode.com/problems/can-i-win/)
+
