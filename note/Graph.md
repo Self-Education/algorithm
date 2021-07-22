@@ -175,8 +175,8 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 **Difference** with regular `DFS` is that Top sort return the sequence by pushing `curNode` into stack after it is fully explored (all its child are visited);
 
 1. [207. Course Schedule  --  Medium](https://leetcode.com/problems/course-schedule/)
-
 2. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
+3.  [269. Alien Dictionary -- Hard](https://leetcode.com/problems/alien-dictionary/)
 
 
 
@@ -186,7 +186,7 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 ### Floyd-Warshall Algorithm 
 
-to find longest distance, just mul tiply the weight with -1 then find shortest one.
+to find longest distance, just multiply the weight with -1 then find shortest one.
 
 <img src="images/image-20210505235623288.png" alt="image-20210505235623288" style="zoom:80%;" />
 
