@@ -157,9 +157,7 @@ count from 1900
 
 ## Stack
 
-**find all larger / smaller number before/after current number**
-
-1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
+<u>see "Stack_Heap.md"</u>
 
 ## Need to make index smaller than current index
 
@@ -173,3 +171,10 @@ count from 1900
 1. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
 2. [966. Vowel Spellchecker -- Hard](https://leetcode.com/problems/vowel-spellchecker/)
 
+
+
+
+
+## Clone questions
+
+[138. Copy List with Random Pointer --  Medium](https://leetcode.com/problems/copy-list-with-random-pointer/)

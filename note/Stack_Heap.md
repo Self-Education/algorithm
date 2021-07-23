@@ -1,3 +1,22 @@
+## Stack
+
+### Mono increasing / decreasing stack
+
+1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
+
+2. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+3. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+
+## Queue
+
+1. [23. Merge k Sorted Lists -- Hard](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+
+
+
+
+## PriorityQueue
+
 #### [<u>378. Kth Smallest Element in a Sorted Matrix</u>](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
 *Given an `n x n` `matrix` where each of the rows and columns are sorted in ascending order, return the `kth` smallest element in the matrix.*
@@ -6,11 +25,11 @@
 
 **Solution**:
 
-Let's start with an easier version: **given two sorted arrays` [1,5,9]` and `[10, 11, 13]`, find K-th smallest element**. Two-points will be used here, we have two pointers `p1` and `p2` start from two arrays respectively, `if nums1[p1] < nums2[p2] then p1++; k--; `  wise versa, once `k = 0`, answer is found.
+Let's start with an easier version: **given two sorted arrays` [1,5,9]` and `[10, 11, 13]`, find K-th smallest element**. Two-points could be used here, we have two pointers `p1` and `p2` start from two arrays respectively, `if nums1[p1] < nums2[p2] then p1++; k--; `  wise versa, once `k = 0`, answer is found.
 
 **What if there are three arrays?** Let's try three pointers here, in the first round, we need to find the smallest element among `nums1[p1]`, `nums2[p2]`, `nums3[p3]` and increment the corresponding pointer,  it might not be a big problem, if we only have three arrays.
 
-**Then how about 100, 1000 arrays?** Now the question comes to: **find an easy way to compare `nums1[p1], nums2[p2], ... numsi[pi]`**. Of course we can loop through them which takes **O(n)**, or use **heap** which sorts element in **O(logN)**, the head of the heap would be the next smallest element. There is an interesting find that, the candidates of next smallest number `matrix[i][j]` is `matrix[i][j + 1]` and `matrix[i + 1][j]` because both rows and columns are sorted.
+**Then how about 100, 1000 arrays?** Now the question comes to: **find an easy way to compare `nums1[p1], nums2[p2], ... numsi[pi]`**. Of course we can loop through them which takes **O(n)**, or use **heap** which sorts element in **O(logN)**, the head of the heap would be the next smallest element. There is an interesting find that, the candidates of next smallest number of `matrix[i][j]` is `matrix[i][j + 1]` and `matrix[i + 1][j]` because both rows and columns are sorted.
 
 Now have a basic idea:
 
