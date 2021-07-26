@@ -103,3 +103,14 @@ class Solution {
 
 ![image-20210719162200792](images/image-20210719162200792.png)
 
+
+
+## Binary numbers
+
+1. [600. Non-negative Integers without Consecutive Ones -- Hard](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/) need more time
+
+
+
+## Parenthesis
+
+1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)

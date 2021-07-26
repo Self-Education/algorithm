@@ -8,6 +8,27 @@
 6. [Longest Palindromic Sequence II -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence-ii/) even length, two consecutive characters not equal.
 7. [564. Find the Closest Palindrome --  Hard](https://leetcode.com/problems/find-the-closest-palindrome/)
 
+## Parenthesis
+
+### rule:
+
++ valid parenthesis has two patterns : `( ( ) )` and `( ) ( )`,
++ `countLeft >= countRight`
++ Usually can be solved by **DP**
+
+```java
+if(s[i] == s[j]) dp[i][j] = d[i + 1][j - 1];
+// or
+for(int k = i; k < j; k++){
+    if(dp[i][k] && dp[k + 1][j]){
+        dp[i][j] = true;
+        break;
+    }
+}
+```
+
+1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)
+
 ## Longest ?? Subarray/Subsequence
 
 [300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
