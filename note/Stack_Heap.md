@@ -3,9 +3,16 @@
 ### Mono increasing / decreasing stack
 
 1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
-
 2. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 3. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+
+
+
+### Multiple Stacks to achieve special functions
+
+1. [716. Max Stack -- Easy](https://leetcode.com/problems/max-stack/)
+
+
 
 ## Queue
 
