@@ -81,3 +81,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 
 
+## Multiple sources BFS
+
+1. [542. 01 Matrix -- Medium](https://leetcode.com/problems/01-matrix/), search from all destinations to starts
+

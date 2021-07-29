@@ -1,2 +1,0 @@
-2. [669. Beautiful Arrangement II --Medium](https://leetcode.com/problems/beautiful-arrangement-ii/solution/)
-
