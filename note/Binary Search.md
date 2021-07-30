@@ -95,6 +95,8 @@ int l = 0, r = arr.length - 1, mid = -1;
 
   
 
+## Guess and validate
+
 
 
 #### [<u>410. Split Array Largest Sum</u>](https://leetcode.com/problems/split-array-largest-sum/)
@@ -204,11 +206,11 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
     }
 ```
 
-#### [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+[1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
-#### [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 
-#### [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
+[1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
 
 [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 

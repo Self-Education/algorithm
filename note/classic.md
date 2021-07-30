@@ -33,11 +33,35 @@ for(int k = i; k < j; k++){
 
 [300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
 
+
+
+## Remove duplicates in sorted array template
+
+```java
+private int removeKDuplicates(int[] nums, int k){
+        int i = 1, j = 1, count = 1;
+        for(; j < nums.length; j++){
+            if(nums[j] == nums[j - 1]){
+                count++;
+            }else{
+                count = 1;
+            }
+            if(count <= k){
+                nums[i++] = nums[j];
+            }
+        }
+        return i;
+    }
+```
+
+1. [26. Remove Duplicates from Sorted Array -- Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+2. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+
 ## Trap Rain
 
 1. [Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
 
-
+2. [11. Container With Most Water -- Medium](https://leetcode.com/problems/container-with-most-water/)
 
 ## Shortest Path (BFS or binary BFS)
 
