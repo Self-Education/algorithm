@@ -78,7 +78,7 @@
 
    we can not use the second `a` as the first element or we will get the duplicate permutation. So we can only use the first element of the group duplicates ( after sorting) as the first element in that stack
 
-   eg. use `a` for the first element, then permeate `a b b c`.
+   eg. use `a` for the first element, then permeate `a b b c`. **visited** stores indices
 
    ```java
     private void backtrack(int[] nums, int[] visited, List<Integer> list, List<List<Integer>> ans){
