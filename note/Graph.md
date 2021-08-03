@@ -68,6 +68,7 @@ public boolean UnionFind(List<List<String>> edges) {
 1. [721. Arrange Accounts](https://leetcode.com/problems/accounts-merge/solution/)
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+4. [827. Making A Large Island -- Hard](https://leetcode.com/problems/making-a-large-island/), to group distinct islands
 
 
 
@@ -184,7 +185,7 @@ public int[] findOrder(int numCourses, int[][] prerequisites) {
 
 ## Find shortest distance between given two nodes in a graph
 
-### Floyd-Warshall Algorithm 
+### [Floyd-Warshall Algorithm](https://www.youtube.com/watch?v=oNI0rf2P9gE) 
 
 to find longest distance, just multiply the weight with -1 then find shortest one.
 
@@ -193,7 +194,7 @@ to find longest distance, just multiply the weight with -1 then find shortest on
 1. [1334. Find the City With the Smallest Number of Neighbors at a Threshold D -- Medium](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
 
-### Dijkstra Algorithm
+### [Dijkstra Algorithm](https://www.youtube.com/watch?v=XB4MIexjvY0)
 
 <img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:80%;" />
 
@@ -308,14 +309,22 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
 **MST**: A **minimum spanning tree** (**MST**) or **minimum weight spanning tree** is a subset of the edges of a [connected](https://en.wikipedia.org/wiki/Connected_graph), edge-weighted undirected graph that connects all the [vertices](https://en.wikipedia.org/wiki/Vertex_(graph_theory)) together, without any [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) and with the minimum **possible total edge weight**, if all N nodes are connected, MST will have N - 1 edges
 
+[**Video link**](https://www.youtube.com/watch?v=4ZlRH0eK-qQ)
+
 + sort edges based on weight in non-decreasing order
 + loop through each edge, check two nodes connected by that edge are in the same group, if **yes**, that means node1 can access the node2 from other path which is accessed before (since the edge is sorted by weight in non-decreasing order, the earlier path costs less), ignore this edge. if **no**,  and union two nodes and add the edge into the spanning tree set.
 
 1. [1135 Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+2. [1168. Optimize Water Distribution in a Village -- Hard](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+
+
+
+**[Code Template](https://leetcode.com/playground/new/empty)**
 
 ```java
  public int minimumCost(int n, int[][] connections) {
-        // kruskal
+        // kruskal, always choose the mincost edge
+   			// if make a cycle, ingonre it, since cheaper edge counted earlier 
         int[] parent = new int[n + 1];
         int ans = 0, connectedEdges = 0;
         Arrays.fill(parent, -1);

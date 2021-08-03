@@ -5,6 +5,7 @@
 1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
 2. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
 3. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
+4. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 
 

@@ -8,6 +8,8 @@
 
 [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
+[894. All Possible Full Binary Trees -- Meidum](https://leetcode.com/problems/all-possible-full-binary-trees/)
+
 
 
 
