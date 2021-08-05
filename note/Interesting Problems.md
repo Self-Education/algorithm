@@ -32,3 +32,9 @@
 
 
 
+## Pascal Triangle as combination
+
+[Wiki](https://www.mathsisfun.com/pascals-triangle.html#:~:text=Entry%20in%20The-,Triangle,-In%20fact%20there)
+
+1. [ Number of Ways to Reorder Array to Get Same BST -- Hard](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst)
+

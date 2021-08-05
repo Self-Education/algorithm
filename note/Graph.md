@@ -1,6 +1,6 @@
 # Graph
 
-1. [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) bfs check neighbor
+1. [1466. Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/) bfs check neighbor(only one way between different cities)
 
 
 
@@ -70,8 +70,19 @@ public boolean UnionFind(List<List<String>> edges) {
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
 4. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands/)
 5. [827. Making A Large Island -- Hard](https://leetcode.com/problems/making-a-large-island/), to group distinct islands
+6. [959. Regions Cut By Slashes -- Medium](https://leetcode.com/problems/regions-cut-by-slashes/)
+7. [947. Most Stones Removed with Same Row or Column -- Medium](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+8. [128. Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/longest-consecutive-sequence/) apply union find 
+9. [Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+
+## Weighted union and find
 
 
+
+
+
+1. [399. Evaluate Division -- Medium](https://leetcode.com/problems/evaluate-division/)
+2. [990. Satisfiability of Equality Equations -- Medium](https://leetcode.com/problems/satisfiability-of-equality-equations/)
 
 
 
