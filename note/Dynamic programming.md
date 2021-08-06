@@ -115,3 +115,45 @@ class Solution {
 ## Parenthesis
 
 1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)
+
+
+
+## Play game
+
++ ### Take turns
+
+  we use `dp(...)` to indicate **<u>general any player's score</u>** instead of the player that problems asks for
+
+  [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/)
+
+  ```java
+  private int dp(int[] piles, int[] stonesLeft, int M, int start){
+          if(start + 2 * M >= piles.length) return stonesLeft[start];
+          if(memo[start][M] != -1) return memo[start][M];
+          int score = 0;
+          for(int i = 1; i <= 2 * M && start + i < piles.length; i++){
+              int curScore = stonesLeft[start] - stonesLeft[start + i]
+                  + stonesLeft[start + i] - dp(piles, stonesLeft, Math.max(M, i), start + i); 
+              score = Math.max(score, curScore);
+          }
+          return memo[start][M] = score;
+      }
+  ```
+
+  Lets say we have two players: A and B,
+
+   ` A_maxScore = score(A's current pick) + ( remaining_score - B_maxScore) `
+
+1. [877. Stone Game](https://leetcode.com/problems/stone-game)
+2. [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii)
+
+3. [1406. Stone Game III](https://leetcode.com/problems/stone-game-iii)
+4. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
+5. [1563. Stone Game V](https://leetcode.com/problems/stone-game-v)
+6. [1686. Stone Game VI](https://leetcode.com/problems/stone-game-vi) **intuition**: Sort stones by their sum value for Alice and Bob.
+   If a stone is super valued for Alice, Alice wants to take it.
+   If a stone is super valued for Bob, Alice also wants to take it.
+   Because she doesn't want Bob to take it.
+7. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
+8. [1872. Stone Game VIII --  Hard](https://leetcode.com/problems/stone-game-viii/)
+
