@@ -157,3 +157,17 @@ class Solution {
 7. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
 8. [1872. Stone Game VIII --  Hard](https://leetcode.com/problems/stone-game-viii/)
 
+
+
+
+
+## Palinrome Partitioning (backtracking + memoization)
+
+[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning) be flexible, use memoization whenever it is needed. here use memo for checking palindromic
+
+[132. Palindrome Partitioning II -- Hard](https://leetcode.com/problems/palindrome-partitioning-ii) if it is hard to find relationship between `dp[i]` and `dp[i - 1]`, just try loop through `j` to find equations of `dp[i][j]` and `dp[i - n][j - m]`
+
+[1278. Palindrome Partitioning III -- Hard](https://leetcode.com/problems/palindrome-partitioning-iii)
+
+[1745. Palindrome Partitioning IV --  Hard](https://leetcode.com/problems/palindrome-partitioning-iv)
+

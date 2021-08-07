@@ -135,3 +135,12 @@
 5. [518. Coin Change 2 -- Medium](https://leetcode.com/problems/coin-change-2/) unbound, eliminate duplicates
 
 6. [39. Combination Sum -- Medium](https://leetcode.com/problems/combination-sum/) same with question above, but different way to avoid duplicates
+
+
+
+
+
+## Palinrome Partitioning (backtracking + memoization)
+
+Refer to **<u>Dynamic programming.md</u>** -> **<u>Palinrome Partitioning (backtracking + memoization)</u>**
+
