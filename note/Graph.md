@@ -11,7 +11,7 @@
 + find the cycle in graph
 + Group nodes
 
-Every time we see relation is **transitive**, for example, <u>A and B are friend, B and C are friend, then A and C are friend, or A can reach B and B can reach C, then A can reach C as well,</u> In this case, we can use `union()` to group components with the same relations, and use `find()` to get the root (represent of the group) of two components to see if they are in the same group 
+Every time we see relation is **transitive, merge, divide into different groups**, for example, <u>A and B are friend, B and C are friend, then A and C are friend, or A can reach B and B can reach C, then A can reach C as well,</u> In this case, we can use `union()` to group components with the same relations, and use `find()` to get the root (represent of the group) of two components to see if they are in the same group 
 
 ```java
 public boolean UnionFind(List<List<String>> edges) {
@@ -66,14 +66,28 @@ public boolean UnionFind(List<List<String>> edges) {
 [**Leetcode problems**](https://leetcode.com/tag/union-find/)
 
 1. [721. Arrange Accounts](https://leetcode.com/problems/accounts-merge/solution/)
+
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
+
+   ### View cell in matrix as vertex 
+
 4. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands/)
+
 5. [827. Making A Large Island -- Hard](https://leetcode.com/problems/making-a-large-island/), to group distinct islands
+
 6. [959. Regions Cut By Slashes -- Medium](https://leetcode.com/problems/regions-cut-by-slashes/)
+
 7. [947. Most Stones Removed with Same Row or Column -- Medium](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+
 8. [128. Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/longest-consecutive-sequence/) apply union find 
+
 9. [Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+
+### View row and col as vertex
+
+10. [1632. Rank Transform of a Matrix --  Hard](https://leetcode.com/problems/rank-transform-of-a-matrix)
 
 ## Weighted union and find
 

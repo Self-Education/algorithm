@@ -33,6 +33,8 @@
 
 4. [10. Regular Expression Matching -- Hard](https://leetcode.com/problems/regular-expression-matching/) use DP for string match
 
+5. [276. Paint Fence -- Medium](https://leetcode.com/problems/paint-fence) does not need to check condition
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
