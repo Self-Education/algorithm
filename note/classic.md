@@ -28,10 +28,13 @@ for(int k = i; k < j; k++){
 ```
 
 1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)
+2. [1963. Minimum Number of Swaps to Make the String Balanced -- Medium](https://leetcode.com/contest/weekly-contest-253/problems/minimum-number-of-swaps-to-make-the-string-balanced/) observe first couple of examples ( n = 1, n = 2, n = 3, ...) to find out the pattern
 
 ## Longest ?? Subarray/Subsequence
 
-[300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
+1. [300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
+
+2. [1964. Find the Longest Valid Obstacle Course at Each Position -- Hard](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position)
 
 
 
@@ -60,8 +63,13 @@ private int removeKDuplicates(int[] nums, int k){
 ## Trap Rain
 
 1. [Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
-
 2. [11. Container With Most Water -- Medium](https://leetcode.com/problems/container-with-most-water/)
+
+
+
+## Partition array by looking from the left side and right side
+
+1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -157,7 +165,7 @@ How to check repetition? use string such as **" 9 in row 1", "9 in col 1", "9 in
 
 1. [863. All Nodes Distance K in Binary Tree -- Medium](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) turn it into graph and BFS
 
-## Avoid adjacent char same or K distance away between same char
+## Avoid adjacent char same or K distance away between same char ( template)
 
 use **Waiting List**
 
