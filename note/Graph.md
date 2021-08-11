@@ -4,6 +4,10 @@
 
 
 
+## BFS
+
+1. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii/)
+
 ## Union find, disjoint set
 
 **union find is good for**
@@ -89,11 +93,7 @@ public boolean UnionFind(List<List<String>> edges) {
 
 10. [1632. Rank Transform of a Matrix --  Hard](https://leetcode.com/problems/rank-transform-of-a-matrix)
 
-## Weighted union and find
-
-
-
-
+### Weighted union and find
 
 1. [399. Evaluate Division -- Medium](https://leetcode.com/problems/evaluate-division/)
 2. [990. Satisfiability of Equality Equations -- Medium](https://leetcode.com/problems/satisfiability-of-equality-equations/)

@@ -123,6 +123,16 @@ See matrix.md
 
 
 
+## Stone Games
+
+see **Union & Find** section in **graph.md**
+
+
+
+## Jump Game
+
+see **Jump Game** section in **Dynamic Programming.md**
+
 ## Soduku 
 
 How to check repetition? use string such as **" 9 in row 1", "9 in col 1", "9 in block 1"**;
