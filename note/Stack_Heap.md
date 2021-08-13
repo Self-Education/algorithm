@@ -19,6 +19,8 @@
 
 1. [23. Merge k Sorted Lists -- Hard](https://leetcode.com/problems/merge-k-sorted-lists/)
 
+### Merge/Insert Intervals
+
 
 
 
@@ -54,6 +56,8 @@ We also need to track which number is visited and injected into heap, look at th
 ```
 
 **Java Code:** 
+
+We can also see it as graph bfs
 
 ```java
 public int kthSmallest(int[][] matrix, int k) {

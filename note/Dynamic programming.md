@@ -1,8 +1,10 @@
 ## Dynamic programming
 
-1. [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 
-2. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+2. [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+
+3. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
    Note that `k` could be negative, which needs offset for **memoize**. 
 
@@ -29,11 +31,11 @@
 
    
 
-3. [72. Edit Distance -- Hard](https://leetcode.com/problems/edit-distance/)
+4. [72. Edit Distance -- Hard](https://leetcode.com/problems/edit-distance/)
 
-4. [10. Regular Expression Matching -- Hard](https://leetcode.com/problems/regular-expression-matching/) use DP for string match
+5. [10. Regular Expression Matching -- Hard](https://leetcode.com/problems/regular-expression-matching/) use DP for string match
 
-5. [276. Paint Fence -- Medium](https://leetcode.com/problems/paint-fence) does not need to check condition
+6. [276. Paint Fence -- Medium](https://leetcode.com/problems/paint-fence) does not need to check condition
 
 ### Do not know where to start or where to stop
 
@@ -42,9 +44,11 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-job scheduling series
+## Job scheduling series
 
 
+
+## Path / Path Sum
 
 
 
