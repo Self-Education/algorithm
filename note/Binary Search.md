@@ -214,6 +214,13 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 
+
+
+### Search in rotated sorted Array
+
+1. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/) 
+2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+
 ## Other Variants
 
 [611. Valid Triangle Number -- Medium](https://leetcode.com/problems/valid-triangle-number/solution/) 

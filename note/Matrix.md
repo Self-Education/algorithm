@@ -65,7 +65,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 
 
-## Sub rectangle sum
+## Sub rectangle sum / area
 
 [video tutorial](https://www.youtube.com/watch?v=yCQN096CwWM), basically try  sub rectangles with differnet **left boundary** and **right boundary**, then use **<u>Kadane's algorithm</u>** to find the maxSum and track the **upper boundary** and **lower boundary**
 
@@ -73,11 +73,17 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 #### problems
 
-[304. Range Sum Query 2D - Immutable -- Medium](https://leetcode.com/problems/range-sum-query-2d-immutable/submissions/)
+1. [304. Range Sum Query 2D - Immutable -- Medium](https://leetcode.com/problems/range-sum-query-2d-immutable/submissions/)
 
-[363. Max Sum of Rectangle No Larger Than K --  Hard](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) need to think about another constraint, `maxSum <= k`
+2. [363. Max Sum of Rectangle No Larger Than K --  Hard](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) need to think about another constraint, `maxSum <= k`
 
-[85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) **<u>*need review*</u>**
+3. [221. Maximal Square -- Medium](https://leetcode.com/problems/maximal-square/)
+
+### We can see the problem as Histogram 
+
+1. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+2. [85. Maximal Rectangle -- Hard](https://leetcode.com/problems/maximal-rectangle/) 
 
 
 
