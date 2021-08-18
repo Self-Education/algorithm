@@ -44,6 +44,20 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
+### Intervals
+
+[546. Remove Boxes -- Hard](https://leetcode.com/problems/remove-boxes)
+
+[312. Burst Balloons -- Hard](https://leetcode.com/problems/burst-balloons)
+
+[488. Zuma Game -- Hard](https://leetcode.com/problems/zuma-game)
+
+
+
+## Only two rows are needed for each iteration
+
+1. [265. Paint House II -- Hard](https://leetcode.com/problems/paint-house-ii)
+
 ## Job scheduling series
 
 
@@ -180,3 +194,8 @@ class Solution {
 [1937. Maximum Number of Points with Cost -- Medium ](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
 
 ![image-20210719162200792](images/image-20210719162200792.png)
+
+
+
+
+

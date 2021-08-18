@@ -144,3 +144,12 @@
 
 Refer to **<u>Dynamic programming.md</u>** -> **<u>Palinrome Partitioning (backtracking + memoization)</u>**
 
+
+
+
+
+## Pick or not
+
+[320. Generalized Abbreviation -- Medium](https://leetcode.com/problems/generalized-abbreviation/) actually dfs
+
+[784. Letter Case Permutation --  Medium](https://leetcode.com/problems/letter-case-permutation/)
