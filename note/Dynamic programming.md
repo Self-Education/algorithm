@@ -1,4 +1,6 @@
-## Dynamic programming
+# Dynamic programming
+
+## General Idea
 
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 
@@ -61,6 +63,13 @@
 ## Job scheduling series
 
 
+
+## Sell Stock Series
+
+1. [121. Best Time to Buy and Sell Stock -- Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+2. [122. Best Time to Buy and Sell Stock II -- Easy](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) 
+3. [123. Best Time to Buy and Sell Stock III -- Hard](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)
+4. [Best Time to Buy and Sell Stock IV -- Hard](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 
 ## Path / Path Sum
 

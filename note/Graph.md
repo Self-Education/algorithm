@@ -70,24 +70,18 @@ public boolean UnionFind(List<List<String>> edges) {
 [**Leetcode problems**](https://leetcode.com/tag/union-find/)
 
 1. [721. Arrange Accounts](https://leetcode.com/problems/accounts-merge/solution/)
-
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
-
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
 
-   ### View cell in matrix as vertex 
+### View cells in matrix as vertices 
 
-4. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands/)
-
-5. [827. Making A Large Island -- Hard](https://leetcode.com/problems/making-a-large-island/), to group distinct islands
-
-6. [959. Regions Cut By Slashes -- Medium](https://leetcode.com/problems/regions-cut-by-slashes/)
-
-7. [947. Most Stones Removed with Same Row or Column -- Medium](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
-
-8. [128. Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/longest-consecutive-sequence/) apply union find 
-
-9. [Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+1. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands/)
+2. [827. Making A Large Island -- Hard](https://leetcode.com/problems/making-a-large-island/), to group distinct islands
+3. [959. Regions Cut By Slashes -- Medium](https://leetcode.com/problems/regions-cut-by-slashes/)
+4. [947. Most Stones Removed with Same Row or Column -- Medium](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+5. [128. Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/longest-consecutive-sequence/) apply union find 
+6. [Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+7. [130. Surrounded Regions -- Medium](https://leetcode.com/problems/surrounded-regions)
 
 ### View row and col as vertex
 
@@ -102,7 +96,7 @@ public boolean UnionFind(List<List<String>> edges) {
 
 ## DFS  / Topological sorting
 
-### DFS find Cycle in DAG (Directed Acylic Graph)
+### DFS find Cycle in DAG (Directed Acyclic Graph)
 
 `visiting` state means a node A is being visiting, if later on we visit A again, which mean there is a cycle
 
