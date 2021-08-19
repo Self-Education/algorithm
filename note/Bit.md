@@ -1,3 +1,15 @@
+
+
+## Priority of Bit operators
+
+| Precedence | Operator                                         | Associativity |
+| ---------- | ------------------------------------------------ | ------------- |
+| 1          | ~(Bitwise negation)                              | Right to left |
+| 2          | <<(Bitwise Left Shift) , >>(Bitwise Right Shift) | Left to Right |
+| 3          | & (Bitwise AND)                                  | Left to Right |
+| 4          | ^(Bitwise XOR)                                   | Left to Right |
+| 5          | \| (Bitwise Or)                                  | Left to Right |
+
 ## Set range of bits as 1
 
 ```java
@@ -8,7 +20,7 @@ range = (((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1));
 
 ### check bit
 
-`& 1`  will check if origin bit is 1 or not, `0010 & (1 << 1)` -> `0010 & 0010 = 0010`
+`& 1`  will check if origin bit is 1 or not, `n >> index & 1` will check bit at index, `0100 >> 2 & 1` --> `0001 & 0001 = 0001 = 1`
 
 `| 1` will set bit, `0011 | 0010 = 0010`
 
@@ -16,14 +28,14 @@ range = (((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1));
 
 `| 0` will check bit.
 
-`n >> index& 1` will check bit at index, `0100 >> 2 & 1` --> `0001 & 0001 = 0001 = 1`
+
 
 ### Gray code
 
 1. #### **Convert Binary number to Gray number**: 
 
    + keep the **Most Significant Bit** (MSB);
-   + XOR each pair of adjcent bits
+   + XOR each pair of adjacent bits
 
    ##### **<u>Example: convert A= `110111`,</u>**
 
@@ -67,4 +79,47 @@ int gray2Binary(int n){
 ## Use bitmask as memo
 
 [464. Can I Win -- Medium](https://leetcode.com/problems/can-i-win/)
+
+
+
+
+
+## To be categorized
+
+[136. Single Number -- Easy](https://leetcode.com/problems/single-number)
+
+[137. Single Number II -- Medium](https://leetcode.com/problems/single-number-ii/)
+
+```java
+ public int singleNumber(int[] nums, k) { // every number occurs k times excepts for one
+        /*
+            11011
+            10001
+            11011
+            11011
+            if we add all digit at the ith positio, and sum % 3 = 0
+            bit[0] = 1 + 1 + 1 + 1 = 4 % 3 = 1, this 1 belongs to the single number at 0th
+            bit[1] = 1 + 0 + 1 + 1 = 3 % 3 = 0, digit at the single number 1th is 0
+            bit[2] = 0 + 0 + 0 + 0 = 0 % 3 = 0, digit at the single number 2th is 0
+            bit[3] = 1 + 0 + 1 + 1 = 3 % 3 = 0, digit at the single number 3th is 0
+            bit[4] = 1 + 1 + 1 + 1 = 4 % 3 = 1, this 1 belongs to the single number at 4th
+            single number is 10001
+        */
+        int ans = 0;
+        // for each position
+        for(int i = 0; i < 32; i++){
+            // add digit at ith position for each number
+            int count = 0;
+            for(int j = 0; j < nums.length; j++){
+                if((nums[j] >> i & 1) == 1){
+                    count ++;
+                }
+                if(count % k != 0){// there is an extra, mod must be either 1 or 0
+                    ans |= 1 << i;
+                }
+            }
+        }
+        return ans;
+    }
+```
 

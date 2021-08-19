@@ -70,6 +70,7 @@ private int removeKDuplicates(int[] nums, int k){
 ## Partition array by looking from the left side and right side
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
+2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
 
 ## Shortest Path (BFS or binary BFS)
 
