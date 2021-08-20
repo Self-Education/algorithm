@@ -52,7 +52,6 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
   1. [141. Linked List Cycle -- Easy](https://leetcode.com/problems/linked-list-cycle/)
   2. [142. Linked List Cycle II -- Medium](https://leetcode.com/problems/linked-list-cycle-ii/) **Hare and Tortoise**
-  3. 
 
 ### Start at different time
 

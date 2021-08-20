@@ -77,7 +77,14 @@
 
 ## Path / Path Sum
 
-
+1. [Unique Paths -- Medium](https://leetcode.com/problems/unique-paths/)
+2. [63. Unique Paths II -- Medium](https://leetcode.com/problems/unique-paths-ii)
+3. [Unique Paths III -- Hard](https://leetcode.com/problems/unique-paths-iii/)
+4. [64. Minimum Path Sum -- Medium](https://leetcode.com/problems/minimum-path-sum)
+5. [1937. Maximum Number of Points with Cost -- Medium](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
+6. [741. Cherry Pickup -- Hard](https://leetcode.com/problems/cherry-pickup/)
+7. [174. Dungeon Game -- Hard](https://leetcode.com/problems/dungeon-game/)
+8. [120. Triangle -- Hard](https://leetcode.com/problems/triangle)
 
 ## Binary numbers
 
@@ -134,7 +141,8 @@
 
 ## Jump Game
 
-
+1. [55. Jump Game -- Medium](https://leetcode.com/problems/jump-game)
+2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii)
 
 ## Palindrome Partitioning (backtracking + memoization)
 

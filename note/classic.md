@@ -17,7 +17,7 @@
 + Usually can be solved by **DP**
 
 ```java
-if(s[i] == s[j]) dp[i][j] = d[i + 1][j - 1];
+if(s[i] == s[j]) dp[i][j] = dp[i + 1][j - 1];
 // or
 for(int k = i; k < j; k++){
     if(dp[i][k] && dp[k + 1][j]){
@@ -92,6 +92,10 @@ private int removeKDuplicates(int[] nums, int k){
 2. [SkyLine]
 3. Meeting 
 4. Meeting II
+
+## Chess Queen
+
+[51. N-Queens -- Hard](https://leetcode.com/problems/n-queens)
 
 ## Permutations
 
@@ -246,4 +250,22 @@ count from 1900
 
 ## Clone questions
 
-[138. Copy List with Random Pointer --  Medium](https://leetcode.com/problems/copy-list-with-random-pointer/)
+1. [138. Copy List with Random Pointer -- Medium](https://leetcode.com/problems/copy-list-with-random-pointer/)
+
+
+
+
+
+## Rolling Hash
+
+1. [41. First Missing Positive -- Hard](https://leetcode.com/problems/first-missing-positive)
+
+
+
+
+
+## Merge Intervals
+
+1. [56. Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals)
+2. [57. Insert Interval -- Medium](https://leetcode.com/problems/insert-interval)
+

@@ -1,14 +1,16 @@
-## Backtracking
+# Backtracking
 
 
 
-### Permutation vs Combination vs Subset
+## Permutation vs Combination vs Subset
 
 + **Subset**: pick any number of element from a collections, for `[0, 1, 2, 3]`, subset could be picking up 0 element, `[]`, or pick up 1 element `[1]`, `[2]` , .. or picking up 2 element `[0, 1]`, `[1,3]`... , $2^n$
 + **Combinations**: similar with subset, but no empty subset and normally has requirement on the length of combinations $C_N^k = \frac{N!}{(N - K)!K!} = \frac{N * (N- 1) * ... * (N - K + 1)}{K!} = \frac{P_N^K}{K!}$
 + **Permutation**: not pick-up, rearrange order of elements $P_N^k = \frac{N!}{(N - K)!} = N * (N- 1) \ * \  ... \ * (N - K + 1)$
 
-1. [77. Combinations](https://leetcode.com/problems/combinations/) **`loop from index + 1`**, each element can only be used once, if change it into` backtrack(..., i )`, then element can be used multiple times, but also prevent defferent same sequence.
+1. ### [77. Combinations](https://leetcode.com/problems/combinations/) 
+
+   **`loop from index + 1`**, each element can only be used once, if change it into` backtrack(..., i )`, then element can be used multiple times, but also prevent same sequence.
 
    ```java
     public void backTrack(int[] nums, int start, List<Integer> list,List<List<Integer>> res){
@@ -26,7 +28,7 @@
 
    
 
-2. Combination with duplicates
+2. ### Combination with duplicates
 
    ```java
     public void backTrack(int[] nums, int start, List<Integer> list,List<List<Integer>> res){
@@ -45,7 +47,9 @@
 
    
 
-3. [46. Permutations](https://leetcode.com/problems/permutations/) **`int[] visited + loop from 0`**
+3. ### [46. Permutations](https://leetcode.com/problems/permutations/) 
+
+   **`int[] visited + loop from 0`**
 
    ```java
    public void backtrack(int[] nums, LinkedList<Integer> cur){
@@ -70,7 +74,9 @@
 
    
 
-4. [47. Permutations II](https://leetcode.com/problems/permutations-ii/) duplicates in the collections but to get unique permutations
+4. ### [47. Permutations II](https://leetcode.com/problems/permutations-ii/) 
+
+   duplicates in the collections but to get unique permutations
 
    **`sort + int[] visited + loop from 0 + only use the first element in a group of duplicates`**
 
@@ -136,20 +142,26 @@
 
 6. [39. Combination Sum -- Medium](https://leetcode.com/problems/combination-sum/) same with question above, but different way to avoid duplicates
 
+7. [40. Combination Sum II -- Medium](https://leetcode.com/problems/combination-sum-ii)
+
+8. [78. Subsets -- Medium](https://leetcode.com/problems/subsets)
 
 
 
 
-## Palinrome Partitioning (backtracking + memoization)
 
-Refer to **<u>Dynamic programming.md</u>** -> **<u>Palinrome Partitioning (backtracking + memoization)</u>**
+## Palindrome Partitioning (backtracking + memoization)
+
+Refer to **<u>Dynamic programming.md</u>** -> **<u>Palindrome Partitioning (backtracking + memoization)</u>**
 
 
 
+## use String store state
 
+1. [37. Sudoku Solver -- Hard](https://leetcode.com/problems/sudoku-solver)
 
 ## Pick or not
 
-[320. Generalized Abbreviation -- Medium](https://leetcode.com/problems/generalized-abbreviation/) actually dfs
+[320. Generalized Abbreviation -- Medium](https://leetcode.com/problems/generalized-abbreviation/) actually DFS
 
 [784. Letter Case Permutation --  Medium](https://leetcode.com/problems/letter-case-permutation/)

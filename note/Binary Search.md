@@ -80,7 +80,7 @@ int l = 0, r = arr.length - 1, mid = -1;
           int l = 0, r = nums.size() - 1, ans = Integer.MAX_VALUE;
           while(l <= r){
               int mid = l + (r - l) / 2;
-              if(nums.get(mid) < prev){
+              if(nums.get(mid) < target){
                   l = mid + 1;
               }else{
                   ans = Math.min(ans, nums.get(mid));
@@ -216,12 +216,20 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 
 
+## Other Variants
+
 ### Search in rotated sorted Array
 
 1. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/) 
 2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
-## Other Variants
+### Median
+
+1. [4. Median of Two Sorted Arrays -- Hard](https://leetcode.com/problems/median-of-two-sorted-arrays)
+
+
+
+
 
 [611. Valid Triangle Number -- Medium](https://leetcode.com/problems/valid-triangle-number/solution/) 
 
