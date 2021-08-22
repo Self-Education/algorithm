@@ -75,7 +75,9 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 # Sliding Window
 
-### make the windows always contains K zeros
+### make the windows always contains target element, and shrink window size.
+
+Every time ask for the min length of ....
 
 1. [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)
 2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
