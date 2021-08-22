@@ -222,6 +222,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 1. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/) 
 2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+3. [153. Find Minimum in Rotated Sorted Array -- Medium](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
+4. [154. Find Minimum in Rotated Sorted Array II -- Hard](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) divide and conquer would be easier to understand
 
 ### Median
 
@@ -235,3 +237,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `a + b < c`
 
+
+
+### Tricky
+
+[162. Find Peak Element -- Medium](https://leetcode.com/problems/find-peak-element/)
