@@ -38,6 +38,10 @@ for(int k = i; k < j; k++){
 
 
 
+## Reverse
+
+1. [189. Rotate Array -- Hard](https://leetcode.com/problems/rotate-array/) O(1) space
+
 ## Remove duplicates in sorted array template
 
 ```java
@@ -162,7 +166,7 @@ How to check repetition? use string such as **" 9 in row 1", "9 in col 1", "9 in
 
 
 
-## Lowest Common Ancester for Tree
+## Lowest Common Ancestor for Tree
 
 1. [235. Lowest Common Ancestor of a Binary Search Tree --Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 2. [236. Lowest Common Ancestor of a Binary Tree -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
