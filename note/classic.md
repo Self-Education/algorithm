@@ -71,10 +71,12 @@ private int removeKDuplicates(int[] nums, int k){
 
 
 
-## Partition array by looking from the left side and right side
+## looking from the left side and right side
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
+3. [238. Product of Array Except Self -- Medium](https://leetcode.com/problems/product-of-array-except-self/)
+4. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -272,4 +274,13 @@ count from 1900
 
 1. [56. Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals)
 2. [57. Insert Interval -- Medium](https://leetcode.com/problems/insert-interval)
+
+(in)
+
+
+
+## Majority of numbers in an array (Moore Voting Algorithm)
+
+1. [169. Majority Element -- Easy](https://leetcode.com/problems/majority-element/)
+2. [229. Majority Element II -- Medium](https://leetcode.com/problems/majority-element-ii) need to verify if it is not guaranteed to have such numbers 
 

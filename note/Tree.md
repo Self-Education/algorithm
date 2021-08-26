@@ -8,7 +8,7 @@
 
 [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
-[894. All Possible Full Binary Trees -- Meidum](https://leetcode.com/problems/all-possible-full-binary-trees/)
+[894. All Possible Full Binary Trees -- Medium](https://leetcode.com/problems/all-possible-full-binary-trees/)
 
 
 
@@ -27,3 +27,8 @@
 9. [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii)
 10. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 
+
+
+## Tree Transverse to/from String
+
+1. [331. Verify Preorder Serialization of a Binary Tree -- Medium](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)
