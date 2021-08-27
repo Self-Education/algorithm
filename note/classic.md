@@ -33,8 +33,9 @@ for(int k = i; k < j; k++){
 ## Longest ?? Subarray/Subsequence
 
 1. [300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
-
 2. [1964. Find the Longest Valid Obstacle Course at Each Position -- Hard](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position)
+3. [521. Longest Uncommon Subsequence I -- Hard](https://leetcode.com/problems/longest-uncommon-subsequence-i)
+4. [522. Longest Uncommon Subsequence II -- Medium](https://leetcode.com/problems/longest-uncommon-subsequence-ii)
 
 
 
