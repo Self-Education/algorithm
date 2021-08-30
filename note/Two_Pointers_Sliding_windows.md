@@ -72,8 +72,16 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 ### Two arrays
 
 1. [Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/)  start from the end to avoid overwritten
-2. [243. Shortest Word Distance -- Easy](https://leetcode.com/problems/shortest-word-distance)
-3. [244. Shortest Word Distance II -- Medium](https://leetcode.com/problems/shortest-word-distance-ii)
+
+
+
+## Problems
+
+### Shortest Word Distance
+
+1. [243. Shortest Word Distance -- Easy](https://leetcode.com/problems/shortest-word-distance)
+2. [244. Shortest Word Distance II -- Medium](https://leetcode.com/problems/shortest-word-distance-ii)
+3. [248. Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii)
 
 # Sliding Window
 

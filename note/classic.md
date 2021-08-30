@@ -275,6 +275,7 @@ count from 1900
 
 1. [56. Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals)
 2. [57. Insert Interval -- Medium](https://leetcode.com/problems/insert-interval)
+3. [253. Meeting Rooms II -- Medium](https://leetcode.com/problems/meeting-rooms-ii)
 
 (in)
 
@@ -284,4 +285,22 @@ count from 1900
 
 1. [169. Majority Element -- Easy](https://leetcode.com/problems/majority-element/)
 2. [229. Majority Element II -- Medium](https://leetcode.com/problems/majority-element-ii) need to verify if it is not guaranteed to have such numbers 
+
+
+
+
+
+## Range caching
+
+1. [370. Range Addition -- Medium](https://leetcode.com/problems/range-addition)
+2. [598. Range Addition II -- Easy](https://leetcode.com/problems/range-addition-ii)
+
+
+
+
+
+## Hash String into number 
+
+1. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
+2. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
 

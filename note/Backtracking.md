@@ -165,3 +165,15 @@ Refer to **<u>Dynamic programming.md</u>** -> **<u>Palindrome Partitioning (back
 [320. Generalized Abbreviation -- Medium](https://leetcode.com/problems/generalized-abbreviation/) actually DFS
 
 [784. Letter Case Permutation --  Medium](https://leetcode.com/problems/letter-case-permutation/)
+
+
+
+
+
+## Strobogrammatic Number
+
+1. [247. Strobogrammatic Number II -- Medium](https://leetcode.com/problems/strobogrammatic-number-ii)
+2. [248. Strobogrammatic Number III -- Hard](https://leetcode.com/problems/strobogrammatic-number-iii)
+
+
+
