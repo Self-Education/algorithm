@@ -221,9 +221,9 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 ### Search in rotated sorted Array
 
 1. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/) 
-2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) ???
 3. [153. Find Minimum in Rotated Sorted Array -- Medium](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)
-4. [154. Find Minimum in Rotated Sorted Array II -- Hard](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) divide and conquer would be easier to understand
+4. [154. Find Minimum in Rotated Sorted Array II -- Hard](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) divide and conquer would be easier to understand, **[explained](https://www.youtube.com/watch?v=aCb1zKMimDQ&t=1s)**
 
 ### Median
 
