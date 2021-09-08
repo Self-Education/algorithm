@@ -39,6 +39,8 @@
 
 6. [276. Paint Fence -- Medium](https://leetcode.com/problems/paint-fence) does not need to check condition
 
+7. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn)
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
