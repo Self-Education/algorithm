@@ -91,7 +91,7 @@ private int removeKDuplicates(int[] nums, int k){
 
 
 
-## Over lap
+## Over lap / Intervals
 
 ### if there are two dimensions, sort based on one dimension, to reduce possible cases
 
@@ -99,6 +99,8 @@ private int removeKDuplicates(int[] nums, int k){
 2. [SkyLine]
 3. Meeting 
 4. Meeting II
+5. [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+6. [1024. Video Stitching -- Medium](https://leetcode.com/problems/video-stitching/)
 
 ## Chess Queen
 
@@ -303,4 +305,10 @@ count from 1900
 
 1. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
 2. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
+
+
+
+## Do it until we can not
+
+[871. Minimum Number of Refueling Stops -- Hard](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
 

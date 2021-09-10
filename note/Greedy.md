@@ -1,14 +1,14 @@
-## Greedy
+# Greedy
 
 1. [316. Remove Duplicate Letters -- Medium](https://leetcode.com/problems/remove-duplicate-letters/)
 
-
+2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii) / [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 
 ### result = min/max(selecedGroup.B) * sum(selectedGroup.A), try to get the min/max of result
 
 2. [1383. Maximum Performance of a Team -- Hard](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
-   `performance = sum_of_speed * min_efficiency`, in order to get the max peformance, we need to make `sum_of_speed`  and `min_efficiency` as large as it can be. Let's say we have  `engineers [speed, efficiency] = [[2, 5], [10, 4], [3, 3], [1, 9], [5, 7], [8, 2]]`, **only smallest efficiencey is used for calcuating performance**, so we try to greedily pick up the engineers with higher efficiency to make the smallest efficiency among picked engineers is relative high. We sort `engineers`, it becomes `[[1, 9], [5, 7], [2, 5], [10, 4], [3, 3], [8, 2]]`.
+   `performance = sum_of_speed * min_efficiency`, in order to get the max performance, we need to make `sum_of_speed`  and `min_efficiency` as large as it can be. Let's say we have  `engineers [speed, efficiency] = [[2, 5], [10, 4], [3, 3], [1, 9], [5, 7], [8, 2]]`, **only smallest efficiency is used for calculating performance**, so we try to greedily pick up the engineers with higher efficiency to make the smallest efficiency among picked engineers is relative high. We sort `engineers`, it becomes `[[1, 9], [5, 7], [2, 5], [10, 4], [3, 3], [8, 2]]`.
 
    lets say we need to pick up at most `k = 3` engineers. 
 
@@ -94,4 +94,8 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
         return ans;
     }
 ```
+
+## Do it until we can not
+
+[871. Minimum Number of Refueling Stops -- Hard](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
 

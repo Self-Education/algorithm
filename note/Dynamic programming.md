@@ -144,7 +144,8 @@
 ## Jump Game
 
 1. [55. Jump Game -- Medium](https://leetcode.com/problems/jump-game)
-2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii)
+2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii) / [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+3. [871. Minimum Number of Refueling Stops -- Hard](https://leetcode.com/problems/minimum-number-of-refueling-stops/)
 
 ## Palindrome Partitioning (backtracking + memoization)
 
@@ -221,4 +222,6 @@ class Solution {
 
 
 
+
+[764. Largest Plus Sign -- Medium](https://leetcode.com/problems/largest-plus-sign)
 
