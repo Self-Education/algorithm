@@ -41,6 +41,12 @@
 
 7. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn)
 
+8. [446. Arithmetic Slices II - Subsequence -- Hard](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) use `Map<Integer, Integer>[]` for `dp[i][j]` when j could be negative
+
+9. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
+
+10. [983. Minimum Cost For Tickets -- Hard](https://leetcode.com/problems/minimum-cost-for-tickets/)
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
@@ -102,29 +108,29 @@
 
 ## Play game
 
-+ ### Take turns
+### Take turns
 
-  we use `dp(...)` to indicate **<u>general any player's score</u>** instead of the player that problems asks for
+we use `dp(...)` to indicate **<u>general any player's score</u>** instead of the player that problems asks for
 
-  [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/)
+[1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/)
 
-  ```java
-  private int dp(int[] piles, int[] stonesLeft, int M, int start){
-          if(start + 2 * M >= piles.length) return stonesLeft[start];
-          if(memo[start][M] != -1) return memo[start][M];
-          int score = 0;
-          for(int i = 1; i <= 2 * M && start + i < piles.length; i++){
-              int curScore = stonesLeft[start] - stonesLeft[start + i]
-                  + stonesLeft[start + i] - dp(piles, stonesLeft, Math.max(M, i), start + i); 
-              score = Math.max(score, curScore);
-          }
-          return memo[start][M] = score;
-      }
-  ```
+```java
+private int dp(int[] piles, int[] stonesLeft, int M, int start){
+        if(start + 2 * M >= piles.length) return stonesLeft[start];
+        if(memo[start][M] != -1) return memo[start][M];
+        int score = 0;
+        for(int i = 1; i <= 2 * M && start + i < piles.length; i++){
+            int curScore = stonesLeft[start] - stonesLeft[start + i]
+                + stonesLeft[start + i] - dp(piles, stonesLeft, Math.max(M, i), start + i); 
+            score = Math.max(score, curScore);
+        }
+        return memo[start][M] = score;
+    }
+```
 
-  Lets say we have two players: A and B,
+Lets say we have two players: A and B,
 
-   ` A_maxScore = score(A's current pick) + ( remaining_score - B_maxScore) `
+ ` A_maxScore = score(A's current pick) + ( remaining_score - B_maxScore) `
 
 1. [877. Stone Game](https://leetcode.com/problems/stone-game)
 2. [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii)
