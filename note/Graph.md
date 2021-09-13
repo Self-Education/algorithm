@@ -217,9 +217,7 @@ to find longest distance, just multiply the weight with -1 then find shortest on
 
 ### [Dijkstra Algorithm](https://www.youtube.com/watch?v=XB4MIexjvY0)
 
-<img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:80%;" />
-
-<img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:80%;" />
+<img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:60%;" /><img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:60%;" />
 
 **Dijkstra is <u>NOT</u> friendly with negative cost**
 
@@ -260,6 +258,8 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 **Questions:** 
 
 [505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
+
+[882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
 
 ### Linear way
 
