@@ -95,12 +95,25 @@ private int removeKDuplicates(int[] nums, int k){
 
 ### if there are two dimensions, sort based on one dimension, to reduce possible cases
 
+#### Sort by start point: find the minimum number of intervals to cover the whole range
+
 1. [Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals/) Sort based on one dimension, to reduce possible cases
 2. [SkyLine]
 3. Meeting 
 4. Meeting II
 5. [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 6. [1024. Video Stitching -- Medium](https://leetcode.com/problems/video-stitching/)
+
+#### Sort by end point: maximum number of non-overlapping intervals
+
+sort the intervals by the end points ascendingly, if multiple intervals overlapped, we greedily choose the one with the  smallest end point to reduce the affect on the rest of intervals
+
+1. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)
+2. [452. Minimum Number of Arrows to Burst Balloons -- Medium](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+
+#### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
+
+
 
 ## Chess Queen
 

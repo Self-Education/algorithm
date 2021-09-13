@@ -54,13 +54,21 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-### Intervals
+## Intervals
 
-[546. Remove Boxes -- Hard](https://leetcode.com/problems/remove-boxes)
+**Optimal of large interval depends on optimal of sub intervals**
 
-[312. Burst Balloons -- Hard](https://leetcode.com/problems/burst-balloons)
+1. [546. Remove Boxes -- Hard](https://leetcode.com/problems/remove-boxes)
 
-[488. Zuma Game -- Hard](https://leetcode.com/problems/zuma-game)
+2. [312. Burst Balloons -- Hard](https://leetcode.com/problems/burst-balloons)
+
+3. [1000. Minimum Cost to Merge Stones -- Hard](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
+4. [1547. Minimum Cost to Cut a Stick -- Hard](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)
+5. [488. Zuma Game -- Hard](https://leetcode.com/problems/zuma-game)
+6. 516
+7. 375
+8. 1682
+9. 1745
 
 
 
