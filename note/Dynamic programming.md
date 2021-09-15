@@ -239,3 +239,5 @@ class Solution {
 
 [764. Largest Plus Sign -- Medium](https://leetcode.com/problems/largest-plus-sign)
 
+## Compression
+

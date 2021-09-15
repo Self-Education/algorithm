@@ -6,7 +6,10 @@
 
 ## BFS
 
+**Every time see asking for Min cost/path/moves, should first think of the BFS**
+
 1. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii/)
+2. [909. Snakes and Ladders -- Medium](https://leetcode.com/problems/snakes-and-ladders/)
 
 ## Union find, disjoint set
 

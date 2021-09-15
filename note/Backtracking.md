@@ -166,6 +166,8 @@ Refer to **<u>Dynamic programming.md</u>** -> **<u>Palindrome Partitioning (back
 
 [784. Letter Case Permutation --  Medium](https://leetcode.com/problems/letter-case-permutation/)
 
+[909. Snakes and Ladders -- Medium](https://leetcode.com/problems/snakes-and-ladders/)
+
 
 
 
@@ -176,4 +178,40 @@ Refer to **<u>Dynamic programming.md</u>** -> **<u>Palindrome Partitioning (back
 2. [248. Strobogrammatic Number III -- Hard](https://leetcode.com/problems/strobogrammatic-number-iii)
 
 
+
+
+
+
+
+```js
+const PrivateRoute = ({component, isAuthenticated, ...rest}) =>{ // line 0
+    const routeComponent = (props) => {...} // line 1
+    return <Route render={routeComponent} {...rest}> // line 2
+}
+    /*
+    请问这三个圆圈里，第一个…rest是啥，
+    	lets say in the another file, layout.js,  we are using <PrivateRoute/> like this
+    	<PrivateRoute
+				path="..."
+				porp1={...}
+				prop2={...}
+				isAuthenticated={...}
+				component={MyComponent}
+		/>
+        PrivateRoute = ({component, isAuthenticated, ...rest}), here you are deconstructing props, the props 		here are {path, prop1, prop2, component, isAuthenticated}, ... rest holds rest of props expcet for 		ones you specified (component and isAuthenticated)
+        
+	然后为什么要return 一个 react.createElement
+		react.createElement(component, props) creates a new element that bind props with the component (which is MyComponent) , and you sign this element int 'routeCompomnent' for feature use. in your case, you will render it in the Route at the line 2
+		
+	然后最后Route render 为什么要渲染，然后又传一遍 … rest	
+    	Route normally can be used in two ways:
+    	1. <Route path="..." component={} />
+    	2. <Route {...rest}  render={(props) => <Component {...props} />}/>
+    	
+    	here you are using the second way, ...rest here just brings all props into the new Route, in your case, you can see it as <Route path="..." porp1={...} prop2={...}, render={} />
+    	
+    	the 'props' inside the render function are the props inside compoment (MyComponent, in your case), you have already combined the component with props, so you can just use <Route {...rest} render={component}>
+    />
+    */
+```
 
