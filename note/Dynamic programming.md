@@ -47,6 +47,8 @@
 
 10. [983. Minimum Cost For Tickets -- Hard](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
+11. [978. Longest Turbulent Subarray -- Medium](https://leetcode.com/problems/longest-turbulent-subarray)
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
@@ -56,19 +58,20 @@
 
 ## Intervals
 
-**Optimal of large interval depends on optimal of sub intervals**
+**Optimal of large interval depends on optimal of sub intervals**;
+
++ k intervals, we can get 1 interval first then get k - 1 intervals from rest of element
 
 1. [546. Remove Boxes -- Hard](https://leetcode.com/problems/remove-boxes)
-
 2. [312. Burst Balloons -- Hard](https://leetcode.com/problems/burst-balloons)
-
 3. [1000. Minimum Cost to Merge Stones -- Hard](https://leetcode.com/problems/minimum-cost-to-merge-stones/)
 4. [1547. Minimum Cost to Cut a Stick -- Hard](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)
 5. [488. Zuma Game -- Hard](https://leetcode.com/problems/zuma-game)
-6. 516
-7. 375
-8. 1682
-9. 1745
+6. [410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
+7. 516
+8. 375
+9. 1682
+10. 1745
 
 
 

@@ -214,6 +214,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 
+[774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
+
 
 
 ## Other Variants
