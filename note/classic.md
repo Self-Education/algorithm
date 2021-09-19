@@ -171,10 +171,7 @@ How to check repetition? use string such as **" 9 in row 1", "9 in col 1", "9 in
 
 ## Basic Calculator
 
-1. [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
-2. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)
-3. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
-4. [394. Decode String](https://leetcode.com/problems/decode-string/)
+See **Backtracking.md** -> **Calculation**
 
 
 

@@ -8,8 +8,43 @@
 
 **Every time see asking for Min cost/path/moves, should first think of the BFS**
 
+**See BFS as a rada that sends the circle wave** 
+
+**Bi-directional BSF can be used**
+
 1. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii/)
+
 2. [909. Snakes and Ladders -- Medium](https://leetcode.com/problems/snakes-and-ladders/)
+
+3. [127. Word Ladder -- Hard](https://leetcode.com/problems/word-ladder)
+
+4. [126. Word Ladder II -- Hard](https://leetcode.com/problems/word-ladder-ii)
+
+5. [130. Surrounded Regions -- Medium](https://leetcode.com/problems/surrounded-regions)
+
+6. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands)
+
+7. [529. Minesweeper -- Medium](https://leetcode.com/problems/minesweeper)
+
+8. [675. Cut Off Trees for Golf Event -- Hard](https://leetcode.com/problems/cut-off-trees-for-golf-event)
+
+9. [694. Number of Distinct Islands -- Medium](https://leetcode.com/problems/number-of-distinct-islands) path signature
+
+10. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+
+11. [815. Bus Routes -- Hard](https://leetcode.com/problems/bus-routes/)
+
+12. [838. Push Dominoes -- Medium](https://leetcode.com/problems/push-dominoes)
+
+13. [928. Minimize Malware Spread II -- Hard](https://leetcode.com/problems/minimize-malware-spread-ii/)
+
+    
+
+    ### visit repeatedly but with different state
+
+14. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed mutiple times, `state = {curNode, set of visited node}`, **bitmask**
+
+15. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
 ## Union find, disjoint set
 
@@ -76,6 +111,7 @@ public boolean UnionFind(List<List<String>> edges) {
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
 4. [565. Array Nesting -- Medium](https://leetcode.com/problems/array-nesting)
+5. [924. Minimize Malware Spread -- Hard](https://leetcode.com/problems/minimize-malware-spread/)
 
 ### View cells in matrix as vertices 
 

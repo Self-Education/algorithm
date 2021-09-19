@@ -215,3 +215,15 @@ const PrivateRoute = ({component, isAuthenticated, ...rest}) =>{ // line 0
     */
 ```
 
+## Calculation
+
+#### Tip
+
++ **number cannot start with 0**
++ **if expression has no parenthese, we can track the val as we go**
+
+1. [282. Expression Add Operators -- Hard](https://leetcode.com/problems/expression-add-operators/)
+2. [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
+3. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)
+4. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
+5. [394. Decode String](https://leetcode.com/problems/decode-string/)

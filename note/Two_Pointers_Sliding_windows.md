@@ -101,3 +101,9 @@ Every time ask for the min length of ....
 1. [424. Longest Repeating Character Replacement -- Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
 2. [1156. Swap For Longest Repeated Character Substring -- Medium](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
 
+
+
+### partition array into different windows
+
+[838. Push Dominoes -- Medium](https://leetcode.com/problems/push-dominoes)
+
