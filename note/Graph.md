@@ -12,6 +12,8 @@
 
 **Bi-directional BSF can be used**
 
+
+
 1. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii/)
 
 2. [909. Snakes and Ladders -- Medium](https://leetcode.com/problems/snakes-and-ladders/)
@@ -38,13 +40,23 @@
 
 13. [928. Minimize Malware Spread II -- Hard](https://leetcode.com/problems/minimize-malware-spread-ii/)
 
+14. [1036. Escape a Large Maze -- Hard](https://leetcode.com/problems/escape-a-large-maze) Bounded BFS
+
+    ### Find longest path in the graph (Centroid of tree)
+
+    **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
+
+15. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
+
+16. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+
     
 
     ### visit repeatedly but with different state
 
-14. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed mutiple times, `state = {curNode, set of visited node}`, **bitmask**
+17. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed mutiple times, `state = {curNode, set of visited node}`, **bitmask**
 
-15. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+18. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
 ## Union find, disjoint set
 
