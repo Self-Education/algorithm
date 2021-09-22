@@ -46,25 +46,27 @@
 
 16. [1345. Jump Game IV -- Hard](https://leetcode.com/problems/jump-game-iv/)
 
+17. [317. Shortest Distance from All Buildings _Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
+
     ### Find longest path in the graph (Centroid of tree)
 
     **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
-17. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
+18. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
-18. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+19. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
 
     ### Deque / Multiple States BFS
 
-19. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+20. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
 
     ### Visit repeatedly but with different state
 
-20. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
+21. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
 
-21. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+22. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
-22. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+23. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
 
 ## Union find, disjoint set
 
@@ -160,6 +162,8 @@ public boolean UnionFind(List<List<String>> edges) {
 
 `visiting` state means a node A is being visiting, if later on we visit A again, which mean there is a cycle
 
+if **Undirected**, we need to track node visited in the previous step
+
 ```java
 public boolean findCycle(int numCourses, int[][] prerequisites) {
         // use DFS to find the cycle
@@ -194,6 +198,8 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
         return false;
     }
 ```
+
+1. [1559. Detect Cycles in 2D Grid -- Medium](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
 
 ### Find separate group by DFS
 
