@@ -48,25 +48,31 @@
 
 17. [317. Shortest Distance from All Buildings _Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
 
+18. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
+
     ### Find longest path in the graph (Centroid of tree)
 
     **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
-18. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
+19. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
-19. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+20. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+
+21. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
     ### Deque / Multiple States BFS
 
-20. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+22. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
 
     ### Visit repeatedly but with different state
 
-21. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
+23. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
 
-22. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+24. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
-23. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+25. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+
+26. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
 
 ## Union find, disjoint set
 
@@ -346,7 +352,7 @@ And all vertices with non-zero degree need to belong to a single connected compo
 
 ## Tarjan Algorithm: find the bridge of the graph
 
-**basic idea: give the label/rank to each node when dfs, the rank should increase, there is a cycle if the rank goes down during dfs, we return when that occurs, and all nodes with higher ranks than the return value are part of cycle**
+**basic idea: give the label/rank to each node when dfs, the rank should increase, there is a cycle if the rank goes down during dfs ( since if there is no cycle, the min rank in the later path should be at least larger than the current node's rank) , and all nodes with lower ranks than the current node' rank  are part of cycle**
 
 ```java
 public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connections) {
@@ -387,7 +393,7 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
 
 
-1. [192. Critical Connections in a Network -- Hard](https://leetcode.com/problems/critical-connections-in-a-network/)
+1. [1192. Critical Connections in a Network -- Hard](https://leetcode.com/problems/critical-connections-in-a-network/)
 
    
 
