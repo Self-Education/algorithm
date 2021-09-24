@@ -50,6 +50,8 @@
 
 18. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
 
+    
+
     ### Find longest path in the graph (Centroid of tree)
 
     **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
@@ -60,9 +62,13 @@
 
 21. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
+    
+
     ### Deque / Multiple States BFS
 
 22. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+
+    
 
     ### Visit repeatedly but with different state
 
@@ -288,6 +294,8 @@ to find longest distance, just multiply the weight with -1 then find shortest on
 
 ### [Dijkstra Algorithm](https://www.youtube.com/watch?v=XB4MIexjvY0)
 
+we can see the Dijkstra's algorithm as a **greedy** algorithm , every time after we relax a node, we go the node with min cost, and then relax that node, and so on.
+
 <img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:60%;" /><img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:60%;" />
 
 **Dijkstra is <u>NOT</u> friendly with negative cost**
@@ -331,6 +339,8 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 [505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
 
 [882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
+
+[1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
 
 ### Linear way
 
