@@ -47,3 +47,9 @@
 ## Interactive problems
 
 1. [843. Guess the Word - Hard](https://leetcode.com/problems/guess-the-word/)
+
+
+
+## Other
+
+[782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard) chess board only has two types of rows, swaps rows/cols, does not change equality of same type of row/cols
