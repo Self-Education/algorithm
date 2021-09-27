@@ -346,6 +346,12 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 
 [1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
 
+[778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water/)
+
+[407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+
+[42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
+
 ### Linear way
 
 https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/TopologicalSortAdjacencyList.java
