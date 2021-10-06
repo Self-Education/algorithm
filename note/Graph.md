@@ -56,37 +56,43 @@
 
 21. [417. Pacific Atlantic Water Flow -- Medium](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
 
+22. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+
+23. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
+
+24. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
+
     
 
     ### Find longest path in the graph (Centroid of tree)
 
     **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
-22. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
+25. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
-23. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+26. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
 
-24. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
+27. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
     
 
     ### Deque / Multiple States BFS
 
-25. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+28. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
 
     
 
     ### Visit repeatedly but with different state
 
-26. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
+29. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
 
-27. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+30. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
 
-28. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+31. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
 
-29. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+32. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
-30. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
+33. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
 
 ## Union find, disjoint set
 
