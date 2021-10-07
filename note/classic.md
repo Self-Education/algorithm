@@ -169,7 +169,7 @@ How to check repetition? use string such as **" 9 in row 1", "9 in col 1", "9 in
 
 
 
-## Basic Calculator
+## Calculator
 
 See **Backtracking.md** -> **Calculation**
 
@@ -277,9 +277,11 @@ count from 1900
 
 
 
-## Rolling Hash
+## Rolling Hash / Index mark
 
 1. [41. First Missing Positive -- Hard](https://leetcode.com/problems/first-missing-positive)
+2. [448. Find All Numbers Disappeared in an Array -- Easy](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
+3. [442. Find All Duplicates in an Array -- Medium](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 
 
 

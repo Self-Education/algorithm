@@ -362,6 +362,8 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 
 [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
 
+[1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
+
 ### Linear way
 
 https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/TopologicalSortAdjacencyList.java

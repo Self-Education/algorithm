@@ -215,7 +215,7 @@ const PrivateRoute = ({component, isAuthenticated, ...rest}) =>{ // line 0
     */
 ```
 
-## Calculation
+## Calculator
 
 #### Tip
 
@@ -227,3 +227,5 @@ const PrivateRoute = ({component, isAuthenticated, ...rest}) =>{ // line 0
 3. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)
 4. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
 5. [394. Decode String](https://leetcode.com/problems/decode-string/)
+6. [1087. Brace Expansion -- Medium](https://leetcode.com/problems/brace-expansion/)
+7. [1096. Brace Expansion II -- Hard](https://leetcode.com/problems/brace-expansion-ii/)
