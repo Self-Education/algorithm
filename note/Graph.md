@@ -12,87 +12,195 @@
 
 **Bi-directional BSF can be used**
 
-
+### General
 
 1. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii/)
-
 2. [909. Snakes and Ladders -- Medium](https://leetcode.com/problems/snakes-and-ladders/)
-
 3. [127. Word Ladder -- Hard](https://leetcode.com/problems/word-ladder)
-
 4. [126. Word Ladder II -- Hard](https://leetcode.com/problems/word-ladder-ii)
-
 5. [130. Surrounded Regions -- Medium](https://leetcode.com/problems/surrounded-regions)
-
 6. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands)
-
 7. [529. Minesweeper -- Medium](https://leetcode.com/problems/minesweeper)
-
 8. [675. Cut Off Trees for Golf Event -- Hard](https://leetcode.com/problems/cut-off-trees-for-golf-event)
-
 9. [694. Number of Distinct Islands -- Medium](https://leetcode.com/problems/number-of-distinct-islands) path signature
-
 10. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
-
 11. [815. Bus Routes -- Hard](https://leetcode.com/problems/bus-routes/)
-
 12. [838. Push Dominoes -- Medium](https://leetcode.com/problems/push-dominoes)
-
 13. [928. Minimize Malware Spread II -- Hard](https://leetcode.com/problems/minimize-malware-spread-ii/)
-
 14. [1036. Escape a Large Maze -- Hard](https://leetcode.com/problems/escape-a-large-maze) Bounded BFS
-
 15. [1298. Maximum Candies You Can Get from Boxes -- Hard](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes)
-
 16. [1345. Jump Game IV -- Hard](https://leetcode.com/problems/jump-game-iv/)
-
 17. [317. Shortest Distance from All Buildings _Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
-
 18. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
-
 19. [301. Remove Invalid Parentheses -- Hard](https://leetcode.com/problems/remove-invalid-parentheses/)
-
 20. [987. Vertical Order Traversal of a Binary Tree --  Hard](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
-
 21. [417. Pacific Atlantic Water Flow -- Medium](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-
 22. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
-
 23. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
-
 24. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
 
-    
+### Bi-partition (coloring)
 
-    ### Find longest path in the graph (Centroid of tree)
+1. [886. Possible Bipartition -- Medium](https://leetcode.com/problems/possible-bipartition)
+2. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
 
-    **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
+### Find longest path in the graph (Centroid of tree)
+
+**Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
 25. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
-26. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+2. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
 
-27. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
+3. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
+   
+
+### Deque / Multiple States BFS
+
+1. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+
+   
+
+### Visit repeatedly but with different state
+
+1. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
+2. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+3. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+4. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+5. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
+
+### Greedy
+
+1. [854. K-Similar Strings -- Hard](https://leetcode.com/problems/k-similar-strings/)
+
+### Dijkstra Algorithm (BFS + PriorityQueue)
+
+**Resources**:
+
++ [Abdul Bari Youtube tutorial](https://www.youtube.com/watch?v=XB4MIexjvY0)
+
+we can see the Dijkstra's algorithm as a **greedy** algorithm , every time after we relax a node, we go the node with min cost, and then relax that node, and so on.
+
+<img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:50%;" /><img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:50%;" />
+
+**Dijkstra is <u>NOT</u> friendly with negative cost**
+
+![image-20210609101603063](images/image-20210609101603063.png)
+
+[source code](https://leetcode.com/playground/93uryw5m)
+
+```java
+private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
+        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+        Set<Integer> settled = new HashSet<>();
+        int[] distance = new int[n];
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        // start point is 0
+        queue.offer(new int[]{start, 0});
+        distance[start] = 0;
+        while(settled.size() != n){
+            int[] cur = queue.poll(); // pick up the node with min cost
+            settled.add(cur[0]);
+            relax(graph, settled, queue, distance, cur[0]);
+        }
+        return distance;
+    }
+    private void relax(Map<Integer, List<int[]>> graph, Set<Integer> settled, PriorityQueue<int[]> queue, int[] distance, int cur){
+       
+        if(graph.get(cur) ==  null) return;
+        for(int[] nei : graph.get(cur)){
+            int to = nei[0];
+            int cost = nei[1];
+            if(!settled.contains(to) && distance[cur] + cost < distance[to]){
+                distance[to] = distance[cur] + cost;
+                queue.offer(new int[]{to, distance[to]});
+            }
+        }
+    }
+```
+
+**Questions:** 
+
+[505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
+
+[882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
+
+[1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
+
+[778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water/)
+
+[407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+
+[42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
+
+[1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
+
+## DFS
+
+### 	General
+
+1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/) Does null need to be included? Inorder or postorder
+
+### DFS find Cycle in DAG (Directed Acyclic Graph)
+
+`visiting` state means a node A is being visiting, if later on we visit A again, which mean there is a cycle
+
+if **Undirected**, we need to track node visited in the previous step
+
+```java
+public boolean findCycle(int numCourses, int[][] prerequisites) {
+        // use DFS to find the cycle
+        // 0: unvisited, 1: visiting, 2: visited
+        int[] state = new int[numCourses];
+        List<List<Integer>> graph = new LinkedList<>();
+        
+        for(int i = 0; i < numCourses; i++){
+            graph.add(new LinkedList<>());
+        }
+        
+        for(int [] pre : prerequisites){
+            graph.get(pre[1]).add(pre[0]);
+        }
+        
+        for(int i = 0; i < numCourses; i++){
+            if(dfs(graph, i, state)){
+                return false;
+            }
+        }
+        return true;
+    }
     
+    private boolean dfs(List<List<Integer>> graph, int cur, int[] state){
+        if(state[cur] == 1) return true;
+        if(state[cur] == 2) return false;
+        state[cur] = 1;
+        for(int dependency : graph.get(cur)){
+            if(dfs(graph, dependency, state)) return true;
+        }
+        state[cur] = 2;
+        return false;
+    }
+```
 
-    ### Deque / Multiple States BFS
+1. [1559. Detect Cycles in 2D Grid -- Medium](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
 
-28. [1263. Minimum Moves to Move a Box to Their Target Location -- Hard](https://leetcode.com/problems/minimum-moves-to-move-a-box-to-their-target-location)
+### Find separate group by DFS
 
-    
+1. [323. Number of Connected Components in an Undirected Graph -- Medium](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+2. [1059. All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) detect cycle in defined paths
 
-    ### Visit repeatedly but with different state
+### Top Sort
 
-29. [847. Shortest Path Visiting All Nodes -- Hard](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) nodes and edges can be accessed multiple times, `state = {curNode, set of visited node}`, **bitmask**
+**Difference** with regular `DFS` is that Top sort return the sequence by pushing `curNode` into stack after it is fully explored (all its child are visited);
 
-30. [864. Shortest Path to Get All Keys -- Hard](https://leetcode.com/problems/shortest-path-to-get-all-keys)
+1. [207. Course Schedule  --  Medium](https://leetcode.com/problems/course-schedule/)
 
-31. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
+2. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
 
-32. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+3. [269. Alien Dictionary -- Hard](https://leetcode.com/problems/alien-dictionary/)
 
-33. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
+   
 
 ## Union find, disjoint set
 
@@ -153,13 +261,15 @@ public boolean UnionFind(List<List<String>> edges) {
     }
 ```
 
-[**Leetcode problems**](https://leetcode.com/tag/union-find/)
+### General
 
 1. [721. Arrange Accounts](https://leetcode.com/problems/accounts-merge/solution/)
 2. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 3. [737. Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/)
 4. [565. Array Nesting -- Medium](https://leetcode.com/problems/array-nesting)
 5. [924. Minimize Malware Spread -- Hard](https://leetcode.com/problems/minimize-malware-spread/)
+6. [323. Number of Connected Components in an Undirected Graph -- Medium](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
+7. [1319. Number of Operations to Make Network Connected -- Medium](https://leetcode.com/problems/number-of-operations-to-make-network-connected)
 
 ### View cells in matrix as vertices 
 
@@ -170,6 +280,7 @@ public boolean UnionFind(List<List<String>> edges) {
 5. [128. Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/longest-consecutive-sequence/) apply union find 
 6. [Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
 7. [130. Surrounded Regions -- Medium](https://leetcode.com/problems/surrounded-regions)
+8. [1254. Number of Closed Islands -- Medium](https://leetcode.com/problems/number-of-closed-islands)
 
 ### View row and col as vertex
 
@@ -181,115 +292,6 @@ public boolean UnionFind(List<List<String>> edges) {
 2. [990. Satisfiability of Equality Equations -- Medium](https://leetcode.com/problems/satisfiability-of-equality-equations/)
 
 
-
-## DFS  / Topological sorting
-
-### DFS find Cycle in DAG (Directed Acyclic Graph)
-
-`visiting` state means a node A is being visiting, if later on we visit A again, which mean there is a cycle
-
-if **Undirected**, we need to track node visited in the previous step
-
-```java
-public boolean findCycle(int numCourses, int[][] prerequisites) {
-        // use DFS to find the cycle
-        // 0: unvisited, 1: visiting, 2: visited
-        int[] state = new int[numCourses];
-        List<List<Integer>> graph = new LinkedList<>();
-        
-        for(int i = 0; i < numCourses; i++){
-            graph.add(new LinkedList<>());
-        }
-        
-        for(int [] pre : prerequisites){
-            graph.get(pre[1]).add(pre[0]);
-        }
-        
-        for(int i = 0; i < numCourses; i++){
-            if(dfs(graph, i, state)){
-                return false;
-            }
-        }
-        return true;
-    }
-    
-    private boolean dfs(List<List<Integer>> graph, int cur, int[] state){
-        if(state[cur] == 1) return true;
-        if(state[cur] == 2) return false;
-        state[cur] = 1;
-        for(int dependency : graph.get(cur)){
-            if(dfs(graph, dependency, state)) return true;
-        }
-        state[cur] = 2;
-        return false;
-    }
-```
-
-1. [1559. Detect Cycles in 2D Grid -- Medium](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
-
-### Find separate group by DFS
-
-1. [323. Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-
-2. [1059. All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) detect cycle in defined paths
-
-### Top Sort
-
-given a **directed acyclic graph (DAG)**, a topological sort is a linear ordering of all vertices such that for any edge `(u, v)`, `u` comes before `v`. Another way to describe it is that when you put all vertices horizontally on a line, all of the edges are pointing from left to right.
-
-```java
-public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // use topological sort 
-        List<List<Integer>> graph = new LinkedList<>();
-        for(int i = 0; i < numCourses; i++){
-            graph.add(new LinkedList<>());
-        }
-        
-        for(int [] pre : prerequisites){
-            graph.get(pre[1]).add(pre[0]);
-        }
-        
-        Stack<Integer> stack = new Stack<>();
-        int[] state = new int[numCourses];
-        
-        for(int i = 0; i < numCourses; i++){
-            if(topoSort(graph, i, state, stack)){
-                return new int[0];
-            }; 
-        }
-        int[] ans = new int[numCourses];
-        int i = 0;
-        while(!stack.isEmpty()){
-            ans[i++] = stack.pop();
-        }
-        return ans;
-    }
-    
-    private boolean topoSort(List<List<Integer>> graph, int cur, int[] state, Stack<Integer> stack){
-        // check if cur is visited
-        if(state[cur] == 1) return true;
-        if(state[cur] == 2) return false;
-        state[cur] = 1;
-        // explore all its child
-        for(int child : graph.get(cur)){
-            if(topoSort(graph, child, state, stack)){
-                return true;
-            };
-        }
-        // now all child of cur have been explored
-        state[cur] = 2;
-        stack.add(cur);
-        return false;
-    }
-```
-
-
-
-**Difference** with regular `DFS` is that Top sort return the sequence by pushing `curNode` into stack after it is fully explored (all its child are visited);
-
-1. [207. Course Schedule  --  Medium](https://leetcode.com/problems/course-schedule/)
-2. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
-3.  [269. Alien Dictionary -- Hard](https://leetcode.com/problems/alien-dictionary/)
 
 
 
@@ -306,63 +308,7 @@ to find longest distance, just multiply the weight with -1 then find shortest on
 1. [1334. Find the City With the Smallest Number of Neighbors at a Threshold D -- Medium](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 2. [1462. Course Schedule IV -- Medium](https://leetcode.com/problems/course-schedule-iv/) boolean matrix
 
-### [Dijkstra Algorithm](https://www.youtube.com/watch?v=XB4MIexjvY0)
 
-we can see the Dijkstra's algorithm as a **greedy** algorithm , every time after we relax a node, we go the node with min cost, and then relax that node, and so on.
-
-<img src="images/image-20210609101046513.png" alt="image-20210609101046513" style="zoom:60%;" /><img src="images/image-20210609101025229.png" alt="image-20210609101025229" style="zoom:60%;" />
-
-**Dijkstra is <u>NOT</u> friendly with negative cost**
-
-![image-20210609101603063](images/image-20210609101603063.png)
-
-[source code](https://leetcode.com/playground/93uryw5m)
-
-```java
-private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
-        PriorityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
-        Set<Integer> settled = new HashSet<>();
-        int[] distance = new int[n];
-        Arrays.fill(distance, Integer.MAX_VALUE);
-        // start point is 0
-        queue.offer(new int[]{start, 0});
-        distance[start] = 0;
-        while(settled.size() != n){
-            int[] cur = queue.poll(); // pick up the node with min cost
-            settled.add(cur[0]);
-            relax(graph, settled, queue, distance, cur[0]);
-        }
-        return distance;
-    }
-    private void relax(Map<Integer, List<int[]>> graph, Set<Integer> settled, PriorityQueue<int[]> queue, int[] distance, int cur){
-       
-        if(graph.get(cur) ==  null) return;
-        for(int[] nei : graph.get(cur)){
-            int to = nei[0];
-            int cost = nei[1];
-            if(!settled.contains(to) && distance[cur] + cost < distance[to]){
-                distance[to] = distance[cur] + cost;
-                queue.offer(new int[]{to, distance[to]});
-            }
-        }
-    }
-```
-
-**Questions:** 
-
-[505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
-
-[882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
-
-[1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
-
-[778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water/)
-
-[407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
-
-[42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
-
-[1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
 
 ### Linear way
 
@@ -429,7 +375,7 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
    
 
-## Kruskal Algorithm: find minimum spanning tree
+## Kruskal Algorithm: find minimum <u>Spanning Tree</u>
 
 **MST**: A **minimum spanning tree** (**MST**) or **minimum weight spanning tree** is a subset of the edges of a [connected](https://en.wikipedia.org/wiki/Connected_graph), edge-weighted undirected graph that connects all the [vertices](https://en.wikipedia.org/wiki/Vertex_(graph_theory)) together, without any [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) and with the minimum **possible total edge weight**, if all N nodes are connected, MST will have N - 1 edges
 

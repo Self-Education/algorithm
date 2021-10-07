@@ -26,6 +26,7 @@
 8. [931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum)
 9. [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii)
 10. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
+11. [1740. Find Distance in a Binary Tree -- Medium](https://leetcode.com/problems/find-distance-in-a-binary-tree)
 
 
 
