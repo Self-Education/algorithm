@@ -58,6 +58,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 1. [74. Search a 2D Matrix -- Medium](https://leetcode.com/problems/search-a-2d-matrix/)
 2. [240. Search a 2D Matrix II -- Medium](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 3. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+4. [1428. Leftmost Column with at Least a One -- Medium](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) linear search from top-right or binary search (<u>boundary</u>)
 
 
 

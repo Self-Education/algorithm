@@ -86,9 +86,8 @@ int gray2Binary(int n){
 
 ## To be categorized
 
-[136. Single Number -- Easy](https://leetcode.com/problems/single-number)
-
-[137. Single Number II -- Medium](https://leetcode.com/problems/single-number-ii/)
+1. [136. Single Number -- Easy](https://leetcode.com/problems/single-number)
+2. [137. Single Number II -- Medium](https://leetcode.com/problems/single-number-ii/)
 
 ```java
  public int singleNumber(int[] nums, k) { // every number occurs k times excepts for one
@@ -123,3 +122,4 @@ int gray2Binary(int n){
     }
 ```
 
+3. [201. Bitwise AND of Numbers Range -- Medium](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
