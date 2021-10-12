@@ -33,3 +33,13 @@
 ## Tree Transverse to/from String
 
 1. [331. Verify Preorder Serialization of a Binary Tree -- Medium](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)
+
+## Complete Tree
+
+### Complete Tree: 
+
+all levels except the last level must be fully filled, and all nodes in the last level must sit at left side.
+
+=> when traverse the tree, the rest element in the queue should be all `null` after we encounter the first `null`
+
+1. [958. Check Completeness of a Binary Tree -- Medium](https://leetcode.com/problems/check-completeness-of-a-binary-tree)

@@ -38,6 +38,7 @@
 22. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 23. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
 24. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
+25. [1391. Check if There is a Valid Path in a Grid -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) how do we check if directions match
 
 ### Bi-partition (coloring)
 
@@ -46,7 +47,7 @@
 
 ### Find longest path in the graph (Centroid of tree)
 
-**Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep remove the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
+**Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep removing the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
 25. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
@@ -54,7 +55,9 @@
 
 3. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
-   
+28. [543. Diameter of Binary Tree -- Easy](https://leetcode.com/problems/diameter-of-binary-tree/)
+
+    
 
 ### Deque / Multiple States BFS
 
@@ -122,19 +125,14 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 
 **Questions:** 
 
-[505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
-
-[882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
-
-[1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
-
-[778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water/)
-
-[407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
-
-[42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
-
-[1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
+1. [505. The Maze II --  Medium](https://leetcode.com/problems/the-maze-ii/)
+2. [882. Reachable Nodes In Subdivided Graph](https://leetcode.com/problems/reachable-nodes-in-subdivided-graph)
+3. [1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time)
+4. [778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water/)
+5. [407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+6. [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
+7. [1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
+8. [743. Network Delay Time -- Medium](https://leetcode.com/problems/network-delay-time)
 
 ## DFS
 
@@ -240,15 +238,12 @@ public boolean UnionFind(List<List<String>> edges) {
         int pa = find(a, parents);
         int pb = find(b, parents);
         if(pa == pb) return;// here is a cycle, since a and b are already in a group, but they share the same parent.
-        if(Math.abs(parents[pa]) > Math.abs(parents[pb])){
+       if(Math.abs(parents[pa]) >= Math.abs(parents[pb])){
             parents[pa] += parents[pb];
             parents[pb] = pa;
-        }else if(Math.abs(parents[pa]) < Math.abs(parents[pb])){
+        }else{
             parents[pb] += parents[pa];
             parents[pa] = pb;
-        }else{
-            parents[pa] += parents[pb];
-            parents[pb] = pa;
         }
     }
     
@@ -270,6 +265,8 @@ public boolean UnionFind(List<List<String>> edges) {
 5. [924. Minimize Malware Spread -- Hard](https://leetcode.com/problems/minimize-malware-spread/)
 6. [323. Number of Connected Components in an Undirected Graph -- Medium](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 7. [1319. Number of Operations to Make Network Connected -- Medium](https://leetcode.com/problems/number-of-operations-to-make-network-connected)
+8. [684. Redundant Connection -- Medium](https://leetcode.com/problems/redundant-connection/)
+9. [685. Redundant Connection II -- Hard](https://leetcode.com/problems/redundant-connection-ii)
 
 ### View cells in matrix as vertices 
 
