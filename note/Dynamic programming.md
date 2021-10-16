@@ -49,6 +49,8 @@
 
 11. [978. Longest Turbulent Subarray -- Medium](https://leetcode.com/problems/longest-turbulent-subarray)
 
+12. [413. Arithmetic Slices -- Medium](https://leetcode.com/problems/arithmetic-slices/)
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
@@ -72,6 +74,7 @@
 8. 375
 9. 1682
 10. 1745
+11. [96. Unique Binary Search Trees -- Medium](https://leetcode.com/problems/unique-binary-search-trees/)
 
 
 

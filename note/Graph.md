@@ -227,17 +227,17 @@ public boolean UnionFind(List<List<String>> edges) {
 
     // loop each group and union similar component into a group
     for(List<String> edge : edges){
-      union(edge.get(0), edge.get(1));
+      union(parents, edge.get(0), edge.get(1));
     }
 
     // now we have groups in which components share same relation or characteristics
     // do something specific
   
   
-     private void union(int a, int b, int[] parents){
-        int pa = find(a, parents);
-        int pb = find(b, parents);
-        if(pa == pb) return;// here is a cycle, since a and b are already in a group, but they share the same parent.
+     private boolean union(int[] parents, int a, int b){
+        int pa = find(parents, a);
+        int pb = find(parents, b);
+        if(pa == pb) return false;// here is a cycle, since a and b are already in a group, but they share the same parent.
        if(Math.abs(parents[pa]) >= Math.abs(parents[pb])){
             parents[pa] += parents[pb];
             parents[pb] = pa;
@@ -245,13 +245,14 @@ public boolean UnionFind(List<List<String>> edges) {
             parents[pb] += parents[pa];
             parents[pa] = pb;
         }
+         return true;
     }
     
-    private int find(int a, int[] parents){
+    private int find(int[] parents, int a){
         if(parents[a] < 0){// itself is the root;
             return a;
         }else{
-            return find(parents[a], parents);
+            return find(parents, parents[a]);
         }
     }
 ```
@@ -419,5 +420,7 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
 ## to be categorized
 
-[1761. Minimum Degree of a Connected Trio in a Graph -- Hard](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+1. [1761. Minimum Degree of a Connected Trio in a Graph -- Hard](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+
+2. [834. Sum of Distances in Tree -- Hard](https://leetcode.com/problems/sum-of-distances-in-tree/)
 

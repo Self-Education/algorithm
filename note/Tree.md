@@ -14,7 +14,7 @@
 
 
 
-## Path problems
+## Path / Distance problems
 
 1. [298. Binary Tree Longest Consecutive Sequence -- Medium](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/)
 2. [549. Binary Tree Longest Consecutive Sequence II -- Medium](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/) 
@@ -27,6 +27,7 @@
 9. [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii)
 10. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 11. [1740. Find Distance in a Binary Tree -- Medium](https://leetcode.com/problems/find-distance-in-a-binary-tree)
+12. [783. Minimum Distance Between BST Nodes -- Medium](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
 
 
 

@@ -190,6 +190,7 @@ See **Backtracking.md** -> **Calculation**
 3. [1644. Lowest Common Ancestor of a Binary Tree II -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/)
 4. [1087. Brace Expansion](https://leetcode.com/problems/brace-expansion/)
 5. [1096. Brace Expansion II](https://leetcode.com/problems/brace-expansion-ii/)
+6. [282. Expression Add Operators -- Hard](https://leetcode.com/problems/expression-add-operators/)
 
 
 
@@ -277,11 +278,12 @@ count from 1900
 
 
 
-## Rolling Hash / Index mark
+## Rolling Hash / Index mark/ cyclic indexing
 
 1. [41. First Missing Positive -- Hard](https://leetcode.com/problems/first-missing-positive)
 2. [448. Find All Numbers Disappeared in an Array -- Easy](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 3. [442. Find All Duplicates in an Array -- Medium](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+4. [565. Array Nesting -- Medium](https://leetcode.com/problems/array-nesting/)
 
 
 
