@@ -247,3 +247,7 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 
 
 
+### Matrix related
+
+[302. Smallest Rectangle Enclosing Black Pixels --  Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+

@@ -139,6 +139,9 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 ### 	General
 
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/) Does null need to be included? Inorder or postorder
+2. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
+
+
 
 ### DFS find Cycle in DAG (Directed Acyclic Graph)
 

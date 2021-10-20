@@ -1,6 +1,6 @@
 # Two Pointers
 
-### <u>Starts at different position</u>
+### Starts at different position
 
 + #### Reverse an <u>array of string</u> or string
 
@@ -19,7 +19,7 @@
   2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
   3. [[977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)](https://leetcode.com/problems/longest-mountain-in-array/)
 
-#### <u>As reader and writer, writer only moves after writing</u>
+### As reader and writer, writer only moves after writing
 
 + #### In place remove Element in an Array/LinkedList
 
@@ -44,6 +44,10 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 1. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 2. [82. Remove Duplicates from Sorted List II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
+#### Squeeze / interval block
+
+3. [1861. Rotating the Box -- Medium](https://leetcode.com/problems/rotating-the-box/)
+
 ### <u>Different speed</u>
 
 + #### Cycled LinkedList
@@ -57,9 +61,11 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 ​	1. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 
-#### Collect Water Series (Bucket water)
+### Collect Water Series (Bucket water)
 
 1. [11. Container With Most Water -- Hard](https://leetcode.com/problems/container-with-most-water)
+
+
 
 ### Other good problems
 

@@ -88,9 +88,18 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 [764. Largest Plus Sign -- Medium](https://leetcode.com/problems/largest-plus-sign)
 
+[302. Smallest Rectangle Enclosing Black Pixels -- Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+
+
+
 ## Multiple sources BFS
 
 1. [542. 01 Matrix -- Medium](https://leetcode.com/problems/01-matrix/), search from all destinations to starts
 
-s
 
+
+## find boundary
+
+1. [302. Smallest Rectangle Enclosing Black Pixels -- Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+
+2. [463. Island Perimeter --  Easy](https://leetcode.com/problems/island-perimeter)
