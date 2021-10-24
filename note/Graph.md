@@ -51,7 +51,7 @@
 
 25. [1245. Tree Diameter -- Medium](https://leetcode.com/problems/tree-diameter/) furthest node of a random node is one of the extreme node
 
-2. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/)
+2. [310. Minimum Height Trees -- Medium](https://leetcode.com/problems/minimum-height-trees/) *****
 
 3. [1617. Count Subtrees With Max Distance Between Cities -- Hard](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/)
 
@@ -133,6 +133,14 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 6. [42. Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)
 7. [1631. Path With Minimum Effort -- Medium](https://leetcode.com/problems/path-with-minimum-effort)
 8. [743. Network Delay Time -- Medium](https://leetcode.com/problems/network-delay-time)
+9. [1102. Path With Maximum Minimum Value -- Medium](https://leetcode.com/problems/path-with-maximum-minimum-value/) cannot use DFS+Memo, since it goes four directions
+10. [1129. Shortest Path with Alternating Colors -- Medium](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
+
+### Other
+
+1. [1654. Minimum Jumps to Reach Home -- Meidum](https://leetcode.com/problems/minimum-jumps-to-reach-home/) `ax + by = z`, z must be `z = n * gcd(a, b)`, that means all reachable points must be mulitples of gcd(a, b)
+
+
 
 ## DFS
 

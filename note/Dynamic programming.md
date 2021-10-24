@@ -58,6 +58,12 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
+
+
+## Bit mask to store state
+
+1. [1066. Campus Bikes II -- Medium](https://leetcode.com/problems/campus-bikes-ii/)
+
 ## Intervals
 
 **Optimal of large interval depends on optimal of sub intervals**;
@@ -81,6 +87,12 @@
 ## Only two rows are needed for each iteration
 
 1. [265. Paint House II -- Hard](https://leetcode.com/problems/paint-house-ii)
+
+## predict future instead of get current by past
+
+1. 2044
+
+
 
 ## Job scheduling series
 

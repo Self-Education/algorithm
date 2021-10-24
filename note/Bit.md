@@ -13,7 +13,7 @@
 ## Set range of bits as 1
 
 ```java
-range = (((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1));
+range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 ```
 
 
@@ -27,6 +27,11 @@ range = (((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1));
 `& 0` will set bit into 0
 
 `| 0` will check bit.
+
+### Set Bit
+
++ set the ith position into 1, `num |(1 << i)`;
++ set the ith position into 0, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
 
 
 

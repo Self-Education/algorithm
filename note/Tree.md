@@ -44,3 +44,13 @@ all levels except the last level must be fully filled, and all nodes in the last
 => when traverse the tree, the rest element in the queue should be all `null` after we encounter the first `null`
 
 1. [958. Check Completeness of a Binary Tree -- Medium](https://leetcode.com/problems/check-completeness-of-a-binary-tree)
+
+
+
+## Serialize Tree
+
+### Use serialized tree to find duplictes
+
+try **serialization** when have no clue, but be careful with trasverse order
+
+1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder
