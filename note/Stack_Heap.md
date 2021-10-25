@@ -12,6 +12,7 @@
 ### Multiple Stacks to achieve special functions
 
 1. [716. Max Stack -- Easy](https://leetcode.com/problems/max-stack/)
+2. [155. Min Stack-- Easy](https://leetcode.com/problems/min-stack/)
 
 
 
