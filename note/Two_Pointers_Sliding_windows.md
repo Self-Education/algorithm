@@ -87,6 +87,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 ### Two arrays
 
 1. [Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/)  start from the end to avoid overwritten
+2. [986. Interval List Intersections -- Medium](https://leetcode.com/problems/interval-list-intersections/)
 
 
 
