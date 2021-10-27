@@ -1,6 +1,6 @@
 # Stack
 
-### Mono increasing / decreasing stack
+## Mono increasing / decreasing stack
 
 1. [901. Online Stock Span -- Medium](https://leetcode.com/problems/online-stock-span/)
 2. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
@@ -9,10 +9,21 @@
 
 
 
-### Multiple Stacks to achieve special functions
+## Multiple Stacks to achieve special functions
 
 1. [716. Max Stack -- Easy](https://leetcode.com/problems/max-stack/)
+
 2. [155. Min Stack-- Easy](https://leetcode.com/problems/min-stack/)
+
+   
+
+## Pick one from popped two
+
+1. [277. Find the Celebrity -- Medium](https://leetcode.com/problems/find-the-celebrity/)
+
+
+
+
 
 
 

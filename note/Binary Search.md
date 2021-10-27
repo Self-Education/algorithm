@@ -1,6 +1,6 @@
-## Binary Search
+# Binary Search
 
-#### Questions:
+## Explanation
 
 + **Why is there an infinite loop if we use `left = mid`?**
   + when use `left = mid` , for sure there will be an infinite loop, but **why**? The infinite loop occurs when `left` and `right` move to two adjacent elements,` right = left + 1`then  `mid = (left + right)/2` =>  `mid = (left * 2 + 1)/2`, due to java round the `int` to left side, them `mid = left`. Therefore, when we use `left = mid`, mid keeps the same forever! However, if we use `right = mid`, then `mid = (right * 2 - 1)/2` => `mid = right - 1`, `right` decrements by one for each loop. **we need to use `mid = (left + right)/2 + 1` when we use `left = mid` to increment `left`**.
@@ -93,11 +93,16 @@ int l = 0, r = arr.length - 1, mid = -1;
       
   ```
 
-  
+## General Problems
+
+### Find smallest / largest number with boundary
+
+1. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
+2. \1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
 
 ## Guess and validate
 
-
+### Note
 
 #### [<u>410. Split Array Largest Sum</u>](https://leetcode.com/problems/split-array-largest-sum/)
 
@@ -157,14 +162,6 @@ public int splitArray(int[] nums, int m) {
     }
 ```
 
-
-
-
-
-
-
-
-
 #### **[719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)**
 
 Similar with #410, the array is not sorted, so we sort the array, so that for each `arr[i]`, `arr[j + 1] - arr[i] > arr[j] - arr[i]`. the lower bound `lo` is smallest possible distance which is 0, and upper bound `upper`  would be the difference between the first element and the last element. We pick up possible  distance `mid` so see how many pairs `count` with `sum <= mid`, three cases:
@@ -205,6 +202,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
         return count;
     }
 ```
+
+### Problems
 
 [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
