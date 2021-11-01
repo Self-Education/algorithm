@@ -215,6 +215,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 [774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
 
+[410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
+
 
 
 ## Other Variants
