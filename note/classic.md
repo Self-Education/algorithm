@@ -299,10 +299,12 @@ count from 1900
 
 
 
-## Hash String into number 
+## Rolling Hash / Hash String into number 
 
 1. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
 2. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
+3. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
+4. [1062. Longest Repeating Substring -- Medium](https://leetcode.com/problems/longest-repeating-substring)
 
 
 
