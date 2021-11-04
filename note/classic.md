@@ -101,11 +101,10 @@ See **Merge/Insert Intervals** section  in **Stack_Heap.md**
 
 [51. N-Queens -- Hard](https://leetcode.com/problems/n-queens)
 
-## Permutations
+## Permutations in String
 
 1. [Next Permutation -- Medium](https://leetcode.com/problems/next-permutation/) swap `nums[i]` with smallest larger number in `nums[i + 1, :]`
-
-
+2. [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number -- Medium](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 
 ## Two Sum/Three Sum/4Sum
 
