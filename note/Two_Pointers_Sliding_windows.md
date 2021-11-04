@@ -2,22 +2,22 @@
 
 ### Starts at different position
 
-+ #### Reverse an <u>array of string</u> or string
+#### Reverse an <u>array of string</u> or string
 
-  To reverse **each element in an array** instead of reversing the array. Eg. `str = "word1, word2 ... wordn"`, we can reverse `str` first, then reverse each word.
+To reverse **each element in an array** instead of reversing the array. Eg. `str = "word1, word2 ... wordn"`, we can reverse `str` first, then reverse each word.
 
-  1. [344. Reverse String -- Easy](https://leetcode.com/problems/reverse-string/)
-  2. [186. Reverse Words in a String II -- Medium](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
-  3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
-  4. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/submissions/)
+1. [344. Reverse String -- Easy](https://leetcode.com/problems/reverse-string/)
+2. [186. Reverse Words in a String II -- Medium](https://leetcode.com/problems/reverse-words-in-a-string-ii/)
+3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
+4. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/submissions/)
 
-  
 
-+ #### Mountain problem
 
-  1. [941. Valid Mountain Array -- Easy](https://leetcode.com/problems/valid-mountain-array/)
-  2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
-  3. [977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)](https://leetcode.com/problems/longest-mountain-in-array/)
+#### Mountain problem
+
+1. [941. Valid Mountain Array -- Easy](https://leetcode.com/problems/valid-mountain-array/)
+2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
+3. [977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)](https://leetcode.com/problems/longest-mountain-in-array/)
 
 ### Expand
 
@@ -51,6 +51,10 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 #### Squeeze / interval block
 
 3. [1861. Rotating the Box -- Medium](https://leetcode.com/problems/rotating-the-box/)
+
+#### Swap ListNode
+
+[1721. Swapping Nodes in a Linked List -- Medium](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
 
 ### <u>Different speed</u>
 
@@ -112,6 +116,8 @@ Every time ask for the min length of ....
 5. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 6. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
 7. [532. K-diff Pairs in an Array -- Medium](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+8. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
+9. [438. Find All Anagrams in a String -- Medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
 ### slide window while keep the second freq char no more than k times
 

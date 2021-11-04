@@ -193,6 +193,7 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 ```
 
 1. [1559. Detect Cycles in 2D Grid -- Medium](https://leetcode.com/problems/detect-cycles-in-2d-grid/)
+2. [457. Circular Array Loop --  Medium](https://leetcode.com/problems/circular-array-loop/)
 
 ### Find separate group by DFS
 
