@@ -117,13 +117,20 @@ See **Merge/Insert Intervals** section  in **Stack_Heap.md**
    String in between is divisible by k 
 
 4. [Two Sum](https://leetcode.com/problems/two-sum/) `HashTable` or **sort + two pointers**
+
 5. [Two Sum less than K](https://leetcode.com/problems/two-sum-less-than-k/) two pointers
+
 6. [3Sum](https://leetcode.com/problems/3sum/) fix num1, use two sum for rest of two numbers **(Caution, duplicates!)**
+
 7. [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/), same with 3Sum, but need to track shortest distance
+
 8. [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
 
 9. [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/), **duplicates**
+
 10. [18. KSum](https://leetcode.com/problems/4sum/)
+
+11. [1498. Number of Subsequences That Satisfy the Given Sum Condition -- Medium](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 ## Matrix
 
@@ -140,6 +147,8 @@ see **Union & Find** section in **graph.md**
 ## Jump Game
 
 see **Jump Game** section in **Dynamic Programming.md**
+
+[1871. Jump Game VII -- Medium](https://leetcode.com/problems/jump-game-vii/) tricky way to avoid processing same position
 
 ## Soduku 
 
@@ -313,6 +322,8 @@ count from 1900
 
 
 
-## String Swap 
+## String/Array Manipulation
 
-[777. Swap Adjacent in LR String -- Medium](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
+1. [777. Swap Adjacent in LR String -- Medium](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
+
+2. [1574. Shortest Subarray to be Removed to Make Array Sorted  -- Medium](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)

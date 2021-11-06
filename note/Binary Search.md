@@ -100,6 +100,10 @@ int l = 0, r = arr.length - 1, mid = -1;
 1. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
 2. \1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
 
+## Search Interval/Range
+
+1. [1385. Find the Distance Value Between Two Arrays -- Medium](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+
 ## Guess and validate
 
 ### Note

@@ -139,6 +139,7 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 ### Other
 
 1. [1654. Minimum Jumps to Reach Home -- Meidum](https://leetcode.com/problems/minimum-jumps-to-reach-home/) `ax + by = z`, z must be `z = n * gcd(a, b)`, that means all reachable points must be mulitples of gcd(a, b)
+2. [1871. Jump Game VII -- Medium](https://leetcode.com/problems/jump-game-vii/) tricky way to avoid processing same position
 
 
 

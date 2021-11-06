@@ -1,5 +1,3 @@
-
-
 ## Priority of Bit operators
 
 | Precedence | Operator                                         | Associativity |
@@ -20,18 +18,20 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 
 ### check bit
 
-`& 1`  will check if origin bit is 1 or not, `n >> index & 1` will check bit at index, `0100 >> 2 & 1` --> `0001 & 0001 = 0001 = 1`
++ `& 1`  will **check if origin bit is 1 or not,** `n >> index & 1` will check bit at index, `0100 >> 2 & 1` --> `0001 & 0001 = 0001 = 1`
 
-`| 1` will set bit, `0011 | 0010 = 0010`
++ `| 1` will **set bit**, `0011 | 0010 = 0010`
 
-`& 0` will set bit into 0
++ `& 0` will **set bit into 0**
 
-`| 0` will check bit.
++ `| 0` will **check bit.**
+
++ **Get the first one from the right** (set bit), `x & -x` where `-x = ~x + 1`
 
 ### Set Bit
 
-+ set the ith position into 1, `num |(1 << i)`;
-+ set the ith position into 0, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
++ **set the ith position into 1**, `num |(1 << i)`;
++ **set the ith position into 0**, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
 
 
 
@@ -131,4 +131,6 @@ int gray2Binary(int n){
     }
 ```
 
-3. [201. Bitwise AND of Numbers Range -- Medium](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
+3. [260. Single Number III -- Medium](https://leetcode.com/problems/single-number-iii/)
+4. [201. Bitwise AND of Numbers Range -- Medium](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
+
