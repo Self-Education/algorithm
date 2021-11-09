@@ -98,7 +98,8 @@ int l = 0, r = arr.length - 1, mid = -1;
 ### Find smallest / largest number with boundary
 
 1. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
-2. \1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
+2. [1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
+2. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
 
 ## Search Interval/Range
 

@@ -11,7 +11,13 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 3. [557. Reverse Words in a String III -- Easy](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 4. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/submissions/)
 
+#### Wrap up/ rotate String/Array
 
+1. [969. Pancake Sorting -- Medium](https://leetcode.com/problems/pancake-sorting/)
+
+#### Right position
+
+1. [922. Sort Array By Parity II -- Easy](https://leetcode.com/problems/sort-array-by-parity-ii/)
 
 #### Mountain problem
 
