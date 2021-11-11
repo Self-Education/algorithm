@@ -2,6 +2,10 @@
 
 ### Starts at different position
 
+#### Two ends
+
+1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
+
 #### Reverse an <u>array of string</u> or string
 
 To reverse **each element in an array** instead of reversing the array. Eg. `str = "word1, word2 ... wordn"`, we can reverse `str` first, then reverse each word.
@@ -99,6 +103,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 1. [Merge Sorted Array -- Easy](https://leetcode.com/problems/merge-sorted-array/)  start from the end to avoid overwritten
 2. [986. Interval List Intersections -- Medium](https://leetcode.com/problems/interval-list-intersections/)
 3. [1229. Meeting Scheduler -- Medium](https://leetcode.com/problems/meeting-scheduler/)
+3. [161. One Edit Distance -- Medium](https://leetcode.com/problems/one-edit-distance/)
 
 
 

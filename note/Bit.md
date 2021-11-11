@@ -33,6 +33,12 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 + **set the ith position into 1**, `num |(1 << i)`;
 + **set the ith position into 0**, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
 
+### check subsets of bits
+
+to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
+
+[1178. Number of Valid Words for Each Puzzle -- Hard](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
+
 
 
 ### Gray code
