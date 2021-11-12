@@ -1,5 +1,5 @@
 1. [23. Merge k Sorted Lists -- Hard](https://leetcode.com/problems/merge-k-sorted-lists/)
-2. 
+2. [423. Reconstruct Original Digits from English -- Medium](https://leetcode.com/problems/reconstruct-original-digits-from-english/)
 3. [628. Maximum Product of Three Numbers -- Easy](https://leetcode.com/problems/maximum-product-of-three-numbers/)
 
 ## "Beautiful" series

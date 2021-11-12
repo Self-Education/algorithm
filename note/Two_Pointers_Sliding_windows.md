@@ -58,6 +58,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 1. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 2. [82. Remove Duplicates from Sorted List II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+3. [83. Remove Duplicates from Sorted List --  Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 
 #### Squeeze / interval block
 
