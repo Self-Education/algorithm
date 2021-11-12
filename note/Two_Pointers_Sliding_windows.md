@@ -32,6 +32,7 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 ### Expand
 
 1. [658. Find K Closest Elements -- Medium](https://leetcode.com/problems/find-k-closest-elements/)
+1. [1793. Maximum Score of a Good Subarray -- Hard](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
 
 ### As reader and writer, writer only moves after writing
 
@@ -111,11 +112,14 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 1. [243. Shortest Word Distance -- Easy](https://leetcode.com/problems/shortest-word-distance)
 2. [244. Shortest Word Distance II -- Medium](https://leetcode.com/problems/shortest-word-distance-ii)
+2. [Shortest Word Distance III -- Medium](https://leetcode.com/problems/shortest-word-distance-iii/)
 3. [248. Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii)
 
 ### to be categorized
 
 [1574. Shortest Subarray to be Removed to Make Array Sorted](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
+[1163. Last Substring in Lexicographical Order - Hard](https://leetcode.com/problems/last-substring-in-lexicographical-order/)
 
 # Sliding Window
 
