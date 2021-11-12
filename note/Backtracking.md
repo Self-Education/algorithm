@@ -1,6 +1,8 @@
 # Backtracking
 
+## General
 
+1. [425. Word Squares -- Hard](https://leetcode.com/problems/word-squares/)
 
 ## Permutation vs Combination vs Subset
 

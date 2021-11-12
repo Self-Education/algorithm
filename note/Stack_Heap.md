@@ -179,6 +179,8 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
     }		
 ```
 
+[272. Closest Binary Search Tree Value II -- hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
+
 ### Merge/Insert Intervals
 
 #### if there are two dimensions, sort based on one dimension, to reduce possible cases
@@ -208,3 +210,4 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 
 [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
+[1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
