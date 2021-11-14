@@ -183,6 +183,8 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 ### Merge/Insert Intervals
 
+
+
 #### if there are two dimensions, sort based on one dimension, to reduce possible cases
 
 #### Sort by start point: find the minimum number of intervals to cover the whole range
@@ -194,6 +196,7 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 5. [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 6. [1024. Video Stitching -- Medium](https://leetcode.com/problems/video-stitching/)
 7. [986. Interval List Intersections -- Medium](https://leetcode.com/problems/interval-list-intersections/)
+7. [763. Partition Labels --  Medium](https://leetcode.com/problems/partition-labels)
 
 #### Sort by end point: maximum number of non-overlapping intervals
 

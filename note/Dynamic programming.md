@@ -51,6 +51,8 @@
 
 12. [413. Arithmetic Slices -- Medium](https://leetcode.com/problems/arithmetic-slices/)
 
+12. [795. Number of Subarrays with Bounded Maximum -- Medium](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
+
 ### Do not know where to start or where to stop
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)

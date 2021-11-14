@@ -1,10 +1,54 @@
 # Two Pointers
 
-### Starts at different position
+## Starts at different position
 
-#### Two ends
+### Two ends
 
 1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
+
+#### Given target, find equal/smaller/larger
+
+```
+Find larger
+
+2, 4, 5, 8, 9, 13, 16
+i								j		k
+to find A[i] + A[j]  > A[k], lets fix j, if A[i] + A[j] > A[k], since all A[i + 1 :] is larger than A[i], so all number from i to j - 1 will make A[i] + A[j] > A[k], 
+then count += j - i, all valid numbers paired with A[j] are found, then move j to the left
+simimarly, if A[i] + A[j] < A[k], then we need to move i to right to increase sum
+
+How about find smaller
+find A[i] + A[j] < A[k], if A[i] + A[j] > A[k], A[p] + A[j] > A[k], where i <= p <= j - 1,
+so j is done, we move j to the left, in this case we are fixing i.
+```
+
+1. [611. Valid Triangle Number -- Medium](https://leetcode.com/problems/valid-triangle-number)
+
+2. [Pairs of Songs With Total Durations Divisible by 60 -- Medium](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  $(a + b) \% 60 = (a \% 60 + b \% 60) \% 60$
+
+3. [Continuous Subarray Sum -- Medium](https://leetcode.com/problems/continuous-subarray-sum/), divisible by K; 
+
+4. [Subarray Sums Divisible by K -- Medium](https://leetcode.com/problems/subarray-sums-divisible-by-k/) $s1 = nk + r1; s2 = mk + r2; => s1 - s2 = (n - m) k + (r1 -r2)$ , when $ r1 - r2 = 0$ or  $ r1 = r2 = 0$ 
+
+   String in between is divisible by k 
+
+5. [Two Sum](https://leetcode.com/problems/two-sum/) `HashTable` or **sort + two pointers**
+
+6. [Two Sum less than K](https://leetcode.com/problems/two-sum-less-than-k/) two pointers
+
+7. [3Sum](https://leetcode.com/problems/3sum/) fix num1, use two sum for rest of two numbers **(Caution, duplicates!)**
+
+8. [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/), same with 3Sum, but need to track shortest distance
+
+9. [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
+
+10. [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/), **duplicates**
+
+11. [18. KSum](https://leetcode.com/problems/4sum/)
+
+12. [1498. Number of Subsequences That Satisfy the Given Sum Condition -- Medium](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+
+13. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)
 
 #### Reverse an <u>array of string</u> or string
 
@@ -23,16 +67,28 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 1. [922. Sort Array By Parity II -- Easy](https://leetcode.com/problems/sort-array-by-parity-ii/)
 
+
+
+### Find unitl good candidates
+
 #### Mountain problem
 
 1. [941. Valid Mountain Array -- Easy](https://leetcode.com/problems/valid-mountain-array/)
 2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
 3. [977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)](https://leetcode.com/problems/longest-mountain-in-array/)
 
+
+
+
+
 ### Expand
 
 1. [658. Find K Closest Elements -- Medium](https://leetcode.com/problems/find-k-closest-elements/)
 1. [1793. Maximum Score of a Good Subarray -- Hard](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
+
+
+
+
 
 ### As reader and writer, writer only moves after writing
 
