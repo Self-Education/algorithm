@@ -6,6 +6,8 @@
 
 2. [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
+2. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+
 3. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
    Note that `k` could be negative, which needs offset for **memoize**. 

@@ -99,7 +99,9 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 1. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
 2. [1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
-2. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
+3. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
+4. [528. Random Pick with Weight -- Medium](https://leetcode.com/problems/random-pick-with-weight/) interval + Random to achieve weighted probability 
+5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 
 ## Search Interval/Range
 
@@ -221,6 +223,10 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 [774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
 
 [410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
+
+[718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
+
+[1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 
 
 

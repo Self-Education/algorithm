@@ -256,6 +256,10 @@ count from 1900
 2. [448. Find All Numbers Disappeared in an Array -- Easy](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 3. [442. Find All Duplicates in an Array -- Medium](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 4. [565. Array Nesting -- Medium](https://leetcode.com/problems/array-nesting/)
+4. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
+6. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
+7. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
+8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 
 
 
@@ -267,7 +271,7 @@ count from 1900
 2. [57. Insert Interval -- Medium](https://leetcode.com/problems/insert-interval)
 3. [253. Meeting Rooms II -- Medium](https://leetcode.com/problems/meeting-rooms-ii)
 
-(in)
+
 
 
 
@@ -284,17 +288,6 @@ count from 1900
 
 1. [370. Range Addition -- Medium](https://leetcode.com/problems/range-addition)
 2. [598. Range Addition II -- Easy](https://leetcode.com/problems/range-addition-ii)
-
-
-
-
-
-## Rolling Hash / Hash String into number 
-
-1. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
-2. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
-3. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
-4. [1062. Longest Repeating Substring -- Medium](https://leetcode.com/problems/longest-repeating-substring)
 
 
 

@@ -1,8 +1,8 @@
 # Greedy
 
 1. [316. Remove Duplicate Letters -- Medium](https://leetcode.com/problems/remove-duplicate-letters/)
-
 2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii) / [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+2. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 ### result = min/max(selecedGroup.B) * sum(selectedGroup.A), try to get the min/max of result
 
