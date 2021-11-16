@@ -102,8 +102,10 @@ int l = 0, r = arr.length - 1, mid = -1;
 3. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
 4. [528. Random Pick with Weight -- Medium](https://leetcode.com/problems/random-pick-with-weight/) interval + Random to achieve weighted probability 
 5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
+5. [1855. Maximum Distance Between a Pair of Values -- Medium](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
+5. [825. Friends Of Appropriate Ages -- Medium](https://leetcode.com/problems/friends-of-appropriate-ages)
 
-## Search Interval/Range
+### Search Interval/Range
 
 1. [1385. Find the Distance Value Between Two Arrays -- Medium](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
@@ -227,6 +229,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
 
 [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
+
+[1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
 
 

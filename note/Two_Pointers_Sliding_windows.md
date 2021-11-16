@@ -4,7 +4,7 @@
 
 ### Two ends
 
-1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
+1. [1721. Swapping Nodes in a Linked List --  Medium](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) recursion bottom up as end pointer + **template of node swap**
 
 #### Given target, find equal/smaller/larger
 
@@ -50,6 +50,13 @@ so j is done, we move j to the left, in this case we are fixing i.
 
 13. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)
 
+    
+
+#### element between two pointers is valuable
+
+1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
+2. [259. 3Sum Smaller -- Medium](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
+
 #### Reverse an <u>array of string</u> or string
 
 To reverse **each element in an array** instead of reversing the array. Eg. `str = "word1, word2 ... wordn"`, we can reverse `str` first, then reverse each word.
@@ -71,11 +78,17 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 ### Find unitl good candidates
 
+
+
+1. [345. Reverse Vowels of a String --  Easy](https://leetcode.com/problems/reverse-vowels-of-a-string/)
+2. [922. Sort Array By Parity II -- Easy](https://leetcode.com/problems/sort-array-by-parity-ii)
+
 #### Mountain problem
 
 1. [941. Valid Mountain Array -- Easy](https://leetcode.com/problems/valid-mountain-array/)
 2. [845. Longest Mountain in Array -- Medium](https://leetcode.com/problems/longest-mountain-in-array/)
 3. [977. Squares of a Sorted Array -- Easy](https://leetcode.com/problems/squares-of-a-sorted-array/)](https://leetcode.com/problems/longest-mountain-in-array/)
+3. [777. Swap Adjacent in LR String --  Medium](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 
 
 
@@ -85,6 +98,7 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 1. [658. Find K Closest Elements -- Medium](https://leetcode.com/problems/find-k-closest-elements/)
 1. [1793. Maximum Score of a Good Subarray -- Hard](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
+1. [1755. Closest Subsequence Sum --  Medium](https://leetcode.com/problems/closest-subsequence-sum/)
 
 
 
@@ -180,7 +194,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 # Sliding Window
 
-### make the windows always contains target element, and shrink window size.
+### windows always contains target element, and shrink window size.
 
 Every time ask for the min length of ....
 
@@ -194,12 +208,16 @@ Every time ask for the min length of ....
 8. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
 9. [438. Find All Anagrams in a String -- Medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
-### slide window while keep the second freq char no more than k times
+###  window keep the second freq char no more than k times
 
 1. [424. Longest Repeating Character Replacement -- Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
 2. [1156. Swap For Longest Repeated Character Substring -- Medium](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
 
 
+
+### window keep same size
+
+1. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/)
 
 ### partition array into different windows
 

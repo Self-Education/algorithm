@@ -4,6 +4,8 @@
 
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 
+1. [368. Largest Divisible Subset -- Medium](https://leetcode.com/problems/largest-divisible-subset/) dp with res instead of number
+
 2. [673. Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
 2. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)

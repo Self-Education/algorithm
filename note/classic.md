@@ -73,6 +73,13 @@ private int removeKDuplicates(int[] nums, int k){
 
 
 
+## find kth frequent/smallest/largest
+
+**quick sort/select**
+
+1. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/)
+2. [272. Closest Binary Search Tree Value II --  Hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
+
 ## looking from the left side and right side
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
