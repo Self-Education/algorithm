@@ -55,7 +55,9 @@
 
 12. [413. Arithmetic Slices -- Medium](https://leetcode.com/problems/arithmetic-slices/)
 
-12. [795. Number of Subarrays with Bounded Maximum -- Medium](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
+15. [795. Number of Subarrays with Bounded Maximum -- Medium](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
+
+12. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
 
 ### Do not know where to start or where to stop
 

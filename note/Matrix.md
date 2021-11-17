@@ -68,7 +68,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 <img src="images/image-20210703224806916.png" alt="image-20210703224806916" style="zoom:50%;" />
 
-#### problems
+### Problems
 
 1. [304. Range Sum Query 2D - Immutable -- Medium](https://leetcode.com/problems/range-sum-query-2d-immutable/submissions/)
 
@@ -76,7 +76,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 3. [221. Maximal Square -- Medium](https://leetcode.com/problems/maximal-square/)
 
-### We can see the problem as Histogram 
+#### We can see the problem as Histogram 
 
 1. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/) divide and conquer method is interesting
 

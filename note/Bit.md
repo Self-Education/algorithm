@@ -46,6 +46,8 @@ to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
 
 ### Gray code
 
+**definition**: is an ordering of the [binary numeral system](https://en.wikipedia.org/wiki/Binary_numeral_system) such that two successive values <u>differ in only one [bit](https://en.wikipedia.org/wiki/Bit) (binary digit).</u>
+
 1. #### **Convert Binary number to Gray number**: 
 
    + keep the **Most Significant Bit** (MSB);
@@ -62,7 +64,7 @@ to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
 
    ##### **<u>formula</u>**
 
-   ​	we noticed that `A[i] ^ A[i - 1]`, then formula is `A ^ A >> 1`
+   ​	we noticed that `A[i] ^ A[i - 1]`, then formula is `A ^ (A >> 1)`
 
    ```java
    int binary2Gray(int n){
@@ -89,6 +91,10 @@ int gray2Binary(int n){
     return n;
 }
 ```
+
+[89. Gray Code -- Medium](https://leetcode.com/problems/gray-code/)
+
+
 
 ## Use bitmask as memo
 

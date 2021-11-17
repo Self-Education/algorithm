@@ -104,6 +104,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 5. [1855. Maximum Distance Between a Pair of Values -- Medium](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
 5. [825. Friends Of Appropriate Ages -- Medium](https://leetcode.com/problems/friends-of-appropriate-ages)
+5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
 
 ### Search Interval/Range
 
@@ -266,4 +267,8 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 ### Matrix related
 
 [302. Smallest Rectangle Enclosing Black Pixels --  Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+
+[668. Kth Smallest Number in Multiplication Table -- Hard](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
+
+[378. Kth Smallest Element in a Sorted Matrix -- Medium](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 

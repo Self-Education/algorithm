@@ -50,3 +50,9 @@
 + PriorityQueue
 + Binary search
 + quick sort/select
+
+### Matrix Rectangle/Square 
+
++ histogram
++ surrounding cells
+
