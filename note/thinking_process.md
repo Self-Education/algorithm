@@ -40,6 +40,8 @@
   + map/set to record occurance along the way
   + Sort
 
++ prefixSum to get the subArray sum
+
 
 ### When asks for number of ...
 
@@ -55,4 +57,5 @@
 
 + histogram
 + surrounding cells
++ kadane algo
 
