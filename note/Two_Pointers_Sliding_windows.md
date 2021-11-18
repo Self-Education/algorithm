@@ -94,11 +94,12 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 
 
-### Expand
+### Find and Expand
 
 1. [658. Find K Closest Elements -- Medium](https://leetcode.com/problems/find-k-closest-elements/)
 1. [1793. Maximum Score of a Good Subarray -- Hard](https://leetcode.com/problems/maximum-score-of-a-good-subarray/)
 1. [1755. Closest Subsequence Sum --  Medium](https://leetcode.com/problems/closest-subsequence-sum/)
+1. [927. Three Equal Parts -- Hard](https://leetcode.com/problems/three-equal-parts/)
 
 
 
