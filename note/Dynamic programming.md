@@ -57,7 +57,9 @@
 
 15. [795. Number of Subarrays with Bounded Maximum -- Medium](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum)
 
-12. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
+16. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
+
+12. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
 ### Do not know where to start or where to stop
 
@@ -104,7 +106,7 @@
 
 ## Job scheduling series
 
-
+1. [1235. Maximum Profit in Job Scheduling -- Hard](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 
 
 

@@ -17,10 +17,15 @@
 + sort
 + binary search
 + divide and conquer
+
 + two pointer / sliding window
 + count freq
 + hash
 + DP
+
+### String/Array Min length
+
++ window and shrink
 
 ### Shortest/Longest path
 
@@ -59,3 +64,6 @@
 + surrounding cells
 + kadane algo
 
+### BST
+
++ in-order traverse (ascending order)

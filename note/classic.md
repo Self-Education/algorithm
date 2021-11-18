@@ -310,3 +310,9 @@ count from 1900
 1. [777. Swap Adjacent in LR String -- Medium](https://leetcode.com/problems/swap-adjacent-in-lr-string/)
 
 2. [1574. Shortest Subarray to be Removed to Make Array Sorted  -- Medium](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
+
+
+### Brute force first N examples to find rules
+
+1. [330. Patching Array -- Hard](https://leetcode.com/problems/patching-array/)
