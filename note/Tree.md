@@ -2,6 +2,10 @@
 
 [814. Binary Tree Pruning -- Medium](https://leetcode.com/problems/binary-tree-pruning/)
 
+[366. Find Leaves of Binary Tree -- Medium](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+
+
+
 
 
 ## Divide and Conquer
@@ -28,6 +32,7 @@
 10. [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)
 11. [1740. Find Distance in a Binary Tree -- Medium](https://leetcode.com/problems/find-distance-in-a-binary-tree)
 12. [783. Minimum Distance Between BST Nodes -- Medium](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
+12. [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 
 
 

@@ -126,7 +126,7 @@ See matrix.md
 
 ## Stone Games
 
-see **Union & Find** section in **graph.md**
+see **Play game** section in **Dynamic Programming.md**
 
 
 
@@ -267,6 +267,7 @@ count from 1900
 6. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
 7. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
+8. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
 
 
 

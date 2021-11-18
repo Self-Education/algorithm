@@ -13,12 +13,11 @@
    + **rule2:** and above inequality is linear which means we can multiply or +/- a number at both sides, without breaking the inequality
 
    + for n = 5, [1, 2, 3, 4, 5], based on the rule1, we can place all odd at left side (s1) 
-     and all even numbers at the right side (s2), [1, 3, 5] + [2, 4], for the universe set, 
-     it meets the requirements, but how do we make s1 and s2 themselves beautiful?
-     based on rule2, we can 2 * beautiful array - 1, to get a odd part
-     and 2 * beautiful array to get a even part, in this way we achieve both rules.
-
-     ```
+     and all even numbers at the right side (s2), [1, 3, 5] + [2, 4],
+     
+     if s1 and s2 are beautiful, then `s1[i] + s2[j]`  is odd, half of the sum is fraction which cannot be present in the array, in conclusion: if two arrays are beautiful , then combination of two arrays are beautiful as well
+     
+  ```
      ans[1] = [1]
      ans[2] = [1, 2]
      ans[3] = 2 * ans[2] - 1 and 2 * ans[1] = [1, 3] + [2] = [1, 3, 2]
@@ -27,8 +26,8 @@
      ans[6] = 2 * ans[3] - 1 and 2 * ans[3]
      ans[n] = 2 * ans[(n + 1) / 2] and 2 * ans[n / 2]
      ```
-
      
+  
 
 
 
