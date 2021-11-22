@@ -54,8 +54,14 @@ all levels except the last level must be fully filled, and all nodes in the last
 
 ## Serialize Tree
 
-### Use serialized tree to find duplictes
+### Use serialized tree to find duplicates
 
-try **serialization** when have no clue, but be careful with trasverse order
+try **serialization** when have no clue, but be careful with traverse order
 
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder
+
+## Manipulation
+
+### Deletion
+
+1. [450. Delete Node in a BST -- Medium](https://leetcode.com/problems/delete-node-in-a-bst/)
