@@ -281,6 +281,7 @@ public boolean UnionFind(List<List<String>> edges) {
 7. [1319. Number of Operations to Make Network Connected -- Medium](https://leetcode.com/problems/number-of-operations-to-make-network-connected)
 8. [684. Redundant Connection -- Medium](https://leetcode.com/problems/redundant-connection/)
 9. [685. Redundant Connection II -- Hard](https://leetcode.com/problems/redundant-connection-ii)
+9. [952. Largest Component Size by Common Factor -- Hard](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 
 ### View cells in matrix as vertices 
 
