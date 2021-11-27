@@ -183,9 +183,9 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 ### Merge/Insert Intervals
 
+if there are two dimensions, sort based on one dimension, to reduce possible cases
 
 
-#### if there are two dimensions, sort based on one dimension, to reduce possible cases
 
 #### Sort by start point: find the minimum number of intervals to cover the whole range
 

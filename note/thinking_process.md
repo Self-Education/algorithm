@@ -27,6 +27,12 @@
 
 + window and shrink
 
+### Subarray sum
+
++ Prefix sum + HashMap
+
+
+
 ### Shortest/Longest path
 
 + BFS / DFS
@@ -67,3 +73,9 @@
 ### BST
 
 + in-order traverse (ascending order)
+
+
+
+### first greater or smaller
+
++ Mono stack

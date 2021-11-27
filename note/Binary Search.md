@@ -272,3 +272,8 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 
 [378. Kth Smallest Element in a Sorted Matrix -- Medium](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 
+
+
+### traverse down a tree based on if index at left or right
+
+1. [222. Count Complete Tree Nodes --  Medium](https://leetcode.com/problems/count-complete-tree-nodes/)

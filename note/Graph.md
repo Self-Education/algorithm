@@ -30,7 +30,7 @@
 14. [1036. Escape a Large Maze -- Hard](https://leetcode.com/problems/escape-a-large-maze) Bounded BFS
 15. [1298. Maximum Candies You Can Get from Boxes -- Hard](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes)
 16. [1345. Jump Game IV -- Hard](https://leetcode.com/problems/jump-game-iv/)
-17. [317. Shortest Distance from All Buildings _Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
+17. [317. Shortest Distance from All Buildings -- Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
 18. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
 19. [301. Remove Invalid Parentheses -- Hard](https://leetcode.com/problems/remove-invalid-parentheses/)
 20. [987. Vertical Order Traversal of a Binary Tree --  Hard](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
