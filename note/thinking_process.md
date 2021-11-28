@@ -79,3 +79,7 @@
 ### first greater or smaller
 
 + Mono stack
+
+### 1- n range find missing
+
++ mark index
