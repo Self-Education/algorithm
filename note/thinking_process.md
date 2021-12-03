@@ -41,7 +41,7 @@
 
 ### minimize/maximize Max/Min value
 
-+ Binary search
++ Binary search (guess and validate)
 
 
 
@@ -80,6 +80,22 @@
 
 + Mono stack
 
-### 1- n range find missing
+### 1 - n range find missing
 
 + mark index
++ binary search
+
+
+
+### LinkedList find position
+
++ two pointers with different speed or start at different time
+
+### search / find range
+
++ binary search
+
+### closest target
+
++ heap
++ binary search (find and expand)
