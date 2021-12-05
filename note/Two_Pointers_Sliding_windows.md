@@ -34,6 +34,8 @@ so j is done, we move j to the left, in this case we are fixing i.
 
 5. [Two Sum](https://leetcode.com/problems/two-sum/) `HashTable` or **sort + two pointers**
 
+5. [633. Sum of Square Numbers -- Medium](https://leetcode.com/problems/sum-of-square-numbers/)
+
 6. [Two Sum less than K](https://leetcode.com/problems/two-sum-less-than-k/) two pointers
 
 7. [3Sum](https://leetcode.com/problems/3sum/) fix num1, use two sum for rest of two numbers **(Caution, duplicates!)**
@@ -138,6 +140,12 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 #### Swap ListNode
 
 [1721. Swapping Nodes in a Linked List -- Medium](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+
+
+
+#### adjcent swap
+
+[1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number -- Medium](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 
 ### <u>Different speed</u>
 

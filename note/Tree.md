@@ -4,6 +4,10 @@
 
 [366. Find Leaves of Binary Tree -- Medium](https://leetcode.com/problems/find-leaves-of-binary-tree/)
 
+### Recursion, return multiple possibles
+
+1. [337. House Robber III --  Medium](https://leetcode.com/problems/house-robber-iii/)
+
 
 
 

@@ -108,7 +108,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 ### Search Interval/Range
 
-1. [1385. Find the Distance Value Between Two Arrays -- Medium](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
 ## Guess and validate
 
