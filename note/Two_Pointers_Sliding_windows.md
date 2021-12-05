@@ -4,7 +4,19 @@
 
 ### Two ends
 
+#### LinkedList related
+
+##### Reader and Writer
+
 1. [1721. Swapping Nodes in a Linked List --  Medium](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) recursion bottom up as end pointer + **template of node swap**
+2. [143. Reorder List -- Medium](https://leetcode.com/problems/reorder-list/)
+
+##### Fast and slow runner
+
+1. [141. Linked List Cycle -- Easy](https://leetcode.com/problems/linked-list-cycle/)
+2. [142. Linked List Cycle II -- Medium](https://leetcode.com/problems/linked-list-cycle-ii/) **Hare and Tortoise**
+3. [19. Remove Nth Node From End of List -- Medium](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) find from the end
+4. [61. Rotate List -- Medium](https://leetcode.com/problems/rotate-list/)
 
 #### Given target, find equal/smaller/larger
 
@@ -137,6 +149,8 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 3. [1861. Rotating the Box -- Medium](https://leetcode.com/problems/rotating-the-box/)
 
+
+
 #### Swap ListNode
 
 [1721. Swapping Nodes in a Linked List -- Medium](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
@@ -147,14 +161,11 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 [1850. Minimum Adjacent Swaps to Reach the Kth Smallest Number -- Medium](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 
+
+
 ### <u>Different speed</u>
 
-+ #### Cycled LinkedList
-
-  + fast and slow runner
-
-  1. [141. Linked List Cycle -- Easy](https://leetcode.com/problems/linked-list-cycle/)
-  2. [142. Linked List Cycle II -- Medium](https://leetcode.com/problems/linked-list-cycle-ii/) **Hare and Tortoise**
++ 2. 
 
 ### Start at different time
 

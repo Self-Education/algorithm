@@ -13,3 +13,6 @@
 1. [Longest Common Prefix -- Easy](https://leetcode.com/problems/longest-common-prefix/)
 1. [148. Sort List -- Medium](https://leetcode.com/problems/sort-list)
 
+### Divide into parts to reduce time complexity
+
+1. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)

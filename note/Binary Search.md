@@ -110,6 +110,16 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
+
+
+### Closest
+
+**find the range or position of the target, then expand**
+
+1. [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
+
+
+
 ## Guess and validate
 
 ### Note

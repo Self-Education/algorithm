@@ -59,7 +59,9 @@
 
 16. [1220. Count Vowels Permutation -- Hard](https://leetcode.com/problems/count-vowels-permutation/)
 
-12. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
+17. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
+
+12. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
 
 ### Do not know where to start or where to stop
 

@@ -41,7 +41,7 @@
 
 ### minimize/maximize Max/Min value
 
-+ Binary search
++ Binary search (guess and validate)
 
 
 
@@ -80,10 +80,29 @@
 
 + Mono stack
 
-### 1- n range find missing
+### 1 - n range find missing
 
 + mark index
+<<<<<<< HEAD
 
 ### Distance
 
 + binary search [target - dist, target + dist]: [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+=======
++ binary search
+
+
+
+### LinkedList find position
+
++ two pointers with different speed or start at different time
+
+### search / find range
+
++ binary search
+
+### closest target
+
++ heap
++ binary search (find and expand)
+>>>>>>> 771dde20d11525376ab7db4662aa5ef550ad8466
