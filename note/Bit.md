@@ -149,4 +149,5 @@ int gray2Binary(int n){
 
 3. [260. Single Number III -- Medium](https://leetcode.com/problems/single-number-iii/)
 4. [201. Bitwise AND of Numbers Range -- Medium](https://leetcode.com/problems/bitwise-and-of-numbers-range/)
+4. [1290. Convert Binary Number in a Linked List to Integer -- Easy](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
 
