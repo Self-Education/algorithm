@@ -25,8 +25,8 @@
      ans[5] = 2 * ans[3] - 1 and 2 * ans[2] = [1, 5, 3] + [2, 4] = [1, 5, 3, 2, 4]
      ans[6] = 2 * ans[3] - 1 and 2 * ans[3]
      ans[n] = 2 * ans[(n + 1) / 2] and 2 * ans[n / 2]
-     ```
-     
+  ```
+
   
 
 
@@ -54,3 +54,7 @@
 [782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard) chess board only has two types of rows, swaps rows/cols, does not change equality of same type of row/cols
 
 [1332. Remove Palindromic Subsequences -- Easy](https://leetcode.com/problems/remove-palindromic-subsequences/)
+
+[1217. Minimum Cost to Move Chips to The Same Position -- Easy](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
+
+[942. DI String Match - Easy](https://leetcode.com/problems/di-string-match/)

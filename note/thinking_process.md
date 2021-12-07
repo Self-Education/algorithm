@@ -88,7 +88,7 @@
 ### Distance
 
 + binary search [target - dist, target + dist]: [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
-=======
+
 + binary search
 
 
@@ -106,3 +106,8 @@
 + heap
 + binary search (find and expand)
 >>>>>>> 771dde20d11525376ab7db4662aa5ef550ad8466
+
+### cycle
+
++ union and find
++ DFS ( with state)

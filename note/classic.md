@@ -86,6 +86,7 @@ private int removeKDuplicates(int[] nums, int k){
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
 3. [238. Product of Array Except Self -- Medium](https://leetcode.com/problems/product-of-array-except-self/)
 4. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
+4. [821. Shortest Distance to a Character --  Easy](https://leetcode.com/problems/shortest-distance-to-a-character/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -95,7 +96,7 @@ private int removeKDuplicates(int[] nums, int k){
 ## Integer and Roman
 
 1. [Roman to Integer -- Easy](https://leetcode.com/problems/roman-to-integer/) left Roman is always larger than right
-2. [Integer to Roman -- Medium](https://leetcode.com/problems/integer-to-roman/) greedy, use possible largest Roman letter to run out  each digit
+2. [Integer to Roman -- Medium](https://leetcode.com/problems/integer-to-roman/) greedy, use possible largest Roman letter to run out  each digi
 
 
 
