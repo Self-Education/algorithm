@@ -83,7 +83,6 @@
 ### 1 - n range find missing
 
 + mark index
-<<<<<<< HEAD
 
 ### Distance
 
@@ -105,7 +104,6 @@
 
 + heap
 + binary search (find and expand)
->>>>>>> 771dde20d11525376ab7db4662aa5ef550ad8466
 
 ### cycle
 
