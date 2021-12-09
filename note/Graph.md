@@ -22,23 +22,33 @@
 6. [200. Number of Islands -- Medium](https://leetcode.com/problems/number-of-islands)
 7. [529. Minesweeper -- Medium](https://leetcode.com/problems/minesweeper)
 8. [675. Cut Off Trees for Golf Event -- Hard](https://leetcode.com/problems/cut-off-trees-for-golf-event)
-9. [694. Number of Distinct Islands -- Medium](https://leetcode.com/problems/number-of-distinct-islands) path signature
-10. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
-11. [815. Bus Routes -- Hard](https://leetcode.com/problems/bus-routes/)
-12. [838. Push Dominoes -- Medium](https://leetcode.com/problems/push-dominoes)
-13. [928. Minimize Malware Spread II -- Hard](https://leetcode.com/problems/minimize-malware-spread-ii/)
-14. [1036. Escape a Large Maze -- Hard](https://leetcode.com/problems/escape-a-large-maze) Bounded BFS
-15. [1298. Maximum Candies You Can Get from Boxes -- Hard](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes)
-16. [1345. Jump Game IV -- Hard](https://leetcode.com/problems/jump-game-iv/)
-17. [317. Shortest Distance from All Buildings -- Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
-18. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
-19. [301. Remove Invalid Parentheses -- Hard](https://leetcode.com/problems/remove-invalid-parentheses/)
-20. [987. Vertical Order Traversal of a Binary Tree --  Hard](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
-21. [417. Pacific Atlantic Water Flow -- Medium](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-22. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
-23. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
-24. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
+9. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
+10. [815. Bus Routes -- Hard](https://leetcode.com/problems/bus-routes/)
+11. [838. Push Dominoes -- Medium](https://leetcode.com/problems/push-dominoes)
+12. [928. Minimize Malware Spread II -- Hard](https://leetcode.com/problems/minimize-malware-spread-ii/)
+13. [1036. Escape a Large Maze -- Hard](https://leetcode.com/problems/escape-a-large-maze) Bounded BFS
+14. [1298. Maximum Candies You Can Get from Boxes -- Hard](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes)
+15. [1345. Jump Game IV -- Hard](https://leetcode.com/problems/jump-game-iv/)
+16. [317. Shortest Distance from All Buildings -- Hard](https://leetcode.com/problems/shortest-distance-from-all-buildings)
+17. [1905. Count Sub Islands -- Medium](https://leetcode.com/problems/count-sub-islands/)
+18. [301. Remove Invalid Parentheses -- Hard](https://leetcode.com/problems/remove-invalid-parentheses/)
+19. [987. Vertical Order Traversal of a Binary Tree --  Hard](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)
+20. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+21. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
+22. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
 25. [1391. Check if There is a Valid Path in a Grid -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) how do we check if directions match
+
+
+
+### Reverse BFS (from dst to src or from more to less)
+
+1. [417. Pacific Atlantic Water Flow -- Medium](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+2. . [407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+
+### String/Bitmask to store the state/path
+
+1. [773. Sliding Puzzle -- Hard](https://leetcode.com/problems/sliding-puzzle/)
+2. [694. Number of Distinct Islands -- Medium](https://leetcode.com/problems/number-of-distinct-islands) path signature
 
 ### Bi-partition (coloring)
 
@@ -135,6 +145,7 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 8. [743. Network Delay Time -- Medium](https://leetcode.com/problems/network-delay-time)
 9. [1102. Path With Maximum Minimum Value -- Medium](https://leetcode.com/problems/path-with-maximum-minimum-value/) cannot use DFS+Memo, since it goes four directions
 10. [1129. Shortest Path with Alternating Colors -- Medium](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
+10. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops)
 
 ### Other
 
