@@ -247,3 +247,4 @@ Every time ask for the min length of ....
 
 [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
+[1574. Shortest Subarray to be Removed to Make Array Sorted --  Medium](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
