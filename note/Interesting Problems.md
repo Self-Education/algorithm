@@ -58,3 +58,5 @@
 [1217. Minimum Cost to Move Chips to The Same Position -- Easy](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 
 [942. DI String Match - Easy](https://leetcode.com/problems/di-string-match/)
+
+[790. Domino and Tromino Tiling -- Medium](https://leetcode.com/problems/domino-and-tromino-tiling/)
