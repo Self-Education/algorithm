@@ -40,10 +40,12 @@
 
 
 
-### Reverse BFS (from dst to src or from more to less)
+### Reverse BFS (from dst to src / multi src)
 
 1. [417. Pacific Atlantic Water Flow -- Medium](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
-2. . [407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+2.  [407. Trapping Rain Water II -- Hard](https://leetcode.com/problems/trapping-rain-water-ii/)
+2. [286. Walls and Gates -- Medium](https://leetcode.com/problems/walls-and-gates/)
+2. [542. 01 Matrix -- Medium](https://leetcode.com/problems/01-matrix/)
 
 ### String/Bitmask to store the state/path
 
@@ -442,6 +444,14 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
     
     private int find(int a, int[] parent){...}
 ```
+
+
+
+### Multi-threading
+
+1. [1242. Web Crawler Multithreaded -- Medium](https://leetcode.com/problems/web-crawler-multithreaded/)
+
+
 
 ## to be categorized
 
