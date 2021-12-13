@@ -60,3 +60,19 @@
 [942. DI String Match - Easy](https://leetcode.com/problems/di-string-match/)
 
 [790. Domino and Tromino Tiling -- Medium](https://leetcode.com/problems/domino-and-tromino-tiling/)
+
+
+
+### GCD
+
+```java
+private int GCD(int a, int b){
+  if(b == 0) return a;
+  return GCD(b, a%b);
+}
+```
+
++ `A * B = LCM(A, B) * GCD(A, B)`
+
+1. [878. Nth Magical Number --  Hard](https://leetcode.com/problems/nth-magical-number/)
+
