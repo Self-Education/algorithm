@@ -214,3 +214,5 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
 [1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
+
+[862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) mono increasing queue

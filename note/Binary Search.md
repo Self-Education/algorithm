@@ -97,14 +97,29 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 ### Find smallest / largest number with boundary
 
-1. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
-2. [1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
-3. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
-4. [528. Random Pick with Weight -- Medium](https://leetcode.com/problems/random-pick-with-weight/) interval + Random to achieve weighted probability 
-5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
-5. [1855. Maximum Distance Between a Pair of Values -- Medium](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
-5. [825. Friends Of Appropriate Ages -- Medium](https://leetcode.com/problems/friends-of-appropriate-ages)
-5. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
+1. [34. Find First and Last Position of Element in Sorted Array -- Medium](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+2. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
+
+3. [1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
+
+4. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
+
+5. [528. Random Pick with Weight -- Medium](https://leetcode.com/problems/random-pick-with-weight/) interval + Random to achieve weighted probability 
+
+6. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence) greedy + binary search
+
+7. [1855. Maximum Distance Between a Pair of Values -- Medium](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
+
+8. [825. Friends Of Appropriate Ages -- Medium](https://leetcode.com/problems/friends-of-appropriate-ages)
+
+9. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+10. [981. Time Based Key-Value Store -- Medium](https://leetcode.com/problems/time-based-key-value-store) prefixsum + binarySearch
+
+11. [362. Design Hit Counter -- Medium](https://leetcode.com/problems/design-hit-counter/)
+
+    
 
 ### Search Interval/Range
 
@@ -242,6 +257,8 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 
 [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+
+
 
 
 

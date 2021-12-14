@@ -268,6 +268,7 @@ count from 1900
 6. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
 7. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
+8. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 8. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
 
 

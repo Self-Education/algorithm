@@ -3,6 +3,7 @@
 ## Merge sort
 
 1. [154. Find Minimum in Rotated Sorted Array II -- Hard](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+1. [315. Count of Smaller Numbers After Self -- Hard](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
 
 
 

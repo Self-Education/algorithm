@@ -219,14 +219,26 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 Every time ask for the min length of ....
 
 1. [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)
+
 2. [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
+
 3. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
-4. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) keep windows only contains non-duplicates or shrink( here we can use `hashmap` to store most recent index of each char)
-5. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
-6. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
-7. [532. K-diff Pairs in an Array -- Medium](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
-8. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
-9. [438. Find All Anagrams in a String -- Medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+4. [862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) similar with 209, but negative value, mono queue
+
+5. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) keep windows only contains non-duplicates or shrink( here we can use `hashmap` to store most recent index of each char)
+
+6. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
+
+7. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
+
+8. [532. K-diff Pairs in an Array -- Medium](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+
+9. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
+
+10. [438. Find All Anagrams in a String -- Medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+    
 
 ###  window keep the second freq char no more than k times
 
