@@ -119,11 +119,14 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 11. [362. Design Hit Counter -- Medium](https://leetcode.com/problems/design-hit-counter/)
 
+11. [1146. Snapshot Array -- Medium](https://leetcode.com/problems/snapshot-array/)
+
     
 
 ### Search Interval/Range
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/)
 
 
 
@@ -240,23 +243,22 @@ Similar with #410, the array is not sorted, so we sort the array, so that for ea
 
 ### Problems
 
-[1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+1. [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
-[875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+2. [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
+3. [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
+4. [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
+5. [774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
 
-[1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
+6. [410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
 
-[792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
+7. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
 
-[774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
+8. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 
-[410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
+9. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 
-[718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
-
-[1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
-
-[1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+10. [1283. Find the Smallest Divisor Given a Threshold -- Medium](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
 
 
 
