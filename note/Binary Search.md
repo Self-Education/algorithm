@@ -121,6 +121,10 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 11. [1146. Snapshot Array -- Medium](https://leetcode.com/problems/snapshot-array/)
 
+11. [1348. Tweet Counts Per Frequency -- Medium](https://leetcode.com/problems/tweet-counts-per-frequency/)
+
+11. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+
     
 
 ### Search Interval/Range

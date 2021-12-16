@@ -64,6 +64,8 @@ so j is done, we move j to the left, in this case we are fixing i.
 
 13. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)
 
+13. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+
     
 
 #### element between two pointers is valuable
@@ -214,7 +216,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 # Sliding Window
 
-### windows always contains target element, and shrink window size.
+### Shrink window size to make window valid
 
 Every time ask for the min length of ....
 

@@ -57,7 +57,7 @@
 1. [886. Possible Bipartition -- Medium](https://leetcode.com/problems/possible-bipartition)
 2. [785. Is Graph Bipartite? -- Medium](https://leetcode.com/problems/is-graph-bipartite)
 
-### Find longest path in the graph (Centroid of tree)
+### Find longest path in the Tree(Centroid of tree)
 
 **Centroid** of the tree: nodes that is overall closest to all peripheral nodes (leaf nodes, the nodes have only one connection), **<u>there can be at most 2 centroids</u>** in a tree, since if there are 3, we can see two of them as leave and keep removing the outer layer, then the centroid becomes 1. If the left three nodes are not leaves, them they must form a cycle which conflicts with the definition. 
 
