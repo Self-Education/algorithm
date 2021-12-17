@@ -65,7 +65,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 ## Sub rectangle sum / area
 
-[video tutorial](https://www.youtube.com/watch?v=yCQN096CwWM), basically try  sub rectangles with different **left boundary** and **right boundary**, then use **<u>Kadane's algorithm</u>** to find the maxSum and track the **upper boundary** and **lower boundary**
+[video tutorial](https://www.youtube.com/watch?v=yCQN096CwWM), basically try  sub rectangles with different **left boundary** and **right boundary**, then use [Kadane's algorithm](https://leetcode.com/playground/nJeWZGBV) to find the maxSum and track the **upper boundary** and **lower boundary**
 
 <img src="images/image-20210703224806916.png" alt="image-20210703224806916" style="zoom:50%;" />
 
