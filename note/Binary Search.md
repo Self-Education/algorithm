@@ -206,63 +206,60 @@ public int splitArray(int[] nums, int m) {
 
 #### **[719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)**
 
-Similar with #410, the array is not sorted, so we sort the array, so that for each `arr[i]`, `arr[j + 1] - arr[i] > arr[j] - arr[i]`. the lower bound `lo` is smallest possible distance which is 0, and upper bound `upper`  would be the difference between the first element and the last element. We pick up possible  distance `mid` so see how many pairs `count` with `sum <= mid`, three cases:
+Similar with [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/), the array is not sorted, so we sort the array, so that for each `arr[i]`, `arr[j + 1] - arr[i] > arr[j] - arr[i]`. the lower bound `lo` is smallest possible distance which is 0, and upper bound `upper`  would be the difference between the first element and the last element. We pick up possible  distance `mid` so see how many pairs `count` with `sum <= mid`, three cases:
 
 + if `count == k`, then the mid is the kth smallest distance
 + if `count < k`, that means mid is too small, so make lower bound higher, `lo = mid + 1`
 + if `count > k`, that means mid is too large, here is the trickiest part, lets say the we want to find 3rd smallest pair distance and  **distance array** is `[0, 1, 3, 3, 4, 5, 6]`, now `mid = (0 + 6)/2 = 3`( the second 2) and `count = 4`,  if we use `hi = mid - 1 = 2`, but obviously 3rd smallest distance is 3. In other words, should use `hi = mid` because of the duplicate of the distance 
 
+#### <u>Divide Chocolate</u>
+
 ```java
-1231. Divide Chocolatepublic int smallestDistancePair(int[] nums, int k) {
-        Arrays.sort(nums);
-        int n = nums.length;
-        int left = 0, right = nums[n - 1] - nums[0], mid = -1;
-        while(left <  right){
-            mid = left + (right - left)/2;
-            int count = helper(nums, mid);
-            if(count >= k){
-                right = mid;
-            }else{
-                left = mid + 1;
-            }
+public int smallestDistancePair(int[] nums, int k) {
+    Arrays.sort(nums);
+    int n = nums.length;
+    int left = 0, right = nums[n - 1] - nums[0], mid = -1;
+    while(left <  right){
+        mid = left + (right - left)/2;
+        int count = helper(nums, mid);
+        if(count >= k){
+            right = mid;
+        }else{
+            left = mid + 1;
         }
-        return left;
     }
-    // return number of pairs whose distance is no larger than target
-    public int helper(int[] nums, int target){
-        int count = 0;
-        for(int i = 0; i < nums.length - 1; i++){
-            for(int j = i + 1; j < nums.length; j++){
-                // because nums is sorted, then all numbers at the right side of
-                // j has larger distance against i, so we can stop eariler
-                if(nums[j] - nums[i] > target){
-                    break;
-                }
-                count++;
+    return left;
+}
+// return number of pairs whose distance is no larger than target
+public int helper(int[] nums, int target){
+    int count = 0;
+    for(int i = 0; i < nums.length - 1; i++){
+        for(int j = i + 1; j < nums.length; j++){
+            // because nums is sorted, then all numbers at the right side of
+            // j has larger distance against i, so we can stop eariler
+            if(nums[j] - nums[i] > target){
+                break;
             }
+            count++;
         }
-        return count;
     }
+    return count;
+}
 ```
 
 ### Problems
 
 1. [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
-
 2. [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 3. [1231. Divide Chocolate](https://leetcode.com/problems/divide-chocolate/)
 4. [792. Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)
 5. [774. Minimize Max Distance to Gas Station -- Hard](https://leetcode.com/problems/minimize-max-distance-to-gas-station/) tricky, double type binary search, cannot use `r = mid + 1` or `l = mid - 1`, since we can increment by a double type number
-
 6. [410. Split Array Largest Sum -- Hard](https://leetcode.com/problems/split-array-largest-sum/)
-
 7. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray)
-
 8. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
-
 9. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
-
 10. [1283. Find the Smallest Divisor Given a Threshold -- Medium](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
+10. [378. Kth Smallest Element in a Sorted Matrix -- Medium,](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
 
 
 

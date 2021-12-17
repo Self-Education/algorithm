@@ -61,6 +61,8 @@
 
 [790. Domino and Tromino Tiling -- Medium](https://leetcode.com/problems/domino-and-tromino-tiling/)
 
+[754. Reach a Number -- Medium](https://leetcode.com/problems/reach-a-number/)
+
 
 
 ### GCD

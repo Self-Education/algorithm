@@ -27,9 +27,12 @@
 
 + window and shrink
 
+1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
+
 ### Subarray sum
 
 + Prefix sum + HashMap
++ prefix sum + binary search (since prefixSum is increasing if all number is positive)
 
 
 
@@ -86,8 +89,8 @@
 
 ### Distance
 
-+ binary search [target - dist, target + dist]: [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
-
++ binary search [target - dist, target + dist]: 
+    1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 + binary search
 
 

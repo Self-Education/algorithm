@@ -7,6 +7,7 @@
 3. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 4. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 5. [581. Shortest Unsorted Continuous Subarray -- Medium](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
+5. [456. 132 Pattern -- Medium](https://leetcode.com/problems/132-pattern/)
 
 
 

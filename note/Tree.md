@@ -69,3 +69,9 @@ try **serialization** when have no clue, but be careful with traverse order
 ### Deletion
 
 1. [450. Delete Node in a BST -- Medium](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+
+
+## Other
+
+[1932. Merge BSTs to Create Single BST -- Hard](https://leetcode.com/problems/merge-bsts-to-create-single-bst/) no way I can solve it by my self
