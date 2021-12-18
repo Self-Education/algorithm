@@ -315,14 +315,18 @@ count from 1900
 
 
 
-### Brute force first N examples to find rules
+## Brute force first N examples to find rules
 
 1. [330. Patching Array -- Hard](https://leetcode.com/problems/patching-array/)
 
 
 
-### Math
+## Math
 
 #### GCD
 
 1. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem/)
+
+#### other
+
+1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)

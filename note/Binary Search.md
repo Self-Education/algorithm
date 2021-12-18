@@ -125,12 +125,17 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 11. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
+11. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+
+11. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
+
     
 
 ### Search Interval/Range
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
-1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/)
+1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/) `[2, 3, 6, 8, 11], then # of missing numbers = arr[i] - 1 - i`
+1. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
 
 
 

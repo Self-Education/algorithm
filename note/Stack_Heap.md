@@ -8,6 +8,7 @@
 4. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 5. [581. Shortest Unsorted Continuous Subarray -- Medium](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 5. [456. 132 Pattern -- Medium](https://leetcode.com/problems/132-pattern/)
+5. [1966. Binary Searchable Numbers in an Unsorted Array -- Medium](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/)
 
 
 

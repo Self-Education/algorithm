@@ -4,10 +4,16 @@
 | :------------ | -------- | ----------------------------- |
 | 7-14          | 10       | Start                         |
 | Not tracked   |          | String                        |
-| Not tracked   |          | BFS                           |
-| Not tracked   |          | Two pointers                  |
+| Not tracked   |          | ***BFS***                     |
+| Not tracked   |          | ***Two pointers***            |
 | 11/17 - 12/12 | 548      | Review all previous Questions |
-| 12/13         |          | Binary Search                 |
+| 12/13         |          | ***Binary Search***           |
+|               |          | ***Tree***                    |
+|               |          | ***Hash Table***              |
+|               |          | Stack and Queue               |
+|               |          | Sorting                       |
+|               |          | DP                            |
+|               |          |                               |
 
 
 
