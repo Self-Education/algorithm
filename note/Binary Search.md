@@ -113,6 +113,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 14. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 15. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 16. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
+16. [352. Data Stream as Disjoint Intervals -- Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
 ##### DP + Binary Search to find next valid
 
@@ -139,6 +140,12 @@ int l = 0, r = arr.length - 1, mid = -1;
 1. [986. Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
 
 
+
+
+
+### 2D
+
+1. [1901. Find a Peak Element II -- Medium](https://leetcode.com/problems/find-a-peak-element-ii/)
 
 ## Guess and validate
 
@@ -258,6 +265,7 @@ public int helper(int[] nums, int target){
 9. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 10. [1283. Find the Smallest Divisor Given a Threshold -- Medium](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
 10. [378. Kth Smallest Element in a Sorted Matrix -- Medium,](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
+10. [1891. Cutting Ribbons -- Medium](https://leetcode.com/problems/cutting-ribbons/)
 
 
 

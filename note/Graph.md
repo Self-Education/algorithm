@@ -296,6 +296,7 @@ public boolean UnionFind(List<List<String>> edges) {
 8. [684. Redundant Connection -- Medium](https://leetcode.com/problems/redundant-connection/)
 9. [685. Redundant Connection II -- Hard](https://leetcode.com/problems/redundant-connection-ii)
 9. [952. Largest Component Size by Common Factor -- Hard](https://leetcode.com/problems/largest-component-size-by-common-factor/)
+9. [352. Data Stream as Disjoint Intervals  --  Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
 ### View cells in matrix as vertices 
 
