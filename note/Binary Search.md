@@ -98,44 +98,37 @@ int l = 0, r = arr.length - 1, mid = -1;
 ### Find smallest / largest number with boundary
 
 1. [34. Find First and Last Position of Element in Sorted Array -- Medium](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
-
 2. [611. Valid Triangle Number --  Medium](https://leetcode.com/problems/valid-triangle-number/)
-
 3. [1712. Ways to Split Array Into Three Subarrays](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays/)
-
 4. [826. Most Profit Assigning Work -- Medium](https://leetcode.com/problems/most-profit-assigning-work/)
-
 5. [528. Random Pick with Weight -- Medium](https://leetcode.com/problems/random-pick-with-weight/) interval + Random to achieve weighted probability 
-
 6. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence) greedy + binary search
-
 7. [1855. Maximum Distance Between a Pair of Values -- Medium](https://leetcode.com/problems/maximum-distance-between-a-pair-of-values)
-
 8. [825. Friends Of Appropriate Ages -- Medium](https://leetcode.com/problems/friends-of-appropriate-ages)
-
 9. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
-
 10. [981. Time Based Key-Value Store -- Medium](https://leetcode.com/problems/time-based-key-value-store) prefixsum + binarySearch
-
 11. [362. Design Hit Counter -- Medium](https://leetcode.com/problems/design-hit-counter/)
+12. [1146. Snapshot Array -- Medium](https://leetcode.com/problems/snapshot-array/)
+13. [1348. Tweet Counts Per Frequency -- Medium](https://leetcode.com/problems/tweet-counts-per-frequency/)
+14. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+15. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+16. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
 
-11. [1146. Snapshot Array -- Medium](https://leetcode.com/problems/snapshot-array/)
+##### DP + Binary Search to find next valid
 
-11. [1348. Tweet Counts Per Frequency -- Medium](https://leetcode.com/problems/tweet-counts-per-frequency/)
+17. [2008. Maximum Earnings From Taxi -- Medium](https://leetcode.com/problems/maximum-earnings-from-taxi/)
+18. [1235. Maximum Profit in Job Scheduling -- Hard](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+19. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/) O(n) way to get pair with max sum
+20. [1751. Maximum Number of Events That Can Be Attended II -- Hard](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
+21. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
 
-11. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
-11. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
-
-11. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
-
-    
 
 ### Search Interval/Range
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/) `[2, 3, 6, 8, 11], then # of missing numbers = arr[i] - 1 - i`
-1. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
+1. 
 
 
 

@@ -5,6 +5,7 @@
 1. [154. Find Minimum in Rotated Sorted Array II -- Hard](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 1. [315. Count of Smaller Numbers After Self -- Hard](https://leetcode.com/problems/count-of-smaller-numbers-after-self)
 1. [493. Reverse Pairs -- Hard](https://leetcode.com/problems/reverse-pairs/)
+1. [327. Count of Range Sum -- Hard](https://leetcode.com/problems/count-of-range-sum)
 
 
 

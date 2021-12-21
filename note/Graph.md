@@ -148,6 +148,7 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 9. [1102. Path With Maximum Minimum Value -- Medium](https://leetcode.com/problems/path-with-maximum-minimum-value/) cannot use DFS+Memo, since it goes four directions
 10. [1129. Shortest Path with Alternating Colors -- Medium](https://leetcode.com/problems/shortest-path-with-alternating-colors/)
 10. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops)
+10. [778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water)
 
 ### Other
 

@@ -32,6 +32,7 @@
 ### Subarray sum
 
 + Prefix sum + HashMap
+    1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 + prefix sum + binary search (since prefixSum is increasing if all number is positive)
 
 
