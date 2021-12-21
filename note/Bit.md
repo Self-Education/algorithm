@@ -28,11 +28,13 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 
 + **Get the first one from the right** (set bit), `x & -x` where `-x = ~x + 1`
 
+  [231. Power of Two -- Easy](https://leetcode.com/problems/power-of-two/)
+
 ### Set Bit
 
 + **set the ith position into 1**, `num |(1 << i)`;
 + **set the ith position into 0**, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
-+ **set first k bits  from left side as 1 and rest as 0**:`(1 << n) - (1 << n - k)`
++ **set first k bits  from left side as 1 and rest as 0**:`(1 << n) - (1 << (n - k))`
 + **set first k bits from right side as 1** : `(1 << k) - 1 `
 
 ### check subsets of bits
