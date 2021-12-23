@@ -266,6 +266,9 @@ public int helper(int[] nums, int target){
 10. [1283. Find the Smallest Divisor Given a Threshold -- Medium](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)
 10. [378. Kth Smallest Element in a Sorted Matrix -- Medium,](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)
 10. [1891. Cutting Ribbons -- Medium](https://leetcode.com/problems/cutting-ribbons/)
+10. [1870. Minimum Speed to Arrive on Time -- Medium](https://leetcode.com/problems/minimum-speed-to-arrive-on-time)
+10. [1231. Divide Chocolate - Hard](https://leetcode.com/problems/divide-chocolate)
+10. [1552. Magnetic Force Between Two Balls -- Medium](https://leetcode.com/problems/magnetic-force-between-two-balls)
 
 
 
@@ -313,3 +316,9 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 ### traverse down a tree based on if index at left or right
 
 1. [222. Count Complete Tree Nodes --  Medium](https://leetcode.com/problems/count-complete-tree-nodes/)
+
+
+
+binary search find max based on increasing/decreasing of function
+
+1. [887. Super Egg Drop -- Hard](https://leetcode.com/problems/super-egg-drop/)

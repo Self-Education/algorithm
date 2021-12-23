@@ -94,6 +94,7 @@
 9. 1682
 10. 1745
 11. [96. Unique Binary Search Trees -- Medium](https://leetcode.com/problems/unique-binary-search-trees/)
+11. [1231. Divide Chocolate -- Hard](https://leetcode.com/problems/divide-chocolate/)
 
 
 

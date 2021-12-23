@@ -1,5 +1,7 @@
 ## Prefix sum
 
+## Count sum of interval
+
 1.  [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
     + HashMap store the oldest index of occurance of curSum
 
@@ -28,3 +30,7 @@
    
 
 3. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+
+## Count number of occurrences for ranges
+
+1. [1862. Sum of Floored Pairs --  Hard](https://leetcode.com/problems/sum-of-floored-pairs/)
