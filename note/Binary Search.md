@@ -114,6 +114,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 15. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 16. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
 16. [352. Data Stream as Disjoint Intervals -- Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+16. [2009. Minimum Number of Operations to Make Array Continuous -- Hard](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)
 
 
 
@@ -271,6 +272,7 @@ public int helper(int[] nums, int target){
 10. [1870. Minimum Speed to Arrive on Time -- Medium](https://leetcode.com/problems/minimum-speed-to-arrive-on-time)
 10. [1231. Divide Chocolate - Hard](https://leetcode.com/problems/divide-chocolate)
 10. [1552. Magnetic Force Between Two Balls -- Medium](https://leetcode.com/problems/magnetic-force-between-two-balls)
+10. [2040. Kth Smallest Product of Two Sorted Arrays -- Hard](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
 
 
 
