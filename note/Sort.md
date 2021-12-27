@@ -1,5 +1,11 @@
 # Sort
 
+
+
+## Bubble Sort
+
+1. [1536. Minimum Swaps to Arrange a Binary Grid -- Medium](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid)
+
 ## Bucket Sort
 
 ### Problems
