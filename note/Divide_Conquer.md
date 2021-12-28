@@ -19,3 +19,4 @@
 ### Divide into parts to reduce time complexity
 
 1. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)
+1. [2035. Partition Array Into Two Arrays to Minimize Sum Difference -- Hard](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)

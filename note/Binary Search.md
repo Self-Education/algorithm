@@ -111,10 +111,11 @@ int l = 0, r = arr.length - 1, mid = -1;
 12. [1146. Snapshot Array -- Medium](https://leetcode.com/problems/snapshot-array/)
 13. [1348. Tweet Counts Per Frequency -- Medium](https://leetcode.com/problems/tweet-counts-per-frequency/)
 14. [1838. Frequency of the Most Frequent Element-- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
-15. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
-16. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
-16. [352. Data Stream as Disjoint Intervals -- Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
-16. [2009. Minimum Number of Operations to Make Array Continuous -- Hard](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)
+15. [2009. Minimum Number of Operations to Make Array Continuous -- Hard](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)
+16. [497. Random Point in Non-overlapping Rectangles -- Medium](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)
+16. [1488. Avoid Flood in The City -- Medium](https://leetcode.com/problems/avoid-flood-in-the-city/)
+
+
 
 
 
@@ -132,7 +133,9 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/) `[2, 3, 6, 8, 11], then # of missing numbers = arr[i] - 1 - i`
-1. 
+1. [1060. Missing Element in Sorted Array -- Medium](https://leetcode.com/problems/missing-element-in-sorted-array/)
+1. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
+1. [352. Data Stream as Disjoint Intervals -- Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
 
 
@@ -273,6 +276,8 @@ public int helper(int[] nums, int target){
 10. [1231. Divide Chocolate - Hard](https://leetcode.com/problems/divide-chocolate)
 10. [1552. Magnetic Force Between Two Balls -- Medium](https://leetcode.com/problems/magnetic-force-between-two-balls)
 10. [2040. Kth Smallest Product of Two Sorted Arrays -- Hard](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
+10. [1802. Maximum Value at a Given Index in a Bounded Array -- Medium](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
+10. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 
 
 
