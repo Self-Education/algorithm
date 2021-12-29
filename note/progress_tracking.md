@@ -7,7 +7,7 @@
 | Not tracked   |          | ***BFS***                     |
 | Not tracked   |          | ***Two pointers***            |
 | 11/17 - 12/12 | 548      | Review all previous Questions |
-| 12/13         |          | ***Binary Search***           |
+| 12/13 - 12/28 | 614      | ***Binary Search***           |
 |               |          | ***Tree***                    |
 |               |          | ***Hash Table***              |
 |               |          | Stack and Queue               |
