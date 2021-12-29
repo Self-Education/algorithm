@@ -23,19 +23,30 @@
 + hash
 + DP
 
-### String/Array Min length
+### String/Array Min/Max length
 
 + window and shrink
 
 1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
+1. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
-### Subarray sum
+### Subarray sum (consecutive)
 
 + Prefix sum + HashMap
     1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 + prefix sum + binary search (since prefixSum is increasing if all number is positive)
++ sliding window
+    1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
 
+
+### K operations, to achieve max/min or maximize min or minimize max
+
++ Binary search
+
+### Intervals
+
++ sort by interval[i]
 
 ### Shortest/Longest path
 

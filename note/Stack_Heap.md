@@ -206,10 +206,13 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 
 1. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)
 2. [452. Minimum Number of Arrows to Burst Balloons -- Medium](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+2. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)
 
 #### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
 
 
+
+### Event becomes effective as goes
 
 1. [1353. Maximum Number of Events That Can Be Attended -- Medium](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 2. [1705. Maximum Number of Eaten Apples -- Medium](https://leetcode.com/problems/maximum-number-of-eaten-apples/)

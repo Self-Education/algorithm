@@ -34,3 +34,7 @@
 ## Count number of occurrences for ranges
 
 1. [1862. Sum of Floored Pairs --  Hard](https://leetcode.com/problems/sum-of-floored-pairs/)
+
+## Track as you go
+
+1. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)

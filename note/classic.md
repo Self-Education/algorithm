@@ -87,6 +87,7 @@ private int removeKDuplicates(int[] nums, int k){
 3. [238. Product of Array Except Self -- Medium](https://leetcode.com/problems/product-of-array-except-self/)
 4. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 4. [821. Shortest Distance to a Character --  Easy](https://leetcode.com/problems/shortest-distance-to-a-character/)
+4. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -318,6 +319,8 @@ count from 1900
 ## Brute force first N examples to find rules
 
 1. [330. Patching Array -- Hard](https://leetcode.com/problems/patching-array/)
+1. [902. Numbers At Most N Given Digit Set -- Hard](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+1. [400. Nth Digit -- Medium](https://leetcode.com/problems/nth-digit/)
 
 
 

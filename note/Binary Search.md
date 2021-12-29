@@ -114,17 +114,20 @@ int l = 0, r = arr.length - 1, mid = -1;
 15. [2009. Minimum Number of Operations to Make Array Continuous -- Hard](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/)
 16. [497. Random Point in Non-overlapping Rectangles -- Medium](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/)
 16. [1488. Avoid Flood in The City -- Medium](https://leetcode.com/problems/avoid-flood-in-the-city/)
+16. [475. Heaters -- Medium](https://leetcode.com/problems/heaters/)
+16. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/) O(n) way to get the pair with max sum
 
 
 
 
 
-##### DP + Binary Search to find next valid
+### DP + Binary Search to find next valid
+
+**pick up k elements from a collection to ...**
 
 17. [2008. Maximum Earnings From Taxi -- Medium](https://leetcode.com/problems/maximum-earnings-from-taxi/)
 18. [1235. Maximum Profit in Job Scheduling -- Hard](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
-19. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/) O(n) way to get pair with max sum
-20. [1751. Maximum Number of Events That Can Be Attended II -- Hard](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
+19. [1751. Maximum Number of Events That Can Be Attended II -- Hard](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
 21. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
 
 
@@ -132,12 +135,16 @@ int l = 0, r = arr.length - 1, mid = -1;
 ### Search Interval/Range
 
 1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
+
 1. [1539. Kth Missing Positive Number -- Easy](https://leetcode.com/problems/kth-missing-positive-number/) `[2, 3, 6, 8, 11], then # of missing numbers = arr[i] - 1 - i`
+
 1. [1060. Missing Element in Sorted Array -- Medium](https://leetcode.com/problems/missing-element-in-sorted-array/)
+
 1. [710. Random Pick with Blacklist -- Hard](https://leetcode.com/problems/random-pick-with-blacklist/)
+
 1. [352. Data Stream as Disjoint Intervals -- Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 
-
+    
 
 ### Closest
 
@@ -151,7 +158,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 
 ### 2D
 
-1. [1901. Find a Peak Element II -- Medium](https://leetcode.com/problems/find-a-peak-element-ii/)
+1. 
 
 ## Guess and validate
 
@@ -278,6 +285,7 @@ public int helper(int[] nums, int target){
 10. [2040. Kth Smallest Product of Two Sorted Arrays -- Hard](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
 10. [1802. Maximum Value at a Given Index in a Bounded Array -- Medium](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 10. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+10. [1760. Minimum Limit of Balls in a Bag -- Medium](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)
 
 
 
@@ -314,11 +322,13 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 
 ### Matrix related
 
-[302. Smallest Rectangle Enclosing Black Pixels --  Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
+1. [302. Smallest Rectangle Enclosing Black Pixels --  Hard](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/)
 
-[668. Kth Smallest Number in Multiplication Table -- Hard](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
+2. [668. Kth Smallest Number in Multiplication Table -- Hard](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
 
-[378. Kth Smallest Element in a Sorted Matrix -- Medium](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+3. [378. Kth Smallest Element in a Sorted Matrix -- Medium](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+
+4. [1901. Find a Peak Element II -- Medium](https://leetcode.com/problems/find-a-peak-element-ii/)
 
 
 
