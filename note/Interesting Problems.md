@@ -65,6 +65,14 @@
 
 
 
+## Math
+
+### Modulo
+
+`(a + b) % k = (a % k + b % k) % k `
+
+1. [1015. Smallest Integer Divisible by K -- Medium](https://leetcode.com/problems/smallest-integer-divisible-by-k/)
+
 ### GCD
 
 ```java
