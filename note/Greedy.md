@@ -104,3 +104,13 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 ## TO BE CATEGORIZED
 
 [1147. Longest Chunked Palindrome Decomposition -- Hard](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)
+
+##  Greedy and Binary Search
+
+### LIS
+
+1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
+2. 354
+3. 1713
+4. 1964
+5. [2111. Minimum Operations to Make the Array K-Increasing -- Hard](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing)
