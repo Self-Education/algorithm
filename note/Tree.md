@@ -37,6 +37,7 @@
 11. [1740. Find Distance in a Binary Tree -- Medium](https://leetcode.com/problems/find-distance-in-a-binary-tree)
 12. [783. Minimum Distance Between BST Nodes -- Medium](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
 12. [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
+12. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 
 
 

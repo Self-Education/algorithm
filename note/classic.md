@@ -1,3 +1,9 @@
+## Array traverse
+
+### track min/max or both as we go, O(N^2) - > O(N)
+
+1. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
+
 ## Palindrome
 
 1. [Valid Palindrome II -- Easy](https://leetcode.com/problems/valid-palindrome-ii/), if can make the string palindromic by at most delete one letter
