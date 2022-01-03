@@ -17,11 +17,14 @@
 + sort
 + binary search
 + divide and conquer
-
 + two pointer / sliding window
 + count freq
 + hash
 + DP
+
+### Difference
+
++ sort + two pointers, from the same end, note that`|A[j] - A[i]| > k`, we do not need to reset the `j`, and for `|A[j] - A[i]| < k`, if `A[j] - A[i] < k` that means for each number `a` in `A[i, j - 1]`,  `A[j] - a < k` , then we move `i`
 
 ### String/Array Min/Max length
 
@@ -29,6 +32,10 @@
 
 1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
 1. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+
++ hashmap to record most recent occurrance 
+
+1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 ### Subarray sum (consecutive)
 
@@ -84,6 +91,7 @@
 + histogram
 + surrounding cells
 + kadane algo
++ dp
 
 ### BST
 

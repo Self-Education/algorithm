@@ -2,6 +2,8 @@
 
 ## General Idea
 
+#### subsequence vs subarray???
+
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 
 1. [368. Largest Divisible Subset -- Medium](https://leetcode.com/problems/largest-divisible-subset/) dp with res instead of number
@@ -61,7 +63,9 @@
 
 17. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
-12. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
+18. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
+
+12. [568. Maximum Vacation Days -- Hard](https://leetcode.com/problems/maximum-vacation-days/)
 
 ### Do not know where to start or where to stop
 

@@ -1,10 +1,6 @@
 # Two Pointers
 
-## Starts at different position
-
-### Two ends
-
-#### LinkedList related
+### LinkedList related
 
 ##### Reader and Writer
 
@@ -18,10 +14,10 @@
 3. [19. Remove Nth Node From End of List -- Medium](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) find from the end
 4. [61. Rotate List -- Medium](https://leetcode.com/problems/rotate-list/)
 
-#### Given target, find equal/smaller/larger
+### Given target, find sum equal/smaller/larger
 
 ```
-Find larger
+Find larger, A[i] + A[j]  > A[k]
 
 2, 4, 5, 8, 9, 13, 16
 i								j		k
@@ -30,11 +26,15 @@ then count += j - i, all valid numbers paired with A[j] are found, then move j t
 simimarly, if A[i] + A[j] < A[k], then we need to move i to right to increase sum
 
 How about find smaller
-find A[i] + A[j] < A[k], if A[i] + A[j] > A[k], A[p] + A[j] > A[k], where i <= p <= j - 1,
+find A[i] + A[j] < A[k], if A[i] + A[j] > A[k] -> A[p] + A[j] > A[k], where i <= p <= j - 1,
 so j is done, we move j to the left, in this case we are fixing i.
 ```
 
 1. [611. Valid Triangle Number -- Medium](https://leetcode.com/problems/valid-triangle-number)
+
+1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
+
+3. [259. 3Sum Smaller -- Medium](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
 
 2. [Pairs of Songs With Total Durations Divisible by 60 -- Medium](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/)  $(a + b) \% 60 = (a \% 60 + b \% 60) \% 60$
 
@@ -64,12 +64,35 @@ so j is done, we move j to the left, in this case we are fixing i.
 
 14. [1755. Closest Subsequence Sum -- Hard](https://leetcode.com/problems/closest-subsequence-sum/)
 
-    
 
-#### element between two pointers is valuable
 
-1. [881. Boats to Save People -- Medium](https://leetcode.com/problems/boats-to-save-people/)
-2. [259. 3Sum Smaller -- Medium](https://leetcode.com/problems/3sum-smaller/) `if(nums[l] + nums[r] < target) count+= r - l;`
+
+### Given target, find Diff equal/smaller/larger
+
+```java
+/* 
+    Find larger, A[j] - A[i]  > A[k]
+    2, 4, 5, 8, 9, 13, 16
+    i						j		    k
+    We first sort the arr, and two points are at the begining
+    to find A[j] - A[i] > A[k], we move j until A[j] - A[i] > k, for all p in the range[j : m - 1], A[p] - A[i] > k, count += m - 1 - j + 1; then move i to the right, try to find all valid j for current i; we do not need to reset j, since current A[i] is even larger, make differencer smaller, so all number before j cannot make difference larger than k
+*/
+/* 
+  How about find smaller
+  find A[j] - A[i] < A[k], we keep moving j until A[j] - A[i] > k,then for all numbers int [i + 1, j - 1], A[i] - A[j] > k
+  then i is done, we move i to the right, try to find all valid A[j] for current i, BUT	we do not need to reset j, since all numbers in A[: j - 1] is valid, since A[i] increases, make difference even smaller, we just need to check numbers start from j
+*/
+int count = 0;
+int j = 1;
+
+for(int i = 0; i < m; i++){
+	// int j = i + 1; not need to reassign j, since for fixed j, increment i will make diff smaller
+  while(j < m && nums[j] - nums[i] <= mid) j++;
+  count += j - i - 1;
+}
+```
+
+
 
 #### Reverse an <u>array of string</u> or string
 
@@ -117,7 +140,11 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 
 
+## Same End
 
+### Move and try to reach the goal
+
+1. [532. K-diff Pairs in an Array -- Medium](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
 
 ### As reader and writer, writer only moves after writing
 
@@ -231,8 +258,6 @@ Every time ask for the min length of ....
 6. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
 
 7. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
-
-8. [532. K-diff Pairs in an Array -- Medium](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
 
 9. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
 

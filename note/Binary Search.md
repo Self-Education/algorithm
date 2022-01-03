@@ -116,6 +116,7 @@ int l = 0, r = arr.length - 1, mid = -1;
 16. [1488. Avoid Flood in The City -- Medium](https://leetcode.com/problems/avoid-flood-in-the-city/)
 16. [475. Heaters -- Medium](https://leetcode.com/problems/heaters/)
 16. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/) O(n) way to get the pair with max sum
+16. [540. Single Element in a Sorted Array -- Medium](https://leetcode.com/problems/single-element-in-a-sorted-array/) length odd
 
 
 

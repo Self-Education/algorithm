@@ -1,14 +1,21 @@
+## Traverse tree preorder/inorder/posorder
+
+
+
 ## Regular Tree problem by using recursion:
 
-[814. Binary Tree Pruning -- Medium](https://leetcode.com/problems/binary-tree-pruning/)
+1. [814. Binary Tree Pruning -- Medium](https://leetcode.com/problems/binary-tree-pruning/)
 
-[366. Find Leaves of Binary Tree -- Medium](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+2. [366. Find Leaves of Binary Tree -- Medium](https://leetcode.com/problems/find-leaves-of-binary-tree/)
+3. [979. Distribute Coins in Binary Tree -- Medium](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
 
 ### Recursion, return multiple possibles
 
 1. [337. House Robber III --  Medium](https://leetcode.com/problems/house-robber-iii/)
 
+### most left
 
+1. [173. Binary Search Tree Iterator -- Medium](https://leetcode.com/problems/binary-search-tree-iterator/)
 
 
 
@@ -41,9 +48,22 @@
 
 
 
-## Tree Transverse to/from String
+## Tree Transverse to/from String or Flatten
 
 1. [331. Verify Preorder Serialization of a Binary Tree -- Medium](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)
+1. [426. Convert Binary Search Tree to Sorted Doubly Linked List -- Medium](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
+
+
+
+
+
+### Brute force by change tree into string
+
+1. [99. Recover Binary Search Tree -- Medium](https://leetcode.com/problems/recover-binary-search-tree/)
+
+
+
+
 
 ## Complete Tree
 
@@ -65,11 +85,18 @@ try **serialization** when have no clue, but be careful with traverse order
 
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder
 
+## Flatten Tree
+
+1. [114. Flatten Binary Tree to Linked List -- Medium](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+
+
 ## Manipulation
 
 ### Deletion
 
 1. [450. Delete Node in a BST -- Medium](https://leetcode.com/problems/delete-node-in-a-bst/)
+1. [1110. Delete Nodes And Return Forest -- Medium](https://leetcode.com/problems/delete-nodes-and-return-forest/)
 
 
 
