@@ -21,9 +21,12 @@
 
 ## Divide and Conquer
 
-[1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
+1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
 
-[894. All Possible Full Binary Trees -- Medium](https://leetcode.com/problems/all-possible-full-binary-trees/)
+2. [894. All Possible Full Binary Trees -- Medium](https://leetcode.com/problems/all-possible-full-binary-trees/)
+
+3. [1382. Balance a Binary Search Tree -- Medium](https://leetcode.com/problems/balance-a-binary-search-tree/)
+4. [95. Unique Binary Search Trees II -- Medium](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
 
 
@@ -45,25 +48,34 @@
 12. [783. Minimum Distance Between BST Nodes -- Medium](https://leetcode.com/problems/minimum-distance-between-bst-nodes)
 12. [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 12. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
+12. [1522. Diameter of N-Ary Tree -- Medium](https://leetcode.com/problems/diameter-of-n-ary-tree/)
 
 
 
-## Tree Transverse to/from String or Flatten
+## Serialize Tree
+
+### Tree Transverse to/from String
 
 1. [331. Verify Preorder Serialization of a Binary Tree -- Medium](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree)
-1. [426. Convert Binary Search Tree to Sorted Doubly Linked List -- Medium](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
-
-
-
-
-
-### Brute force by change tree into string
-
+1. [1628. Design an Expression Tree With Evaluate Function -- Medium](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function/)
 1. [99. Recover Binary Search Tree -- Medium](https://leetcode.com/problems/recover-binary-search-tree/)
+1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder, try **serialization** when have no clue, but be careful with traverse order
+1. [889. Construct Binary Tree from Preorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+
+### Tree to LinkedList
+
+1. [897. Increasing Order Search Tree -- Easy](https://leetcode.com/problems/increasing-order-search-tree/)
+2. [426. Convert Binary Search Tree to Sorted Doubly Linked List -- Medium](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
 
 
 
 
+
+## Flatten Tree
+
+1. [114. Flatten Binary Tree to Linked List -- Medium](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+
+    
 
 ## Complete Tree
 
@@ -77,18 +89,6 @@ all levels except the last level must be fully filled, and all nodes in the last
 
 
 
-## Serialize Tree
-
-### Use serialized tree to find duplicates
-
-try **serialization** when have no clue, but be careful with traverse order
-
-1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder
-
-## Flatten Tree
-
-1. [114. Flatten Binary Tree to Linked List -- Medium](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-
 
 
 ## Manipulation
@@ -98,8 +98,13 @@ try **serialization** when have no clue, but be careful with traverse order
 1. [450. Delete Node in a BST -- Medium](https://leetcode.com/problems/delete-node-in-a-bst/)
 1. [1110. Delete Nodes And Return Forest -- Medium](https://leetcode.com/problems/delete-nodes-and-return-forest/)
 
+### Flip
 
+[971. Flip Binary Tree To Match Preorder Traversal -- Medium](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)
 
 ## Other
 
-[1932. Merge BSTs to Create Single BST -- Hard](https://leetcode.com/problems/merge-bsts-to-create-single-bst/) no way I can solve it by my self
+1. [1932. Merge BSTs to Create Single BST -- Hard](https://leetcode.com/problems/merge-bsts-to-create-single-bst/) no way I can solve it by my self
+
+2. [834. Sum of Distances in Tree -- Hard](https://leetcode.com/problems/sum-of-distances-in-tree/)
+3. [968. Binary Tree Cameras -- Hard](https://leetcode.com/problems/binary-tree-cameras/)

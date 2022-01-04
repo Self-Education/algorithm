@@ -19,16 +19,14 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 ### check bit
 
 + `& 1`  will **check if origin bit is 1 or not,** `n >> index & 1` will check bit at index, `0100 >> 2 & 1` --> `0001 & 0001 = 0001 = 1`
-
 + `| 1` will **set bit**, `0011 | 0010 = 0010`
-
 + `& 0` will **set bit into 0**
-
 + `| 0` will **check bit.**
-
++ `^ 1` **flips** bit
 + **Get the first one from the right** (set bit), `x & -x` where `-x = ~x + 1`
 
-  [231. Power of Two -- Easy](https://leetcode.com/problems/power-of-two/)
+  1. [231. Power of Two -- Easy](https://leetcode.com/problems/power-of-two/)
+  2. [476. Number Complement -- Easy](https://leetcode.com/problems/number-complement/)
 
 ### Set Bit
 
@@ -41,7 +39,7 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 
 to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
 
-[1178. Number of Valid Words for Each Puzzle -- Hard](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
+1. [1178. Number of Valid Words for Each Puzzle -- Hard](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
 
 [1286. Iterator for Combination -- Medium](https://leetcode.com/problems/iterator-for-combination/)
 
