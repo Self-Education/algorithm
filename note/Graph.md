@@ -225,7 +225,21 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 
 3. [269. Alien Dictionary -- Hard](https://leetcode.com/problems/alien-dictionary/)
 
-   
+### Calculator
+
+#### Tip
+
++ **number cannot start with 0**
++ **if expression has no parenthese, we can track the val as we go**
+
+1. [282. Expression Add Operators -- Hard](https://leetcode.com/problems/expression-add-operators/)
+2. [224. Basic Calculator](https://leetcode.com/problems/basic-calculator)
+3. [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)
+4. [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/)
+5. [394. Decode String](https://leetcode.com/problems/decode-string/)
+6. [1087. Brace Expansion -- Medium](https://leetcode.com/problems/brace-expansion/)
+7. [1096. Brace Expansion II -- Hard](https://leetcode.com/problems/brace-expansion-ii/)
+8. [536. Construct Binary Tree from String -- Medium](https://leetcode.com/problems/construct-binary-tree-from-string/)
 
 ## Union find, disjoint set
 

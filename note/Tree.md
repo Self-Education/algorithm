@@ -5,9 +5,13 @@
 ## Regular Tree problem by using recursion:
 
 1. [814. Binary Tree Pruning -- Medium](https://leetcode.com/problems/binary-tree-pruning/)
-
 2. [366. Find Leaves of Binary Tree -- Medium](https://leetcode.com/problems/find-leaves-of-binary-tree/)
 3. [979. Distribute Coins in Binary Tree -- Medium](https://leetcode.com/problems/distribute-coins-in-binary-tree/)
+3. [270. Closest Binary Search Tree Value -- Easy](https://leetcode.com/problems/closest-binary-search-tree-value/)
+3. [333. Largest BST Subtree -- Medium](https://leetcode.com/problems/largest-bst-subtree/)
+3. [1120. Maximum Average Subtree -- Medium ](https://leetcode.com/problems/maximum-average-subtree/)
+3. **[404. Sum of Left Leaves -- Easy](https://leetcode.com/problems/sum-of-left-leaves)**
+3. **[1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)**
 
 ### Recursion, return multiple possibles
 
@@ -29,6 +33,11 @@
 4. [95. Unique Binary Search Trees II -- Medium](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
 
+
+### Successor
+
+1. [285. Inorder Successor in BST -- Medium](https://leetcode.com/problems/inorder-successor-in-bst)
+2. [510. Inorder Successor in BST II -- Medium](https://leetcode.com/problems/inorder-successor-in-bst-ii/)
 
 
 
@@ -61,13 +70,15 @@
 1. [99. Recover Binary Search Tree -- Medium](https://leetcode.com/problems/recover-binary-search-tree/)
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/), cannot use inorder, try **serialization** when have no clue, but be careful with traverse order
 1. [889. Construct Binary Tree from Preorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+1. [106. Construct Binary Tree from Inorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 1. [1008. Construct Binary Search Tree from Preorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 
-### Tree to LinkedList
+### Tree to/from LinkedList
 
 1. [897. Increasing Order Search Tree -- Easy](https://leetcode.com/problems/increasing-order-search-tree/)
 2. [426. Convert Binary Search Tree to Sorted Doubly Linked List -- Medium](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)
 2. [114. Flatten Binary Tree to Linked List -- Medium](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+2. [109. Convert Sorted List to Binary Search Tree -- Medium](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
 
  
 
@@ -95,6 +106,7 @@ all levels except the last level must be fully filled, and all nodes in the last
 
 1. [450. Delete Node in a BST -- Medium](https://leetcode.com/problems/delete-node-in-a-bst/)
 1. [1110. Delete Nodes And Return Forest -- Medium](https://leetcode.com/problems/delete-nodes-and-return-forest/)
+1. [669. Trim a Binary Search Tree -- Medium](https://leetcode.com/problems/trim-a-binary-search-tree)
 
 ### Flip
 
