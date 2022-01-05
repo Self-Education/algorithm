@@ -240,6 +240,7 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 6. [1087. Brace Expansion -- Medium](https://leetcode.com/problems/brace-expansion/)
 7. [1096. Brace Expansion II -- Hard](https://leetcode.com/problems/brace-expansion-ii/)
 8. [536. Construct Binary Tree from String -- Medium](https://leetcode.com/problems/construct-binary-tree-from-string/)
+8. [1028. Recover a Tree From Preorder Traversal -- Hard](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 
 ## Union find, disjoint set
 
