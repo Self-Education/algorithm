@@ -12,6 +12,7 @@
 3. [1120. Maximum Average Subtree -- Medium ](https://leetcode.com/problems/maximum-average-subtree/)
 3. **[404. Sum of Left Leaves -- Easy](https://leetcode.com/problems/sum-of-left-leaves)**
 3. **[1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)**
+3. [235. Lowest Common Ancestor of a Binary Search Tree -- Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ### Recursion, return multiple possibles
 
@@ -58,6 +59,7 @@
 12. [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 12. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 12. [1522. Diameter of N-Ary Tree -- Medium](https://leetcode.com/problems/diameter-of-n-ary-tree/)
+12. [1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
 
 
 
@@ -72,6 +74,7 @@
 1. [889. Construct Binary Tree from Preorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 1. [106. Construct Binary Tree from Inorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 1. [1008. Construct Binary Search Tree from Preorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+1. [1028. Recover a Tree From Preorder Traversal -- Hard](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 
 ### Tree to/from LinkedList
 
@@ -91,6 +94,7 @@ all levels except the last level must be fully filled, and all nodes in the last
 => when traverse the tree, the rest element in the queue should be all `null` after we encounter the first `null`
 
 1. [958. Check Completeness of a Binary Tree -- Medium](https://leetcode.com/problems/check-completeness-of-a-binary-tree)
+1.  [Complete Binary Tree Inserter -- Medium](https://leetcode.com/problems/complete-binary-tree-inserter)
 
 
 
@@ -112,9 +116,19 @@ all levels except the last level must be fully filled, and all nodes in the last
 
 [971. Flip Binary Tree To Match Preorder Traversal -- Medium](https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/)
 
+
+
+### Rotate
+
+1. [156. Binary Tree Upside Down -- Medium](https://leetcode.com/problems/binary-tree-upside-down/)
+
+### Balance BST
+
+1. [1382. Balance a Binary Search Tree -- Medium](https://leetcode.com/problems/balance-a-binary-search-tree/)
+
 ## Other
 
 1. [1932. Merge BSTs to Create Single BST -- Hard](https://leetcode.com/problems/merge-bsts-to-create-single-bst/) no way I can solve it by my self
-
 2. [834. Sum of Distances in Tree -- Hard](https://leetcode.com/problems/sum-of-distances-in-tree/)
 3. [968. Binary Tree Cameras -- Hard](https://leetcode.com/problems/binary-tree-cameras/)
+3. [2003. Smallest Missing Genetic Value in Each Subtree --- Hard](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
