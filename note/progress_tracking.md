@@ -8,11 +8,11 @@
 | Not tracked   |          | ***Two pointers***            |
 | 11/17 - 12/12 | 548      | Review all previous Questions |
 | 12/13 - 1/1   | 614      | ***Binary Search***           |
-| 1/2           |          | ***Tree***                    |
+| 1/2 - 1/6     | 664      | ***Tree***                    |
 |               |          | ***Hash Table***              |
 |               |          | Stack and Queue               |
-|               |          | Sorting                       |
-|               |          | DP                            |
+|               |          | **Sorting**                   |
+|               |          | *DP*                          |
 |               |          |                               |
 
 

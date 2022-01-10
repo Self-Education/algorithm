@@ -11,7 +11,6 @@
 3. [333. Largest BST Subtree -- Medium](https://leetcode.com/problems/largest-bst-subtree/)
 3. [1120. Maximum Average Subtree -- Medium ](https://leetcode.com/problems/maximum-average-subtree/)
 3. **[404. Sum of Left Leaves -- Easy](https://leetcode.com/problems/sum-of-left-leaves)**
-3. **[1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)**
 3. [235. Lowest Common Ancestor of a Binary Search Tree -- Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
 ### Recursion, return multiple possibles
@@ -59,7 +58,12 @@
 12. [549. Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/)
 12. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
 12. [1522. Diameter of N-Ary Tree -- Medium](https://leetcode.com/problems/diameter-of-n-ary-tree/)
-12. [1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
+12. [1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/) similar with below, push up the possibility info
+12. [337. House Robber III -- Medium](https://leetcode.com/problems/house-robber-iii)
+
+### find distance between two nodes
+
+1. [863. All Nodes Distance K in Binary Tree -- Medium](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) 拐点
 
 
 

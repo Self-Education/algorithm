@@ -330,6 +330,22 @@ count from 1900
 
 
 
+## Reservoir Sampling
+
+https://www.youtube.com/watch?v=aMhe_Riny5E&t=46s
+
+From N elements, uniformly randomly pick up K elements, to make possibility k/n. N would be super large to be written into the memory or we do not know the size.
+
+for example, number stream, the number keeps coming in, and we cannot record total number of numbers, how do we pick up k numbers as we go?
+
+say given a[i], in order to place it in the reservoir, first of all we need to pick it up when a[i] is coming in, which is `k/i`, why? 
+
+There are `C(i, 1)` combinations of picking up 1 element from i element, and there are `C(k, 1)` to pick up one cell in the reservoir for the picked element to sit.
+
+Then we have to make sure in the later on pick, this element is not selected which is ` j - 1/j`.which meams always pick rest of numbers `1 - 1/j`, for example, `i = i + 1`,  and a[i] is alreayd inside the reservior, then for i + 1 elements, the possibility of not picking up a[i] is `i/i+1` ...make a[[]]
+
+![image-20220106215712212](images/image-20220106215712212.png)
+
 ## Math
 
 #### GCD
