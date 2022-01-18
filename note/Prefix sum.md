@@ -31,6 +31,8 @@
 
 3. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
+3. [2106. Maximum Fruits Harvested After at Most K Steps -- Hard](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+
 ## Count number of occurrences for ranges
 
 1. [1862. Sum of Floored Pairs --  Hard](https://leetcode.com/problems/sum-of-floored-pairs/)
@@ -38,3 +40,8 @@
 ## Track as you go
 
 1. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)
+
+### Diagonal
+
+[1878. Get Biggest Three Rhombus Sums in a Grid -- Medium](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
+

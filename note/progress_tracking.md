@@ -11,7 +11,7 @@
 | 1/2 - 1/6     | 664      | ***Tree***                    |
 |               |          | ***Hash Table***              |
 |               |          | Stack and Queue               |
-|               |          | **Sorting**                   |
+| 1/10 -        | 725      | **Sorting**                   |
 |               |          | *DP*                          |
 |               |          |                               |
 

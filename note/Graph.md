@@ -241,6 +241,7 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 7. [1096. Brace Expansion II -- Hard](https://leetcode.com/problems/brace-expansion-ii/)
 8. [536. Construct Binary Tree from String -- Medium](https://leetcode.com/problems/construct-binary-tree-from-string/)
 8. [1028. Recover a Tree From Preorder Traversal -- Hard](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
+8. [726. Number of Atoms -- Hard](https://leetcode.com/problems/number-of-atoms/)
 
 ## Union find, disjoint set
 
@@ -312,6 +313,7 @@ public boolean UnionFind(List<List<String>> edges) {
 9. [685. Redundant Connection II -- Hard](https://leetcode.com/problems/redundant-connection-ii)
 9. [952. Largest Component Size by Common Factor -- Hard](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 9. [352. Data Stream as Disjoint Intervals  --  Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+9. [2092. Find All People With Secret -- Hard](https://leetcode.com/problems/find-all-people-with-secret/) need to reset
 
 ### View cells in matrix as vertices 
 

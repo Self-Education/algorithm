@@ -265,6 +265,8 @@ Every time ask for the min length of ....
 
 10. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
+10. [1610. Maximum Number of Visible Points -- Hard](https://leetcode.com/problems/maximum-number-of-visible-points/)
+
     
 
 ###  window keep the second freq char no more than k times

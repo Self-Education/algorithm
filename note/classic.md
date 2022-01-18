@@ -40,6 +40,7 @@ for(int k = i; k < j; k++){
 ## Longest ?? Subarray/Subsequence
 
 1. [300. Longest Increasing Subsequence --  Medium](https://leetcode.com/problems/longest-increasing-subsequence/) DP for sure, but **<u>Greedy + Binary Search</u>** is much faster
+1. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
 2. [1964. Find the Longest Valid Obstacle Course at Each Position -- Hard](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position)
 3. [521. Longest Uncommon Subsequence I -- Hard](https://leetcode.com/problems/longest-uncommon-subsequence-i)
 4. [522. Longest Uncommon Subsequence II -- Medium](https://leetcode.com/problems/longest-uncommon-subsequence-ii)
@@ -94,6 +95,8 @@ private int removeKDuplicates(int[] nums, int k){
 4. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 4. [821. Shortest Distance to a Character --  Easy](https://leetcode.com/problems/shortest-distance-to-a-character/)
 4. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+4. [769. Max Chunks To Make Sorted -- Medium](https://leetcode.com/problems/max-chunks-to-make-sorted/)
+4. [1402. Reducing Dishes -- Hard](https://leetcode.com/problems/reducing-dishes/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -345,6 +348,46 @@ There are `C(i, 1)` combinations of picking up 1 element from i element, and the
 Then we have to make sure in the later on pick, this element is not selected which is ` j - 1/j`.which meams always pick rest of numbers `1 - 1/j`, for example, `i = i + 1`,  and a[i] is alreayd inside the reservior, then for i + 1 elements, the possibility of not picking up a[i] is `i/i+1` ...make a[[]]
 
 ![image-20220106215712212](images/image-20220106215712212.png)
+
+
+
+## Multiple factors need to consider
+
+1. [1029. Two City Scheduling -- Medium](https://leetcode.com/problems/two-city-scheduling/)
+2. [1366. Rank Teams by Votes -- Medium](https://leetcode.com/problems/rank-teams-by-votes/)
+3. [1383. Maximum Performance of a Team -- Hard](https://leetcode.com/problems/maximum-performance-of-a-team/)
+4. [354. Russian Doll Envelopes -- Hard](https://leetcode.com/problems/russian-doll-envelopes/)
+5. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
+
+
+
+## Find part and check if rest exist
+
+1. [939. Minimum Area Rectangle -- Medium](https://leetcode.com/problems/minimum-area-rectangle/)
+
+
+
+
+
+## Find Missing Numbers
+
+1. [268. Missing Number -- Easy](https://leetcode.com/problems/missing-number)
+
+## Use comparator directly 
+
+check **Sorting.md** -> **Use comparator directly **
+
+
+
+## Time clock relate
+
+1. [539. Minimum Time Difference -- Medium](https://leetcode.com/problems/minimum-time-difference)
+
+
+
+## Next letter pointer
+
+1. [792. Number of Matching Subsequences -- Medium](https://leetcode.com/problems/number-of-matching-subsequences/)
 
 ## Math
 

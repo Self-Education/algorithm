@@ -9,6 +9,8 @@
 5. [581. Shortest Unsorted Continuous Subarray -- Medium](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
 5. [456. 132 Pattern -- Medium](https://leetcode.com/problems/132-pattern/)
 5. [1966. Binary Searchable Numbers in an Unsorted Array -- Medium](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/)
+5. [853. Car Fleet -- Medium](https://leetcode.com/problems/car-fleet/)
+5. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) similar with Russian doll
 
 
 
@@ -216,6 +218,12 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 
 1. [1353. Maximum Number of Events That Can Be Attended -- Medium](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 2. [1705. Maximum Number of Eaten Apples -- Medium](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
+2. [1834. Single-Threaded CPU -- Medium](https://leetcode.com/problems/single-threaded-cpu/)
+2. [502. IPO -- Hard](https://leetcode.com/problems/ipo/)
+
+
+
+
 
 ## Deque
 

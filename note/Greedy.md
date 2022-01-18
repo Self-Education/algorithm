@@ -3,6 +3,7 @@
 1. [316. Remove Duplicate Letters -- Medium](https://leetcode.com/problems/remove-duplicate-letters/)
 2. [45. Jump Game II -- Medium](https://leetcode.com/problems/jump-game-ii) / [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 2. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence/)
+2. 
 
 ### result = min/max(selecedGroup.B) * sum(selectedGroup.A), try to get the min/max of result
 
@@ -110,7 +111,10 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 ### LIS
 
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
-2. 354
 3. 1713
-4. 1964
+4. [1964. Find the Longest Valid Obstacle Course at Each Position -- Hard](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
 5. [2111. Minimum Operations to Make the Array K-Increasing -- Hard](https://leetcode.com/problems/minimum-operations-to-make-the-array-k-increasing)
+5. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
+6. [354. Russian Doll Envelopes -- Hard](https://leetcode.com/problems/russian-doll-envelopes)
+7. [1691. Maximum Height by Stacking Cuboids -- Hard](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
+8. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
