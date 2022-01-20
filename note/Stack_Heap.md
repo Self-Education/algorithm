@@ -185,32 +185,7 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 [272. Closest Binary Search Tree Value II -- hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
-### Merge/Insert Intervals
-
-if there are two dimensions, sort based on one dimension, to reduce possible cases
-
-
-
-#### Sort by start point: find the minimum number of intervals to cover the whole range
-
-1. [Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals/) Sort based on one dimension, to reduce possible cases
-2. [SkyLine]
-3. Meeting 
-4. Meeting II
-5. [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
-6. [1024. Video Stitching -- Medium](https://leetcode.com/problems/video-stitching/)
-7. [986. Interval List Intersections -- Medium](https://leetcode.com/problems/interval-list-intersections/)
-7. [763. Partition Labels --  Medium](https://leetcode.com/problems/partition-labels)
-
-#### Sort by end point: maximum number of non-overlapping intervals
-
-sort the intervals by the end points ascendingly, if multiple intervals overlapped, we greedily choose the one with the  smallest end point to reduce the affect on the rest of intervals
-
-1. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)
-2. [452. Minimum Number of Arrows to Burst Balloons -- Medium](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
-2. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)
-
-#### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
+#### 
 
 
 
@@ -227,8 +202,10 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 
 ## Deque
 
-[239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
+1. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
-[1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
+2. [1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
 
-[862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) mono increasing queue
+3. [862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) mono increasing queue
+
+4. [502. IPO -- Hard](https://leetcode.com/problems/ipo)

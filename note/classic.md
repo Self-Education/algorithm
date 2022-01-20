@@ -349,7 +349,8 @@ Then we have to make sure in the later on pick, this element is not selected whi
 
 ![image-20220106215712212](images/image-20220106215712212.png)
 
-
+1. [382. Linked List Random Node -- Medium](https://leetcode.com/problems/linked-list-random-node/)
+2. [398. Random Pick Index -- Medium](https://leetcode.com/problems/random-pick-index/)
 
 ## Multiple factors need to consider
 

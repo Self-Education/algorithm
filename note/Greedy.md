@@ -110,6 +110,8 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 
 ### LIS
 
+**<u>tricky</u>**: sort second dimension in decreasing order to avoid the case that the first dimensions are same
+
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
 3. 1713
 4. [1964. Find the Longest Valid Obstacle Course at Each Position -- Hard](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
@@ -118,3 +120,4 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 6. [354. Russian Doll Envelopes -- Hard](https://leetcode.com/problems/russian-doll-envelopes)
 7. [1691. Maximum Height by Stacking Cuboids -- Hard](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
 8. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
+8. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)

@@ -28,6 +28,47 @@ set the size of bucket
 
 
 
+## Merge/Insert Intervals
+
+if there are two dimensions, sort based on one dimension, to reduce possible cases
+
+
+
+#### Sort by start point: find the minimum number of intervals to cover the whole range
+
+1. [Merge Intervals -- Medium](https://leetcode.com/problems/merge-intervals/) Sort based on one dimension, to reduce possible cases
+
+2. [SkyLine]
+
+3. Meeting 
+
+4. Meeting II
+
+5. [252. Meeting Rooms -- Easy](https://leetcode.com/problems/meeting-rooms)
+
+6. [1326. Minimum Number of Taps to Open to Water a Garden -- Hard](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+
+7. [1024. Video Stitching -- Medium](https://leetcode.com/problems/video-stitching/)
+
+8. [986. Interval List Intersections -- Medium](https://leetcode.com/problems/interval-list-intersections/)
+
+9. [763. Partition Labels --  Medium](https://leetcode.com/problems/partition-labels)
+
+10. [1229. Meeting Scheduler -- Medium](https://leetcode.com/problems/meeting-scheduler)
+
+    
+
+#### Sort by end point: maximum number of non-overlapping intervals
+
+sort the intervals by the end points ascendingly, if multiple intervals overlapped, we greedily choose the one with the  smallest end point to reduce the affect on the rest of intervals
+
+1. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)
+2. [452. Minimum Number of Arrows to Burst Balloons -- Medium](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
+3. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)
+4. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
+
+#### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
+
 ## Use comparator directly 
 
 (if logic is complicated, then compare different cases directly)
