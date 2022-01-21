@@ -6,6 +6,8 @@
 
 1. [669. Beautiful Arrangement II --Medium](https://leetcode.com/problems/beautiful-arrangement-ii/solution/)
 
+1. [526. Beautiful Arrangement -- Medium](https://leetcode.com/problems/beautiful-arrangement/)
+
 2. [932. Beautiful Array -- Medium](https://leetcode.com/problems/beautiful-array/)
 
    + **rule1:** odd + even != even

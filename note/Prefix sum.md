@@ -1,5 +1,9 @@
 ## Prefix sum
 
+## General
+
+1. [2132. Stamping the Grid -- Hard](https://leetcode.com/problems/stamping-the-grid/)
+
 ## Count sum of interval
 
 1.  [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)

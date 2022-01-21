@@ -63,7 +63,7 @@
 
 17. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
-18. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
+18. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/) how do we quickly check predecessor
 
 12. [568. Maximum Vacation Days -- Hard](https://leetcode.com/problems/maximum-vacation-days/)
 
@@ -208,6 +208,8 @@ Lets say we have two players: A and B,
 
 [1745. Palindrome Partitioning IV --  Hard](https://leetcode.com/problems/palindrome-partitioning-iv)
 
+[139. Word Break -- Medium](https://leetcode.com/problems/word-break/)
+
 ## Some good problems in DP
 
 [1000. Minimum Cost to Merge Stones -- Hard](https://leetcode.com/problems/minimum-cost-to-merge-stones/) 
@@ -293,3 +295,6 @@ class Solution {
 ## to be
 
 1. [337. House Robber III -- Medium](https://leetcode.com/problems/house-robber-iii/)
+1. [198. House Robber -- Medium](https://leetcode.com/problems/house-robber)
+1. [213. House Robber II -- Medium](https://leetcode.com/problems/house-robber-ii/)
+1. [1575. Count All Possible Routes -- Hard](https://leetcode.com/problems/count-all-possible-routes/)
