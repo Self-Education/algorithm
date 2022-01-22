@@ -2,6 +2,10 @@
 
 ## General Idea
 
+### pick up from bag to achieve
+
+1. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
+
 #### subsequence vs subarray???
 
 1. [300. Longest Increasing Subsequence -- Medium](https://leetcode.com/problems/longest-increasing-subsequence)
@@ -49,7 +53,7 @@
 
 8. [446. Arithmetic Slices II - Subsequence -- Hard](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) use `Map<Integer, Integer>[]` for `dp[i][j]` when j could be negative
 
-9. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
+9. 
 
 10. [983. Minimum Cost For Tickets -- Hard](https://leetcode.com/problems/minimum-cost-for-tickets/)
 
@@ -286,11 +290,19 @@ class Solution {
 
 ## String Matching
 
-[115. Distinct Subsequences -- Hard](https://leetcode.com/problems/distinct-subsequences)
+`dp[i][j]`
+
+1. [115. Distinct Subsequences -- Hard](https://leetcode.com/problems/distinct-subsequences)
+
+2. [718. Maximum Length of Repeated Subarray -- Hard](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+
+3. [10. Regular Expression Matching -- Medium](https://leetcode.com/problems/regular-expression-matching)
+
+4. [44. Wildcard Matching -- Hard](https://leetcode.com/problems/wildcard-matching)
 
 
 
-
+s
 
 ## to be
 
@@ -298,3 +310,8 @@ class Solution {
 1. [198. House Robber -- Medium](https://leetcode.com/problems/house-robber)
 1. [213. House Robber II -- Medium](https://leetcode.com/problems/house-robber-ii/)
 1. [1575. Count All Possible Routes -- Hard](https://leetcode.com/problems/count-all-possible-routes/)
+1. [828. Count Unique Characters of All Substrings of a Given String -- Hard](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
+1. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses)
+
+## Coin Change
+
