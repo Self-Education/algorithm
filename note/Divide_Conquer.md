@@ -15,6 +15,7 @@
 
 1. [Longest Common Prefix -- Easy](https://leetcode.com/problems/longest-common-prefix/)
 1. [148. Sort List -- Medium](https://leetcode.com/problems/sort-list)
+1. [241. Different Ways to Add Parentheses -- Medium](https://leetcode.com/problems/different-ways-to-add-parentheses/)
 
 ### Divide into parts to reduce time complexity双向奔赴（romantic!!)
 

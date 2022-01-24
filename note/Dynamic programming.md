@@ -49,7 +49,7 @@
 
 6. [276. Paint Fence -- Medium](https://leetcode.com/problems/paint-fence) does not need to check condition
 
-7. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn)
+7. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn) 
 
 8. [446. Arithmetic Slices II - Subsequence -- Hard](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/) use `Map<Integer, Integer>[]` for `dp[i][j]` when j could be negative
 
