@@ -5,6 +5,9 @@
 ### pick up from bag to achieve
 
 1. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
+1. [518. Coin Change 2 -- Medium](https://leetcode.com/problems/coin-change-2) unbounded
+1. [279. Perfect Squares -- Medium](https://leetcode.com/problems/perfect-squares/) unbounded can use BFS
+1. [40. Combination Sum II -- Medium](https://leetcode.com/problems/combination-sum-ii/)
 
 #### subsequence vs subarray???
 
@@ -78,6 +81,9 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 4. [1027. Longest Arithmetic Subsequence --- Medium](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+4. [1959. Minimum Total Space Wasted With K Resizing Operations -- Medium](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
+4. [1105. Filling Bookcase Shelves -- Medium](https://leetcode.com/problems/filling-bookcase-shelves)
+4. [1043. Partition Array for Maximum Sum -- Medium](https://leetcode.com/problems/partition-array-for-maximum-sum)
 
 
 

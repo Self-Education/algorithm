@@ -97,6 +97,7 @@ private int removeKDuplicates(int[] nums, int k){
 4. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 4. [769. Max Chunks To Make Sorted -- Medium](https://leetcode.com/problems/max-chunks-to-make-sorted/)
 4. [1402. Reducing Dishes -- Hard](https://leetcode.com/problems/reducing-dishes/)
+4. [1395. Count Number of Teams -- Medium](https://leetcode.com/problems/count-number-of-teams/)
 
 ## Shortest Path (BFS or binary BFS)
 
