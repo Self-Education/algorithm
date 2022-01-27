@@ -12,6 +12,7 @@
 3. [1120. Maximum Average Subtree -- Medium ](https://leetcode.com/problems/maximum-average-subtree/)
 3. **[404. Sum of Left Leaves -- Easy](https://leetcode.com/problems/sum-of-left-leaves)**
 3. [235. Lowest Common Ancestor of a Binary Search Tree -- Easy](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+3. **[1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)**
 
 ### Recursion, return multiple possibles
 

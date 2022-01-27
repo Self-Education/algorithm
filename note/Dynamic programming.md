@@ -81,11 +81,11 @@
 3. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 4. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/) + [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 4. [1027. Longest Arithmetic Subsequence --- Medium](https://leetcode.com/problems/longest-arithmetic-subsequence/)
-4. [1959. Minimum Total Space Wasted With K Resizing Operations -- Medium](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
-4. [1105. Filling Bookcase Shelves -- Medium](https://leetcode.com/problems/filling-bookcase-shelves)
-4. [1043. Partition Array for Maximum Sum -- Medium](https://leetcode.com/problems/partition-array-for-maximum-sum)
+4. 
 
+### Maintain two dp
 
+1. [1567. Maximum Length of Subarray With Positive Product -- Medium](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
 
 ## Bit mask to store state
 
@@ -109,6 +109,10 @@
 10. 1745
 11. [96. Unique Binary Search Trees -- Medium](https://leetcode.com/problems/unique-binary-search-trees/)
 11. [1231. Divide Chocolate -- Hard](https://leetcode.com/problems/divide-chocolate/)
+11. [1959. Minimum Total Space Wasted With K Resizing Operations -- Medium](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
+14. [1105. Filling Bookcase Shelves -- Medium](https://leetcode.com/problems/filling-bookcase-shelves)
+15. [1043. Partition Array for Maximum Sum -- Medium](https://leetcode.com/problems/partition-array-for-maximum-sum)
+16. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 
 
@@ -165,21 +169,22 @@
 
 ### Take turns
 
-we use `dp(...)` to indicate **<u>general any player's score</u>** instead of the player that problems asks for
+we use `dp(...)` to indicate **score difference** instead of the player that problems asks for
 
 [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii/)
 
 ```java
-private int dp(int[] piles, int[] stonesLeft, int M, int start){
-        if(start + 2 * M >= piles.length) return stonesLeft[start];
-        if(memo[start][M] != -1) return memo[start][M];
+private int dp(int[] suffixSum, int i, int M){
+        // if(i == suffixSum.length - 1) return 0;
+        if(i + 2 * M >= suffixSum.length - 1) return suffixSum[i];
+        if(memo[i][M] != -1) return memo[i][M];
         int score = 0;
-        for(int i = 1; i <= 2 * M && start + i < piles.length; i++){
-            int curScore = stonesLeft[start] - stonesLeft[start + i]
-                + stonesLeft[start + i] - dp(piles, stonesLeft, Math.max(M, i), start + i); 
-            score = Math.max(score, curScore);
+        for(int x = 1; x <= 2 * M && i + x < suffixSum.length; x ++){
+            int take = suffixSum[i] - suffixSum[i + x];
+            int rest = suffixSum[i + x] - dp(suffixSum, i + x, Math.max(M, x));
+            score = Math.max(score, take + rest);
         }
-        return memo[start][M] = score;
+        return memo[i][M] = score;
     }
 ```
 
@@ -187,9 +192,10 @@ Lets say we have two players: A and B,
 
  ` A_maxScore = score(A's current pick) + ( remaining_score - B_maxScore) `
 
+we define `dp(..)` as how much can current player win, score difference
+
 1. [877. Stone Game](https://leetcode.com/problems/stone-game)
 2. [1140. Stone Game II](https://leetcode.com/problems/stone-game-ii)
-
 3. [1406. Stone Game III](https://leetcode.com/problems/stone-game-iii)
 4. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
 5. [1563. Stone Game V](https://leetcode.com/problems/stone-game-v)
@@ -199,6 +205,7 @@ Lets say we have two players: A and B,
    Because she doesn't want Bob to take it.
 7. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
 8. [1872. Stone Game VIII --  Hard](https://leetcode.com/problems/stone-game-viii/)
+8. [486. Predict the Winner --  Medium](https://leetcode.com/problems/predict-the-winner/)
 
 
 
@@ -299,16 +306,18 @@ class Solution {
 `dp[i][j]`
 
 1. [115. Distinct Subsequences -- Hard](https://leetcode.com/problems/distinct-subsequences)
-
 2. [718. Maximum Length of Repeated Subarray -- Hard](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
-
 3. [10. Regular Expression Matching -- Medium](https://leetcode.com/problems/regular-expression-matching)
-
 4. [44. Wildcard Matching -- Hard](https://leetcode.com/problems/wildcard-matching)
+4. [1312. Minimum Insertion Steps to Make a String Palindrome -- Hard](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)
+4. [516. Longest Palindromic Subsequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence)
+4. [1143. Longest Common Subsequence -- Medium](https://leetcode.com/problems/longest-common-subsequence)
 
 
 
-s
+## Matrix
+
+[1277. Count Square Submatrices with All Ones -- Medium](https://leetcode.com/problems/count-square-submatrices-with-all-ones/)
 
 ## to be
 
@@ -318,6 +327,13 @@ s
 1. [1575. Count All Possible Routes -- Hard](https://leetcode.com/problems/count-all-possible-routes/)
 1. [828. Count Unique Characters of All Substrings of a Given String -- Hard](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 1. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses)
+1. [920. Number of Music Playlists -- Hard](https://leetcode.com/problems/number-of-music-playlists/)
+
+## Shape
+
+1. [790. Domino and Tromino Tiling -- Medium](https://leetcode.com/problems/domino-and-tromino-tiling/)
+
+
 
 ## Coin Change
 

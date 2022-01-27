@@ -51,6 +51,13 @@
 
 + Binary search
 
+    
+
+### K Operations, to achieve a goal
+
++ `dp(i, j, k)`
++ `dp(i, j)` as least number of operations to achieve the goal, then compare if `dp(i, j) <= k`
+
 ### Intervals
 
 + sort by interval[i]
