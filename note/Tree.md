@@ -27,11 +27,10 @@
 ## Divide and Conquer
 
 1. [1130. Minimum Cost Tree From Leaf Values -- Medium](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)
-
 2. [894. All Possible Full Binary Trees -- Medium](https://leetcode.com/problems/all-possible-full-binary-trees/) do not forget the memoization
-
 3. [1382. Balance a Binary Search Tree -- Medium](https://leetcode.com/problems/balance-a-binary-search-tree/)
 4. [95. Unique Binary Search Trees II -- Medium](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+4. [1569. Number of Ways to Reorder Array to Get Same BST -- Hard](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
 
 
