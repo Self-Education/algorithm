@@ -86,6 +86,7 @@
 ### Maintain two dp
 
 1. [1567. Maximum Length of Subarray With Positive Product -- Medium](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)
+1. [152. Maximum Product Subarray -- Medium](https://leetcode.com/problems/maximum-product-subarray/)
 
 ## Bit mask to store state
 
@@ -324,6 +325,7 @@ class Solution {
 1. [337. House Robber III -- Medium](https://leetcode.com/problems/house-robber-iii/)
 1. [198. House Robber -- Medium](https://leetcode.com/problems/house-robber)
 1. [213. House Robber II -- Medium](https://leetcode.com/problems/house-robber-ii/)
+1. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn/)
 1. [1575. Count All Possible Routes -- Hard](https://leetcode.com/problems/count-all-possible-routes/)
 1. [828. Count Unique Characters of All Substrings of a Given String -- Hard](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 1. [32. Longest Valid Parentheses -- Hard](https://leetcode.com/problems/longest-valid-parentheses)
