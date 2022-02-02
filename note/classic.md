@@ -73,6 +73,11 @@ private int removeKDuplicates(int[] nums, int k){
 1. [26. Remove Duplicates from Sorted Array -- Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 2. [80. Remove Duplicates from Sorted Array II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
+for linkedList, use `cur.val == cur.next.val`
+
+1. [83. Remove Duplicates from Sorted List -- Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+2. [82. Remove Duplicates from Sorted List II -- Medium](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+
 ## Trap Rain
 
 1. [Trapping Rain Water -- Hard](https://leetcode.com/problems/trapping-rain-water/)

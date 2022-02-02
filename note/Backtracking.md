@@ -53,6 +53,8 @@
 
    **`int[] visited + loop from 0`**
 
+   `visited` ensure each element can only be used once
+
    ```java
    public void backtrack(int[] nums, LinkedList<Integer> cur){
            if(cur.size() == nums.length){
