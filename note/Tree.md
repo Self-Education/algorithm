@@ -32,7 +32,9 @@
 4. [95. Unique Binary Search Trees II -- Medium](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 4. [1569. Number of Ways to Reorder Array to Get Same BST -- Hard](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
+### LCA
 
+1. [1257. Smallest Common Region -- Medium](https://leetcode.com/problems/smallest-common-region/)
 
 ### Successor
 

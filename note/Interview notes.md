@@ -86,3 +86,13 @@ public static void main(){
 }
 ```
 
+## Interview Track
+
+
+
+| Company  | Round             | Note                                                         |
+| -------- | ----------------- | ------------------------------------------------------------ |
+| Mixpanel | Round1,1-28, Fail | Asked Java IO API, questions: read last 10 lines of large file |
+|          |                   |                                                              |
+|          |                   |                                                              |
+
