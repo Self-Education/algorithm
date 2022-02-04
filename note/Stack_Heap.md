@@ -196,6 +196,7 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 2. [1705. Maximum Number of Eaten Apples -- Medium](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
 2. [1834. Single-Threaded CPU -- Medium](https://leetcode.com/problems/single-threaded-cpu/)
 2. [502. IPO -- Hard](https://leetcode.com/problems/ipo/)
+2. [1094. Car Pooling -- Medium](https://leetcode.com/problems/car-pooling/)
 
 
 
