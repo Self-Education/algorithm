@@ -279,6 +279,9 @@ Every time ask for the min length of ....
 ### window keep same size
 
 1. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/)
+1. [217. Contains Duplicate -- Easy](https://leetcode.com/problems/contains-duplicate/)
+1. [219. Contains Duplicate II -- Easy](https://leetcode.com/problems/contains-duplicate-ii/)
+1. [220. Contains Duplicate III -- Medium](https://leetcode.com/problems/contains-duplicate-iii/) Treeset
 
 ### partition array into different windows
 
