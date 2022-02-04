@@ -6,7 +6,8 @@
 
 
 
-
+1. Watch out `l == r` when traverse from two sides
+2. Integer can not have leading 0
 
 ## Tips:
 

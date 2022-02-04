@@ -14,6 +14,9 @@
 6. [Longest Palindromic Sequence II -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence-ii/) even length, two consecutive characters not equal.
 7. [564. Find the Closest Palindrome --  Hard](https://leetcode.com/problems/find-the-closest-palindrome/)
 7. [1332. Remove Palindromic Subsequences -- Easy](https://leetcode.com/problems/remove-palindromic-subsequences/)
+7. [246. Strobogrammatic Number -- Easy](https://leetcode.com/problems/strobogrammatic-number/)
+7. [247. Strobogrammatic Number II -- Medium](https://leetcode.com/problems/strobogrammatic-number-ii/)
+7. [248. Strobogrammatic Number III -- Hard](https://leetcode.com/problems/strobogrammatic-number-iii/)
 
 ## Parenthesis
 
@@ -49,7 +52,7 @@ for(int k = i; k < j; k++){
 
 ## Reverse
 
-1. [189. Rotate Array -- Hard](https://leetcode.com/problems/rotate-array/) O(1) space
+1. [189. Rotate Array -- Medium](https://leetcode.com/problems/rotate-array/) O(1) space
 
 ## Remove duplicates in sorted array template
 

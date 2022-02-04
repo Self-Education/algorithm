@@ -150,6 +150,8 @@
 
 8. [78. Subsets -- Medium](https://leetcode.com/problems/subsets)
 
+8. [254. Factor Combinations -- Medium](https://leetcode.com/problems/factor-combinations/)
+
 
 
 
