@@ -35,7 +35,9 @@
 
 3. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
-3. [2106. Maximum Fruits Harvested After at Most K Steps -- Hard](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+4. [2106. Maximum Fruits Harvested After at Most K Steps -- Hard](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+
+3. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
 
 ## Count number of occurrences for ranges
 

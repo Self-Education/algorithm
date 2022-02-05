@@ -164,6 +164,8 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/) Does null need to be included? Inorder or postorder
 2. [1048. Longest String Chain -- Medium](https://leetcode.com/problems/longest-string-chain/)
+2. [282. Expression Add Operators -- Hard](https://leetcode.com/problems/expression-add-operators/)
+2. [320. Generalized Abbreviation -- Medium](https://leetcode.com/problems/generalized-abbreviation/)
 
 
 
