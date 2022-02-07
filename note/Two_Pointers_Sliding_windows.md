@@ -243,7 +243,7 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 ### Shrink window size to make window valid
 
-Every time ask for the min length of ....
+Every time ask for the min length of ...., we can track the last occurence to accelerate
 
 1. [Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)
 
@@ -266,6 +266,8 @@ Every time ask for the min length of ....
 10. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
 10. [1610. Maximum Number of Visible Points -- Hard](https://leetcode.com/problems/maximum-number-of-visible-points/)
+
+10. [485. Max Consecutive Ones -- Easy](https://leetcode.com/problems/max-consecutive-ones/)
 
     
 

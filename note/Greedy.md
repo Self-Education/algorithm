@@ -121,3 +121,11 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 7. [1691. Maximum Height by Stacking Cuboids -- Hard](https://leetcode.com/problems/maximum-height-by-stacking-cuboids/)
 8. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
 8. [435. Non-overlapping Intervals -- Medium](https://leetcode.com/problems/non-overlapping-intervals)
+
+
+
+## NP - Complete
+
+min action to achieve, key idea is each action at least achieve something to compress the state
+
+1. [465. Optimal Account Balancing --  Hard](https://leetcode.com/problems/optimal-account-balancing/)
