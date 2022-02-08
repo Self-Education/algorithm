@@ -60,6 +60,7 @@ public boolean searchMatrix(int[][] matrix, int target) {
 3. [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
 4. [1428. Leftmost Column with at Least a One -- Medium](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) linear search from top-right or binary search (<u>boundary</u>)
 4. [1351. Count Negative Numbers in a Sorted Matrix -- Easy](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+4. [668. Kth Smallest Number in Multiplication Table -- Hard](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
 
 
 

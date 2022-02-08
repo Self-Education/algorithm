@@ -81,6 +81,7 @@
 1. [106. Construct Binary Tree from Inorder and Postorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 1. [1008. Construct Binary Search Tree from Preorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 1. [1028. Recover a Tree From Preorder Traversal -- Hard](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
+1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/)
 
 ### Tree to/from LinkedList
 

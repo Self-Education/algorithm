@@ -8,6 +8,7 @@
 1. [518. Coin Change 2 -- Medium](https://leetcode.com/problems/coin-change-2) unbounded
 1. [279. Perfect Squares -- Medium](https://leetcode.com/problems/perfect-squares/) unbounded can use BFS
 1. [40. Combination Sum II -- Medium](https://leetcode.com/problems/combination-sum-ii/)
+1. [638. Shopping Offers -- Medium](https://leetcode.com/problems/shopping-offers/)
 
 #### subsequence vs subarray???
 
@@ -325,6 +326,7 @@ class Solution {
 1. [337. House Robber III -- Medium](https://leetcode.com/problems/house-robber-iii/)
 1. [198. House Robber -- Medium](https://leetcode.com/problems/house-robber)
 1. [213. House Robber II -- Medium](https://leetcode.com/problems/house-robber-ii/)
+1. [600. Non-negative Integers without Consecutive Ones -- Hard](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)
 1. [740. Delete and Earn -- Medium](https://leetcode.com/problems/delete-and-earn/)
 1. [1575. Count All Possible Routes -- Hard](https://leetcode.com/problems/count-all-possible-routes/)
 1. [828. Count Unique Characters of All Substrings of a Given String -- Hard](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
