@@ -88,7 +88,84 @@ public static void main(){
 
 ### Multi-Threading
 
+[youtuber](https://www.youtube.com/channel/UCiz26UeGvcTy4_M3Zhgk7FQ)
+
 ReentrantLock
+
+#### Producer - Consumer
+
+```java
+// "static void main" must be defined in a public class.
+class Producer implements Runnable{
+    private final int id;
+    private BlockingQueue<Integer> sharedQueue;
+    public Producer(int id, BlockingQueue<Integer> sharedQueue){
+        this.id = id;
+        this.sharedQueue = sharedQueue;
+    }
+    @Override
+    public void run(){
+        for(int i = 0; i < 10; i++){
+            try{
+                Thread.sleep(100);
+                System.out.println("Produced " + i);
+                sharedQueue.put(i);
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+class Consumer implements Runnable{
+    private final int id;
+    private BlockingQueue<Integer> sharedQueue;
+    private Random rand = new Random();
+    public Consumer(int id, BlockingQueue<Integer> sharedQueue){
+        this.id = id;
+        this.sharedQueue = sharedQueue;
+    }
+    @Override
+    public void run(){
+        while(true){
+            try{
+                Thread.sleep(500);
+                int r = rand.nextInt(10);
+                if(r == 1){
+                    System.out.println("Consumer " + id + " Consumed " + sharedQueue.take() + "queue size is " + sharedQueue.size());
+                }
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+        }
+    }
+}
+public class Main {
+    
+    public static void main(String[] args) {
+        BlockingQueue<Integer> sharedQueue = new LinkedBlockingQueue<>(5);
+        Thread p1 = new Thread(new Producer(0, sharedQueue));
+        Thread c1 = new Thread(new Consumer(1, sharedQueue));
+        Thread c2 = new Thread(new Consumer(2, sharedQueue));
+        Thread c3 = new Thread(new Consumer(3, sharedQueue));
+        
+        p1.start();
+        c1.start();
+        c2.start();
+        c3.start();
+        
+        try{
+            p1.join();
+            c1.join();
+            c2.join();
+            c3.join();
+            
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 
 
