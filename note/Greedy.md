@@ -129,3 +129,4 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 min action to achieve, key idea is each action at least achieve something to compress the state
 
 1. [465. Optimal Account Balancing --  Hard](https://leetcode.com/problems/optimal-account-balancing/)
+1. [765. Couples Holding Hands -- Hard](https://leetcode.com/problems/couples-holding-hands/)

@@ -6,35 +6,55 @@ import java.util.LinkedList;
 
 
 
+import java.net.URL;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
 public class Program {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(2);
-        TreeNode left = new TreeNode(1);
-        TreeNode right = new TreeNode(3);
-        TreeNode node1 = new TreeNode(4);
-        TreeNode node2 = new TreeNode(5);
-        TreeNode node3 = new TreeNode(-2);
-        right.right = node3;
-        root.left = left;
-        root.right = right;
-        left.left = node1;
-        left.right = node2;
-        // BSTSqeuence bst = new BSTSqeuence();
-        Printer.printTree(root, 0);
-        // LinkedList<LinkedList<Integer>> ans = bst.solution(root);
-        // Printer.print(Arrays.toString(ans.toArray()));
-        // LinkedList<Integer> test = new LinkedList<>();
-        // test.add(0);
-        // test.add(1);
-        // test.add(2);
-        // Printer.print(Arrays.toString(test.toArray()));
-        // LinkedList<Integer> copy = test;
-        // test.removeLast();
-        // Printer.print(Arrays.toString(test.toArray()));
-        // Printer.print(Arrays.toString(copy.toArray()));
-        Printer.print(PathSum.pathSumI(root, 3));
+        Program solution = new Program();
+        String url = "https://jsonplaceholder.typicode.com/album";
+        solution.method1(url);
 
+    }
 
+    // use java.net.HttpURLConnection
+    private void method1(String s) {
+        BufferedReader br;
+        StringBuffer sb = new StringBuffer();
+        try {
+            URL url = new URL(s);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+
+            // set up request properties
+            connection.setRequestMethod("GET");
+            connection.setConnectTimeout(5000);
+            connection.setReadTimeout(5000);
+
+            // get the response
+            int status = connection.getResponseCode();
+            System.out.println(status);
+            String line;
+            if (status > 299) { // fail
+                br = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
+
+            } else {
+                br = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            }
+            while ((line = br.readLine()) != null) {
+                sb.append(line);
+            }
+            br.close();
+            System.out.println(sb.toString());
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 }
