@@ -92,6 +92,8 @@ public static void main(){
 
 ReentrantLock
 
+https://aaronice.gitbook.io/system-design/distributed-systems/producer-and-consumer
+
 #### Producer - Consumer
 
 ```java
