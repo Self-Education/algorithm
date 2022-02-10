@@ -334,10 +334,15 @@ count from 1900
 
 
 
+## Digit Permutation
+
+1. [902. Numbers At Most N Given Digit Set -- Hard](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+
+
+
 ## Brute force first N examples to find rules
 
 1. [330. Patching Array -- Hard](https://leetcode.com/problems/patching-array/)
-1. [902. Numbers At Most N Given Digit Set -- Hard](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
 1. [400. Nth Digit -- Medium](https://leetcode.com/problems/nth-digit/)
 
 
@@ -376,6 +381,10 @@ Then we have to make sure in the later on pick, this element is not selected whi
 1. [939. Minimum Area Rectangle -- Medium](https://leetcode.com/problems/minimum-area-rectangle/)
 
 
+
+### Expand (when see min or max)
+
+1. [907. Sum of Subarray Minimums -- Medium](https://leetcode.com/problems/sum-of-subarray-minimums/)
 
 
 

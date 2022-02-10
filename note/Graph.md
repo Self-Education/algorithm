@@ -338,10 +338,12 @@ public boolean UnionFind(List<List<String>> edges) {
 1. [399. Evaluate Division -- Medium](https://leetcode.com/problems/evaluate-division/)
 2. [990. Satisfiability of Equality Equations -- Medium](https://leetcode.com/problems/satisfiability-of-equality-equations/)
 
-
 ### Cyclic Swapping
 
+a group with n element, there is at most n - 1 way to ...
+
 1. [765. Couples Holding Hands -- Hard](https://leetcode.com/problems/couples-holding-hands)
+1. [947. Most Stones Removed with Same Row or Column -- Medium](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 
 
 

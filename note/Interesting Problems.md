@@ -51,6 +51,12 @@
 
 
 
+
+
+## Simulation
+
+1. [950. Reveal Cards In Increasing Order -- Medium](https://leetcode.com/problems/reveal-cards-in-increasing-order/)
+
 ## Other
 
 [782. Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard) chess board only has two types of rows, swaps rows/cols, does not change equality of same type of row/cols

@@ -106,6 +106,12 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 
 [1147. Longest Chunked Palindrome Decomposition -- Hard](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/)
 
+
+
+## Pick the option so that later work can be easier
+
+1. [942. DI String Match -- Easy](https://leetcode.com/problems/di-string-match/)
+
 ##  Greedy and Binary Search
 
 ### LIS

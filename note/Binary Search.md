@@ -288,6 +288,7 @@ public int helper(int[] nums, int target){
 10. [1802. Maximum Value at a Given Index in a Bounded Array -- Medium](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 10. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 10. [1760. Minimum Limit of Balls in a Bag -- Medium](https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/)
+10. [878. Nth Magical Number -- Hard](https://leetcode.com/problems/nth-magical-number/)
 
 
 
