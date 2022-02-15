@@ -85,7 +85,7 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 
 1. [274. H-Index --  Medium](https://leetcode.com/problems/h-index)
 2. [1509. Minimum Difference Between Largest and Smallest Value in Three Moves -- Medium](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)
-3. [1383. Maximum Performance of a Team -- Hard](https://leetcode.com/problems/maximum-performance-of-a-team/)
+3. 
 4. [2007. Find Original Array From Doubled Array -- Medium](https://leetcode.com/problems/find-original-array-from-doubled-array/)
 4. [954. Array of Doubled Pairs -- Medium](https://leetcode.com/problems/array-of-doubled-pairs)
 5.  [1509. Minimum Difference Between Largest and Smallest Value in Three Moves -- Medium](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)

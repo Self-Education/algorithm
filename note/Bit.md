@@ -8,6 +8,12 @@
 | 4          | ^(Bitwise XOR)                                   | Left to Right |
 | 5          | \| (Bitwise Or)                                  | Left to Right |
 
+
+
+
+
+1. [1290. Convert Binary Number in a Linked List to Integer -- Easy](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
+
 ## Set range of bits as 1
 
 ```java

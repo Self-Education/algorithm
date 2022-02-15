@@ -111,6 +111,7 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 ## Pick the option so that later work can be easier
 
 1. [942. DI String Match -- Easy](https://leetcode.com/problems/di-string-match/)
+1. [1029. Two City Scheduling -- Medium](https://leetcode.com/problems/two-city-scheduling/)
 
 ##  Greedy and Binary Search
 

@@ -186,6 +186,8 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 [272. Closest Binary Search Tree Value II -- hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
+[1383. Maximum Performance of a Team -- Hard](https://leetcode.com/problems/maximum-performance-of-a-team/)
+
 #### 
 
 

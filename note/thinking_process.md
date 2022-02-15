@@ -34,7 +34,7 @@
 1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
 1. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
-+ hashmap to record most recent occurrance 
++ **subarray sum + min len** -> hashmap to record most recent occurrance 
 
 1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
@@ -62,6 +62,9 @@
 ### Intervals
 
 + sort by interval[i]
++ **if Interval can be accessed (overlapped)** priorityQueue (eaten apple)
+    + [1705. Maximum Number of Eaten Apples -- Medium](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
+
 
 ### Shortest/Longest path
 
@@ -80,8 +83,8 @@
 + Two sum idea
   + map/set to record occurance along the way
   + Sort
-
 + prefixSum to get the subArray sum
++ **Multiple array sum** convert it to matrix
 
 
 ### When asks for number of ...
@@ -140,3 +143,8 @@
 
 + union and find
   + DFS ( with state)
+
+### Parentheses
+
++ count left + right
++ stack, left over is unbalanced

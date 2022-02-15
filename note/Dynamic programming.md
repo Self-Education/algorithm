@@ -115,6 +115,7 @@
 14. [1105. Filling Bookcase Shelves -- Medium](https://leetcode.com/problems/filling-bookcase-shelves)
 15. [1043. Partition Array for Maximum Sum -- Medium](https://leetcode.com/problems/partition-array-for-maximum-sum)
 16. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
+16. [1278. Palindrome Partitioning II -- Hard](https://leetcode.com/problems/palindrome-partitioning-iii/) more than 1 memo
 
 
 
@@ -128,9 +129,14 @@
 
 
 
+##  Use DP to get number and compare
+
+1. [1216. Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii/) get the least number of moves and compare with k
+
 ## Job scheduling series
 
 1. [1235. Maximum Profit in Job Scheduling -- Hard](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+1. [1751. Maximum Number of Events That Can Be Attended II -- Hard](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
 
 
 
@@ -324,6 +330,7 @@ class Solution {
 ## to be
 
 1. [337. House Robber III -- Medium](https://leetcode.com/problems/house-robber-iii/)
+1. [1372. Longest ZigZag Path in a Binary Tree -- Medium](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)
 1. [198. House Robber -- Medium](https://leetcode.com/problems/house-robber)
 1. [213. House Robber II -- Medium](https://leetcode.com/problems/house-robber-ii/)
 1. [600. Non-negative Integers without Consecutive Ones -- Hard](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/)

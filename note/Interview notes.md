@@ -173,11 +173,21 @@ public class Main {
 
 ## Interview Track
 
+4: no idea
 
+5: have idea, finish 60% implementation
 
-| Company  | Round             | Note                                                         |
-| -------- | ----------------- | ------------------------------------------------------------ |
-| Mixpanel | Round1,1-28, Fail | Asked Java IO API, questions: read last 10 lines of large file |
-|          |                   |                                                              |
-|          |                   |                                                              |
+6: have concept, finish 80% implementation or get a brute force solution
+
+7: get a working solution, but small bug or did not finish the follow up
+
+8: get a working solution, no bug and answered follow up
+
+| Company  | Round        | Note                                                         |
+| -------- | ------------ | ------------------------------------------------------------ |
+| Mixpanel | Round1,1-28  | 6, Asked Java IO API, questions: read last 10 lines of large file |
+|          | round-2 1-11 | 8, work experience                                           |
+|          | round-3 1-11 | 5, flatten nested list, without precomputation               |
+|          | round-4 2-14 | 7, poker                                                     |
+|          | round-5 2-14 | 7, directory BFS, follow up: content is large                |
 
