@@ -13,7 +13,7 @@
 |               |          | Stack and Queue               |
 | 1/10 - 1/19   | 725      | **Sorting**                   |
 | 1/20 - 1/31   | 780      | *DP*                          |
-|               |          |                               |
+| 2/1 - 2/16    | 795      | reviewed solved 795           |
 
 
 
