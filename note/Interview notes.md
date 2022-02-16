@@ -171,23 +171,31 @@ public class Main {
 
 
 
+### Resolve hash conflict
+
++ hash and validate
+
+
+
+
+
 ## Interview Track
 
-4: no idea
+4: no idea how to solve
 
-5: have idea, finish 60% implementation
+5: have idea, did not finish implementation
 
-6: have concept, finish 80% implementation or get a brute force solution
+6: finish implementation but wrong answer or solved by brute force
 
-7: get a working solution, but small bug or did not finish the follow up
+7: get a working solution, did not solve the follow up
 
-8: get a working solution, no bug and answered follow up
+8: get a working solution, no bug and answered follow up (or no follow up)
 
-| Company  | Round        | Note                                                         |
-| -------- | ------------ | ------------------------------------------------------------ |
-| Mixpanel | Round1,1-28  | 6, Asked Java IO API, questions: read last 10 lines of large file |
-|          | round-2 1-11 | 8, work experience                                           |
-|          | round-3 1-11 | 5, flatten nested list, without precomputation               |
-|          | round-4 2-14 | 7, poker                                                     |
-|          | round-5 2-14 | 7, directory BFS, follow up: content is large                |
+| Company        | Round        | Note                                                         |
+| -------------- | ------------ | ------------------------------------------------------------ |
+| MixPanel (6.5) | Round1,1-28  | 7, Asked Java IO API, questions: read last 10 lines of large file |
+|                | round-2 1-11 | 8, work experience                                           |
+|                | round-3 1-11 | 5, flatten nested list, without precomputation               |
+|                | round-4 2-14 | 6, poker                                                     |
+|                | round-5 2-14 | 7, directory BFS, follow up: content is large                |
 
