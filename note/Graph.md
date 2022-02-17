@@ -151,6 +151,12 @@ private int[] dijkstra(Map<Integer, List<int[]>> graph, int n, int start){
 10. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops)
 10. [778. Swim in Rising Water -- Hard](https://leetcode.com/problems/swim-in-rising-water)
 
+#### multiple constraints
+
+we pick one as priority state for sorting, then track each constraints as state
+
+1. [1928. Minimum Cost to Reach Destination in Time -- Hard](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)
+
 ### Other
 
 1. [1654. Minimum Jumps to Reach Home -- Meidum](https://leetcode.com/problems/minimum-jumps-to-reach-home/) `ax + by = z`, z must be `z = n * gcd(a, b)`, that means all reachable points must be mulitples of gcd(a, b)
