@@ -82,6 +82,7 @@
 1. [1008. Construct Binary Search Tree from Preorder Traversal -- Medium](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)
 1. [1028. Recover a Tree From Preorder Traversal -- Hard](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/)
 1. [652. Find Duplicate Subtrees -- Medium](https://leetcode.com/problems/find-duplicate-subtrees/)
+1. **[1597. Build Binary Expression Tree From Infix Expression -- Hard](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression/)** handle "*, /" and "+, -" separately
 
 ### Tree to/from LinkedList
 

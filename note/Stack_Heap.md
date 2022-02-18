@@ -7,11 +7,13 @@
 3. [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)
 4. [84. Largest Rectangle in Histogram -- Hard](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 5. [581. Shortest Unsorted Continuous Subarray -- Medium](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)
-5. [456. 132 Pattern -- Medium](https://leetcode.com/problems/132-pattern/)
-5. [1966. Binary Searchable Numbers in an Unsorted Array -- Medium](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/)
-5. [853. Car Fleet -- Medium](https://leetcode.com/problems/car-fleet/)
-5. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) similar with Russian doll
-5. [907. Sum of Subarray Minimums -- Medium](https://leetcode.com/problems/sum-of-subarray-minimums)
+6. [456. 132 Pattern -- Medium](https://leetcode.com/problems/132-pattern/)
+7. [1966. Binary Searchable Numbers in an Unsorted Array -- Medium](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/)
+8. [853. Car Fleet -- Medium](https://leetcode.com/problems/car-fleet/)
+9. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) similar with Russian doll
+10. [907. Sum of Subarray Minimums -- Medium](https://leetcode.com/problems/sum-of-subarray-minimums)
+11. [2104. Sum of Subarray Ranges -- Medium](https://leetcode.com/problems/sum-of-subarray-ranges/)
+11. [402. Remove K Digits -- Medium](https://leetcode.com/problems/remove-k-digits/)
 
 
 
