@@ -442,6 +442,7 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
 1. [1135 Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
 2. [1168. Optimize Water Distribution in a Village -- Hard](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
+2. [1135. Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
 
 
 

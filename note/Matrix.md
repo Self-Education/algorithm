@@ -20,6 +20,7 @@
 ## Rotate Image
 
 1. [48. Rotate Image -- Medium](https://leetcode.com/problems/rotate-image/) clockwise: transpose + reserves row, counter clockwise: reverse row + transpose
+1. [1914. Cyclically Rotating a Grid -- Medium](https://leetcode.com/problems/cyclically-rotating-a-grid/)
 
 ## Spiral Transverse
 

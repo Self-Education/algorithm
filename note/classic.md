@@ -289,6 +289,7 @@ count from 1900
 8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 8. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 8. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
+8. 
 
 
 
@@ -317,6 +318,7 @@ count from 1900
 
 1. [370. Range Addition -- Medium](https://leetcode.com/problems/range-addition)
 2. [598. Range Addition II -- Easy](https://leetcode.com/problems/range-addition-ii)
+2. [1109. Corporate Flight Bookings -- Medium](https://leetcode.com/problems/corporate-flight-bookings/)
 
 
 
@@ -385,6 +387,10 @@ Then we have to make sure in the later on pick, this element is not selected whi
 ### Expand (when see min or max)
 
 1. [907. Sum of Subarray Minimums -- Medium](https://leetcode.com/problems/sum-of-subarray-minimums/)
+1. **[2104. Sum of Subarray Ranges -- Medium](https://leetcode.com/problems/sum-of-subarray-ranges/)** `sumMax - sumMin`
+1. [1248. Count Number of Nice Subarrays -- Medium](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+1. [891. Sum of Subsequence Widths -- Hard](https://leetcode.com/problems/sum-of-subsequence-widths/)
+1. [1498. Number of Subsequences That Satisfy the Given Sum Condition -- Medium](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 
 

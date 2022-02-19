@@ -120,7 +120,7 @@
 
 ### Distance
 
-+ binary search [target - dist, target + dist]: 
++ binary search `[target - dist, target + dist]`: 
     1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 + binary search
 
@@ -148,3 +148,15 @@
 
 + count left + right
 + stack, left over is unbalanced
+
+
+
+### Minimize `abs(max, min)`
+
++ PriorityQueue 
+
+[632. Smallest Range Covering Elements from K Lists -- Hard](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
+
++ expand from max and min, `sumMax - sumMin`
+
+[2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) 

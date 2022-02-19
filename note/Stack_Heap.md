@@ -190,7 +190,10 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 [1383. Maximum Performance of a Team -- Hard](https://leetcode.com/problems/maximum-performance-of-a-team/)
 
-#### 
+#### cover max/min range
+
+1. [1675. Minimize Deviation in Array -- Hard](https://leetcode.com/problems/minimize-deviation-in-array/)
+2. [632. Smallest Range Covering Elements from K Lists -- Hard](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
 
 
 
