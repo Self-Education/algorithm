@@ -46,7 +46,12 @@
 + sliding window
     1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
 
+### Subarray letter freq
 
++ Hash + prefix + bitmask
+  + [1915. Number of Wonderful Substrings --  Medium](https://leetcode.com/problems/number-of-wonderful-substrings/)
+   + [1542. Find Longest Awesome Substring -- Hard](https://leetcode.com/problems/find-longest-awesome-substring/)
+   + [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
 
 ### K operations, to achieve max/min or maximize min or minimize max
 
