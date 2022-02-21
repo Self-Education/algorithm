@@ -298,6 +298,47 @@ public int helper(int[] nums, int target){
 
 ### Search in rotated sorted Array
 
+**Template**:
+
+```java
+ public boolean search(int[] nums, int target) {
+        int m = nums.length;
+        int l = 0, r = m - 1;
+        while(l <= r){
+            int mid = l + (r - l) / 2;
+            if(nums[mid] == target) return true;
+            
+            if(nums[mid] < nums[l]){
+                // [l, r] covers both parts, and l is at right side
+                if(nums[mid] < target && target <= nums[r]){
+                    l = mid + 1;
+                }else{
+                    r = mid - 1;
+                }
+            }else if(nums[mid] > nums[r]){
+                if(nums[l] <= target && target < nums[mid]){
+                    r = mid - 1;
+                }else{
+                    l = mid + 1;
+                }
+            }else if((nums[l] == nums[mid]) && (nums[r] == nums[mid])){ // when values are not distinct
+                l++;
+                r--;
+            }else{
+                // [l, r] only cover one side, use regular binary search
+                if(nums[mid] < target){
+                    l = mid + 1;
+                }else{
+                    r = mid - 1;
+                }
+            }
+        }
+        return false;
+    }
+```
+
+
+
 1. [33. Search in Rotated Sorted Array -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/) 
 2. [81. Search in Rotated Sorted Array II -- Medium](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) ???
 3. [153. Find Minimum in Rotated Sorted Array -- Medium](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)

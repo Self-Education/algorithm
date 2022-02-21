@@ -106,6 +106,7 @@ for linkedList, use `cur.val == cur.next.val`
 4. [769. Max Chunks To Make Sorted -- Medium](https://leetcode.com/problems/max-chunks-to-make-sorted/)
 4. [1402. Reducing Dishes -- Hard](https://leetcode.com/problems/reducing-dishes/)
 4. [1395. Count Number of Teams -- Medium](https://leetcode.com/problems/count-number-of-teams/)
+4. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -320,6 +321,7 @@ count from 1900
 2. [598. Range Addition II -- Easy](https://leetcode.com/problems/range-addition-ii)
 2. [1109. Corporate Flight Bookings -- Medium](https://leetcode.com/problems/corporate-flight-bookings/)
 2. [2021. Brightest Position on Street --  Medium](https://leetcode.com/problems/brightest-position-on-street/)
+2. [1094. Car Pooling -- Medium](https://leetcode.com/problems/car-pooling/)
 
 
 
@@ -340,6 +342,7 @@ count from 1900
 ## Digit Permutation
 
 1. [902. Numbers At Most N Given Digit Set -- Hard](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
+1. [233. Number of Digit One -- Hard](https://leetcode.com/problems/number-of-digit-one/)
 
 
 
@@ -415,11 +418,10 @@ check **Sorting.md** -> **Use comparator directly **
 
 1. [792. Number of Matching Subsequences -- Medium](https://leetcode.com/problems/number-of-matching-subsequences/)
 
+## Track row/col/dia/anitDia
 
-
-## Digit count
-
-1. [233. Number of Digit One -- Hard](https://leetcode.com/problems/number-of-digit-one/)
+1. [1001. Grid Illumination -- Hard](https://leetcode.com/problems/grid-illumination/)
+2. [51. N-Queens -- Hard](https://leetcode.com/problems/n-queens)
 
 ## Math
 

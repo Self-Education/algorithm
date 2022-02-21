@@ -39,9 +39,10 @@
 
 3. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
 
-## Count number of occurrences for ranges
+## Count Freq for ranges
 
 1. [1862. Sum of Floored Pairs --  Hard](https://leetcode.com/problems/sum-of-floored-pairs/)
+1. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
 
 ### hash + prefix
 
