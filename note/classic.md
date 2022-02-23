@@ -89,6 +89,12 @@ for linkedList, use `cur.val == cur.next.val`
 
 
 
+## HashMap + Double LinkedList
+
+1. [460. LFU Cache -- Hard](https://leetcode.com/problems/lfu-cache/)
+2. [432. All O`one Data Structure -- Hard](https://leetcode.com/problems/all-oone-data-structure/)
+3. [146. LRU Cache --  Hard](https://leetcode.com/problems/lru-cache/)
+
 ## find kth frequent/smallest/largest
 
 **quick sort/select**
