@@ -94,6 +94,7 @@ for linkedList, use `cur.val == cur.next.val`
 1. [460. LFU Cache -- Hard](https://leetcode.com/problems/lfu-cache/)
 2. [432. All O`one Data Structure -- Hard](https://leetcode.com/problems/all-oone-data-structure/)
 3. [146. LRU Cache --  Hard](https://leetcode.com/problems/lru-cache/)
+3. [895. Maximum Frequency Stack -- Hard](https://leetcode.com/problems/maximum-frequency-stack/)
 
 ## find kth frequent/smallest/largest
 
