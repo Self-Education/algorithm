@@ -17,6 +17,7 @@
 7. [246. Strobogrammatic Number -- Easy](https://leetcode.com/problems/strobogrammatic-number/)
 7. [247. Strobogrammatic Number II -- Medium](https://leetcode.com/problems/strobogrammatic-number-ii/)
 7. [248. Strobogrammatic Number III -- Hard](https://leetcode.com/problems/strobogrammatic-number-iii/)
+7. [730. Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/)
 
 ## Parenthesis
 
@@ -423,11 +424,22 @@ check **Sorting.md** -> **Use comparator directly **
 1. [1001. Grid Illumination -- Hard](https://leetcode.com/problems/grid-illumination/)
 2. [51. N-Queens -- Hard](https://leetcode.com/problems/n-queens)
 
+## find colinear points
+
+fix one point, connect rest of points to the fixed point, track slopes by hashmap, `{slope: List of points}`
+
+1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
+
+
+
+
+
 ## Math
 
 #### GCD
 
 1. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem/)
+1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
 
 #### other
 

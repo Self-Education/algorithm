@@ -114,6 +114,10 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 1. [1029. Two City Scheduling -- Medium](https://leetcode.com/problems/two-city-scheduling/)
 1. [1846. Maximum Element After Decreasing and Rearranging -- Medium](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)
 
+## Optimal for each small step
+
+1. [1792. Maximum Average Pass Ratio -- Medium](https://leetcode.com/problems/maximum-average-pass-ratio/)
+
 ##  Greedy and Binary Search
 
 ### LIS

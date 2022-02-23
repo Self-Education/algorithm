@@ -23,9 +23,14 @@
 + hash
 + DP
 
+### number in increasing order
+
++ LIS
+
 ### Difference
 
 + sort + two pointers, from the same end, note that`|A[j] - A[i]| > k`, we do not need to reset the `j`, and for `|A[j] - A[i]| < k`, if `A[j] - A[i] < k` that means for each number `a` in `A[i, j - 1]`,  `A[j] - a < k` , then we move `i`
++ when ask for number of pairs, use hash map
 
 ### String/Array Min/Max length
 
