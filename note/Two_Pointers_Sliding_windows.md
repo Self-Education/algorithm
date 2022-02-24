@@ -294,3 +294,8 @@ Every time ask for the min length of ...., we can track the last occurence to ac
 [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 
 [1574. Shortest Subarray to be Removed to Make Array Sorted --  Medium](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+
+### sliding window for negative prefixSum
+
+1. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
+2. [918. Maximum Sum Circular Subarray -- Medium](https://leetcode.com/problems/maximum-sum-circular-subarray/)

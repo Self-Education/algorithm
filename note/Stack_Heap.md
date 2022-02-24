@@ -212,9 +212,7 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 ## Deque
 
 1. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
-
-2. [1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
-
-3. [862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) mono increasing queue
-
+2. [918. Maximum Sum Circular Subarray -- Medium](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+3. [1868. Product of Two Run-Length Encoded Arrays -- Medium](https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/)
+4. [862. Shortest Subarray with Sum at Least K -- Hard](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) mono increasing queue
 4. [502. IPO -- Hard](https://leetcode.com/problems/ipo)

@@ -48,6 +48,9 @@
 + Prefix sum + HashMap
     1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 + prefix sum + binary search (since prefixSum is increasing if all number is positive)
++ if prefix sum is negative, use deque
+    1. [918. Maximum Sum Circular Subarray -- Medium](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+
 + sliding window
     1. [209. Minimum Size Subarray Sum -- Medium](https://leetcode.com/problems/minimum-size-subarray-sum/)
 

@@ -43,14 +43,15 @@
 
 1. [1862. Sum of Floored Pairs --  Hard](https://leetcode.com/problems/sum-of-floored-pairs/)
 1. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
+1. [362. Design Hit Counter -- Medium](https://leetcode.com/problems/design-hit-counter/)
 
 ### hash + prefix
 
-	1. [1915. Number of Wonderful Substrings --  Medium](https://leetcode.com/problems/number-of-wonderful-substrings/)
-	1. [1542. Find Longest Awesome Substring -- Hard](https://leetcode.com/problems/find-longest-awesome-substring/)
-	1. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
-	1. [930. Binary Subarrays With Sum -- Medium](https://leetcode.com/problems/binary-subarrays-with-sum/)
-	1. [1524. Number of Sub-arrays With Odd Sum -- Medium](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)
+1. [1915. Number of Wonderful Substrings --  Medium](https://leetcode.com/problems/number-of-wonderful-substrings/)
+1. [1542. Find Longest Awesome Substring -- Hard](https://leetcode.com/problems/find-longest-awesome-substring/)
+1. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
+1. [930. Binary Subarrays With Sum -- Medium](https://leetcode.com/problems/binary-subarrays-with-sum/)
+1. [1524. Number of Sub-arrays With Odd Sum -- Medium](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/)
 
 ## Track as you go
 
