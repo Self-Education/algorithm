@@ -298,7 +298,7 @@ count from 1900
 8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 8. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 8. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
-8. 
+8. [1392. Longest Happy Prefix -- Hard](https://leetcode.com/problems/longest-happy-prefix/)
 
 
 
@@ -451,3 +451,4 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 #### other
 
 1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+1. [829. Consecutive Numbers Sum -- Hard](https://leetcode.com/problems/consecutive-numbers-sum/)
