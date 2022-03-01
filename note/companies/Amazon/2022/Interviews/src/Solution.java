@@ -2,9 +2,11 @@ package Interviews.src;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Stack;
 import java.util.Set;
 import java.util.HashSet;
@@ -12,10 +14,8 @@ import java.util.HashSet;
 public class Solution {
 
     /*
-     * Good camping day
-     * given a int array, find array of index, that
-     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day
-     * [i+k]
+     * Good camping day given a int array, find array of index, that
+     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day [i+k]
      */
     public List<Integer> campingDay(int[] temps, int k) {
         int m = temps.length;
@@ -43,12 +43,9 @@ public class Solution {
     }
 
     /*
-     * First Blood
-     * given an array power, at ith step, the player health will be deducted by
-     * power[i] the player
-     * has one chance to use armor which prevent the damgage max(armor, power[i]);
-     * find the min
-     * start health to finish the game (health must be >= 1 at all time)
+     * First Blood given an array power, at ith step, the player health will be deducted by power[i]
+     * the player has one chance to use armor which prevent the damgage max(armor, power[i]); find
+     * the min start health to finish the game (health must be >= 1 at all time)
      */
     public int armorGame(int[] power, int armor) {
         return armorGameHelper(power, armor, 0, 1);
@@ -69,8 +66,7 @@ public class Solution {
         return Math.max(1, Math.min(case1, case2));
     }
     /*
-     * Decreasing Ratings
-     * given an array find all subarrays that is decreasing (including length 1)
+     * Decreasing Ratings given an array find all subarrays that is decreasing (including length 1)
      */
 
     public int decreasingRating(int[] ratings) {
@@ -87,20 +83,14 @@ public class Solution {
     }
 
     /*
-     * Min Swap to group 1s and 0s
-     * Given an array containing only 0 and 1 as its elements. We have to sort the
-     * array in such a
-     * manner that all the ones are grouped together and all the zeros are grouped
-     * together. The
-     * group of ones can be either at the start of the array or at the end of the
-     * array. The
-     * constraint while sorting is that every one/zero can be swapped only with its
-     * adjacent
-     * zero/one. Find the minimum number of moves to sort the array as per the
+     * Min Swap to group 1s and 0s Given an array containing only 0 and 1 as its elements. We have
+     * to sort the array in such a manner that all the ones are grouped together and all the zeros
+     * are grouped together. The group of ones can be either at the start of the array or at the end
+     * of the array. The constraint while sorting is that every one/zero can be swapped only with
+     * its adjacent zero/one. Find the minimum number of moves to sort the array as per the
      * description.
      * 
-     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13
-     * ->[0,0,0,0,0,1,1,1,1,1] 2 +
+     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13 ->[0,0,0,0,0,1,1,1,1,1] 2 +
      * 2 + 3 + 5 = 12
      * 
      */
@@ -129,20 +119,14 @@ public class Solution {
 
     public int maxDeviation(int[] arr) {
         // pass
+        return -1;
     }
 
     /*
-     * Max Length of Valid Server Cluster
-     * e.g.
-     * bootingPower = [3, 6, 1, 3, 4]
-     * processingPower = [2, 1, 3, 4, 5]
-     * i j
-     * powerMax = 25
+     * Max Length of Valid Server Cluster e.g. bootingPower = [3, 6, 1, 3, 4] processingPower = [2,
+     * 1, 3, 4, 5] i j powerMax = 25
      * 
-     * sum: 13
-     * deque: 4(5)
-     * cost: 32
-     * maxLen: 3
+     * sum: 13 deque: 4(5) cost: 32 maxLen: 3
      */
     public int findMaxSustainableClusterSize(int[] processingPower, int[] bootPower, int powerMax) {
         Deque<Integer> deque = new LinkedList<>();
@@ -169,8 +153,7 @@ public class Solution {
     }
 
     /*
-     * move prime to the left and non-prime to the right
-     * [1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28]
+     * move prime to the left and non-prime to the right [1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28]
      */
     public List<List<Integer>> separatePrimes(int[] arr) {
         Set<Integer> primes = new HashSet<>();
@@ -211,8 +194,7 @@ public class Solution {
     }
 
     /*
-     * given a integer, remove one 5 to get max
-     * 15958
+     * given a integer, remove one 5 to get max 15958
      */
     public int remove5(int a) {
         String s = Integer.toString(a);
@@ -232,8 +214,8 @@ public class Solution {
     }
 
     /*
-     * given a array, group them into different groups in which difference of any
-     * two numbers is <= k, find the min number of groups
+     * Group Moive; given a array, group them into different groups in which difference of any two
+     * numbers is <= k, find the min number of groups
      */
     public int groupMovie(int[] movies, int k) {
         Arrays.sort(movies);
@@ -249,8 +231,7 @@ public class Solution {
     }
 
     /*
-     * give a strin array, includes [, ], (, ), find number of ways to parition it
-     * into valid
+     * give a strin array, includes [, ], (, ), find number of ways to parition it into valid
      * subarray
      */
     public int partitionBracketArray(String s) {
@@ -328,5 +309,146 @@ public class Solution {
             }
         }
         return count;
+    }
+
+    /*
+     * given array in which elements are either 1 or -1, find the length of the longest subarray
+     * that has product as 1
+     */
+    public int longestOneProudctSubarray(int[] arr) {
+        int m = arr.length, maxLen = 0;
+        int[] pos = new int[m], neg = new int[m];
+        if (arr[0] == 1) {
+            pos[0] = 1;
+        } else {
+            neg[0] = 1;
+        }
+        for (int i = 1; i < m; i++) {
+            if (arr[i] == 1) {
+                pos[i] = 1 + pos[i - 1];
+                neg[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
+            } else {
+                pos[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
+                neg[i] = 1 + pos[i - 1];
+            }
+            maxLen = Math.max(maxLen, pos[i]);
+        }
+        return maxLen;
+    }
+
+    /*
+     * merge package
+     */
+    public int mergePackage(int[] arr) {
+        int m = arr.length, prev = arr[m - 1], max = prev;
+        for (int i = m - 2; i >= 0; i--) {
+            if (arr[i] < prev) {
+                prev += arr[i];
+
+            } else {
+                prev = arr[i];
+            }
+            max = Math.max(prev, max);
+        }
+        return max;
+    }
+
+    /*
+     * kth best combo Constraints 1 <= n <= 10^5 10^9 <= array[i] <= 10^9 1 <= k <= min(2000,2^n)
+     * cannot use backtrack directly, the max len of subset is 2000 wich 2^11 so we only need to
+     * find subset from top 11 largest number
+     */
+    public List<Integer> kthBestCombo(int[] arr, int k) {
+        Arrays.sort(arr);
+        int m = arr.length;
+        List<Integer> nums = new ArrayList<>();
+        for (int i = m - 1; i > m - 1 - k; i--)
+            nums.add(arr[i]);
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        kthBestComboHelper(queue, nums, k, 0, 0);
+        List<Integer> ans = new LinkedList<>();
+        while (!queue.isEmpty())
+            ans.add(queue.poll());
+        Collections.reverse(ans);
+        return ans;
+    }
+
+    private void kthBestComboHelper(PriorityQueue<Integer> queue, List<Integer> arr, int k,
+            int index, int sum) {
+
+        queue.offer(sum);
+        if (queue.size() > k) {
+            queue.poll();
+        }
+
+        for (int i = index; i < arr.size(); i++) {
+            kthBestComboHelper(queue, arr, k, i + 1, sum + arr.get(i));
+        }
+    }
+
+    /*
+     * Wifi Router
+     */
+    public int wifiRouter(int[] buildingCount, int[] routerLocation, int[] routerRange) {
+        return -1;
+    }
+
+    /*
+     * parcels and trucks
+     */
+    public int minCostFullLoadTruck(int[] parcels, int k) {
+        return -1;
+    }
+
+    /*
+     * minimize memory given array indicates memory used for each process, tyr to delete a
+     * contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete
+     * [10, 4], min memory is 9
+     * 
+     */
+    public int minimizeMemory(int[] process, int k) {
+        int total = 0, sum = 0, max = 0, m = process.length;
+        for (int i = 0, j = 0; j < m; j++) {
+            total += process[j];
+            sum += process[j];
+            if (j > k - 1) {
+                sum -= process[i++];
+            }
+
+            if (j >= k - 1) {
+                max = Math.max(max, sum);
+            }
+        }
+
+        return total - max;
+    }
+
+    /*
+     * Vowel password strength, the password strength increases by one if there is a non-overlapped
+     * substring has at least one Vowel and one Cosonant, find the password strength
+     */
+    public int findVowelPasswordStrength(String s) {
+        int m = s.length(), ans = 0, count1 = 0, count2 = 0;
+        Set<Character> set = new HashSet<>();
+        set.add('a');
+        set.add('e');
+        set.add('i');
+        set.add('o');
+        set.add('u');
+        for (int i = 0; i < m; i++) {
+            char c = s.charAt(i);
+            if (set.contains(c)) {
+                count1++;
+            } else {
+                count2++;
+            }
+            if (count1 >= 1 && count2 >= 1) {
+                ans++;
+                count1 = 0;
+                count2 = 0;
+            }
+        }
+        return ans;
     }
 }

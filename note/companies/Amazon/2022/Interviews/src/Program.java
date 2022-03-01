@@ -1,30 +1,19 @@
 package Interviews.src;
 
 public class Program {
-    public static void main(String[] args) throws Exception {
-        Solution solution = new Solution();
-        // armorGameTester(solution);
-        // decreasingRatingTester(solution);
-        // minMovesToGroupOneAndZeroTester(solution);
-        // findMaxSustainableClusterSizeTester(solution);
-        // separatePrimesTester(solution);
-        // remove5Tester(solution);
-        // partitionBracketArrayTester(solution);
-        // groupMovieTester(solution);
-        threePages(solution);
-    }
+
 
     private static void armorGameTester(Solution solution) {
-        int[] power1 = new int[] { 1, 2, 6, 7 };
+        int[] power1 = new int[] {1, 2, 6, 7};
         int armor1 = 5;
         System.out.println(
                 "Expected answer is " + 12 + "; Output is " + solution.armorGame(power1, armor1));
     }
 
     private static void decreasingRatingTester(Solution solution) {
-        int[] ratings1 = new int[] { 4, 3, 5, 4, 3 };
-        int[] ratings2 = new int[] { 3, 2, 1 };
-        int[] ratings3 = new int[] { 9, 8, 7, 6, 5 };
+        int[] ratings1 = new int[] {4, 3, 5, 4, 3};
+        int[] ratings2 = new int[] {3, 2, 1};
+        int[] ratings3 = new int[] {9, 8, 7, 6, 5};
         System.out.println(
                 "Expected answer is " + 9 + "; Output is " + solution.decreasingRating(ratings1));
         System.out.println(
@@ -35,9 +24,9 @@ public class Program {
     }
 
     private static void minMovesToGroupOneAndZeroTester(Solution solution) {
-        int[] arr1 = new int[] { 0, 1, 0, 1 };
-        int[] arr2 = new int[] { 1, 0, 1, 0 };
-        int[] arr3 = new int[] { 1, 0, 0, 1, 0, 1, 1, 0, 0, 1 };
+        int[] arr1 = new int[] {0, 1, 0, 1};
+        int[] arr2 = new int[] {1, 0, 1, 0};
+        int[] arr3 = new int[] {1, 0, 0, 1, 0, 1, 1, 0, 0, 1};
         System.out.println("Expected answer is " + 1 + "; Output is "
                 + solution.minMovesToGroupOneAndZero(arr1));
         System.out.println("Expected answer is " + 1 + "; Output is "
@@ -47,12 +36,12 @@ public class Program {
     }
 
     private static void findMaxSustainableClusterSizeTester(Solution solution) {
-        int[] bootPower1 = new int[] { 3, 6, 1, 3, 4 };
-        int[] processingPower1 = new int[] { 2, 1, 3, 4, 5 };
+        int[] bootPower1 = new int[] {3, 6, 1, 3, 4};
+        int[] processingPower1 = new int[] {2, 1, 3, 4, 5};
         int maxPower1 = 25;
 
-        int[] bootPower2 = new int[] { 10, 20, 12, 16 };
-        int[] processingPower2 = new int[] { 15, 10, 11, 13 };
+        int[] bootPower2 = new int[] {10, 20, 12, 16};
+        int[] processingPower2 = new int[] {15, 10, 11, 13};
         int maxPower2 = 100;
         System.out.println("Expected answer is " + 3 + "; Output is "
                 + solution.findMaxSustainableClusterSize(processingPower1, bootPower1, maxPower1));
@@ -61,10 +50,10 @@ public class Program {
     }
 
     private static void separatePrimesTester(Solution solution) {
-        int[] arr1 = new int[] { 1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28 };
-        int[] arr2 = new int[] { 1 };
-        System.out.println("Expected answer is [[2, 11, 17],[1, 4, 5, 9, 15, 27, 25, 28]]" + "; Output is "
-                + solution.separatePrimes(arr1));
+        int[] arr1 = new int[] {1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28};
+        int[] arr2 = new int[] {1};
+        System.out.println("Expected answer is [[2, 11, 17],[1, 4, 5, 9, 15, 27, 25, 28]]"
+                + "; Output is " + solution.separatePrimes(arr1));
 
     }
 
@@ -85,14 +74,17 @@ public class Program {
     private static void partitionBracketArrayTester(Solution solution) {
         String s1 = "[(?][??]";
         String s2 = "][[[??]";
-        System.out.println("Expected answer is " + 2 + "; Output is " + solution.partitionBracketArray(s1));
-        System.out.println("Expected answer is " + 1 + "; Output is " + solution.partitionBracketArray(s2));
+        System.out.println(
+                "Expected answer is " + 2 + "; Output is " + solution.partitionBracketArray(s1));
+        System.out.println(
+                "Expected answer is " + 1 + "; Output is " + solution.partitionBracketArray(s2));
     }
 
     private static void groupMovieTester(Solution solution) {
-        int[] movies1 = new int[] { 1, 5, 4, 6, 8, 9, 2 };
+        int[] movies1 = new int[] {1, 5, 4, 6, 8, 9, 2};
         int k1 = 3;
-        System.out.println("Expected answer is " + 3 + "; Output is " + solution.groupMovie(movies1, k1));
+        System.out.println(
+                "Expected answer is " + 3 + "; Output is " + solution.groupMovie(movies1, k1));
     }
 
     private static void threePages(Solution solution) {
@@ -103,5 +95,77 @@ public class Program {
         System.out.println("Expected answer is " + 3 + "; Output is " + solution.threePages(book1));
         System.out.println("Expected answer is " + 4 + "; Output is " + solution.threePages(book2));
         System.out.println("Expected answer is " + 0 + "; Output is " + solution.threePages(book3));
+    }
+
+    private static void longestOneProudctSubarray(Solution solution) {
+        int[] arr1 = new int[] {1, -1, -1, 1, -1, 1};
+        int[] arr2 = new int[] {-1, -1, -1, -1, -1};
+        System.out.println("Expected answer is " + 4 + "; Output is "
+                + solution.longestOneProudctSubarray(arr1));
+        System.out.println("Expected answer is " + 4 + "; Output is "
+                + solution.longestOneProudctSubarray(arr2));
+
+    }
+
+    private static void mergePackage(Solution solution) {
+        int[] arr1 = new int[] {2, 9, 10, 3, 7};
+        int[] arr2 = new int[] {10, 5, 7};
+        System.out
+                .println("Expected answer is " + 21 + "; Output is " + solution.mergePackage(arr1));
+        System.out
+                .println("Expected answer is " + 22 + "; Output is " + solution.mergePackage(arr2));
+    }
+
+    private static void kthBestCombo(Solution solution) {
+        int[] arr1 = new int[] {3, 5, -2};
+        int k1 = 3;
+        System.out.println("Expected answer is " + "[8,6,5]" + "; Output is "
+                + solution.kthBestCombo(arr1, k1));
+    }
+
+    private static void wifiRouter(Solution solution) {
+
+    }
+
+    private static void minCostFullLoadTruck(Solution solution) {}
+
+    private static void minimizeMemory(Solution solution) {
+        int[] arr1 = new int[] {10, 4, 8, 1};
+        int k1 = 2;
+        System.out.println(
+                "Expected answer is " + 9 + "; Output is " + solution.minimizeMemory(arr1, k1));
+    }
+
+    private static void findVowelPasswordStrength(Solution solution) {
+        String s1 = "thisisbeautiful";
+        String s2 = "hackerrank";
+        String s3 = "aeiou";
+
+        System.out.println("Expected answer is " + 6 + "; Output is "
+                + solution.findVowelPasswordStrength(s1));
+        System.out.println("Expected answer is " + 3 + "; Output is "
+                + solution.findVowelPasswordStrength(s2));
+        System.out.println("Expected answer is " + 0 + "; Output is "
+                + solution.findVowelPasswordStrength(s3));
+    }
+
+    public static void main(String[] args) throws Exception {
+        Solution solution = new Solution();
+        // armorGameTester(solution);
+        // decreasingRatingTester(solution);
+        // minMovesToGroupOneAndZeroTester(solution);
+        // findMaxSustainableClusterSizeTester(solution);
+        // separatePrimesTester(solution);
+        // remove5Tester(solution);
+        // partitionBracketArrayTester(solution);
+        // groupMovieTester(solution);
+        // threePages(solution);
+        // longestOneProudctSubarray(solution);
+        // mergePackage(solution);
+        // kthBestCombo(solution);
+        // wifiRouter(solution);
+        // minCostFullLoadTruck(solution);
+        // minimizeMemory(solution);
+        findVowelPasswordStrength(solution);
     }
 }
