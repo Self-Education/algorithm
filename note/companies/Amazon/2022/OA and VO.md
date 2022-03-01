@@ -10,13 +10,15 @@
 
 5. min stock price difference
 
-6. unknown
+5. [group movie](https://leetcode.com/discuss/interview-question/1735633/Amazon-OA-2022/1246722)
+
+6. unknown **???**
 
     ![image-20220228105253673](images/image-20220228105253673.png)
 
     
 
-7. Maximum Quality, packets and channel ???
+7. Maximum Quality, packets and channel **???**
 
     You are given a list of packets of varying sizes and there are `n` channels.
 
@@ -63,48 +65,50 @@
     answer := 7
     ```
 
-8. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
-9. decreasing ratings
+9. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
+
+10. decreasing ratings
+
 10. min swap to group 1s and 0s
 
-11. ##### Max deviation among all substrings ??? [link](https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-deviation-among-all-substrings)
+12. ##### Max deviation among all substrings ??? [link](https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-deviation-among-all-substrings)
 
-12. ##### Max Length of Valid Server Cluster ??? [link](https://www.1point3acres.com/bbs/thread-856589-1-1.html)
+     1. https://www.1point3acres.com/bbs/thread-856338-1-1.html
 
-    + https://www.1point3acres.com/bbs/thread-856338-1-1.html
+13. ##### Max Length of Valid Server Cluster [link](https://www.1point3acres.com/bbs/thread-856589-1-1.html)
 
-13. subarray imbalance ???? [link](https://www.1point3acres.com/bbs/thread-856918-1-1.html)
+14. subarray imbalance **????** [link](https://www.1point3acres.com/bbs/thread-856918-1-1.html)
 
-14. shipment sum(max) - sum(min)
+15. shipment sum(max) - sum(min)
 
-15. [灰度](https://www.1point3acres.com/bbs/thread-842588-1-1.html)？？？？
+16. [灰度](https://www.1point3acres.com/bbs/thread-842588-1-1.html)**？？？？**
 
-16. given array, move prime to the left and no-prime to the right
+17. given array, move prime to the left and no-prime to the right
 
-17. given a integer, remove one 5 to get max
+18. given a integer, remove one 5 to get max
 
-18. [partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question) ???
+19. [partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question) ???
 
-    ![image-20220228171051385](images/image-20220228171051385.png)
+     ![image-20220228171051385](images/image-20220228171051385.png)
 
-19. ##### [Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority) ???
+20. ##### [Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority) ???
 
-20. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
+21. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
-21. aggregate temperature
+22. aggregate temperature
 
-    ![62152fcz899mkwxv3sp0f](images/62152fcz899mkwxv3sp0f.jpg)
+     ![62152fcz899mkwxv3sp0f](images/62152fcz899mkwxv3sp0f.jpg)
 
-22. parcels and trucks
+23. parcels and trucks
 
-    ![62156hedsxwfqkasmvxvd](images/62156hedsxwfqkasmvxvd.jpg)
+     ![62156hedsxwfqkasmvxvd](images/62156hedsxwfqkasmvxvd.jpg)
 
-23. [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)
+24. [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)
 
-24. giving a string with parentheses, return the string after removing the invalid parentheses.   a)bc(de))f -> abc(de)f
+25. giving a string with parentheses, return the string after removing the invalid parentheses.   a)bc(de))f -> abc(de)f
 
-25. [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation)
+26. [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation)
 
-26. kindle page mark
+27. kindle page mark (three pages)
 
-    ![image-20220228171830362](images/image-20220228171830362.png)
+     ![image-20220228171830362](images/image-20220228171830362.png)
