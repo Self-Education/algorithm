@@ -2,13 +2,21 @@
 
 1. [370. Range Addition](https://leetcode.com/problems/range-addition)
 
-2. find good camping days
+2. [find good camping days](https://leetcode.com/discuss/interview-question/algorithms/1520406/Amazon-OA-count-the-outing-days/1120226)
+
+    ![image-20220302103522377](images/image-20220302103522377.png)
 
 3. armor Game (first blood)
 
+    ![image](https://assets.leetcode.com/users/images/6dca9965-a0f4-42b1-9fc3-db8dd7d9fadf_1645472073.0984066.png)
+
 4. min stock price difference
 
+    ![image](https://assets.leetcode.com/users/images/17710f2e-1c05-4fae-8cef-01a3bf17bace_1645472092.7439206.png)
+
 5. [group movie](https://leetcode.com/discuss/interview-question/1735633/Amazon-OA-2022/1246722)
+
+    ![image-20220302105556161](images/image-20220302105556161.png)
 
 6. pascal encoding 
 
@@ -16,58 +24,19 @@
 
     
 
-7. Maximum Quality, packets and channel **???**
+7. Maximum Quality, packets and channel
 
-    You are given a list of packets of varying sizes and there are `n` channels.
-
-    
-
-    - Each of the `n` channel must have a single packet
-    - Each packet can only be on a single channel
-
-    
-
-    The quality of a channel is described as the `median` of the packet sizes on that channel. The total quality is defined as sum of the quality of all channels (round to integer in case of float). Given the `packets []int32` and `channels int32` find the maximum quality.
-
-    **Example 1:**
-
-    
-
-    ```
-    packets := []int32{1, 2, 3, 4, 5}
-    channels := 2
-    
-    // Explaination: If packet {1, 2, 3, 4} is sent to channel 1, the median of that channel would be 2.5.
-    //               If packet {5} is sent to channel 2 its median would be 5. 
-    //               Total quality would be 2.5 + 5 = 7.5 ~ 8
-    answer := 8
-    ```
-
-    
-
-    **Example 2:**
-
-    
-
-    ```
-    packets := []int32{5, 2, 2, 1, 5, 3}
-    channels := 2
-    
-    // Explaination: Channel 1: {2, 2, 1, 3} (median: 2)
-    //               Channel 2: {5, 5}       (median: 5)
-    //               Total Quality : 2 + 5 = 7
-    
-    // Explaination 2: Channel 1: {5, 2, 2, 1, 3} (median: 2)
-    //                 Channel 2: {5}             (median: 5)
-    //                 Total Quality : 2 + 5 = 7
-    answer := 7
-    ```
+    ![image-20220302120428731](images/image-20220302120428731.png)
 
 8. [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string)
 
-9. decreasing ratings
+9. [count decreasing ratings](https://leetcode.com/discuss/interview-question/1554594/amazon-oa-oct-2021-sde2)
 
-10. min swap to group 1s and 0s
+    ![image-20220302110210594](images/image-20220302110210594.png)
+
+10. [min swap to group 1s and 0s](https://leetcode.com/discuss/interview-question/1554594/amazon-oa-oct-2021-sde2)
+
+    ![image-20220302110224841](images/image-20220302110224841.png)
 
 11. ##### Max deviation among all substrings ??? [link](https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-deviation-among-all-substrings)
 
@@ -78,7 +47,38 @@
 
 13. subarray imbalance **????** [link](https://www.1point3acres.com/bbs/thread-856918-1-1.html)
 
+     ![image-20220302111648952](images/image-20220302111648952.png)
+
 14. shipment sum(max) - sum(min)
+
+     Amazon logistics has multiple delivery centers from which products are sent.
+
+     In one such delivery center, parcels are placed in a sequence where the i-th parcel has a weight of weight[i]. A shipment is constituted of a contiguous segment of parcels. The shipment imbalance of a shipment is defined as the difference between the max and min weights within a shipment.
+
+     Given the arrangement of parcels, find the sum of shipment imbalance of all the shipments that can be formed from the given sequence of parcels.
+
+     #### Example 1:
+
+     **Input**:
+
+     ```
+     1weights = [1, 3, 2]
+     ```
+
+     **Output**: `5`
+
+     **Explanation**:
+
+     The shipment imbalance calculations for each possible shipment are shown below.
+
+     | Shipments     | Max Weight | Min Weight | Imbalance |
+     | ------------- | ---------- | ---------- | --------- |
+     | ***1*** ,3, 2 | 1          | 1          | 1-1=0     |
+     | 1, ***3***, 2 | 3          | 3          | 3-3=0     |
+     | 1, 3, ***2*** | 2          | 2          | 2-2=0     |
+     | ***1, 3***, 2 | 3          | 1          | 3-1=2     |
+     | 1, ***3, 2*** | 3          | 2          | 3-2=1     |
+     | ***1, 3, 2*** | 3          | 1          | 3-1=2     |
 
 15. [灰度](https://www.1point3acres.com/bbs/thread-842588-1-1.html)**？？？？**
 
@@ -91,6 +91,8 @@
       ![image-20220228171051385](images/image-20220228171051385.png)
 
 19. ##### [K best combo / Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority)
+
+     ![image-20220302112656002](images/image-20220302112656002.png)
 
 20. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
@@ -155,7 +157,7 @@
 
      **Constraints** 1<n, m ,d<1000 // meant less or equal to.
 
-31. Maximize invest profit 
+31. Max segment profit
 
      https://leetcode.com/discuss/interview-question/1321204/efficient-harvest-faang-oa-question-2021
 
@@ -163,10 +165,60 @@
 
 32. merge package to get the heaviest package
 
+     ![image-20220302114251512](images/image-20220302114251512.png)
+
 33. Routers![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
 
 34. Minimize Memory
 
+      given array indicates memory used for each process, try to delete a contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete [10, 4], min memory is 9
+
 35. find password strength
 
-37. [Sort Order](https://leetcode.com/discuss/interview-question/1261316/amazon-oa-sde-1-new-grad-2021-batch-india)
+     Find the password strength.
+     For each substring of the password which contains at least one vowel and one consonant, its strength goes up by 1.
+     vowels={'a', 'e', 'i', 'o', 'u'}, and rest of letters are all consonant.
+     (Only lower alphabet letters)
+
+     ```
+     Input:
+     thisisbeautiful
+     output:
+     6
+     explaination:
+     this, is, be, aut, if, ul
+     
+     input:
+     hackerrank
+     output:
+     3
+     explaination:
+     hack, er, rank
+     
+     input:
+     aeiou
+     output:
+     0
+     ```
+
+36. [Sort Order](https://leetcode.com/discuss/interview-question/1261316/amazon-oa-sde-1-new-grad-2021-batch-india)
+
+     ![image-20220302115141662](images/image-20220302115141662.png)
+
+37. longest subarray has product 1
+
+    given array in which elements are either 1 or -1, find the length of the longest subarray that has product as 1
+
+38. Valid Groupon
+
+    ![image-20220302124257524](images/image-20220302124257524.png)
+
+39. pick songs
+
+    ![image-20220302125020426](images/image-20220302125020426.png)
+
+40. **count power for services???**
+
+    1. https://leetcode.com/discuss/interview-question/1741735/amazon-hackerrank-oa-sde-2-february-2022
+
+    ![image-20220302141331552](images/image-20220302141331552.png)
