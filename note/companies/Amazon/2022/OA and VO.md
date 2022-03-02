@@ -10,7 +10,7 @@
 
 5. [group movie](https://leetcode.com/discuss/interview-question/1735633/Amazon-OA-2022/1246722)
 
-6. unknown **???**
+6. pascal encoding 
 
     ![image-20220228105253673](images/image-20220228105253673.png)
 
@@ -86,11 +86,11 @@
 
 17. given a integer, remove one 5 to get max
 
-18. [partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question) ???
+18. [partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question)
 
       ![image-20220228171051385](images/image-20220228171051385.png)
 
-19. ##### [Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority) ???
+19. ##### [K best combo / Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority)
 
 20. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
@@ -118,16 +118,55 @@
 
 30. [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
-31. discounted prices **???**
+30. discounted prices
 
-    ![220700h8qe686fftf8fug8](images/220700h8qe686fftf8fug8.png)
+     ![220700h8qe686fftf8fug8](images/220700h8qe686fftf8fug8.png)
 
-32. Maximize invest profit **???**
+     The product array element are in the form ['price', 'tag1', 'tag2'.....tagm-1.] There maybe zero or more discount codes associated with the product.Discount tags in product array maybe 'EMPTY' which is the same as NULL value.The Discount Array elements are in form['tag', 'type', 'amount']
 
-    ![220729pqttqgsjz5sqwn5d](images/220729pqttqgsjz5sqwn5d.png)
+     If a privileged member buys product 1 listed at a price of 10 with two discount available:
 
-33. merge package to get the heaviest package
-34. Routers![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
-35. kth best combo
-36. Minimize Memory
-37. find password strength
+     Under discount d0 of type 1 , the discounted price is 10- 10*0.27 = 7.30, round 7. Under discount of d1 of type 2, the discounted price price is 10-5 = 5
+
+     The price to purchase the product :
+
+     1 is the lowest of the two, or 5 in this case.
+
+     The second product is priced at 15 because there are no discounts available
+
+     The third product is priced at 20 .Using discount tag d1 of type 2, the discount price is 20-5 = 15
+
+     the total price to purchase the three item is 5+15+15 = 35.
+
+     *NOTES: Not all items will have the Maximum number of tags. Empty tags may just not exist in input or they maybe filled with the string Empty.These are equivalent as demonstrated in the example above*
+
+     
+
+     **FUNCTION DESCRIPTION**
+
+     
+
+     Complete the function. Find *LowestPrice* in the editor below.
+
+     
+
+     [string] products[n][m]: a 2D array of product descriptors as strings:price followed up by up to m-1 discount tags.
+     [string] discounts[3] : a 2D array of tag descriptors as string: tag, type amount. int: the total amount paid in for all listed products , discounts to privileged members pricing.
+
+     **Constraints** 1<n, m ,d<1000 // meant less or equal to.
+
+31. Maximize invest profit 
+
+     https://leetcode.com/discuss/interview-question/1321204/efficient-harvest-faang-oa-question-2021
+
+     ![220729pqttqgsjz5sqwn5d](images/220729pqttqgsjz5sqwn5d.png)
+
+32. merge package to get the heaviest package
+
+33. Routers![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
+
+34. Minimize Memory
+
+35. find password strength
+
+37. [Sort Order](https://leetcode.com/discuss/interview-question/1261316/amazon-oa-sde-1-new-grad-2021-batch-india)
