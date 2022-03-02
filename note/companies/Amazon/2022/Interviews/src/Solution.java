@@ -17,14 +17,13 @@ public class Solution {
 
     /*
      * Good camping day given a int array, find array of index, that
-     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day
-     * [i+k]
+     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day [i+k]
      */
     public List<Integer> campingDay(int[] temps, int k) {
         int m = temps.length;
         int[] left = new int[m], right = new int[m];
-        left[0] = 1;
-        right[m - 1] = 1;
+        Arrays.fill(left, 1);
+        Arrays.fill(right, 1);
         List<Integer> ans = new LinkedList<>();
         for (int i = 1; i < m; i++) {
             if (temps[i] <= temps[i - 1]) {
@@ -36,7 +35,8 @@ public class Solution {
             if (temps[i] <= temps[i + 1])
                 right[i] = 1 + right[i + 1];
         }
-
+        // System.out.println(Arrays.toString(left));
+        // System.out.println(Arrays.toString(right));
         for (int i = 0; i < m; i++) {
             if (left[i] >= k + 1 && right[i] >= k + 1) {
                 ans.add(i + 1);
@@ -46,10 +46,8 @@ public class Solution {
     }
 
     /*
-     * First Blood given an array power, at ith step, the player health will be
-     * deducted by power[i]
-     * the player has one chance to use armor which prevent the damgage max(armor,
-     * power[i]); find
+     * First Blood given an array power, at ith step, the player health will be deducted by power[i]
+     * the player has one chance to use armor which prevent the damgage max(armor, power[i]); find
      * the min start health to finish the game (health must be >= 1 at all time)
      */
     public int armorGame(int[] power, int armor) {
@@ -70,9 +68,71 @@ public class Solution {
 
         return Math.max(1, Math.min(case1, case2));
     }
+
+
     /*
-     * Decreasing Ratings given an array find all subarrays that is decreasing
-     * (including length 1)
+     * Group Moive; given a array, group them into different groups in which difference of any two
+     * numbers is <= k, find the min number of groups
+     */
+    public int groupMovie(int[] movies, int k) {
+        Arrays.sort(movies);
+        int count = 0;
+        for (int i = 0, j = 1; j < movies.length; j++) {
+            if (movies[j] - movies[i] > k) {
+                count++;
+                i = j;
+            }
+        }
+        count++;
+        return count;
+    }
+
+    /*
+     * Pascal Encoding Given an int array, each round sum adjacent number % 10, until only two
+     * numbers left
+     */
+    public int pascalEncode(String s) {
+        int m = s.length();
+        if (m == 1)
+            return Integer.parseInt(s);
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < m; i++) {
+            list.add(s.charAt(i) - '0');
+        }
+
+        while (list.size() > 2) {
+            List<Integer> level = new ArrayList<>();
+            for (int i = 1; i < list.size(); i++) {
+                level.add((list.get(i - 1) + list.get(i)) % 10);
+            }
+            list = new ArrayList<>(level);
+        }
+        System.out.println(list);
+        int ans = list.get(0) * 10 + list.get(1);
+        return ans;
+    }
+
+    /*
+     * Max Quality Greedy, we try to expose larger number as median
+     */
+    public int maxQuality(int[] packets, int n) {
+        int ans = 0, m = packets.length;
+        Arrays.sort(packets);
+        int i = 0;
+        for (i = m - 1; i >= 0 && n > 1; i--, n--) {
+            ans += packets[i];
+        }
+        int len = i + 1;
+        if (len % 2 == 0) {
+            ans += (int) Math.ceil((double) (packets[len / 2 - 1] + packets[len / 2]) / 2);
+        } else {
+            ans += packets[len / 2];
+        }
+        return ans;
+    }
+
+    /*
+     * Decreasing Ratings given an array find all subarrays that is decreasing (including length 1)
      */
 
     public int decreasingRating(int[] ratings) {
@@ -88,21 +148,16 @@ public class Solution {
         return count;
     }
 
+
     /*
-     * Min Swap to group 1s and 0s Given an array containing only 0 and 1 as its
-     * elements. We have
-     * to sort the array in such a manner that all the ones are grouped together and
-     * all the zeros
-     * are grouped together. The group of ones can be either at the start of the
-     * array or at the end
-     * of the array. The constraint while sorting is that every one/zero can be
-     * swapped only with
-     * its adjacent zero/one. Find the minimum number of moves to sort the array as
-     * per the
+     * Min Swap to group 1s and 0s Given an array containing only 0 and 1 as its elements. We have
+     * to sort the array in such a manner that all the ones are grouped together and all the zeros
+     * are grouped together. The group of ones can be either at the start of the array or at the end
+     * of the array. The constraint while sorting is that every one/zero can be swapped only with
+     * its adjacent zero/one. Find the minimum number of moves to sort the array as per the
      * description.
      * 
-     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13
-     * ->[0,0,0,0,0,1,1,1,1,1] 2 +
+     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13 ->[0,0,0,0,0,1,1,1,1,1] 2 +
      * 2 + 3 + 5 = 12
      * 
      */
@@ -135,11 +190,9 @@ public class Solution {
     }
 
     /*
-     * Max Length of Valid Server Cluster e.g. bootingPower = [3, 6, 1, 3, 4]
-     * processingPower = [2,
-     * 1, 3, 4, 5] i j powerMax = 25
-     * 
-     * sum: 13 deque: 4(5) cost: 32 maxLen: 3
+     * Max Length of Valid Server Cluster e.g. bootingPower = [3, 6, 1, 3, 4] processingPower = [2,
+     * 1, 3, 4, 5] max power consuption: maxBootingPower[i:j] + sumProcessingPower[i:j] * (j - i +
+     * 1)
      */
     public int findMaxSustainableClusterSize(int[] processingPower, int[] bootPower, int powerMax) {
         Deque<Integer> deque = new LinkedList<>();
@@ -166,8 +219,28 @@ public class Solution {
     }
 
     /*
-     * move prime to the left and non-prime to the right [1, 2, 4, 8, 9, 11, 15, 17,
-     * 27, 25, 28]
+     * Subarray Imbalance
+     */
+    public int subarrayImbalance(int[] arr) {
+        return -1;
+    }
+
+    /*
+     * Shipment Imbalance
+     */
+    public int shipmentImbalance(int[] parcels) {
+        return -1;
+    }
+
+    /*
+     * Gray Scale
+     */
+    public int grayScale(int[][] grid) {
+        return -1;
+    }
+
+    /*
+     * move prime to the left and non-prime to the right [1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28]
      */
     public List<List<Integer>> separatePrimes(int[] arr) {
         Set<Integer> primes = new HashSet<>();
@@ -227,53 +300,9 @@ public class Solution {
         return -1;
     }
 
-    /*
-     * Group Moive; given a array, group them into different groups in which
-     * difference of any two
-     * numbers is <= k, find the min number of groups
-     */
-    public int groupMovie(int[] movies, int k) {
-        Arrays.sort(movies);
-        int count = 0;
-        for (int i = 0, j = 1; j < movies.length; j++) {
-            if (movies[j] - movies[i] > k) {
-                count++;
-                i = j;
-            }
-        }
-        count++;
-        return count;
-    }
 
     /*
-     * Pascal Encoding
-     * Given an int array, each round sum adjacent number % 10, until only two
-     * numbers left
-     */
-    public int pascalEncode(String s) {
-        int m = s.length();
-        if (m == 1)
-            return Integer.parseInt(s);
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < m; i++) {
-            list.add(s.charAt(i) - '0');
-        }
-
-        while (list.size() > 2) {
-            List<Integer> level = new ArrayList<>();
-            for (int i = 1; i < list.size(); i++) {
-                level.add((list.get(i - 1) + list.get(i)) % 10);
-            }
-            list = new ArrayList<>(level);
-        }
-        System.out.println(list);
-        int ans = list.get(0) * 10 + list.get(1);
-        return ans;
-    }
-
-    /*
-     * give a strin array, includes [, ], (, ), find number of ways to parition it
-     * into valid
+     * give a strin array, includes [, ], (, ), find number of ways to parition it into valid
      * subarray
      */
     public int partitionBracketArray(String s) {
@@ -304,6 +333,78 @@ public class Solution {
      * 
      */
 
+    /*
+     * kth best combo Constraints 1 <= n <= 10^5 10^9 <= array[i] <= 10^9 1 <= k <= min(2000,2^n)
+     * cannot use backtrack directly, the max len of subset is 2000 wich 2^11 so we only need to
+     * find subset from top 11 largest number
+     */
+    public List<Integer> kthBestCombo(int[] arr, int k) {
+        Arrays.sort(arr);
+        int m = arr.length;
+        List<Integer> nums = new ArrayList<>();
+        for (int i = m - 1; i > m - 1 - k; i--)
+            nums.add(arr[i]);
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        kthBestComboHelper(queue, nums, k, 0, 0);
+        List<Integer> ans = new LinkedList<>();
+        while (!queue.isEmpty())
+            ans.add(queue.poll());
+        Collections.reverse(ans);
+        return ans;
+    }
+
+    private void kthBestComboHelper(PriorityQueue<Integer> queue, List<Integer> arr, int k,
+            int index, int sum) {
+
+        queue.offer(sum);
+        if (queue.size() > k) {
+            queue.poll();
+        }
+
+        for (int i = index; i < arr.size(); i++) {
+            kthBestComboHelper(queue, arr, k, i + 1, sum + arr.get(i));
+        }
+    }
+
+    /*
+     * Max Aggregate Temperature
+     */
+    public int maxAggTemperature(int[] temps) {
+        return -1;
+    }
+
+
+    /*
+     * parcels and trucks given an array indicates the cost of parcels (int [] parcels) already in
+     * the truck, try to add more parcels from 1 to n (parcels in the list cannot be used) into the
+     * truck to minimize the cost and also full load truck (capacity k)
+     */
+    public int minCostFullLoadTruck(int[] parcels, int k) {
+        Set<Integer> set = new HashSet<>();
+        k -= parcels.length;
+        int sum = 0;
+        for (int p : parcels)
+            set.add(p);
+        for (int i = 1; i <= (int) 1e5 && k > 0; i++) {
+            if (!set.contains(i)) {
+                sum += i;
+                k--;
+            }
+        }
+        return sum;
+    }
+
+    /*
+     * Rmove invalid parenthese
+     */
+    public String removeInvalidParenthese(String s) {
+        return "";
+    }
+
+    /*
+     * Kindle non-adjacent pages
+     */
     public long threePages(String book) {
         int m = book.length();
         int[] zeroLeft = new int[m], zeroRight = new int[m];
@@ -354,33 +455,67 @@ public class Solution {
     }
 
     /*
-     * given array in which elements are either 1 or -1, find the length of the
-     * longest subarray
-     * that has product as 1
+     * Discount Tag
      */
-    public int longestOneProudctSubarray(int[] arr) {
-        int m = arr.length, maxLen = 0;
-        int[] pos = new int[m], neg = new int[m];
-        if (arr[0] == 1) {
-            pos[0] = 1;
-        } else {
-            neg[0] = 1;
+    public int discountTag(String[][] products, String[][] discounts) {
+        int m = products.length, n = discounts.length;
+        Map<String, String[]> map = new HashMap<>();
+        for (String[] d : discounts) {
+            map.put(d[0], d);
         }
-        for (int i = 1; i < m; i++) {
-            if (arr[i] == 1) {
-                pos[i] = 1 + pos[i - 1];
-                neg[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
-            } else {
-                pos[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
-                neg[i] = 1 + pos[i - 1];
+        int sum = 0;
+        for (String[] p : products) {
+            int price = Integer.parseInt(p[0]);
+            int minPrice = price;
+            for (int i = 1; i < p.length; i++) {
+                String tag = p[i];
+                if (tag.equals("EMPTY"))
+                    continue;
+                if (!map.containsKey(tag))
+                    continue;
+                String type = map.get(tag)[1];
+                int newPrice = 0;
+                if (type.equals("0")) {
+                    newPrice = Integer.parseInt(map.get(tag)[2]);
+                } else if (type.equals("1")) {
+                    newPrice = (int) Math.round(
+                            (double) price * (1 - Double.parseDouble(map.get(tag)[2]) / 100));
+                } else {
+                    newPrice = price - Integer.parseInt(map.get(tag)[2]);
+                }
+                minPrice = Math.min(minPrice, newPrice);
             }
-            maxLen = Math.max(maxLen, pos[i]);
+            sum += minPrice;
         }
-        return maxLen;
+        return sum;
     }
 
     /*
-     * merge package
+     * max segmented profit
+     */
+    public long maxSegmentProfit(int[] profits, int k) {
+        int m = profits.length; // m is always even
+        int sum = 0;
+        long max = 0;
+        for (int i = 0, j = 0; j < m; j++) {
+            sum += profits[j] + profits[(j + m / 2) % m];
+            if (j > k - 1) {
+                sum -= profits[i];
+                sum -= profits[(i + m / 2) % m];
+                i++;
+            }
+
+            if (j >= k - 1) {
+                max = Math.max(max, sum);
+            }
+        }
+        return max;
+    }
+
+    /*
+     * merge package Given int[] packageWeight, we can combine ith and i + 1th package only if
+     * packageWeight[i] < pacakgeWeight[i + 1], we can merge until there are two packages left, find
+     * the heaviest pacakge after merging
      */
     public int mergePackage(int[] arr) {
         int m = arr.length, prev = arr[m - 1], max = prev;
@@ -397,42 +532,6 @@ public class Solution {
     }
 
     /*
-     * kth best combo Constraints 1 <= n <= 10^5 10^9 <= array[i] <= 10^9 1 <= k <=
-     * min(2000,2^n)
-     * cannot use backtrack directly, the max len of subset is 2000 wich 2^11 so we
-     * only need to
-     * find subset from top 11 largest number
-     */
-    public List<Integer> kthBestCombo(int[] arr, int k) {
-        Arrays.sort(arr);
-        int m = arr.length;
-        List<Integer> nums = new ArrayList<>();
-        for (int i = m - 1; i > m - 1 - k; i--)
-            nums.add(arr[i]);
-
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
-        kthBestComboHelper(queue, nums, k, 0, 0);
-        List<Integer> ans = new LinkedList<>();
-        while (!queue.isEmpty())
-            ans.add(queue.poll());
-        Collections.reverse(ans);
-        return ans;
-    }
-
-    private void kthBestComboHelper(PriorityQueue<Integer> queue, List<Integer> arr, int k,
-            int index, int sum) {
-
-        queue.offer(sum);
-        if (queue.size() > k) {
-            queue.poll();
-        }
-
-        for (int i = index; i < arr.size(); i++) {
-            kthBestComboHelper(queue, arr, k, i + 1, sum + arr.get(i));
-        }
-    }
-
-    /*
      * Wifi Router
      */
     public int wifiRouter(int[] buildingCount, int[] routerLocation, int[] routerRange) {
@@ -444,7 +543,6 @@ public class Solution {
             cache[Math.max(0, left)] += 1;
             if (right < m)
                 cache[right] -= 1;
-            System.out.println(Arrays.toString(cache));
         }
 
         int sum = 0, count = 0;
@@ -457,32 +555,8 @@ public class Solution {
     }
 
     /*
-     * parcels and trucks
-     * given an array indicates the cost of parcels (int [] parcels) already
-     * in the truck, try to add more parcels from 1 to n (parcels in the list
-     * cannot be used) into the truck to minimize the cost and also full load truck
-     * (capacity k)
-     */
-    public int minCostFullLoadTruck(int[] parcels, int k) {
-        Set<Integer> set = new HashSet<>();
-        k -= parcels.length;
-        int sum = 0;
-        for (int p : parcels)
-            set.add(p);
-        for (int i = 1; i <= (int) 1e5 && k > 0; i++) {
-            if (!set.contains(i)) {
-                sum += i;
-                k--;
-            }
-        }
-        return sum;
-    }
-
-    /*
-     * minimize memory given array indicates memory used for each process, tyr to
-     * delete a
-     * contiguous segment of process to minimize the total memory: e.g. [10,4,8,1],
-     * k = 2; delete
+     * minimize memory given array indicates memory used for each process, try to delete a
+     * contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete
      * [10, 4], min memory is 9
      * 
      */
@@ -504,8 +578,7 @@ public class Solution {
     }
 
     /*
-     * Vowel password strength, the password strength increases by one if there is a
-     * non-overlapped
+     * Vowel password strength, the password strength increases by one if there is a non-overlapped
      * substring has at least one Vowel and one Cosonant, find the password strength
      */
     public int findVowelPasswordStrength(String s) {
@@ -569,60 +642,50 @@ public class Solution {
     }
 
     /*
-     * max segmented profit
+     * given array in which elements are either 1 or -1, find the length of the longest subarray
+     * that has product as 1
      */
-    public long maxSegmentProfit(int[] profits, int k) {
-        int m = profits.length; // m is always even
-        int sum = 0;
-        long max = 0;
-        for (int i = 0, j = 0; j < m; j++) {
-            sum += profits[j] + profits[(j + m / 2) % m];
-            if (j > k - 1) {
-                sum -= profits[i];
-                sum -= profits[(i + m / 2) % m];
-                i++;
-            }
-
-            if (j >= k - 1) {
-                max = Math.max(max, sum);
-            }
+    public int longestOneProudctSubarray(int[] arr) {
+        int m = arr.length, maxLen = 0;
+        int[] pos = new int[m], neg = new int[m];
+        if (arr[0] == 1) {
+            pos[0] = 1;
+        } else {
+            neg[0] = 1;
         }
-        return max;
+        for (int i = 1; i < m; i++) {
+            if (arr[i] == 1) {
+                pos[i] = 1 + pos[i - 1];
+                neg[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
+            } else {
+                pos[i] = neg[i - 1] > 0 ? 1 + neg[i - 1] : 0;
+                neg[i] = 1 + pos[i - 1];
+            }
+            maxLen = Math.max(maxLen, pos[i]);
+        }
+        return maxLen;
     }
 
     /*
-     * Discount Tag
+     * Valid Groupon
      */
-    public int discountTag(String[][] products, String[][] discounts) {
-        int m = products.length, n = discounts.length;
-        Map<String, String[]> map = new HashMap<>();
-        for (String[] d : discounts) {
-            map.put(d[0], d);
-        }
-        int sum = 0;
-        for (String[] p : products) {
-            int price = Integer.parseInt(p[0]);
-            int minPrice = price;
-            for (int i = 1; i < p.length; i++) {
-                String tag = p[i];
-                if (tag.equals("EMPTY"))
-                    continue;
-                if (!map.containsKey(tag))
-                    continue;
-                String type = map.get(tag)[1];
-                int newPrice = 0;
-                if (type.equals("0")) {
-                    newPrice = Integer.parseInt(map.get(tag)[2]);
-                } else if (type.equals("1")) {
-                    newPrice = (int) Math.round((double) price * (1 - Double.parseDouble(map.get(tag)[2]) / 100));
-                } else {
-                    newPrice = price - Integer.parseInt(map.get(tag)[2]);
-                }
-                minPrice = Math.min(minPrice, newPrice);
-            }
-            sum += minPrice;
-        }
-        return sum;
+    public int[] validGroupon(String[] groupons) {
+        int m = groupons.length;
+        int[] ans = new int[m];
+        return ans;
     }
 
+    /*
+     * Max Number of engineering team
+     */
+    public int maxNumberOfEngineeringTeam(int teamSize, int maxDiff, int[] skills) {
+        return -1;
+    }
+
+    /*
+     * Count Power for services
+     */
+    public int countPowerForSerives(int[] arr) {
+        return -1;
+    }
 }
