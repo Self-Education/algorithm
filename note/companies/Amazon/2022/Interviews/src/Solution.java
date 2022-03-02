@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class Solution {
 
     /*
-     * Good camping day given a int array, find array of index, that
+     * Good camping day given a int array and int k, find array of index, that
      * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day
      * [i+k]
      */
