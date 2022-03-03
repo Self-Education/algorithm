@@ -192,11 +192,53 @@ public class Solution {
 
     /*
      * Max Deviation
+     * try out all pairs of maxFreq and minFreq chars, key thing is that
+     * "ababbbbcaac", even though we will pick maxFreq = 'a' and minFreq = 'c'
+     * in fact, the maxFreq = 'b', but it wont affect result since we
+     * will try maxFreq = 'b' in one round
      */
 
-    public int maxDeviation(int[] arr) {
+    public int maxDeviation(String s) {
         // pass
-        return -1;
+        int m = s.length(), ans = 0;
+        for (char c1 = 'a'; c1 <= 'z'; c1++) {
+            for (char c2 = 'a'; c2 <= 'z'; c2++) {
+                if (c1 == c2)
+                    continue;
+                List<Integer> list = new ArrayList<>();
+                for (char c : s.toCharArray()) {
+                    if (c == c1) {
+                        // combine consectuive c1, to avoid the case that only c1
+                        // in the string, we need two different chars
+                        if (list.size() > 0 && list.get(list.size() - 1) != -1) {
+                            list.set(list.size() - 1, list.get(list.size() - 1) + 1);
+                        } else {
+                            list.add(1);
+                        }
+                    } else if (c == c2) {
+                        list.add(-1);
+                    }
+                }
+                ans = Math.max(ans, maxDeviationHelper(list));
+            }
+        }
+        return ans;
+    }
+
+    private int maxDeviationHelper(List<Integer> list) {
+        int max = 0, sum = 0, charCount = 0;// count number of different chars
+        for (int i = 0; i < list.size(); i++) {
+            sum += list.get(i);
+            charCount++;
+
+            if (sum < 0) {
+                charCount = 0;
+                sum = 0;
+            } else if (charCount > 1) {
+                max = Math.max(max, sum);
+            }
+        }
+        return max;
     }
 
     /*
@@ -231,7 +273,14 @@ public class Solution {
     }
 
     /*
-     * Subarray Imbalance
+     * Subarray Imbalance/Student Ranks
+     * 
+     * x x x l x x i x x x r x x x
+     * A[l + 1] ocurrs r - i times
+     * A[l + 2] occurs 2 * (r - i) times
+     * 
+     * 
+     * A[i] occurs (i - l) * (r - i);
      */
     public int subarrayImbalance(int[] arr) {
         return -1;
@@ -239,16 +288,135 @@ public class Solution {
 
     /*
      * Shipment Imbalance
+     * sum(max) - sum(min)
      */
-    public int shipmentImbalance(int[] parcels) {
-        return -1;
+    public long shipmentImbalance(int[] nums) {
+        int m = nums.length;
+
+        // get the next smaller
+        Stack<Integer> stack = new Stack<>();
+        int[] nextSmaller = new int[m];
+        Arrays.fill(nextSmaller, m);
+        for (int i = 0; i < m; i++) {
+            while (!stack.isEmpty() && nums[stack.peek()] > nums[i]) {
+                nextSmaller[stack.pop()] = i;
+            }
+            stack.push(i);
+        }
+        // get the prev smaller
+        stack = new Stack<>();
+        int[] prevSmaller = new int[m];
+        Arrays.fill(prevSmaller, -1);
+        for (int i = m - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && nums[stack.peek()] >= nums[i]) {
+                prevSmaller[stack.pop()] = i;
+            }
+            stack.push(i);
+        }
+
+        // get next greater
+        stack = new Stack<>();
+        int[] nextGreater = new int[m];
+        Arrays.fill(nextGreater, m);
+        for (int i = 0; i < m; i++) {
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
+                nextGreater[stack.pop()] = i;
+            }
+            stack.push(i);
+        }
+
+        // get prev greater
+        stack = new Stack<>();
+        int[] prevGreater = new int[m];
+        Arrays.fill(prevGreater, -1);
+        for (int i = m - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && nums[stack.peek()] <= nums[i]) {
+                prevGreater[stack.pop()] = i;
+            }
+            stack.push(i);
+        }
+
+        long sum = 0L;
+        for (int i = 0; i < m; i++) {
+            sum += (long) nums[i] * (i - prevGreater[i]) * (nextGreater[i] - i)
+                    - (long) nums[i] * (i - prevSmaller[i]) * (nextSmaller[i] - i);
+        }
+
+        return sum;
+    }
+
+    /*
+     * shipment imbalance 2
+     * Given an array find number of subarray in which max - min <= k
+     * x x l x x i x x x r x x x -> (i - l - 1) * (r - i)
+     * l... 5 ... 5 ... 5 ... r
+     */
+    public int shipmentImbalanceII(int[] parcels, int k) {
+        int m = parcels.length;
+        // find the prev smaller
+        int[] prevSmaller = new int[m];
+        int[] nextSmaller = new int[m];
+        Arrays.fill(nextSmaller, m);
+        Arrays.fill(prevSmaller, -1);
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < m; i++) {
+            while (!stack.isEmpty() && parcels[stack.peek()] >= parcels[i]) {
+                stack.pop();
+            }
+            if (stack.isEmpty()) {
+                prevSmaller[i] = -1;
+            } else {
+                prevSmaller[i] = stack.peek();
+            }
+            stack.push(i);
+        }
+
+        stack = new Stack<>();
+        for (int i = 0; i < m; i++) {
+            while (!stack.isEmpty() && parcels[stack.peek()] > parcels[i]) {
+                nextSmaller[stack.pop()] = i;
+            }
+            stack.push(i);
+        }
+        int count = 0;
+        for (int i = 0; i < m; i++) {
+            count += Math.max(i - prevSmaller[i] - 1, 1) * (nextSmaller[i] - i);
+        }
+        System.out.print(Arrays.toString(nextSmaller));
+        System.out.print(Arrays.toString(prevSmaller));
+        return count;
     }
 
     /*
      * Gray Scale
+     * Given a 2D array, only inlcue value 0, 1, the gray scale of a cell [i,j]
+     * is sum(row[i]) + sum(col[j]), find the the cell with max gray scale;
      */
     public int grayScale(int[][] grid) {
-        return -1;
+        int m = grid.length, n = grid.length;
+        int[] row = new int[m], col = new int[n];
+        for (int i = 0; i < m; i++) {
+            int r = 0;
+            for (int j = 0; j < n; j++) {
+                r += grid[i][j] == 0 ? 1 : -1;
+            }
+            row[i] = r;
+        }
+
+        for (int j = 0; j < n; j++) {
+            int c = 0;
+            for (int i = 0; i < m; i++) {
+                c += grid[i][j] == 0 ? 1 : -1;
+            }
+            col[j] = c;
+        }
+        int max = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                max = Math.max(max, row[i] + col[j]);
+            }
+        }
+        return max;
     }
 
     /*
@@ -386,7 +554,18 @@ public class Solution {
      * Max Aggregate Temperature
      */
     public int maxAggTemperature(int[] temps) {
-        return -1;
+        int m = temps.length;
+        int[] prefixSum = new int[m];
+        prefixSum[0] = temps[0];
+        for (int i = 1; i < m; i++)
+            prefixSum[i] = prefixSum[i - 1] + temps[i];
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < m; i++) {
+            int left = prefixSum[i];
+            int right = i - 1 < 0 ? prefixSum[m - 1] : prefixSum[m - 1] - prefixSum[i - 1];
+            max = Math.max(max, Math.max(left, right));
+        }
+        return max;
     }
 
     /*
@@ -413,9 +592,33 @@ public class Solution {
 
     /*
      * Rmove invalid parenthese
+     * a(b))c(d
      */
     public String removeInvalidParenthese(String s) {
-        return "";
+        Stack<Integer> stack = new Stack<>();
+        int m = s.length();
+        for (int i = 0; i < m; i++) {
+            char c = s.charAt(i);
+            if (c == '(') {
+                stack.push(i);
+            } else if (c == ')') {
+                if (!stack.isEmpty() && s.charAt(stack.peek()) == '(') {
+                    stack.pop();
+                } else {
+                    stack.push(i);
+                }
+            }
+        }
+        Set<Integer> set = new HashSet<>();
+        while (!stack.isEmpty())
+            set.add(stack.pop());
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < m; i++) {
+            if (!set.contains(i)) {
+                sb.append(s.charAt(i));
+            }
+        }
+        return sb.toString();
     }
 
     /*
@@ -690,18 +893,50 @@ public class Solution {
 
     /*
      * Valid Groupon
+     * There are 3 rules for a valid string:
+     * 
+     * An empty string is valid
+     * You can add same character to a valid string X, and create another valid
+     * string yXy
+     * You can concatenate two valid strings X and Y, so XY will also be valid.
+     * Ex: vv, xbbx, bbccdd, xyffyxdd are all valid.
      */
     public int[] validGroupon(String[] groupons) {
         int m = groupons.length;
         int[] ans = new int[m];
+
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < m; i++) {
+            stack = new Stack<>();
+            for (char c : groupons[i].toCharArray()) {
+                if (!stack.isEmpty() && stack.peek() == c) {
+                    stack.pop();
+                } else {
+                    stack.push(c);
+                }
+            }
+            ans[i] = stack.size() == 0 ? 1 : 0;
+        }
         return ans;
     }
 
     /*
      * Max Number of engineering team
+     * Greedy
      */
     public int maxNumberOfEngineeringTeam(int teamSize, int maxDiff, int[] skills) {
-        return -1;
+        int ans = 0, m = skills.length;
+        Arrays.sort(skills);
+        int i = 0;
+        while (i <= m - teamSize) {
+            if (skills[i + teamSize - 1] - skills[i] <= maxDiff) {
+                ans++;
+                i = i + teamSize;
+            } else {
+                i++;
+            }
+        }
+        return ans;
     }
 
     /*
@@ -709,5 +944,30 @@ public class Solution {
      */
     public int countPowerForSerives(int[] arr) {
         return -1;
+    }
+
+    /* bad numbers */
+    public int badNumbers(int[] arr, int low, int high) {
+        Arrays.sort(arr);
+        // find the lower bound
+        int m = arr.length, i = 0, maxGap = 0;
+        while (i < m && arr[i] < low)
+            i++;
+        if (i == m)
+            return 0;
+        maxGap = Math.max(maxGap, arr[i++] - low);
+
+        for (; i < m && arr[i] <= high; i++) {
+            if (arr[i] - arr[i - 1] > 1) {
+                maxGap = Math.max(maxGap, arr[i] - 1 - (arr[i - 1] + 1) + 1);
+            }
+        }
+        if (i == m) {
+            maxGap = Math.max(maxGap, high - arr[i - 1]);
+
+        } else {
+            maxGap = Math.max(maxGap, high - arr[i - 1]);
+        }
+        return maxGap;
     }
 }
