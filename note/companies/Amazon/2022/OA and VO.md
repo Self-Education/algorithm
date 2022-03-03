@@ -24,7 +24,7 @@
 
     
 
-7. **Maximum Quality, packets and channel**
+7. **Max Quality, packets and channel**
 
     ![image-20220302120428731](images/image-20220302120428731.png)
 
@@ -131,7 +131,7 @@
 
 30. discounted prices
 
-     ![220700h8qe686fftf8fug8](images/220700h8qe686fftf8fug8.png)
+    ![image-20220303121018766](images/image-20220303121018766.png)
 
      The product array element are in the form ['price', 'tag1', 'tag2'.....tagm-1.] There maybe zero or more discount codes associated with the product.Discount tags in product array maybe 'EMPTY' which is the same as NULL value.The Discount Array elements are in form['tag', 'type', 'amount']
 
@@ -180,7 +180,9 @@
 
 34. Minimize Memory
 
-      given array indicates memory used for each process, try to delete a contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete [10, 4], min memory is 9
+       given array indicates memory used for each process, try to delete a contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete [10, 4], min memory is 9
+
+     <img src="https://oss.1point3acres.cn/forum/202202/04/112344f9zzp97vmrdjqyyt.jpeg" alt="img" style="zoom:67%;" />
 
 35. find password strength
 
@@ -460,8 +462,70 @@
 
 43. **Max number of engineering team greedy**
 
+    + https://cybergeeksquad.co/2022/02/count-maximum-teams-amazon-oa.html
+
     ![image-20220302221026624](images/image-20220302221026624.png)
 
     44. **Valid groupon**
-
+    
         ![image-20220302222756842](images/image-20220302222756842.png)
+
+45. **Flip Coin**
+
+    ![img](https://oss.1point3acres.cn/forum/202202/06/185905oijijlhhzl3cppjc.png)
+
+46. Insert into a linkedList ????
+
+47. **Coding pacakge Id**
+
+    ![image-20220303101804811](images/image-20220303101804811.png)
+
+48. **Optimal Utilization Solution**
+
+    ![image-20220303115533017](images/image-20220303115533017.png)
+
+    ![image-20220303115551630](images/image-20220303115551630.png)
+
+49. [1761. Minimum Degree of a Connected Trio in a Graph / Shopping Pattern](https://leetcode.com/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+
+50. **wheel cipher**
+
+    ![image-20220303121259219](images/image-20220303121259219.png)
+
+51. **Decode String**
+
+    ![image-20220303121946970](images/image-20220303121946970.png)
+
+52. **Trees Heights**
+
+    ![image-20220303123635299](images/image-20220303123635299.png)
+
+53. **Count Binary substring (group 0 and 1)**
+
+![image-20220303123925902](images/image-20220303123925902.png)
+
+54. **Grid Connection**
+
+    ![image-20220303124412928](images/image-20220303124412928.png)![image-20220303124426276](images/image-20220303124426276.png)
+
+    55. **split int into primes**
+
+        ![image-20220303125028021](images/image-20220303125028021.png)
+
+55. **Number Game (GCD)** / [1799. Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/)
+
+    ![image-20220303125519362](images/image-20220303125519362.png)
+
+56. **Arrange keypad**
+
+    <img src="images/162624zb3oljzvtp38opb8.jpg" alt="img" style="zoom: 33%;" /><img src="https://oss.1point3acres.cn/forum/202201/25/162639qocz2cl23kw2kyko.jpg" alt="img" style="zoom: 33%;" /><img src="https://oss.1point3acres.cn/forum/202201/25/162648tyk7h7y9xww7oyov.jpg" alt="img" style="zoom:33%;" />
+
+57. **cumulative observable sum**
+
+    <img src="https://codaio.imgix.net/docs/m5fzh3MwOp/blobs/bl-wpMlNyIEhY/3a14fc9efa38a4f255b75f8248762830145546eed1b534b4e8ad04cdadb3728aa8a1d31b1e1bd5c3419aec410312c07617d7c64618c6d001ce2d53ea99f2b2fdad3e8d71c42183d3cb047409a2a2a9261dd04f9c8ef2e6870c6ba6bf9a9f82df3b0cb35c?auto=format%2Ccompress&fit=max" alt="img" style="zoom:50%;" />
+
+58. [1846. Maximum Element After Decreasing and Rearranging](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging)
+
+59. [**Common prefix length**](https://leetcode.com/discuss/interview-question/851513/Roblox-New-Grad-2021-OA-Hackerrank/875522)
+
+    <img src="https://assets.leetcode.com/users/images/0ba33d95-545a-4fb8-b601-3dd25bb564a6_1600392212.4149096.png" alt="image" style="zoom:50%;" />
