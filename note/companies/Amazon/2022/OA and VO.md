@@ -129,7 +129,7 @@
 
 30. [1268. Search Suggestions System](https://leetcode.com/problems/search-suggestions-system)
 
-30. discounted prices
+30. **discounted prices**
 
     ![image-20220303121018766](images/image-20220303121018766.png)
 
@@ -166,25 +166,25 @@
 
      **Constraints** 1<n, m ,d<1000 // meant less or equal to.
 
-31. Max segment profit
+31. **Max segment profit**
 
      https://leetcode.com/discuss/interview-question/1321204/efficient-harvest-faang-oa-question-2021
 
      ![220729pqttqgsjz5sqwn5d](images/220729pqttqgsjz5sqwn5d.png)
 
-32. merge package to get the heaviest package
+32. **merge package to get the heaviest package**
 
      ![image-20220302114251512](images/image-20220302114251512.png)
 
-33. Routers![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
+33. **Routers**![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
 
-34. Minimize Memory
+34. **Minimize Memory**
 
        given array indicates memory used for each process, try to delete a contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete [10, 4], min memory is 9
 
      <img src="https://oss.1point3acres.cn/forum/202202/04/112344f9zzp97vmrdjqyyt.jpeg" alt="img" style="zoom:67%;" />
 
-35. find password strength
+35. **find password strength**
 
      Find the password strength.
      For each substring of the password which contains at least one vowel and one consonant, its strength goes up by 1.
@@ -496,9 +496,11 @@
 
     ![image-20220303121946970](images/image-20220303121946970.png)
 
-52. **Trees Heights**
+51. **Trees Heights**
 
-    ![image-20220303123635299](images/image-20220303123635299.png)
+     + [solution](https://cybergeeksquad.co/2021/09/trees-height-solution-amazon-oa-sde.html)
+
+     ![image-20220303123635299](images/image-20220303123635299.png)
 
 53. **Count Binary substring (group 0 and 1)**
 
@@ -529,3 +531,17 @@
 59. [**Common prefix length**](https://leetcode.com/discuss/interview-question/851513/Roblox-New-Grad-2021-OA-Hackerrank/875522)
 
     <img src="https://assets.leetcode.com/users/images/0ba33d95-545a-4fb8-b601-3dd25bb564a6_1600392212.4149096.png" alt="image" style="zoom:50%;" />
+
+60. **number of subarray with at most K odd numbers**
+
+    https://leetcode.com/discuss/interview-question/1566189/amazon-oa-intern-distinct-subarrays-having-at-most-k-odd-elements
+
+    https://www.1point3acres.com/bbs/thread-812163-1-1.html
+
+61. add char, count AZ
+
+    ![img](https://oss.1point3acres.cn/forum/202201/11/171320u33xp43l50g0aga0.png)
+
+62. **Deliver boxes**
+
+    ![image-20220303163606098](images/image-20220303163606098.png)
