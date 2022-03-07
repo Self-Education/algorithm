@@ -7,6 +7,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 import java.util.Set;
 import java.util.HashSet;
@@ -17,7 +18,8 @@ public class Solution {
 
     /*
      * Good camping day given a int array and int k, find array of index, that
-     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day [i+k]
+     * day[i-k]>=day[i-k+1]>=....>=day[i-1]>=day[i]<=day[i+1]<=....<=day[i+k-1]<=day
+     * [i+k]
      */
     public List<Integer> campingDay(int[] temps, int k) {
         int m = temps.length;
@@ -35,8 +37,7 @@ public class Solution {
             if (temps[i] <= temps[i + 1])
                 right[i] = 1 + right[i + 1];
         }
-        // System.out.println(Arrays.toString(left));
-        // System.out.println(Arrays.toString(right));
+
         for (int i = 0; i < m; i++) {
             if (left[i] >= k + 1 && right[i] >= k + 1) {
                 ans.add(i + 1);
@@ -46,8 +47,10 @@ public class Solution {
     }
 
     /*
-     * First Blood given an array power, at ith step, the player health will be deducted by power[i]
-     * the player has one chance to use armor which prevent the damgage max(armor, power[i]); find
+     * First Blood given an array power, at ith step, the player health will be
+     * deducted by power[i]
+     * the player has one chance to use armor which prevent the damgage max(armor,
+     * power[i]); find
      * the min start health to finish the game (health must be >= 1 at all time)
      */
     public int armorGame(int[] power, int armor) {
@@ -70,7 +73,8 @@ public class Solution {
     }
 
     /*
-     * Group Moive; given a array, group them into different groups in which difference of any two
+     * Group Moive; given a array, group them into different groups in which
+     * difference of any two
      * numbers is <= k, find the min number of groups
      */
     public int groupMovie(int[] movies, int k) {
@@ -87,7 +91,8 @@ public class Solution {
     }
 
     /*
-     * Pascal Encoding Given an int array, each round sum adjacent number % 10, until only two
+     * Pascal Encoding Given an int array, each round sum adjacent number % 10,
+     * until only two
      * numbers left
      */
     public int pascalEncode(String s) {
@@ -106,7 +111,6 @@ public class Solution {
             }
             list = new ArrayList<>(level);
         }
-        System.out.println(list);
         int ans = list.get(0) * 10 + list.get(1);
         return ans;
     }
@@ -131,7 +135,8 @@ public class Solution {
     }
 
     /*
-     * Decreasing Ratings given an array find all subarrays that is decreasing (including length 1)
+     * Decreasing Ratings given an array find all subarrays that is decreasing
+     * (including length 1)
      */
 
     public int decreasingRating(int[] ratings) {
@@ -144,18 +149,35 @@ public class Solution {
                 dp[i] += dp[i - 1];
             count += dp[i];
         }
+
+        // for (int i = 0, j = 0; j < m; j++) {
+        // if (j == 0) {
+        // count++;
+        // continue;
+        // }
+        // if (ratings[j] >= ratings[j - 1]) {
+        // i = j;
+        // }
+        // count += j - i + 1;
+        // }
         return count;
     }
 
     /*
-     * Min Swap to group 1s and 0s Given an array containing only 0 and 1 as its elements. We have
-     * to sort the array in such a manner that all the ones are grouped together and all the zeros
-     * are grouped together. The group of ones can be either at the start of the array or at the end
-     * of the array. The constraint while sorting is that every one/zero can be swapped only with
-     * its adjacent zero/one. Find the minimum number of moves to sort the array as per the
+     * Min Swap to group 1s and 0s Given an array containing only 0 and 1 as its
+     * elements. We have
+     * to sort the array in such a manner that all the ones are grouped together and
+     * all the zeros
+     * are grouped together. The group of ones can be either at the start of the
+     * array or at the end
+     * of the array. The constraint while sorting is that every one/zero can be
+     * swapped only with
+     * its adjacent zero/one. Find the minimum number of moves to sort the array as
+     * per the
      * description.
      * 
-     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13 ->[0,0,0,0,0,1,1,1,1,1] 2 +
+     * [1,0,0,1,0,1,1,0,0,1] ->[1,1,1,1,1,0,0,0,0,0] 2 + 3 + 3 + 5 = 13
+     * ->[0,0,0,0,0,1,1,1,1,1] 2 +
      * 2 + 3 + 5 = 12
      * 
      */
@@ -179,8 +201,10 @@ public class Solution {
     }
 
     /*
-     * Max Deviation try out all pairs of maxFreq and minFreq chars, key thing is that
-     * "ababbbbcaac", even though we will pick maxFreq = 'a' and minFreq = 'c' in fact, the maxFreq
+     * Max Deviation try out all pairs of maxFreq and minFreq chars, key thing is
+     * that
+     * "ababbbbcaac", even though we will pick maxFreq = 'a' and minFreq = 'c' in
+     * fact, the maxFreq
      * = 'b', but it wont affect result since we will try maxFreq = 'b' in one round
      */
 
@@ -228,8 +252,10 @@ public class Solution {
     }
 
     /*
-     * Max Length of Valid Server Cluster e.g. bootingPower = [3, 6, 1, 3, 4] processingPower = [2,
-     * 1, 3, 4, 5] max power consuption: maxBootingPower[i:j] + sumProcessingPower[i:j] * (j - i +
+     * Max Length of Valid Server Cluster e.g. bootingPower = [3, 6, 1, 3, 4]
+     * processingPower = [2,
+     * 1, 3, 4, 5] max power consuption: maxBootingPower[i:j] +
+     * sumProcessingPower[i:j] * (j - i +
      * 1)
      */
     public int findMaxSustainableClusterSize(int[] processingPower, int[] bootPower, int powerMax) {
@@ -259,7 +285,8 @@ public class Solution {
     /*
      * Subarray Imbalance/Student Ranks
      * 
-     * x x x l x x i x x x r x x x A[l + 1] ocurrs r - i times A[l + 2] occurs 2 * (r - i) times
+     * x x x l x x i x x x r x x x A[l + 1] ocurrs r - i times A[l + 2] occurs 2 *
+     * (r - i) times
      * 
      * 
      * A[i] occurs (i - l) * (r - i);
@@ -327,7 +354,8 @@ public class Solution {
     }
 
     /*
-     * shipment imbalance 2 Given an array find number of subarray in which max - min <= k x x l x x
+     * shipment imbalance 2 Given an array find number of subarray in which max -
+     * min <= k x x l x x
      * i x x x j x x x ->
      */
     public int shipmentImbalanceII(int[] parcels, int k) {
@@ -365,7 +393,8 @@ public class Solution {
     }
 
     /*
-     * Gray Scale Given a 2D array, only inlcue value 0, 1, the gray scale of a cell [i,j] is
+     * Gray Scale Given a 2D array, only inlcue value 0, 1, the gray scale of a cell
+     * [i,j] is
      * sum(row[i]) + sum(col[j]), find the the cell with max gray scale;
      */
     public int grayScale(int[][] grid) {
@@ -396,7 +425,8 @@ public class Solution {
     }
 
     /*
-     * move prime to the left and non-prime to the right [1, 2, 4, 8, 9, 11, 15, 17, 27, 25, 28]
+     * move prime to the left and non-prime to the right [1, 2, 4, 8, 9, 11, 15, 17,
+     * 27, 25, 28]
      */
     public List<List<Integer>> separatePrimes(int[] arr) {
         Set<Integer> primes = new HashSet<>();
@@ -457,7 +487,8 @@ public class Solution {
     }
 
     /*
-     * give a strin array, includes [, ], (, ), find number of ways to parition it into valid
+     * give a strin array, includes [, ], (, ), find number of ways to parition it
+     * into valid
      * subarray
      */
     public int partitionBracketArray(String s) {
@@ -489,8 +520,10 @@ public class Solution {
      */
 
     /*
-     * kth best combo Constraints 1 <= n <= 10^5 10^9 <= array[i] <= 10^9 1 <= k <= min(2000,2^n)
-     * cannot use backtrack directly, the max len of subset is 2000 wich 2^11 so we only need to
+     * kth best combo Constraints 1 <= n <= 10^5 10^9 <= array[i] <= 10^9 1 <= k <=
+     * min(2000,2^n)
+     * cannot use backtrack directly, the max len of subset is 2000 wich 2^11 so we
+     * only need to
      * find subset from top 11 largest number
      */
     public List<Integer> kthBestCombo(int[] arr, int k) {
@@ -541,8 +574,10 @@ public class Solution {
     }
 
     /*
-     * parcels and trucks given an array indicates the cost of parcels (int [] parcels) already in
-     * the truck, try to add more parcels from 1 to n (parcels in the list cannot be used) into the
+     * parcels and trucks given an array indicates the cost of parcels (int []
+     * parcels) already in
+     * the truck, try to add more parcels from 1 to n (parcels in the list cannot be
+     * used) into the
      * truck to minimize the cost and also full load truck (capacity k)
      */
     public int minCostFullLoadTruck(int[] parcels, int k) {
@@ -701,8 +736,10 @@ public class Solution {
     }
 
     /*
-     * merge package Given int[] packageWeight, we can combine ith and i + 1th package only if
-     * packageWeight[i] < pacakgeWeight[i + 1], we can merge until there are two packages left, find
+     * merge package Given int[] packageWeight, we can combine ith and i + 1th
+     * package only if
+     * packageWeight[i] < pacakgeWeight[i + 1], we can merge until there are two
+     * packages left, find
      * the heaviest pacakge after merging
      */
     public int mergePackage(int[] arr) {
@@ -743,8 +780,10 @@ public class Solution {
     }
 
     /*
-     * minimize memory given array indicates memory used for each process, try to delete a
-     * contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete
+     * minimize memory given array indicates memory used for each process, try to
+     * delete a
+     * contiguous segment of process to minimize the total memory: e.g. [10,4,8,1],
+     * k = 2; delete
      * [10, 4], min memory is 9
      * 
      */
@@ -766,7 +805,8 @@ public class Solution {
     }
 
     /*
-     * Vowel password strength, the password strength increases by one if there is a non-overlapped
+     * Vowel password strength, the password strength increases by one if there is a
+     * non-overlapped
      * substring has at least one Vowel and one Cosonant, find the password strength
      */
     public int findVowelPasswordStrength(String s) {
@@ -830,7 +870,8 @@ public class Solution {
     }
 
     /*
-     * given array in which elements are either 1 or -1, find the length of the longest subarray
+     * given array in which elements are either 1 or -1, find the length of the
+     * longest subarray
      * that has product as 1
      */
     public int longestOneProudctSubarray(int[] arr) {
@@ -857,8 +898,10 @@ public class Solution {
     /*
      * Valid Groupon There are 3 rules for a valid string:
      * 
-     * An empty string is valid You can add same character to a valid string X, and create another
-     * valid string yXy You can concatenate two valid strings X and Y, so XY will also be valid. Ex:
+     * An empty string is valid You can add same character to a valid string X, and
+     * create another
+     * valid string yXy You can concatenate two valid strings X and Y, so XY will
+     * also be valid. Ex:
      * vv, xbbx, bbccdd, xyffyxdd are all valid.
      */
     public int[] validGroupon(String[] groupons) {
@@ -931,7 +974,8 @@ public class Solution {
     }
 
     /*
-     * Flip coin h t t t h h t t h t t -> t: dp[i - 1]; -> h: 1 + count(t); h -> t: 1 + dp[i - 1];
+     * Flip coin h t t t h h t t h t t -> t: dp[i - 1]; -> h: 1 + count(t); h -> t:
+     * 1 + dp[i - 1];
      * h: count(t);
      */
     public int flipCoin(String coins) {
@@ -949,8 +993,26 @@ public class Solution {
     }
 
     /* package shipment system */
-    public List<List<String>> shipPackages(List<List<String>> queries) {
-        return new LinkedList<>();
+    public List<List<String>> shipPackages(List<String[]> queries) {
+        List<List<String>> ans = new LinkedList<>();
+        Queue<String> queue = new LinkedList<>();
+        for (String[] q : queries) {
+            String action = q[0];
+            String id = q[1];
+            if (action.equals("insert")) {
+                queue.offer(id);
+            } else {
+                List<String> out = new LinkedList<>();
+                if (queue.size() >= 3) {
+                    while (!queue.isEmpty())
+                        out.add(queue.poll());
+                } else {
+                    out.add("N/A");
+                }
+                ans.add(out);
+            }
+        }
+        return ans;
     }
 
     /*
@@ -959,32 +1021,33 @@ public class Solution {
     public List<int[]> OptimizeUtilization(List<int[]> A, List<int[]> B,
             int target) {
         List<int[]> ans = new LinkedList<>();
-        Collections.sort(A, (a, b) -> a[1] - b.[1]);
-        Collections.sort(B, (a, b) -> a[1] - b.[1]);
-        int m = A.size(), n = B.size(), i = 0, j = n - 1, minDiff = 0;
-        while (i < m && j < n) {
+        Collections.sort(A, (a, b) -> a[1] - b[1]);
+        Collections.sort(B, (a, b) -> a[1] - b[1]);
+        int m = A.size(), n = B.size(), i = 0, j = n - 1, max = -1;
+        while (i < m && j >= 0) {
             int a = A.get(i)[1];
             int b = B.get(j)[1];
             int sum = a + b;
-            int diff = Math.abs(sum - target);
-            if(sum < target){
-                if (diff <= minDiff) {
-                    if (diff < minDiff) {
+            if (sum <= target) {
+                if (sum >= max) {
+                    if (sum > max) {
                         ans.clear();
-                        minDiff = diff;
+                        max = sum;
                     }
-                    ans.add(new int[] {A.get(i)[0], B.get(j)[0]});
-                    // since we are going to increment i, we need to 
+                    ans.add(new int[] { A.get(i)[0], B.get(j)[0] });
+                    // since we are going to increment i, we need to
                     int k = j - 1;
-                    while(k >= 0 && B.get(k)[1] == B.get(k - 1)[1]){
-                        ans.add(new int[]{A.get(i)[0], B.get(k)[0]});
+                    while (k >= 0 && B.get(k)[1] == B.get(k + 1)[1]) {
+                        ans.add(new int[] { A.get(i)[0], B.get(k)[0] });
+                        k--;
                     }
-                    i++;
                 }
-            }else{
+                i++;
+
+            } else {
                 j--;
             }
-            
+
         }
         return ans;
     }
@@ -1026,9 +1089,12 @@ public class Solution {
     }
 
     /*
-     * Tree Heights observation: any element should be in the range of [min, max]; if element after
-     * operations goes below the min, that means all other numbers decreasing, in order to make min
-     * operation, we should increase smaller numbers and decreasing larger number, 双向奔赴 dp[i][j]:
+     * Tree Heights observation: any element should be in the range of [min, max];
+     * if element after
+     * operations goes below the min, that means all other numbers decreasing, in
+     * order to make min
+     * operation, we should increase smaller numbers and decreasing larger number,
+     * 双向奔赴 dp[i][j]:
      * min operation to make H[:i] to be sorted when turn ith number into j
      */
     public int treeHeights(int[] H) {
@@ -1095,7 +1161,6 @@ public class Solution {
         return true;
     }
 
-
     /* Number game */
     public int numberGameGCD(int[] nums) {
         int m = nums.length;
@@ -1130,7 +1195,8 @@ public class Solution {
     }
 
     /*
-     * Arrange keypad given a string, arrange letters on the keypad, find the min click to type the
+     * Arrange keypad given a string, arrange letters on the keypad, find the min
+     * click to type the
      * string
      */
     public int arrangeKeypad(String s) {
