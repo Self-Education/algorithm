@@ -2,7 +2,7 @@
 
 1. [370. Range Addition](https://leetcode.com/problems/range-addition)
 
-2. [find good camping days](https://leetcode.com/discuss/interview-question/algorithms/1520406/Amazon-OA-count-the-outing-days/1120226)
+2. **[find good camping days](https://leetcode.com/discuss/interview-question/algorithms/1520406/Amazon-OA-count-the-outing-days/1120226)**
 
     ![image-20220302103522377](images/image-20220302103522377.png)
 
@@ -34,17 +34,15 @@
 
     ![image-20220302110210594](images/image-20220302110210594.png)
 
-10. [min swap to group 1s and 0s](https://leetcode.com/discuss/interview-question/1554594/amazon-oa-oct-2021-sde2)
+10. **[min swap to group 1s and 0s](https://leetcode.com/discuss/interview-question/1554594/amazon-oa-oct-2021-sde2)**
 
     ![image-20220302110224841](images/image-20220302110224841.png)
 
-11. ##### Max deviation among all substrings ??? [link](https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-deviation-among-all-substrings)
-
-       1. https://www.1point3acres.com/bbs/thread-856338-1-1.html
-       1. https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-dev&amp;#8205;&amp;#8204;&amp;#8205;&amp;#8204;&amp;#8204;&amp;#8205;&amp;#8205;&amp;#8204;&amp;#8205;&amp;#8205;&amp;#8204;&amp;#8205;&amp;#8205;&amp;#8205;&amp;#8204;&amp;#8204;&amp;#8205;&amp;#8205;&amp;#8204;iation-among-all-substrings
-       1. https://leetcode.com/discuss/interview-question/1742621/amazon-oa-max-deviation-among-all-substrings/1290121
+11. ##### Max deviation among all substrings [link](https://leetcode.com/discuss/interview-question/1742621/Amazon-or-OA-or-Max-deviation-among-all-substrings)
 
 12. ##### Max Length of Valid Server Cluster [link](https://www.1point3acres.com/bbs/thread-856589-1-1.html)
+
+     Given `int[] bootingPower, int[] processingPower, int powerMax`, find length of the longest consecutive subarray `[i : j]` such that the `max(bootingPower[i : j]) + sum(processingPower[i : j]) * (j - i + 1)` does not exceed `powerMax`
 
 13. **Rank imbalance / subarray imbalance** **????** [link](https://www.1point3acres.com/bbs/thread-856918-1-1.html)
 
@@ -58,7 +56,7 @@
 
      https://leetcode.com/playground/eWkHLSGD
 
-14. shipment sum(max) - sum(min) 
+14. **shipment sum(max) - sum(min)** 
 
      Amazon logistics has multiple delivery centers from which products are sent.
 
@@ -89,37 +87,41 @@
      | 1, ***3, 2*** | 3          | 2          | 3-2=1     |
      | ***1, 3, 2*** | 3          | 1          | 3-1=2     |
 
-15. [灰度](https://www.1point3acres.com/bbs/thread-842588-1-1.html)**？？？？**
+15. **[gray scale](https://www.1point3acres.com/bbs/thread-842588-1-1.html)**
 
-16. given array, move prime to the left and no-prime to the right
+     Gray Scale Given a 2D array only including value 0, 1, the gray scale of a cell [i,j] is `sum(ith row) + sum(jth col)`, find the the cell with max gray scale;
 
-17. given a integer, remove one 5 to get max
+16. **given array, move prime to the left and no-prime to the right**
 
-18. [partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question)
+17. **given a integer, remove one 5 to get max**
+
+18. **[partition parenthese array](https://leetcode.com/discuss/interview-question/1332412/amazon-online-assessment-question)**
 
       ![image-20220228171051385](images/image-20220228171051385.png)
 
 19. ##### [K best combo / Find K maximum Priority](https://leetcode.com/discuss/interview-question/1625460/amazon-oa-find-k-maximum-priority)
 
-     ![image-20220302112656002](images/image-20220302112656002.png)
+    ##### ![image-20220302112656002](images/image-20220302112656002.png)
 
 20. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
-21. aggregate temperature
+21. **aggregate temperature**
 
       ![62152fcz899mkwxv3sp0f](images/62152fcz899mkwxv3sp0f.jpg)
 
-22. parcels and trucks
+22. **parcels and trucks**
 
       ![62156hedsxwfqkasmvxvd](images/62156hedsxwfqkasmvxvd.jpg)
 
 23. [926. Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing)
 
-24. giving a string with parentheses, return the string after removing the invalid parentheses.   a)bc(de))f -> abc(de)f
+24. **Remove invalid parentheses**
+
+     giving a string with parentheses, return the string after removing the invalid parentheses.   a)bc(de))f -> abc(de)f
 
 25. [527. Word Abbreviation](https://leetcode.com/problems/word-abbreviation)
 
-26. kindle page mark (three pages)
+26. **kindle page mark**
 
       ![image-20220228171830362](images/image-20220228171830362.png)
 
@@ -170,19 +172,19 @@
 
      https://leetcode.com/discuss/interview-question/1321204/efficient-harvest-faang-oa-question-2021
 
-     ![220729pqttqgsjz5sqwn5d](images/220729pqttqgsjz5sqwn5d.png)
+     <img src="images/220729pqttqgsjz5sqwn5d.png" alt="220729pqttqgsjz5sqwn5d" style="zoom: 67%;" />
 
 32. **merge package to get the heaviest package**
 
      ![image-20220302114251512](images/image-20220302114251512.png)
 
-33. **Routers**![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
+33. **wifi Routers cover buildings**![213006ul4b6xcp7szf4pfs](images/213006ul4b6xcp7szf4pfs.png)
 
 34. **Minimize Memory**
 
        given array indicates memory used for each process, try to delete a contiguous segment of process to minimize the total memory: e.g. [10,4,8,1], k = 2; delete [10, 4], min memory is 9
 
-     <img src="https://oss.1point3acres.cn/forum/202202/04/112344f9zzp97vmrdjqyyt.jpeg" alt="img" style="zoom:67%;" />
+     <img src="https://oss.1point3acres.cn/forum/202202/04/112344f9zzp97vmrdjqyyt.jpeg" alt="img" style="zoom: 50%;" />
 
 35. **find password strength**
 
@@ -212,19 +214,19 @@
      0
      ```
 
-36. [Sort Order](https://leetcode.com/discuss/interview-question/1261316/amazon-oa-sde-1-new-grad-2021-batch-india)
+36. **[Sort Order](https://leetcode.com/discuss/interview-question/1261316/amazon-oa-sde-1-new-grad-2021-batch-india)**
 
      ![image-20220302115141662](images/image-20220302115141662.png)
 
-37. longest subarray has product 1
+37. **longest subarray has product 1**
 
     given array in which elements are either 1 or -1, find the length of the longest subarray that has product as 1
 
-38. Valid Groupon
+38. **Valid Groupon**
 
     ![image-20220302124257524](images/image-20220302124257524.png)
 
-39. pick songs
+39. **pick songs**
 
     ![image-20220302125020426](images/image-20220302125020426.png)
 
@@ -452,7 +454,7 @@
     
     Solution: https://leetcode.com/discuss/interview-question/1736639/Amazon-or-OA-or-new-Grad-or-2022/
 
-41. **shipment imbalance 2** ?????
+41. **shipment imbalance 2**
 
     ![img](https://oss.1point3acres.cn/forum/202202/03/190220irzorv0u0nzaa2vk.jpg)
 
@@ -466,17 +468,11 @@
 
     ![image-20220302221026624](images/image-20220302221026624.png)
 
-    44. **Valid groupon**
-    
-        ![image-20220302222756842](images/image-20220302222756842.png)
+44. **Flip Coin**
 
-45. **Flip Coin**
+     <img src="https://oss.1point3acres.cn/forum/202202/06/185905oijijlhhzl3cppjc.png" alt="img" style="zoom:50%;" />
 
-    ![img](https://oss.1point3acres.cn/forum/202202/06/185905oijijlhhzl3cppjc.png)
-
-46. Insert into a linkedList ????
-
-47. **Coding pacakge Id**
+47. **Package shipping system**
 
     ![image-20220303101804811](images/image-20220303101804811.png)
 
@@ -538,7 +534,7 @@
 
     https://www.1point3acres.com/bbs/thread-812163-1-1.html
 
-61. add char, count AZ
+61. **add 'A' or 'Z' to maximize the count of "AZ"**
 
     ![img](https://oss.1point3acres.cn/forum/202201/11/171320u33xp43l50g0aga0.png)
 
