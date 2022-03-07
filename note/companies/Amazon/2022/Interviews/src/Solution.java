@@ -884,7 +884,9 @@ public class Solution {
 
 
     /*
-     * Count Power for services
+     * Count Power for services x x x x l [x x i x x x x] r x x left side: A[l + k] * (r - i) * k,
+     * where 1 <= k <= i - l right side: A[r - k] * (i - l) * k where 1 <= k <= r - i for each i, we
+     * know l and r, we loop through k
      */
     public int countPowerForSerives(int[] arr) {
         return -1;
