@@ -284,7 +284,7 @@
     A[k] will occur (j-k)*(k-i) times (as there are j-k ways to choose right pointer k-i way for left pointer )
     So sum of all subarrays will be
     
-    A[i+1](j-k) + 2(j-k)A[i+2]..........A[k](j-k)(k-1) + A[j-1](k-i) + A[j-2]*(k-i)*2
+    A[i+1](j-k) + 2(j-k)A[i+2]..........A[k](j-k)(k-i) + A[j-1](k-i) + A[j-2]*(k-i)*2
     
     adding and subtracting A[k](j-k)(k-1) expression will become
     
@@ -306,7 +306,7 @@
     
     formula of this is basically
     
-    sum(A[l:K]) (where i <= l <= K) = continuousPresumLeft[k] - (continuousPresumLeft[i+1] - arr[l+1]) - presum[k] - presum[i])*i;
+    sum(A[l:K]) (where i <= l <= K) = continuousPresumLeft[k] - (continuousPresumLeft[i+1] - arr[l+1]) - （presum[k] - presum[i])*i;
     
     // this i find by manupilating
     
@@ -314,7 +314,7 @@
     
     continuousPresumRight[K] = sum of all subarray sum(A[K:l]) where k <= l <= n-1;
     
-    sum(A[k:l]) (where k <= l <= j) = ontinuousPresumRight[k] - (continuousPresumRight[j-1] - arr[j-1]) - presum[j-1] - presum[k-1])*(n-2-j)
+    sum(A[k:l]) (where k <= l <= j) = ontinuousPresumRight[k] - (continuousPresumRight[j-1] - arr[j-1]) - （presum[j-1] - presum[k-1])*(n-2-j)
     
     so for particular index k
     we will add
