@@ -39,6 +39,7 @@ for(int k = i; k < j; k++){
 ```
 
 1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)
+1. [2116. Check if a Parentheses String Can Be Valid -- Medium](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
 2. [1963. Minimum Number of Swaps to Make the String Balanced -- Medium](https://leetcode.com/contest/weekly-contest-253/problems/minimum-number-of-swaps-to-make-the-string-balanced/) observe first couple of examples ( n = 1, n = 2, n = 3, ...) to find out the pattern
 
 ## Longest ?? Subarray/Subsequence
