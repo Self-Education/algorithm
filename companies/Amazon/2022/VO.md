@@ -50,8 +50,6 @@
 
 23. [588. Design In-Memory File System](https://leetcode.com/problems/design-in-memory-file-system)
 
-24. [140. Word Break II](https://leetcode.com/problems/word-break-ii)
-
 25. [155. Min Stack](https://leetcode.com/problems/min-stack)
 
 26. [162. Find Peak Element](https://leetcode.com/problems/find-peak-element)
@@ -64,9 +62,23 @@
 
     ![image-20220315113102215](images/image-20220315113102215.png)
 
-29. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
-30. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
-31. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+28. [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+
+29. [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
+
+30. [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
+
+31. [364. Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/)
+
+32. [632. Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists)
+
+33. [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)
+
+34. [merge two BST](https://www.geeksforgeeks.org/merge-two-bsts-with-limited-extra-space/)
+
+35. [1383. Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team)
+
+31. [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst)
 
 
 
@@ -90,8 +102,17 @@
 
     ![image-20220315111107737](images/image-20220315111107737.png)
 
-    
+
+6. Card game, game shuffle
+
+7. Linux-find
+
+    ![image-20220317122902932](images/image-20220317122902932.png)
+
+8. File search
+9. battle ship
 
 ## System Design
 
 1. Rate limiter
+1. message queue

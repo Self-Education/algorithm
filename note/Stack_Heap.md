@@ -23,6 +23,10 @@
 
 2. [155. Min Stack-- Easy](https://leetcode.com/problems/min-stack/)
 
+2. [232. Implement Queue using Stacks -- Easy](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+2. [225. Implement Stack using Queues -- Easy](https://leetcode.com/problems/implement-stack-using-queues)
+
    
 
 ## Pick one from popped two
