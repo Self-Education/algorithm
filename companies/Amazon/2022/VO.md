@@ -107,9 +107,12 @@
 
 7. Linux-find
 
+    https://leetcode.com/discuss/interview-question/609070/Amazon-OOD-Design-Unix-File-Search-API
+
     ![image-20220317122902932](images/image-20220317122902932.png)
 
 8. File search
+
 9. battle ship
 
 ## System Design
