@@ -173,3 +173,11 @@
 + expand from max and min, `sumMax - sumMin`
 
 [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) 
+
+
+
+### Backward
+
+if cannot solve frontward, then try backward
+
+[991. Broken Calculator](https://leetcode.com/problems/broken-calculator/)

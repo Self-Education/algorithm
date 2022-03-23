@@ -442,6 +442,10 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 
 
+## Backward
+
+1. [991. Broken Calculator -- Medium](https://leetcode.com/problems/broken-calculator/)
+
 
 
 ## Math
