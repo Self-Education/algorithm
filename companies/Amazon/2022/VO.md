@@ -38,7 +38,7 @@
 
 17. [694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands)
 
-18. **[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)**
+18. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)
 
 19. [139. Word Break](https://leetcode.com/problems/word-break)
 
