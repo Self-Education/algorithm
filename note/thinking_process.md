@@ -136,6 +136,9 @@
 + binary search `[target - dist, target + dist]`: 
     1. [1385. Find the Distance Value Between Two Arrays -- Easy](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/)
 + binary search
++ Median:
+    + [1478. Allocate Mailboxes -- Hard](https://leetcode.com/problems/allocate-mailboxes/)
+
 
 
 
@@ -181,3 +184,6 @@
 if cannot solve frontward, then try backward
 
 [991. Broken Calculator](https://leetcode.com/problems/broken-calculator/)
+
+
+
