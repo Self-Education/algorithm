@@ -32,7 +32,7 @@
 + sort + two pointers, from the same end, note that`|A[j] - A[i]| > k`, we do not need to reset the `j`, and for `|A[j] - A[i]| < k`, if `A[j] - A[i] < k` that means for each number `a` in `A[i, j - 1]`,  `A[j] - a < k` , then we move `i`
 + when ask for number of pairs, use hash map
 
-### String/Array Min/Max length
+### Min/Max length of String/Array 
 
 + window and shrink
 
@@ -43,7 +43,18 @@
 
 1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
-### Subarray sum (consecutive)
+### Sum
+
+#### General
+
++ Two sum idea
+    + map/set to record occurance along the way
+    + Sort
++ prefixSum to get the subArray sum
++ **2 array sum** convert it to matrix
++ **Multiple arrays** 双向奔赴
+
+#### Subarray sum (consecutive)
 
 + Prefix sum + HashMap
     1. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
@@ -82,22 +93,6 @@
 ### Shortest/Longest path
 
 + BFS / DFS
-
-
-
-### minimize/maximize Max/Min value
-
-+ Binary search (guess and validate)
-
-
-
-### Sum
-
-+ Two sum idea
-  + map/set to record occurance along the way
-  + Sort
-+ prefixSum to get the subArray sum
-+ **Multiple array sum** convert it to matrix
 
 
 ### When asks for number of ...
@@ -160,14 +155,14 @@
 + union and find
   + DFS ( with state)
 
-### Parentheses
+### Parentheses/Cancel
 
 + count left + right
 + stack, left over is unbalanced
 
 
 
-### Minimize `abs(max, min)`
+### Minimize `abs(max - min)`
 
 + PriorityQueue 
 
