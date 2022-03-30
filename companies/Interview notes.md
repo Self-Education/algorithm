@@ -191,13 +191,15 @@ public class Main {
 
 8: get a working solution, no bug and answered follow up (or no follow up)
 
-| Company        | Round        | Note                                                         |
-| -------------- | ------------ | ------------------------------------------------------------ |
-| MixPanel (6.5) | Round1,1-28  | 7, Asked Java IO API, questions: read last 10 lines of large file |
-|                | round-2 1-11 | 8, work experience                                           |
-|                | round-3 1-11 | 5, flatten nested list, without precomputation               |
-|                | round-4 2-14 | 6, poker                                                     |
-|                | round-5 2-14 | 7, directory BFS, follow up: content is large                |
-| Amazon         | OA, 2-15     | see OA notes                                                 |
-|                |              |                                                              |
-
+| Company        | Round         | Note                                                         |
+| -------------- | ------------- | ------------------------------------------------------------ |
+| MixPanel (6.5) | Round1,1-28   | 7, Asked Java IO API, questions: read last 10 lines of large file |
+|                | round-2 1-11  | 8, work experience                                           |
+|                | round-3 1-11  | 5, flatten nested list, without precomputation               |
+|                | round-4 2-14  | 6, poker                                                     |
+|                | round-5 2-14  | 7, directory BFS, follow up: content is large                |
+| Amazon(7)      | OA, 2-15      | see OA notes                                                 |
+|                | Round-1; 3-29 | 8; most freq subtree sum                                     |
+|                | Round-2; 3-29 | 7;(simple question not sure if I get right understanding) parking system |
+|                | Round-3; 3-30 | 8; given n and k, find all integer with n digits and consecutive digits diff is k |
+|                | Round-4; 3-30 | 5; find a edge that breaks the tree property, LC(685)        |
