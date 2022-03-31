@@ -198,7 +198,7 @@ public class Main {
 |                | round-3 1-11  | 5, flatten nested list, without precomputation               |
 |                | round-4 2-14  | 6, poker                                                     |
 |                | round-5 2-14  | 7, directory BFS, follow up: content is large                |
-| Amazon(7)      | OA, 2-15      | see OA notes                                                 |
+| Amazon(7)      | OA, 3-15      | see OA notes                                                 |
 |                | Round-1; 3-29 | 8; most freq subtree sum                                     |
 |                | Round-2; 3-29 | 7;(simple question not sure if I get right understanding) parking system |
 |                | Round-3; 3-30 | 8; given n and k, find all integer with n digits and consecutive digits diff is k |
