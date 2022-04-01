@@ -319,9 +319,10 @@ class Solution {
 2. [718. Maximum Length of Repeated Subarray -- Hard](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
 3. [10. Regular Expression Matching -- Medium](https://leetcode.com/problems/regular-expression-matching)
 4. [44. Wildcard Matching -- Hard](https://leetcode.com/problems/wildcard-matching)
-4. [1312. Minimum Insertion Steps to Make a String Palindrome -- Hard](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)
-4. [516. Longest Palindromic Subsequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence)
-4. [1143. Longest Common Subsequence -- Medium](https://leetcode.com/problems/longest-common-subsequence)
+5. [1312. Minimum Insertion Steps to Make a String Palindrome -- Hard](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)
+6. [516. Longest Palindromic Subsequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence)
+7. [1143. Longest Common Subsequence -- Medium](https://leetcode.com/problems/longest-common-subsequence)
+8. [2060. Check if an Original String Exists Given Two Encoded Strings -- Hard](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings)
 
 
 

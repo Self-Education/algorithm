@@ -6,7 +6,8 @@
 
 ## Count sum of interval
 
-1.  [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+1. [325. Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/)
+
     + HashMap store the oldest index of occurance of curSum
 
 2. [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
@@ -33,11 +34,13 @@
 
    
 
-3. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+3. [523. Continuous Subarray Sum -- Medium](https://leetcode.com/problems/continuous-subarray-sum/)  ` (sum - x) % k = 0 => (sum % k - x%k) % k = 0`
 
-4. [2106. Maximum Fruits Harvested After at Most K Steps -- Hard](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+4. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
-3. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
+5. [2106. Maximum Fruits Harvested After at Most K Steps -- Hard](https://leetcode.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+
+6. [525. Contiguous Array -- Medium](https://leetcode.com/problems/contiguous-array/)
 
 ## Count Freq for ranges
 
