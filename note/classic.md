@@ -104,18 +104,19 @@ for linkedList, use `cur.val == cur.next.val`
 1. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/)
 2. [272. Closest Binary Search Tree Value II --  Hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
-## looking from the left side and right side
+## lookfrom the left side and right side
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
 3. [238. Product of Array Except Self -- Medium](https://leetcode.com/problems/product-of-array-except-self/)
 4. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
-4. [821. Shortest Distance to a Character --  Easy](https://leetcode.com/problems/shortest-distance-to-a-character/)
-4. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
-4. [769. Max Chunks To Make Sorted -- Medium](https://leetcode.com/problems/max-chunks-to-make-sorted/)
-4. [1402. Reducing Dishes -- Hard](https://leetcode.com/problems/reducing-dishes/)
-4. [1395. Count Number of Teams -- Medium](https://leetcode.com/problems/count-number-of-teams/)
-4. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
+5. [821. Shortest Distance to a Character --  Easy](https://leetcode.com/problems/shortest-distance-to-a-character/)
+6. [1477. Find Two Non-overlapping Sub-arrays Each With Target Sum -- Medium](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+7. [769. Max Chunks To Make Sorted -- Medium](https://leetcode.com/problems/max-chunks-to-make-sorted/)
+8. [1402. Reducing Dishes -- Hard](https://leetcode.com/problems/reducing-dishes/)
+9. [1395. Count Number of Teams -- Medium](https://leetcode.com/problems/count-number-of-teams/)
+10. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
+11. [689. Maximum Sum of 3 Non-Overlapping Subarrays -- Hard](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -379,6 +380,8 @@ There are `C(i, 1)` combinations of picking up 1 element from i element, and the
 Then we have to make sure in the later on pick, this element is not selected which is ` j - 1/j`.which meams always pick rest of numbers `1 - 1/j`, for example, `i = i + 1`,  and a[i] is alreayd inside the reservior, then for i + 1 elements, the possibility of not picking up a[i] is `i/i+1` ...make a[[]]
 
 ![image-20220106215712212](images/image-20220106215712212.png)
+
+[code](https://leetcode.com/playground/iLvsu6uv)
 
 1. [382. Linked List Random Node -- Medium](https://leetcode.com/problems/linked-list-random-node/)
 2. [398. Random Pick Index -- Medium](https://leetcode.com/problems/random-pick-index/)

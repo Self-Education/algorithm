@@ -320,9 +320,10 @@ public boolean UnionFind(List<List<String>> edges) {
 7. [1319. Number of Operations to Make Network Connected -- Medium](https://leetcode.com/problems/number-of-operations-to-make-network-connected)
 8. [684. Redundant Connection -- Medium](https://leetcode.com/problems/redundant-connection/)
 9. [685. Redundant Connection II -- Hard](https://leetcode.com/problems/redundant-connection-ii)
-9. [952. Largest Component Size by Common Factor -- Hard](https://leetcode.com/problems/largest-component-size-by-common-factor/)
-9. [352. Data Stream as Disjoint Intervals  --  Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
-9. [2092. Find All People With Secret -- Hard](https://leetcode.com/problems/find-all-people-with-secret/) need to reset
+10. [952. Largest Component Size by Common Factor -- Hard](https://leetcode.com/problems/largest-component-size-by-common-factor/)
+11. [352. Data Stream as Disjoint Intervals  --  Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
+12. [2092. Find All People With Secret -- Hard](https://leetcode.com/problems/find-all-people-with-secret/) need to reset
+13. [2076. Process Restricted Friend Requests -- Hard](https://leetcode.com/problems/process-restricted-friend-requests/)
 
 ### View cells in matrix as vertices 
 

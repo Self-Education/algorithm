@@ -13,7 +13,8 @@
 9. [1996. The Number of Weak Characters in the Game -- Medium](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/) similar with Russian doll
 10. [907. Sum of Subarray Minimums -- Medium](https://leetcode.com/problems/sum-of-subarray-minimums)
 11. [2104. Sum of Subarray Ranges -- Medium](https://leetcode.com/problems/sum-of-subarray-ranges/)
-11. [402. Remove K Digits -- Medium](https://leetcode.com/problems/remove-k-digits/)
+12. [402. Remove K Digits -- Medium](https://leetcode.com/problems/remove-k-digits/)
+13. [1944. Number of Visible People in a Queue -- Hard](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
 
 
 
