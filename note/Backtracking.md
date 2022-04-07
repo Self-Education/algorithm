@@ -3,6 +3,7 @@
 ## General
 
 1. [425. Word Squares -- Hard](https://leetcode.com/problems/word-squares/)
+1. [2065. Maximum Path Quality of a Graph -- Medium](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)
 
 ## Permutation vs Combination vs Subset
 

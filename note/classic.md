@@ -104,7 +104,7 @@ for linkedList, use `cur.val == cur.next.val`
 1. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/)
 2. [272. Closest Binary Search Tree Value II --  Hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
-## lookfrom the left side and right side
+## look from/at the left side and right side
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
@@ -117,6 +117,7 @@ for linkedList, use `cur.val == cur.next.val`
 9. [1395. Count Number of Teams -- Medium](https://leetcode.com/problems/count-number-of-teams/)
 10. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
 11. [689. Maximum Sum of 3 Non-Overlapping Subarrays -- Hard](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)
+12. [2033. Minimum Operations to Make a Uni-Value Grid -- Medium](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)
 
 ## Shortest Path (BFS or binary BFS)
 

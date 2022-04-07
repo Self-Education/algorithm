@@ -323,6 +323,7 @@ class Solution {
 6. [516. Longest Palindromic Subsequence -- Medium](https://leetcode.com/problems/longest-palindromic-subsequence)
 7. [1143. Longest Common Subsequence -- Medium](https://leetcode.com/problems/longest-common-subsequence)
 8. [2060. Check if an Original String Exists Given Two Encoded Strings -- Hard](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings)
+9. [161. One Edit Distance -- Medium](https://leetcode.com/problems/one-edit-distance/) **special**
 
 
 
