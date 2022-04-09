@@ -89,8 +89,9 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 2. [1509. Minimum Difference Between Largest and Smallest Value in Three Moves -- Medium](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)
 3. 
 4. [2007. Find Original Array From Doubled Array -- Medium](https://leetcode.com/problems/find-original-array-from-doubled-array/)
-4. [954. Array of Doubled Pairs -- Medium](https://leetcode.com/problems/array-of-doubled-pairs)
-5.  [1509. Minimum Difference Between Largest and Smallest Value in Three Moves -- Medium](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)
-6. [1329. Sort the Matrix Diagonally -- Medium](https://leetcode.com/problems/sort-the-matrix-diagonally/)
-6. [1968. Array With Elements Not Equal to Average of Neighbors -- Medium](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+5. [954. Array of Doubled Pairs -- Medium](https://leetcode.com/problems/array-of-doubled-pairs)
+6. [1509. Minimum Difference Between Largest and Smallest Value in Three Moves -- Medium](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves)
+7. [1329. Sort the Matrix Diagonally -- Medium](https://leetcode.com/problems/sort-the-matrix-diagonally/)
+8. [1968. Array With Elements Not Equal to Average of Neighbors -- Medium](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+9. [406. Queue Reconstruction by Height -- Medium](https://leetcode.com/problems/queue-reconstruction-by-height/)
 
