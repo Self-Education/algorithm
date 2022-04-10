@@ -25,7 +25,7 @@
 
 + valid parenthesis has two patterns : `( ( ) )` and `( ) ( )`,
 + `countLeft >= countRight`
-+ Usually can be solved by **DP**
++ Usually can be solved by **DP**, count **balance**, and use **Stack**
 
 ```java
 if(s[i] == s[j]) dp[i][j] = dp[i + 1][j - 1];
@@ -39,8 +39,9 @@ for(int k = i; k < j; k++){
 ```
 
 1. [678. Valid Parenthesis String -- Medium](https://leetcode.com/problems/valid-parenthesis-string/)
-1. [2116. Check if a Parentheses String Can Be Valid -- Medium](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
-2. [1963. Minimum Number of Swaps to Make the String Balanced -- Medium](https://leetcode.com/contest/weekly-contest-253/problems/minimum-number-of-swaps-to-make-the-string-balanced/) observe first couple of examples ( n = 1, n = 2, n = 3, ...) to find out the pattern
+2. [2116. Check if a Parentheses String Can Be Valid -- Medium](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/)
+3. [1963. Minimum Number of Swaps to Make the String Balanced -- Medium](https://leetcode.com/contest/weekly-contest-253/problems/minimum-number-of-swaps-to-make-the-string-balanced/) observe first couple of examples ( n = 1, n = 2, n = 3, ...) to find out the pattern
+4. [1541. Minimum Insertions to Balance a Parentheses String -- Medium](https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
 
 ## Longest ?? Subarray/Subsequence
 
@@ -459,7 +460,7 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 1. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem/)
 1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
 
-### Shape
+#### Shape
 
 + to form rectangle:
 
@@ -475,7 +476,10 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 2. [963. Minimum Area Rectangle II -- Medium](https://leetcode.com/problems/minimum-area-rectangle-ii)
 3. [223. Rectangle Area --  Medium](https://leetcode.com/problems/rectangle-area)
 
-#### other
-
+#### Other
 1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 1. [829. Consecutive Numbers Sum -- Hard](https://leetcode.com/problems/consecutive-numbers-sum/)
+
+##### Division:
+
+1. [166. Fraction to Recurring Decimal -- Medium](https://leetcode.com/problems/fraction-to-recurring-decimal/)
