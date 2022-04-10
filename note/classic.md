@@ -459,6 +459,22 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 1. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem/)
 1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
 
+### Shape
+
++ to form rectangle:
+
+  + If sides are parrallel with x or y axis, then pick one diagonal, check another diagonal
+
+  + If sides are parrallel with x or y axis is not guaranteed, 
+
+    + point a and b form a line, point b and c to form rectangle, line (b, c) and line(a, b) share same mid points and same length
+
+    + Line(a, b) and line(c,d) are parallel and same length, and also perpendicular `x1 * x2 + y1 * y2 = 0`
+
+1. [939. Minimum Area Rectangle --  Medium](https://leetcode.com/problems/minimum-area-rectangle)
+2. [963. Minimum Area Rectangle II -- Medium](https://leetcode.com/problems/minimum-area-rectangle-ii)
+3. [223. Rectangle Area --  Medium](https://leetcode.com/problems/rectangle-area)
+
 #### other
 
 1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
