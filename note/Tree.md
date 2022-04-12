@@ -35,7 +35,7 @@
 ### LCA
 
 1. [1257. Smallest Common Region -- Medium](https://leetcode.com/problems/smallest-common-region/)
-1. [1123. Lowest Common Ancestor of Deepest Leaves -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)
+1. [1123. Lowest Common Ancestor of Deepest Leaves -- Medium](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) memo
 
 ### Successor
 
