@@ -32,7 +32,7 @@ BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInput
 
 1. Multi threading
 
-### exceptions
+### Exceptions
 
 [code](https://leetcode.com/playground/3JvefKEY)
 
@@ -177,7 +177,45 @@ public class Main {
 
 
 
+### Process vs Threads
 
+#### Terms
+
++ **CPU vs Core**: basically CPU contains multiple core, and core is small processor to run instructions, while CPU  has other unit such as memory, I/O controller ... Two thread running on one core at the same time, but the processor can switch execution resources between threads, resulting in concurrent execution. Concurrency indicates that more than one thread is making progress, but the threads are **not actually running simultaneously.**
+
+#### Process
+
++ **Defintion**:Each process can have multiple threads (constructions sites have different workers). We usually use processes when we need to process or perform an **extremely heavy** taks. The reason for that are:
+
+  +  because the **overhead** required to create a process a quite big, 
+
+  + **context switch** among process are slower than threads, process context switching takes more time and is done by the operating system, while thread context switch takes less time and does not require an **operating system call** (see details in Context switch section below)
+
+  + and also the **communication** among processes is quitely costly since they do not share memory of any kind.
+
+#### Thread
+
++ **Definition**: <u>a thread can do anything a process can do</u>. The main difference here is memory sharing. Threads are usually used for performing **small tasks**.
+
+
+
+#### Context Switch Process vs Thread
+
+| Process Context Switch(PCS)                                  | Thread Context Switch (TCS)                                  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Switch memory address spaces, all the memory addresses that the processor accounts get flushed | does not involves switching of memory address spacess, all the memory addresses that the processor accounts remain saved |
+| Processor's cache and Translational Lookaside Buffer (TLB) get flushed | TLB and cache preserves their state                          |
+| Heavy cost of switching address space, less efficient        | it switches registers and stack pointers (no memory addresses switch), more efficient |
+
+TLB: a special cache used to keep track of recently used transactions, it contains the page table entries that been most recently used (LRU cache).
+
+#### Memory Paging
+
+[video_1](https://www.youtube.com/watch?v=qlH4-oHnBb8)
+
+[video_2](https://www.youtube.com/watch?v=pJ6qrCB8pDw&t=587s)
+
+![image-20220412233113216](images/image-20220412233113216.png)
 
 ## Interview Track
 
