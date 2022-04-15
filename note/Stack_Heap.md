@@ -214,7 +214,10 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 2. [502. IPO -- Hard](https://leetcode.com/problems/ipo/)
 2. [1094. Car Pooling -- Medium](https://leetcode.com/problems/car-pooling/)
 
+### Median
 
+1. [480. Sliding Window Median -- Hard](https://leetcode.com/problems/sliding-window-median)
+2. [295. Find Median from Data Stream -- Hard](https://leetcode.com/problems/find-median-from-data-stream)
 
 
 

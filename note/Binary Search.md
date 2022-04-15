@@ -385,3 +385,9 @@ if `a <= b <= c`, the for sure `a < b + c, b < a + c` we only need to check if `
 binary search find max based on increasing/decreasing of function
 
 1. [887. Super Egg Drop -- Hard](https://leetcode.com/problems/super-egg-drop/)
+
+
+
+### Binary lift
+
+1. [29. Divide Two Integers -- Medium](https://leetcode.com/problems/divide-two-integers/)

@@ -105,7 +105,7 @@ for linkedList, use `cur.val == cur.next.val`
 1. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/)
 2. [272. Closest Binary Search Tree Value II --  Hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
-## look from/at the left side and right side
+## look from/at two ends
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
@@ -119,6 +119,7 @@ for linkedList, use `cur.val == cur.next.val`
 10. [2055. Plates Between Candles -- Medium](https://leetcode.com/problems/plates-between-candles/)
 11. [689. Maximum Sum of 3 Non-Overlapping Subarrays -- Hard](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)
 12. [2033. Minimum Operations to Make a Uni-Value Grid -- Medium](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)
+13. [2025. Maximum Number of Ways to Partition an Array -- Hard](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -479,6 +480,7 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 #### Other
 1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 1. [829. Consecutive Numbers Sum -- Hard](https://leetcode.com/problems/consecutive-numbers-sum/)
+1. [1104. Path In Zigzag Labelled Binary Tree -- Medium](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
 
 ##### Division:
 

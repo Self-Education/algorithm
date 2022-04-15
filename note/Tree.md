@@ -140,4 +140,5 @@ all levels except the last level must be fully filled, and all nodes in the last
 1. [1932. Merge BSTs to Create Single BST -- Hard](https://leetcode.com/problems/merge-bsts-to-create-single-bst/) no way I can solve it by my self
 2. [834. Sum of Distances in Tree -- Hard](https://leetcode.com/problems/sum-of-distances-in-tree/)
 3. [968. Binary Tree Cameras -- Hard](https://leetcode.com/problems/binary-tree-cameras/)
-3. [2003. Smallest Missing Genetic Value in Each Subtree --- Hard](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+4. [2003. Smallest Missing Genetic Value in Each Subtree --- Hard](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+5. [1443. Minimum Time to Collect All Apples in a Tree -- Medium](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)

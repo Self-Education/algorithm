@@ -72,25 +72,3 @@
 [754. Reach a Number -- Medium](https://leetcode.com/problems/reach-a-number/)
 
 
-
-## Math
-
-### Modulo
-
-`(a + b) % k = (a % k + b % k) % k `
-
-1. [1015. Smallest Integer Divisible by K -- Medium](https://leetcode.com/problems/smallest-integer-divisible-by-k/)
-
-### GCD
-
-```java
-private int GCD(int a, int b){
-  if(b == 0) return a;
-  return GCD(b, a%b);
-}
-```
-
-+ `A * B = LCM(A, B) * GCD(A, B)`
-
-1. [878. Nth Magical Number --  Hard](https://leetcode.com/problems/nth-magical-number/)
-
