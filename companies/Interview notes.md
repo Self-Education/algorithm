@@ -241,3 +241,10 @@ TLB: a special cache used to keep track of recently used transactions, it contai
 |                       | Round-2; 3-29 | 7;(simple question not sure if I get right understanding) parking system |
 |                       | Round-3; 3-30 | 8; given n and k, find all integer with n digits and consecutive digits diff is k |
 |                       | Round-4; 3-30 | 5; find a edge that breaks the tree property, LC(685)        |
+| Meta(7.8)             | OA, 4-15      |                                                              |
+|                       | Round-1; 4-25 | 9; Q1: LC#408, Q2: merge to list of intervals                |
+|                       | Round-2; 4-25 | 10;Q1: LC#616; Q2: find max of `A[j]-A[i],where j>i and A[j]>A[i]` |
+|                       | Round-3; 4-25 | 6; BQ, around 5-7 questions                                  |
+|                       | Round-4; 4-26 | 7; System design: programming competition platform           |
+|                       | Round-5; 4-26 | 7; Q1: LC#1762; Q2:LC#314; follow up: without sorting        |
+
