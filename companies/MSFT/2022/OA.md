@@ -49,3 +49,6 @@
     【6，3】这种，一共需要6笔画完，因为每一笔的高度为一
     【6，3，5】这种，因为第二个矩形高度是三，中间断开不能一笔画完，所以一‍‌‍‌‌‍‍‌‍‍‌‍‍‍‌‌‍‍‌共需要八笔画完
 
+13. given a number, remove one 5 to get largest number
+
+    ![img](https://oss.1point3acres.cn/forum/202204/21/021548a0r629wqvvqf6rvr.png)

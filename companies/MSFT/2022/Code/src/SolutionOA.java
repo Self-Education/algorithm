@@ -26,9 +26,23 @@ public class SolutionOA {
      * 2. 给出两个数组A和B，找出index可以使得 A[i] 左边的sum 等于 B[i]左边的sum，同时A[i] 右边的sum 也等于 B[i]右边的sum。举个栗子， A: [2,
      * 7, -2, 5], B：[-1, 10, 1, 3]，在index = 3的时候， 2 + 7 = -1 + 10，同时 -2 + 5 = 1 + 3
      */
-    // public int partitionAtK(int[] A, int[] B){
-
-    // }
+    public int partitionAtK(int[] A, int[] B) {
+        int m = A.length, n = B.length;
+        int sumA = 0, sumB = 0;
+        for (int a : A)
+            sumA += a;
+        for (int b : B)
+            sumB += b;
+        int curA = 0, curB = 0, count = 0;
+        for (int i = 0; i < Math.min(m, n) - 1; i++) {
+            curA += A[i];
+            curB += B[i];
+            if (curA == curB && curA == sumA - curA && curB == sumB - curB) {
+                count++;
+            }
+        }
+        return count;
+    }
 
 
     /*
@@ -47,6 +61,10 @@ public class SolutionOA {
         return ans;
     }
 
+    /*
+     * Given N numbers on a circle, described by an array A, find the maximum number of neighboring
+     * pairs whose sums are even, one element can belong to only onen pair
+     */
     public int evenPairs(int[] A) {
         int m = A.length;
         int[] dp1 = new int[m];
