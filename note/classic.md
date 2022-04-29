@@ -454,7 +454,7 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 1. [991. Broken Calculator -- Medium](https://leetcode.com/problems/broken-calculator/)
 
-
+2. [780. Reaching Points -- Hard](https://leetcode.com/problems/reaching-points/)
 
 ## Math
 
