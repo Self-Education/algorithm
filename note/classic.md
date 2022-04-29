@@ -446,7 +446,9 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
 
+## Iterator
 
+1. [284. Peeking Iterator --  Medium](https://leetcode.com/problems/peeking-iterator/)
 
 ## Backward
 

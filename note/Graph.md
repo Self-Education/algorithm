@@ -324,6 +324,7 @@ public boolean UnionFind(List<List<String>> edges) {
 11. [352. Data Stream as Disjoint Intervals  --  Hard](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 12. [2092. Find All People With Secret -- Hard](https://leetcode.com/problems/find-all-people-with-secret/) need to reset
 13. [2076. Process Restricted Friend Requests -- Hard](https://leetcode.com/problems/process-restricted-friend-requests/)
+14. [1202. Smallest String With Swaps -- Medium](https://leetcode.com/problems/smallest-string-with-swaps/)
 
 ### View cells in matrix as vertices 
 
@@ -443,7 +444,8 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
 1. [1135 Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
 2. [1168. Optimize Water Distribution in a Village -- Hard](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)
-2. [1135. Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+3. [1135. Connecting Cities With Minimum Cost -- Medium](https://leetcode.com/problems/connecting-cities-with-minimum-cost/)
+4. [1584. Min Cost to Connect All Points -- Medium](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 
 
 

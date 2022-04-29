@@ -94,6 +94,10 @@
 
  
 
+### N-ary Tree to/from Binary Tree
+
+1. [1431. Encode N-ary Tree to Binary Tree -- Hard](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/)
+
 ### Iterator:
 
 1. [173. Binary Search Tree Iterator --  Medium](https://leetcode.com/problems/binary-search-tree-iterator/)
