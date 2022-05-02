@@ -116,6 +116,16 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 1. [1846. Maximum Element After Decreasing and Rearranging -- Medium](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)
 1. [484. Find Permutation -- Medium](https://leetcode.com/problems/find-permutation/)
 
+### String Arrangment with strides
+
+1. [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)
+2. [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)
+3. [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)
+4. [621.Task-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/621.Task-Scheduler) (H-)
+5. [984.String-Without-AAA-or-BBB -- Medium](https://leetcode.com/problems/string-without-aaa-or-bbb/) 
+6. [1405.Longest-Happy-String -- Medium](https://leetcode.com/problems/longest-happy-string/) 
+7. [1953.Maximum-Number-of-Weeks-for-Which-You-Can-Work](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1953.Maximum-Number-of-Weeks-for-Which-You-Can-Work) (M+)
+
 ## Optimal for each small step
 
 1. [1792. Maximum Average Pass Ratio -- Medium](https://leetcode.com/problems/maximum-average-pass-ratio/)
@@ -148,3 +158,4 @@ min action to achieve, key idea is each action at least achieve something to com
 
 1. [465. Optimal Account Balancing --  Hard](https://leetcode.com/problems/optimal-account-balancing/)
 1. [765. Couples Holding Hands -- Hard](https://leetcode.com/problems/couples-holding-hands/)
+

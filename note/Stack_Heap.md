@@ -39,6 +39,7 @@
 ## Simulation
 
 1. [636. Exclusive Time of Functions -- Medium](https://leetcode.com/problems/exclusive-time-of-functions/)
+1. [1578. Minimum Time to Make Rope Colorful -- Medium](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/)
 
 
 
