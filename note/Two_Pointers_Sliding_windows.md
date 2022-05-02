@@ -119,6 +119,7 @@ To reverse **each element in an array** instead of reversing the array. Eg. `str
 
 1. [345. Reverse Vowels of a String --  Easy](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 2. [922. Sort Array By Parity II -- Easy](https://leetcode.com/problems/sort-array-by-parity-ii)
+3. [844. Backspace String Compare -- Easy](https://leetcode.com/problems/backspace-string-compare/)
 
 #### Mountain problem
 
