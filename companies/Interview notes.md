@@ -229,22 +229,26 @@ TLB: a special cache used to keep track of recently used transactions, it contai
 
 8: get a working solution, no bug and answered follow up (or no follow up)
 
-| Company               | Round         | Note                                                         |
-| --------------------- | ------------- | ------------------------------------------------------------ |
-| MixPanel (6.5; Offer) | Round1,1-28   | 7, Asked Java IO API, questions: read last 10 lines of large file |
-|                       | round-2 1-11  | 8, work experience                                           |
-|                       | round-3 1-11  | 5, flatten nested list, without precomputation               |
-|                       | round-4 2-14  | 6, poker                                                     |
-|                       | round-5 2-14  | 7, directory BFS, follow up: content is large                |
-| Amazon(7; no offer)   | OA, 3-15      | see OA notes                                                 |
-|                       | Round-1; 3-29 | 8; most freq subtree sum                                     |
-|                       | Round-2; 3-29 | 7;(simple question not sure if I get right understanding) parking system |
-|                       | Round-3; 3-30 | 8; given n and k, find all integer with n digits and consecutive digits diff is k |
-|                       | Round-4; 3-30 | 5; find a edge that breaks the tree property, LC(685)        |
-| Meta(7.8)             | OA, 4-15      |                                                              |
-|                       | Round-1; 4-25 | 9; Q1: LC#408, Q2: merge to list of intervals                |
-|                       | Round-2; 4-25 | 10;Q1: LC#616; Q2: find max of `A[j]-A[i],where j>i and A[j]>A[i]` |
-|                       | Round-3; 4-25 | 6; BQ, around 5-7 questions                                  |
-|                       | Round-4; 4-26 | 7; System design: programming competition platform           |
-|                       | Round-5; 4-26 | 7; Q1: LC#1762; Q2:LC#314; follow up: without sorting        |
+| Company             | Round         | Note                                                         |
+| ------------------- | ------------- | ------------------------------------------------------------ |
+| MixPanel            | Round1,1-28   | 7, Asked Java IO API, questions: read last 10 lines of large file |
+|                     | round-2 1-11  | 8, work experience                                           |
+|                     | round-3 1-11  | 5, flatten nested list, without precomputation               |
+|                     | round-4 2-14  | 6, poker                                                     |
+|                     | round-5 2-14  | 7, directory BFS, follow up: content is large                |
+|                     | 6.5; Offer    | 135k + 13k(shares, 4 years) + 10%                            |
+| Amazon(7; no offer) | OA, 3-15      | see OA notes                                                 |
+|                     | Round-1; 3-29 | 8; most freq subtree sum                                     |
+|                     | Round-2; 3-29 | 7;(simple question not sure if I get right understanding) parking system |
+|                     | Round-3; 3-30 | 8; given n and k, find all integer with n digits and consecutive digits diff is k |
+|                     | Round-4; 3-30 | 5; find a edge that breaks the tree property, LC(685)        |
+| Meta(7.8)           | OA, 4-15      |                                                              |
+|                     | Round-1; 4-25 | 9; Q1: LC#408, Q2: merge to list of intervals                |
+|                     | Round-2; 4-25 | 10;Q1: LC#616; Q2: find max of `A[j]-A[i],where j>i and A[j]>A[i]` |
+|                     | Round-3; 4-25 | 6; BQ, around 5-7 questions                                  |
+|                     | Round-4; 4-26 | 7; System design: programming competition platform           |
+|                     | Round-5; 4-26 | 7; Q1: LC#1762; Q2:LC#314; follow up: without sorting        |
+|                     | 7.8; offer    | 127k + 130K(value, 4 years) + 10%                            |
+
+
 

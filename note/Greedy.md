@@ -129,6 +129,7 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 ## Optimal for each small step
 
 1. [1792. Maximum Average Pass Ratio -- Medium](https://leetcode.com/problems/maximum-average-pass-ratio/)
+1. [995. Minimum Number of K Consecutive Bit Flips -- Hard](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
 ##  Greedy and Binary Search
 

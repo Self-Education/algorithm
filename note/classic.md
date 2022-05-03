@@ -354,7 +354,7 @@ count from 1900
 
 
 
-## Digit Permutation
+## Digit Permutation(left * right)
 
 1. [902. Numbers At Most N Given Digit Set -- Hard](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/)
 1. [233. Number of Digit One -- Hard](https://leetcode.com/problems/number-of-digit-one/)
