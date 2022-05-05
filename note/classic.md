@@ -3,6 +3,7 @@
 ### track min/max or both as we go, O(N^2) - > O(N)
 
 1. [1026. Maximum Difference Between Node and Ancestor -- Medium](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/)
+1. [1375. Number of Times Binary String Is Prefix-Aligned -- Medium](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/)
 
 ## Palindrome
 
@@ -105,7 +106,7 @@ for linkedList, use `cur.val == cur.next.val`
 1. [347. Top K Frequent Elements -- Medium](https://leetcode.com/problems/top-k-frequent-elements/)
 2. [272. Closest Binary Search Tree Value II --  Hard](https://leetcode.com/problems/closest-binary-search-tree-value-ii/)
 
-## look from/at two ends
+## look from/at two ends/sides
 
 1. [926. Flip String to Monotone Increasing -- Medium](https://leetcode.com/explore/item/3876)
 2. [135. Candy -- Hard](https://leetcode.com/problems/candy)
@@ -120,6 +121,7 @@ for linkedList, use `cur.val == cur.next.val`
 11. [689. Maximum Sum of 3 Non-Overlapping Subarrays -- Hard](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/)
 12. [2033. Minimum Operations to Make a Uni-Value Grid -- Medium](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/)
 13. [2025. Maximum Number of Ways to Partition an Array -- Hard](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)
+14. [849. Maximize Distance to Closest Person -- Medium](https://leetcode.com/problems/maximize-distance-to-closest-person/)
 
 ## Shortest Path (BFS or binary BFS)
 
@@ -368,7 +370,9 @@ count from 1900
 
 
 
-## Reservoir Sampling
+## Sampling
+
+### Reservoir Sampling
 
 https://www.youtube.com/watch?v=aMhe_Riny5E&t=46s
 
@@ -388,6 +392,10 @@ Then we have to make sure in the later on pick, this element is not selected whi
 
 1. [382. Linked List Random Node -- Medium](https://leetcode.com/problems/linked-list-random-node/)
 2. [398. Random Pick Index -- Medium](https://leetcode.com/problems/random-pick-index/)
+
+### Rejection Sampling
+
+1. [470. Implement Rand10() Using Rand7() --Medium](https://leetcode.com/problems/implement-rand10-using-rand7/)
 
 ## Multiple factors need to consider
 
@@ -484,6 +492,8 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 1. [829. Consecutive Numbers Sum -- Hard](https://leetcode.com/problems/consecutive-numbers-sum/)
 1. [1104. Path In Zigzag Labelled Binary Tree -- Medium](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
 
-##### Division:
+##### Division/Factors:
 
 1. [166. Fraction to Recurring Decimal -- Medium](https://leetcode.com/problems/fraction-to-recurring-decimal/)
+1. [319. Bulb Switcher -- Medium](https://leetcode.com/problems/bulb-switcher/)
+1. [319. Bulb Switcher - Medium](https://leetcode.com/problems/bulb-switcher/)
