@@ -5,6 +5,14 @@
 1. [425. Word Squares -- Hard](https://leetcode.com/problems/word-squares/)
 1. [2065. Maximum Path Quality of a Graph -- Medium](https://leetcode.com/problems/maximum-path-quality-of-a-graph/)
 
+**assign from less complicated to complicated**, say we have M jobs assign to N workers, each job can only be assigned to a worker while a worker can do multiple jobs, 
+
+Approach1: for each worker we pick a job, then we need to use `Set<Integer> visited` to track used jobs, and also need to handle two cases, after assigning this job, keep handling this worker or start to handle next worker.
+
+Approach2: for each job, find a worker.
+
+3. [1723. Find Minimum Time to Finish All Jobs -- Hard](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/)
+
 ## Permutation vs Combination vs Subset
 
 + **Subset**: pick any number of element from a collections, for `[0, 1, 2, 3]`, subset could be picking up 0 element, `[]`, or pick up 1 element `[1]`, `[2]` , .. or picking up 2 element `[0, 1]`, `[1,3]`... , $2^n$
