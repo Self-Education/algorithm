@@ -272,10 +272,12 @@ Every time ask for the min length of ...., we can track the last occurence to ac
 
     
 
-###  window keep the second freq char no more than k times
+###  Expend window until rule breaks
 
-1. [424. Longest Repeating Character Replacement -- Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
-2. [1156. Swap For Longest Repeated Character Substring -- Medium](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
+1. [1004. Max Consecutive Ones III -- Medium](https://leetcode.com/problems/max-consecutive-ones-iii/)
+2. [2024. Maximize the Confusion of an Exam -- Medium](https://leetcode.com/problems/maximize-the-confusion-of-an-exam/)
+3. [424. Longest Repeating Character Replacement -- Medium](https://leetcode.com/problems/longest-repeating-character-replacement/)
+4. [1156. Swap For Longest Repeated Character Substring -- Medium](https://leetcode.com/problems/swap-for-longest-repeated-character-substring/)
 
 
 
