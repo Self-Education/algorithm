@@ -151,7 +151,9 @@
 
 8. [78. Subsets -- Medium](https://leetcode.com/problems/subsets)
 
-8. [254. Factor Combinations -- Medium](https://leetcode.com/problems/factor-combinations/) deduplicate
+9. [254. Factor Combinations -- Medium](https://leetcode.com/problems/factor-combinations/) deduplicate
+
+10. [1641. Count Sorted Vowel Strings -- Medium](https://leetcode.com/problems/count-sorted-vowel-strings/)
 
 
 
