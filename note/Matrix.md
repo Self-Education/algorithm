@@ -84,6 +84,8 @@ public boolean searchMatrix(int[][] matrix, int target) {
 
 2. [85. Maximal Rectangle -- Hard](https://leetcode.com/problems/maximal-rectangle/) 
 
+3. [1727. Largest Submatrix With Rearrangements -- Medium](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
+
 
 
 ### 2D to 1D

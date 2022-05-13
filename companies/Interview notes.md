@@ -248,7 +248,13 @@ TLB: a special cache used to keep track of recently used transactions, it contai
 |                     | Round-3; 4-25 | 6; BQ, around 5-7 questions                                  |
 |                     | Round-4; 4-26 | 7; System design: programming competition platform           |
 |                     | Round-5; 4-26 | 7; Q1: LC#1762; Q2:LC#314; follow up: without sorting        |
-|                     | 7.8; offer    | 127k + 130K(value, 4 years) + 10%                            |
+|                     | 7.8; offer    | 135k + 130K(value, 4 years) + 10% + 7k                       |
+| Microsoft           | OA; 4-26?     |                                                              |
+|                     | Round-1; 5-12 | 6; given a array duplicates 0s in place                      |
+|                     | Round-2;5-12  | 7; OOD, design a system distributed file system to millions node |
+|                     | Round-3;5-12  | 9;LC#2, follow up two lists have big Len difference          |
+|                     | Round-4;5-12  | 9;LC#350, but he does not seem to like my background         |
+|                     | 7.75;         |                                                              |
 
 
 

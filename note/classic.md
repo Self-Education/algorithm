@@ -464,6 +464,14 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 2. [780. Reaching Points -- Hard](https://leetcode.com/problems/reaching-points/)
 
+
+
+### Take care self first (overall contribution)
+
+1. [517. Super Washing Machines -- Hard](https://leetcode.com/problems/super-washing-machines/)
+2. [968. Binary Tree Cameras -- Hard](https://leetcode.com/problems/binary-tree-cameras)
+3. [979. Distribute Coins in Binary Tree -- Medium](https://leetcode.com/problems/distribute-coins-in-binary-tree)
+
 ## Math
 
 #### GCD
