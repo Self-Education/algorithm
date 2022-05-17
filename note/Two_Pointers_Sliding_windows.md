@@ -211,6 +211,8 @@ public int removeDuplicates(int[] nums, int k) { // duplicates are allowed to oc
 
 2. [234. Palindrome Linked List -- Easy](https://leetcode.com/problems/palindrome-linked-list/) use **bottom up** to achieve the second pointer starting from the end
 
+3. [1089. Duplicate Zeros -- Easy](https://leetcode.com/problems/duplicate-zeros)
+
 ### Next Greater/Smaller
 
 1. [31. Next Permutation -- Medium](https://leetcode.com/problems/next-permutation)
