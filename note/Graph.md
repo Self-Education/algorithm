@@ -85,6 +85,7 @@
 3. [1293. Shortest Path in a Grid with Obstacles Elimination -- Hard](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)  BFS + DP
 4. [787. Cheapest Flights Within K Stops -- Medium](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 5. [1654. Minimum Jumps to Reach Home -- Hard](https://leetcode.com/problems/minimum-jumps-to-reach-home) right boundary
+6. [1136. Parallel Courses -- Medium](https://leetcode.com/problems/tree-diameter/solution/) use concept of topological sorting, start with node with fewer dependencies
 
 ### Greedy
 
@@ -233,6 +234,8 @@ public boolean findCycle(int numCourses, int[][] prerequisites) {
 2. [210. Course Schedule II -- Medium](https://leetcode.com/problems/course-schedule-ii/)
 
 3. [269. Alien Dictionary -- Hard](https://leetcode.com/problems/alien-dictionary/)
+
+4. [1136. Parallel Courses -- Medium](https://leetcode.com/problems/parallel-courses/)
 
 ### Calculator
 
