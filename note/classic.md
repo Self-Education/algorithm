@@ -299,13 +299,14 @@ count from 1900
 2. [448. Find All Numbers Disappeared in an Array -- Easy](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
 3. [442. Find All Duplicates in an Array -- Medium](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 4. [565. Array Nesting -- Medium](https://leetcode.com/problems/array-nesting/)
-4. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
+5. [249. Group Shifted Strings -- Medium](https://leetcode.com/problems/group-shifted-strings)
 6. [49. Group Anagrams -- Medium](https://leetcode.com/problems/group-anagrams/)
 7. [1044. Longest Duplicate Substring --  Hard](https://leetcode.com/problems/longest-duplicate-substring/)
 8. [1062. Longest Repeating Substring -- Hard](https://leetcode.com/problems/longest-duplicate-substring/)
-8. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
-8. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
-8. [1392. Longest Happy Prefix -- Hard](https://leetcode.com/problems/longest-happy-prefix/)
+9. [718. Maximum Length of Repeated Subarray -- Medium](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)
+10. [370. Range Addition -- Hard](https://leetcode.com/problems/range-addition/)
+11. [1392. Longest Happy Prefix -- Hard](https://leetcode.com/problems/longest-happy-prefix/)
+12. [1461. Check If a String Contains All Binary Codes of Size K -- Medium](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 
 
