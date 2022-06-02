@@ -36,8 +36,9 @@
 20. [662. Maximum Width of Binary Tree --  Medium](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 21. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem)
 22. [749. Contain Virus -- Hard](https://leetcode.com/problems/contain-virus)
-25. [1391. Check if There is a Valid Path in a Grid -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) how do we check if directions match
-25. [279. Perfect Squares -- Medium](https://leetcode.com/problems/perfect-squares/) 
+23. [1391. Check if There is a Valid Path in a Grid -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) how do we check if directions match
+24. [279. Perfect Squares -- Medium](https://leetcode.com/problems/perfect-squares/) 
+25. [1197. Minimum Knight Moves -- Medium](https://leetcode.com/problems/minimum-knight-moves/) regular BFS -> TLE, use symmetric
 
 
 
