@@ -253,8 +253,8 @@ TLB: a special cache used to keep track of recently used transactions, it contai
 |                     | Round-1; 5-12 | 6; given a array duplicates 0s in place                      |
 |                     | Round-2;5-12  | 7; OOD, design a system distributed file system to millions node |
 |                     | Round-3;5-12  | 9;LC#2, follow up two lists have big Len difference          |
-|                     | Round-4;5-12  | 9;LC#350, but he does not seem to like my background         |
-|                     | 7.75;         |                                                              |
+|                     | Round-4;5-12  | 6;LC#350, weird interviewer, solved,but he does not seem to like my background |
+|                     | 7;            | passed @ 5-19                                                |
 
 
 
