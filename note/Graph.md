@@ -437,9 +437,13 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
 
    
 
-## Kruskal Algorithm: find minimum <u>Spanning Tree</u>
+## Minimum Spanning Tree (MST)
 
 **MST**: A **minimum spanning tree** (**MST**) or **minimum weight spanning tree** is a subset of the edges of a [connected](https://en.wikipedia.org/wiki/Connected_graph), edge-weighted undirected graph that connects all the [vertices](https://en.wikipedia.org/wiki/Vertex_(graph_theory)) together, without any [cycles](https://en.wikipedia.org/wiki/Cycle_(graph_theory)) and with the minimum **possible total edge weight**, if all N nodes are connected, MST will have N - 1 edges
+
+
+
+### Kruskal Algorithm
 
 [**Video link**](https://www.youtube.com/watch?v=4ZlRH0eK-qQ)
 
@@ -482,6 +486,42 @@ public List<List<Integer>> criticalConnections(int n, List<List<Integer>> connec
     
     private int find(int a, int[] parent){...}
 ```
+
+
+
+### Prim's Algorithm
+
+```java
+/*
+        two partitions in graph, A and B, basic idea is that try to find the min weigthed 
+        edge to connect two partitioins (cut)
+        n: number of vertex
+*/
+private int primMST(int n, Map<Integer, List<int[]>> graph){
+    int edge = 0, minMST = 0;
+    int[] selected = new int[n];
+    ProrityQueue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
+    queue.offer(new int[]{0, 0}); // randomly pick the start vertex
+
+    while(!queue.isEmpty()){
+        int cur = queue.peek()[0], cost = queue.peek()[1];
+        queue.poll();
+        if(selected[cur] == 1) continue;
+        selected[cur] = 1;
+        edge++;
+        minMST += cost;
+        for(int[] nei : graph.getOrDefault(cur, new ArrayList<>())){
+            if(selected[nei] == 1) continue;
+            queue.offer(nei);
+        }
+    }
+    if(edge == n - 1)
+        return minMST;
+    return -1;
+}
+```
+
+**Difference** with Kruskal's algorithm is that Prim's algo maintain a tree, if an edge with lower weight, but this edge does not have an end point in the tree, we do not use this edge. We expand the tree by adding the edge with lowest weight. While Kruskal's algo builds MST by connecting low weighted edge, multiple groups may generate during the process, and these groups will eventually merge into a MST.
 
 
 
