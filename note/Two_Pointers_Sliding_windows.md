@@ -258,19 +258,21 @@ Every time ask for the min length of ...., we can track the last occurence to ac
 
 5. [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) keep windows only contains non-duplicates or shrink( here we can use `hashmap` to store most recent index of each char)
 
-6. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
+6. [\1658. Minimum Operations to Reduce X to Zero --  Medium](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
 
-7. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
+7. [243. Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)
+
+8. [76. Minimum Window Substring -- Hard](https://leetcode.com/problems/minimum-window-substring)
 
 9. [567. Permutation in String -- Medium](https://leetcode.com/problems/permutation-in-string/) We can keep the window at the fixed length
 
 10. [438. Find All Anagrams in a String -- Medium](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 
-10. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
+11. [1838. Frequency of the Most Frequent Element -- Medium](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
-10. [1610. Maximum Number of Visible Points -- Hard](https://leetcode.com/problems/maximum-number-of-visible-points/)
+12. [1610. Maximum Number of Visible Points -- Hard](https://leetcode.com/problems/maximum-number-of-visible-points/)
 
-10. [485. Max Consecutive Ones -- Easy](https://leetcode.com/problems/max-consecutive-ones/)
+13. [485. Max Consecutive Ones -- Easy](https://leetcode.com/problems/max-consecutive-ones/)
 
     
 
