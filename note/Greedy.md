@@ -160,3 +160,10 @@ min action to achieve, key idea is each action at least achieve something to com
 1. [465. Optimal Account Balancing --  Hard](https://leetcode.com/problems/optimal-account-balancing/)
 1. [765. Couples Holding Hands -- Hard](https://leetcode.com/problems/couples-holding-hands/)
 
+
+
+
+
+## Other
+
+1. [2311. Longest Binary Subsequence Less Than or Equal to K --  Medium](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/)
