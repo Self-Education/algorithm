@@ -222,6 +222,10 @@ public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 
 
 
+### Other
+
+1. [1642. Furthest Building You Can Reach -- Medium](https://leetcode.com/problems/furthest-building-you-can-reach/)
+
 ## Deque
 
 1. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
