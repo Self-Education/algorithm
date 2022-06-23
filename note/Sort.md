@@ -70,6 +70,7 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 2. [452. Minimum Number of Arrows to Burst Balloons -- Medium](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons)
 3. [2054. Two Best Non-Overlapping Events -- Medium](https://leetcode.com/problems/two-best-non-overlapping-events/)
 4. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
+5. [630. Course Schedule III -- Hard](https://leetcode.com/problems/course-schedule-iii/) 
 
 #### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
 
