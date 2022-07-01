@@ -116,6 +116,9 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 1. [1846. Maximum Element After Decreasing and Rearranging -- Medium](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/)
 1. [484. Find Permutation -- Medium](https://leetcode.com/problems/find-permutation/)
 1. [630. Course Schedule III -- Hard](https://leetcode.com/problems/course-schedule-iii/) 
+1. [406. Queue Reconstruction by Height -- Medium](https://leetcode.com/problems/queue-reconstruction-by-height/)
+1. [1564. Put Boxes Into the Warehouse I -- Medium](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
+1. [1580. Put Boxes Into the Warehouse II -- Medium](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii)
 
 ### String Arrangment with strides
 

@@ -291,6 +291,7 @@ Every time ask for the min length of ...., we can track the last occurence to ac
 1. [217. Contains Duplicate -- Easy](https://leetcode.com/problems/contains-duplicate/)
 1. [219. Contains Duplicate II -- Easy](https://leetcode.com/problems/contains-duplicate-ii/)
 1. [220. Contains Duplicate III -- Medium](https://leetcode.com/problems/contains-duplicate-iii/) Treeset
+1. [1423. Maximum Points You Can Obtain from Cards -- Medium](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)
 
 ### partition array into different windows
 
