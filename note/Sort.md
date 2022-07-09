@@ -72,6 +72,12 @@ sort the intervals by the end points ascendingly, if multiple intervals overlapp
 4. [646. Maximum Length of Pair Chain -- Medium](https://leetcode.com/problems/maximum-length-of-pair-chain/)
 5. [630. Course Schedule III -- Hard](https://leetcode.com/problems/course-schedule-iii/) 
 
+
+
+#### TreeMap to store interval
+
+1. [2276. Count Integers in Intervals -- Hard](https://leetcode.com/problems/count-integers-in-intervals/)
+
 #### Sweeping line: good for multiple lines overlapping, how many events at certain time spot
 
 ## Use comparator directly 
