@@ -337,9 +337,10 @@ count from 1900
 
 1. [370. Range Addition -- Medium](https://leetcode.com/problems/range-addition)
 2. [598. Range Addition II -- Easy](https://leetcode.com/problems/range-addition-ii)
-2. [1109. Corporate Flight Bookings -- Medium](https://leetcode.com/problems/corporate-flight-bookings/)
-2. [2021. Brightest Position on Street --  Medium](https://leetcode.com/problems/brightest-position-on-street/)
-2. [1094. Car Pooling -- Medium](https://leetcode.com/problems/car-pooling/)
+3. [1109. Corporate Flight Bookings -- Medium](https://leetcode.com/problems/corporate-flight-bookings/)
+4. [2021. Brightest Position on Street --  Medium](https://leetcode.com/problems/brightest-position-on-street/)
+5. [1094. Car Pooling -- Medium](https://leetcode.com/problems/car-pooling/)
+6. [\2327. Number of People Aware of a Secret -- Medium](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
 
 
 
