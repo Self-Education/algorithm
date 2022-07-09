@@ -307,3 +307,7 @@ Every time ask for the min length of ...., we can track the last occurence to ac
 
 1. [239. Sliding Window Maximum -- Hard](https://leetcode.com/problems/sliding-window-maximum)
 2. [918. Maximum Sum Circular Subarray -- Medium](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+
+### track max/min when shift the window
+
+find "**Maintain max/min for sliding window**" @ **Stack_Heap.md**
