@@ -2,6 +2,8 @@
 
 ## General Idea
 
+1.[576. Out of Boundary Paths -- Medium](https://leetcode.com/problems/out-of-boundary-paths/)
+
 ### pick up from bag to achieve
 
 1. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
