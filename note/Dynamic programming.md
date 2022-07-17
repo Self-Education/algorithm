@@ -298,9 +298,13 @@ class Solution {
     }
 ```
 
-[1937. Maximum Number of Points with Cost -- Medium ](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
+## Accumulative dp sum
+
+1. [11937. Maximum Number of Points with Cost -- Medium ](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
 
 ![image-20210719162200792](images/image-20210719162200792.png)
+
+2. [629. K Inverse Pairs Array --  Hard](https://leetcode.com/problems/k-inverse-pairs-array/)
 
 
 
