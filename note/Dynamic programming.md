@@ -2,6 +2,8 @@
 
 ## General Idea
 
+1. [1473. Paint House III -- Hard](https://leetcode.com/problems/paint-house-iii/)
+
 ### pick up from bag to achieve
 
 1. [322. Coin Change -- Medium](https://leetcode.com/problems/coin-change)
