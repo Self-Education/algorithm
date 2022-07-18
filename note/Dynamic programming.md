@@ -3,6 +3,7 @@
 ## General Idea
 
 1. [1473. Paint House III -- Hard](https://leetcode.com/problems/paint-house-iii/)
+2. [576. Out of Boundary Paths -- Medium](https://leetcode.com/problems/out-of-boundary-paths/)
 
 ### pick up from bag to achieve
 
@@ -298,9 +299,13 @@ class Solution {
     }
 ```
 
-[1937. Maximum Number of Points with Cost -- Medium ](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
+## Accumulative dp sum
+
+1. [11937. Maximum Number of Points with Cost -- Medium ](https://leetcode.com/problems/maximum-number-of-points-with-cost/)
 
 ![image-20210719162200792](images/image-20210719162200792.png)
+
+2. [629. K Inverse Pairs Array --  Hard](https://leetcode.com/problems/k-inverse-pairs-array/)
 
 
 
