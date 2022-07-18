@@ -76,7 +76,8 @@ public boolean searchMatrix(int[][] matrix, int target) {
 1. [304. Range Sum Query 2D - Immutable -- Medium](https://leetcode.com/problems/range-sum-query-2d-immutable/submissions/)
 2. [363. Max Sum of Rectangle No Larger Than K --  Hard](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/) need to think about another constraint, `maxSum <= k`
 3. [221. Maximal Square -- Medium](https://leetcode.com/problems/maximal-square/)
-3. [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold -- Hard](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
+4. [1074. Number of Submatrices That Sum to Target -- Hard](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)
+5. [1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold -- Hard](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/)
 
 #### We can see the problem as Histogram 
 
