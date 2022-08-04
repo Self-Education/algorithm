@@ -483,6 +483,7 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 1. [365. Water and Jug Problem -- Medium](https://leetcode.com/problems/water-and-jug-problem/)
 1. [149. Max Points on a Line -- Hard](https://leetcode.com/problems/max-points-on-a-line/) save slope as fraction instead of double value
+1. [858. Mirror Reflection -- Medium](https://leetcode.com/problems/mirror-reflection/)
 
 #### Shape
 
