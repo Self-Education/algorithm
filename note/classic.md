@@ -505,6 +505,7 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 1. [1954. Minimum Garden Perimeter to Collect Enough Apple -- Medium](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 1. [829. Consecutive Numbers Sum -- Hard](https://leetcode.com/problems/consecutive-numbers-sum/)
 1. [1104. Path In Zigzag Labelled Binary Tree -- Medium](https://leetcode.com/problems/path-in-zigzag-labelled-binary-tree/)
+1. [458. Poor Pigs -  Hard](https://leetcode.com/problems/poor-pigs/)
 
 ##### Division/Factors:
 
