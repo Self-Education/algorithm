@@ -4,6 +4,7 @@
 
 1. [1473. Paint House III -- Hard](https://leetcode.com/problems/paint-house-iii/)
 2. [576. Out of Boundary Paths -- Medium](https://leetcode.com/problems/out-of-boundary-paths/)
+3. [823. Binary Trees With Factors -- Medium](https://leetcode.com/problems/binary-trees-with-factors/)
 
 ### pick up from bag to achieve
 
