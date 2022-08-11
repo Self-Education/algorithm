@@ -5,6 +5,7 @@
 1. [1473. Paint House III -- Hard](https://leetcode.com/problems/paint-house-iii/)
 2. [576. Out of Boundary Paths -- Medium](https://leetcode.com/problems/out-of-boundary-paths/)
 3. [823. Binary Trees With Factors -- Medium](https://leetcode.com/problems/binary-trees-with-factors/)
+4. [2369. Check if There is a Valid Partition For The Array -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/)
 
 ### pick up from bag to achieve
 
