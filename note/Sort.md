@@ -13,6 +13,7 @@
 set the size of bucket 
 
 1. [164. Maximum Gap -- Hard](https://leetcode.com/problems/maximum-gap)
+1. [1338. Reduce Array Size to The Half -- Medium](https://leetcode.com/problems/reduce-array-size-to-the-half/)
 
 
 
