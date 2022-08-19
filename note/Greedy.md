@@ -120,6 +120,7 @@ public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
 1. [406. Queue Reconstruction by Height -- Medium](https://leetcode.com/problems/queue-reconstruction-by-height/)
 1. [1564. Put Boxes Into the Warehouse I -- Medium](https://leetcode.com/problems/put-boxes-into-the-warehouse-i/)
 1. [1580. Put Boxes Into the Warehouse II -- Medium](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii)
+1. [659. Split Array into Consecutive Subsequences -- Medium](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 ### String Arrangment with strides
 
 1. [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)
