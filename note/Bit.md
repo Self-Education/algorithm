@@ -33,6 +33,7 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 
   1. [231. Power of Two -- Easy](https://leetcode.com/problems/power-of-two/)
   2. [476. Number Complement -- Easy](https://leetcode.com/problems/number-complement/)
++ **check power of 2**, number that is power of 2 only has one '1' digit, `x & (x - 1) == 0`
 
 ### Set Bit
 
@@ -40,14 +41,15 @@ range = ((1 << (l - 1)) - 1) ^ ((1 << (r)) - 1);
 + **set the ith position into 0**, first we need to make a mask that only has 0 at ith poisition. and 1 at rest of position: `~(1 << i)`, then `and` option: `num & ~ (1 << i)`
 + **set first k bits  from left side as 1 and rest as 0**:`(1 << n) - (1 << (n - k))`
 + **set first k bits from right side as 1** : `(1 << k) - 1 `
+    + [342. Power of Four --Easy](https://leetcode.com/problems/power-of-four/)
+
 
 ### check subsets of bits
 
 to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
 
 1. [1178. Number of Valid Words for Each Puzzle -- Hard](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
-
-[1286. Iterator for Combination -- Medium](https://leetcode.com/problems/iterator-for-combination/)
+1. [1286. Iterator for Combination -- Medium](https://leetcode.com/problems/iterator-for-combination/)
 
 
 
