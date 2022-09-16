@@ -221,7 +221,8 @@ we define `dp(..)` as how much can current player win, score difference
    Because she doesn't want Bob to take it.
 7. [1510. Stone Game IV](https://leetcode.com/problems/stone-game-iv)
 8. [1872. Stone Game VIII --  Hard](https://leetcode.com/problems/stone-game-viii/)
-8. [486. Predict the Winner --  Medium](https://leetcode.com/problems/predict-the-winner/)
+9. [486. Predict the Winner --  Medium](https://leetcode.com/problems/predict-the-winner/)
+10. [1770. Maximum Score from Performing Multip -- Medium](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations/) reduce one dimension by present it by existing parameters.
 
 
 

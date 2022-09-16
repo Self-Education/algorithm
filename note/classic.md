@@ -469,6 +469,8 @@ fix one point, connect rest of points to the fixed point, track slopes by hashma
 
 3. [1354. Construct Target Array With Multiple Sums -- Hard](https://leetcode.com/problems/construct-target-array-with-multiple-sums/)
 
+4. [936. Stamping The Sequence --  Hard](https://leetcode.com/problems/stamping-the-sequence/)
+
 
 
 ### Take care self first (overall contribution)
