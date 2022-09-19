@@ -39,6 +39,7 @@
 23. [1391. Check if There is a Valid Path in a Grid -- Medium](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) how do we check if directions match
 24. [279. Perfect Squares -- Medium](https://leetcode.com/problems/perfect-squares/) 
 25. [1197. Minimum Knight Moves -- Medium](https://leetcode.com/problems/minimum-knight-moves/) regular BFS -> TLE, use symmetric
+26. [609. Find Duplicate File in System -- Medium](https://leetcode.com/problems/find-duplicate-file-in-system/) follow up questions
 
 
 
