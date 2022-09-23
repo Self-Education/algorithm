@@ -50,6 +50,7 @@ to check the all subsets of the a bits: `subsets = (subsets - 1) & origin`
 
 1. [1178. Number of Valid Words for Each Puzzle -- Hard](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/)
 1. [1286. Iterator for Combination -- Medium](https://leetcode.com/problems/iterator-for-combination/)
+1. [1680. Concatenation of Consecutive Binary Numbers -- Medium](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)
 
 
 

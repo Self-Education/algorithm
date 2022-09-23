@@ -9,4 +9,5 @@
 7. [745. Prefix and Suffix Search -- Hard](https://leetcode.com/problems/prefix-and-suffix-search)
 8. [1268. Search Suggestions System -- Medium](https://leetcode.com/problems/search-suggestions-system/)
 9. [820. Short Encoding of Words --  Medium](https://leetcode.com/problems/short-encoding-of-words/)
+10. [336. Palindrome Pairs -- Hard](https://leetcode.com/problems/palindrome-pairs/)
 
