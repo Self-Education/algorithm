@@ -124,6 +124,13 @@ for linkedList, use `cur.val == cur.next.val`
 13. [2025. Maximum Number of Ways to Partition an Array -- Hard](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array/)
 14. [849. Maximize Distance to Closest Person -- Medium](https://leetcode.com/problems/maximize-distance-to-closest-person/)
 15. [1182. Shortest Distance to Target Color -- Medium](https://leetcode.com/problems/shortest-distance-to-target-color/)
+16. [334. Increasing Triplet Subsequence -- Medium](https://leetcode.com/problems/increasing-triplet-subsequence/)
+
+
+
+## Linear Scan
+
+1. [334. Increasing Triplet Subsequence -- Medium](https://leetcode.com/problems/increasing-triplet-subsequence/) memorize first 2 numbers
 
 ## Shortest Path (BFS or binary BFS)
 
