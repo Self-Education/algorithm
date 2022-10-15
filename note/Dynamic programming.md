@@ -124,6 +124,7 @@
 16. [1335. Minimum Difficulty of a Job Schedule -- Hard](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 17. [1278. Palindrome Partitioning II -- Hard](https://leetcode.com/problems/palindrome-partitioning-iii/) more than 1 memo
 18. [1478. Allocate Mailboxes -- Hard](https://leetcode.com/problems/allocate-mailboxes/)
+19. [1531. String Compression II --  Hard](https://leetcode.com/problems/string-compression-ii/)
 
 
 
